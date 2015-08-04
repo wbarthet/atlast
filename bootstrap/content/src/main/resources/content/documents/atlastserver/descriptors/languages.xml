@@ -1,0 +1,1093 @@
+<?xml version="1.0" encoding="UTF-8"?><sv:node xmlns:sv="http://www.jcp.org/jcr/sv/1.0" sv:name="languages">
+  <sv:property sv:name="jcr:primaryType" sv:type="Name">
+    <sv:value>hippostd:folder</sv:value>
+  </sv:property>
+  <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+    <sv:value>hippotranslation:translated</sv:value>
+    <sv:value>mix:versionable</sv:value>
+  </sv:property>
+  <sv:property sv:name="jcr:uuid" sv:type="String">
+    <sv:value>1413883e-09d0-4939-b712-da2bc7e8ca85</sv:value>
+  </sv:property>
+  <sv:property sv:name="hippostd:foldertype" sv:type="String" sv:multiple="true">
+    <sv:value>new-translated-folder</sv:value>
+    <sv:value>new-document</sv:value>
+  </sv:property>
+  <sv:property sv:name="hippotranslation:id" sv:type="String">
+    <sv:value>17228086-779f-4cd3-acf3-08360bb1162a</sv:value>
+  </sv:property>
+  <sv:property sv:name="hippotranslation:locale" sv:type="String">
+    <sv:value>en</sv:value>
+  </sv:property>
+  <sv:node sv:name="atsu">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hippo:handle</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+      <sv:value>mix:referenceable</sv:value>
+      <sv:value>hippo:translated</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:uuid" sv:type="String">
+      <sv:value>22d14954-086f-44cd-9f6a-07355e9ef953</sv:value>
+    </sv:property>
+    <sv:node sv:name="atsu">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>atlast:languagedescriptor</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+        <sv:value>mix:referenceable</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:uuid" sv:type="String">
+        <sv:value>d9debbfd-ab23-4d23-b25a-228221604199</sv:value>
+      </sv:property>
+      <sv:property sv:name="atlast:an" sv:type="String" sv:multiple="true"/>
+      <sv:property sv:name="atlast:count" sv:type="Long">
+        <sv:value>3</sv:value>
+      </sv:property>
+      <sv:property sv:name="atlast:ee" sv:type="String" sv:multiple="true">
+        <sv:value>ee</sv:value>
+      </sv:property>
+      <sv:property sv:name="atlast:k" sv:type="String" sv:multiple="true">
+        <sv:value>b</sv:value>
+        <sv:value>c</sv:value>
+        <sv:value>d</sv:value>
+        <sv:value>f</sv:value>
+        <sv:value>g</sv:value>
+        <sv:value>l</sv:value>
+        <sv:value>m</sv:value>
+        <sv:value>n</sv:value>
+        <sv:value>p</sv:value>
+        <sv:value>r</sv:value>
+        <sv:value>s</sv:value>
+        <sv:value>t</sv:value>
+        <sv:value>v</sv:value>
+      </sv:property>
+      <sv:property sv:name="atlast:names" sv:type="String" sv:multiple="true">
+        <sv:value>KUTTU</sv:value>
+        <sv:value>USPU</sv:value>
+        <sv:value>SPUKU</sv:value>
+        <sv:value>SPUTTU</sv:value>
+        <sv:value>KOAKU</sv:value>
+        <sv:value>KOATTUK</sv:value>
+        <sv:value>SPEEKU</sv:value>
+        <sv:value>KUSPU</sv:value>
+        <sv:value>UKUSPU</sv:value>
+      </sv:property>
+      <sv:property sv:name="atlast:oa" sv:type="String" sv:multiple="true">
+        <sv:value>ea</sv:value>
+        <sv:value>ou</sv:value>
+      </sv:property>
+      <sv:property sv:name="atlast:patronyms" sv:type="String" sv:multiple="true">
+        <sv:value>F1king</sv:value>
+      </sv:property>
+      <sv:property sv:name="atlast:ri" sv:type="String" sv:multiple="true"/>
+      <sv:property sv:name="atlast:sp" sv:type="String" sv:multiple="true">
+        <sv:value>sp</sv:value>
+        <sv:value>pr</sv:value>
+        <sv:value>fr</sv:value>
+        <sv:value>st</sv:value>
+        <sv:value>sl</sv:value>
+        <sv:value>sm</sv:value>
+        <sv:value>cr</sv:value>
+      </sv:property>
+      <sv:property sv:name="atlast:tt" sv:type="String" sv:multiple="true">
+        <sv:value>tt</sv:value>
+        <sv:value>ss</sv:value>
+        <sv:value>rr</sv:value>
+        <sv:value>dd</sv:value>
+        <sv:value>gg</sv:value>
+        <sv:value>j</sv:value>
+      </sv:property>
+      <sv:property sv:name="atlast:u" sv:type="String" sv:multiple="true">
+        <sv:value>a</sv:value>
+        <sv:value>a</sv:value>
+        <sv:value>e</sv:value>
+        <sv:value>i</sv:value>
+        <sv:value>o</sv:value>
+        <sv:value>u</sv:value>
+        <sv:value>u</sv:value>
+        <sv:value>à</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true"/>
+      <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+        <sv:value>languages/atsu/atsu[3]</sv:value>
+        <sv:value>languages/atsu/atsu[2]</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostd:state" sv:type="String">
+        <sv:value>draft</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+        <sv:value>live</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+        <sv:value>admin</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+        <sv:value>2015-07-20T12:19:07.079-04:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+        <sv:value>2015-07-20T23:10:29.962-04:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+        <sv:value>admin</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippotranslation:id" sv:type="String">
+        <sv:value>cbaff22c-e2c2-4977-8e28-8b88c45e4224</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippotranslation:locale" sv:type="String">
+        <sv:value>en</sv:value>
+      </sv:property>
+    </sv:node>
+    <sv:node sv:name="hippo:translation">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>hippo:translation</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:language" sv:type="String">
+        <sv:value/>
+      </sv:property>
+      <sv:property sv:name="hippo:message" sv:type="String">
+        <sv:value>Atsu</sv:value>
+      </sv:property>
+    </sv:node>
+    <sv:node sv:name="atsu">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>atlast:languagedescriptor</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+        <sv:value>mix:versionable</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:uuid" sv:type="String">
+        <sv:value>c8df0f72-d35c-472d-812a-55eb0ecf82d1</sv:value>
+      </sv:property>
+      <sv:property sv:name="atlast:an" sv:type="String" sv:multiple="true"/>
+      <sv:property sv:name="atlast:count" sv:type="Long">
+        <sv:value>3</sv:value>
+      </sv:property>
+      <sv:property sv:name="atlast:ee" sv:type="String" sv:multiple="true">
+        <sv:value>ee</sv:value>
+      </sv:property>
+      <sv:property sv:name="atlast:k" sv:type="String" sv:multiple="true">
+        <sv:value>b</sv:value>
+        <sv:value>c</sv:value>
+        <sv:value>d</sv:value>
+        <sv:value>f</sv:value>
+        <sv:value>g</sv:value>
+        <sv:value>l</sv:value>
+        <sv:value>m</sv:value>
+        <sv:value>n</sv:value>
+        <sv:value>p</sv:value>
+        <sv:value>r</sv:value>
+        <sv:value>s</sv:value>
+        <sv:value>t</sv:value>
+        <sv:value>v</sv:value>
+      </sv:property>
+      <sv:property sv:name="atlast:names" sv:type="String" sv:multiple="true">
+        <sv:value>KUTTU</sv:value>
+        <sv:value>USPU</sv:value>
+        <sv:value>SPUKU</sv:value>
+        <sv:value>SPUTTU</sv:value>
+        <sv:value>KOAKU</sv:value>
+        <sv:value>KOATTUK</sv:value>
+        <sv:value>SPEEKU</sv:value>
+        <sv:value>KUSPU</sv:value>
+        <sv:value>UKUSPU</sv:value>
+      </sv:property>
+      <sv:property sv:name="atlast:oa" sv:type="String" sv:multiple="true">
+        <sv:value>ea</sv:value>
+        <sv:value>ou</sv:value>
+      </sv:property>
+      <sv:property sv:name="atlast:patronyms" sv:type="String" sv:multiple="true">
+        <sv:value>F1king</sv:value>
+      </sv:property>
+      <sv:property sv:name="atlast:ri" sv:type="String" sv:multiple="true"/>
+      <sv:property sv:name="atlast:sp" sv:type="String" sv:multiple="true">
+        <sv:value>sp</sv:value>
+        <sv:value>pr</sv:value>
+        <sv:value>fr</sv:value>
+        <sv:value>st</sv:value>
+        <sv:value>sl</sv:value>
+        <sv:value>sm</sv:value>
+        <sv:value>cr</sv:value>
+      </sv:property>
+      <sv:property sv:name="atlast:tt" sv:type="String" sv:multiple="true">
+        <sv:value>tt</sv:value>
+        <sv:value>ss</sv:value>
+        <sv:value>rr</sv:value>
+        <sv:value>dd</sv:value>
+        <sv:value>gg</sv:value>
+        <sv:value>j</sv:value>
+      </sv:property>
+      <sv:property sv:name="atlast:u" sv:type="String" sv:multiple="true">
+        <sv:value>a</sv:value>
+        <sv:value>a</sv:value>
+        <sv:value>e</sv:value>
+        <sv:value>i</sv:value>
+        <sv:value>o</sv:value>
+        <sv:value>u</sv:value>
+        <sv:value>u</sv:value>
+        <sv:value>à</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
+        <sv:value>preview</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+        <sv:value>languages/atsu/atsu[3]</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostd:state" sv:type="String">
+        <sv:value>unpublished</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+        <sv:value>live</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+        <sv:value>admin</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+        <sv:value>2015-07-20T12:19:07.079-04:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+        <sv:value>2015-07-20T23:10:39.773-04:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+        <sv:value>admin</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippotranslation:id" sv:type="String">
+        <sv:value>cbaff22c-e2c2-4977-8e28-8b88c45e4224</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippotranslation:locale" sv:type="String">
+        <sv:value>en</sv:value>
+      </sv:property>
+    </sv:node>
+    <sv:node sv:name="atsu">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>atlast:languagedescriptor</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+        <sv:value>mix:referenceable</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:uuid" sv:type="String">
+        <sv:value>7a36a9e2-37a7-4967-90c4-29d43b40ce6f</sv:value>
+      </sv:property>
+      <sv:property sv:name="atlast:an" sv:type="String" sv:multiple="true"/>
+      <sv:property sv:name="atlast:count" sv:type="Long">
+        <sv:value>3</sv:value>
+      </sv:property>
+      <sv:property sv:name="atlast:ee" sv:type="String" sv:multiple="true">
+        <sv:value>ee</sv:value>
+      </sv:property>
+      <sv:property sv:name="atlast:k" sv:type="String" sv:multiple="true">
+        <sv:value>b</sv:value>
+        <sv:value>c</sv:value>
+        <sv:value>d</sv:value>
+        <sv:value>f</sv:value>
+        <sv:value>g</sv:value>
+        <sv:value>l</sv:value>
+        <sv:value>m</sv:value>
+        <sv:value>n</sv:value>
+        <sv:value>p</sv:value>
+        <sv:value>r</sv:value>
+        <sv:value>s</sv:value>
+        <sv:value>t</sv:value>
+        <sv:value>v</sv:value>
+      </sv:property>
+      <sv:property sv:name="atlast:names" sv:type="String" sv:multiple="true">
+        <sv:value>KUTTU</sv:value>
+        <sv:value>USPU</sv:value>
+        <sv:value>SPUKU</sv:value>
+        <sv:value>SPUTTU</sv:value>
+        <sv:value>KOAKU</sv:value>
+        <sv:value>KOATTUK</sv:value>
+        <sv:value>SPEEKU</sv:value>
+        <sv:value>KUSPU</sv:value>
+        <sv:value>UKUSPU</sv:value>
+      </sv:property>
+      <sv:property sv:name="atlast:oa" sv:type="String" sv:multiple="true">
+        <sv:value>ea</sv:value>
+        <sv:value>ou</sv:value>
+      </sv:property>
+      <sv:property sv:name="atlast:patronyms" sv:type="String" sv:multiple="true">
+        <sv:value>F1king</sv:value>
+      </sv:property>
+      <sv:property sv:name="atlast:ri" sv:type="String" sv:multiple="true"/>
+      <sv:property sv:name="atlast:sp" sv:type="String" sv:multiple="true">
+        <sv:value>sp</sv:value>
+        <sv:value>pr</sv:value>
+        <sv:value>fr</sv:value>
+        <sv:value>st</sv:value>
+        <sv:value>sl</sv:value>
+        <sv:value>sm</sv:value>
+        <sv:value>cr</sv:value>
+      </sv:property>
+      <sv:property sv:name="atlast:tt" sv:type="String" sv:multiple="true">
+        <sv:value>tt</sv:value>
+        <sv:value>ss</sv:value>
+        <sv:value>rr</sv:value>
+        <sv:value>dd</sv:value>
+        <sv:value>gg</sv:value>
+        <sv:value>j</sv:value>
+      </sv:property>
+      <sv:property sv:name="atlast:u" sv:type="String" sv:multiple="true">
+        <sv:value>a</sv:value>
+        <sv:value>a</sv:value>
+        <sv:value>e</sv:value>
+        <sv:value>i</sv:value>
+        <sv:value>o</sv:value>
+        <sv:value>u</sv:value>
+        <sv:value>u</sv:value>
+        <sv:value>à</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
+        <sv:value>live</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+        <sv:value>languages/atsu/atsu[2]</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostd:state" sv:type="String">
+        <sv:value>published</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+        <sv:value>live</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+        <sv:value>admin</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+        <sv:value>2015-07-20T12:19:07.079-04:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+        <sv:value>2015-07-20T23:10:39.773-04:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+        <sv:value>admin</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:publicationDate" sv:type="Date">
+        <sv:value>2015-07-20T23:10:41.604-04:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippotranslation:id" sv:type="String">
+        <sv:value>cbaff22c-e2c2-4977-8e28-8b88c45e4224</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippotranslation:locale" sv:type="String">
+        <sv:value>en</sv:value>
+      </sv:property>
+    </sv:node>
+  </sv:node>
+  <sv:node sv:name="spapados">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hippo:handle</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+      <sv:value>mix:referenceable</sv:value>
+      <sv:value>hippo:translated</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:uuid" sv:type="String">
+      <sv:value>e22da572-e344-4788-94ea-e58a59a9d339</sv:value>
+    </sv:property>
+    <sv:node sv:name="spapados">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>atlast:languagedescriptor</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+        <sv:value>mix:referenceable</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:uuid" sv:type="String">
+        <sv:value>6568a5e8-773f-4245-96cd-50124899bf6f</sv:value>
+      </sv:property>
+      <sv:property sv:name="atlast:an" sv:type="String" sv:multiple="true">
+        <sv:value>os</sv:value>
+        <sv:value>us</sv:value>
+        <sv:value>ous</sv:value>
+      </sv:property>
+      <sv:property sv:name="atlast:count" sv:type="Long">
+        <sv:value>2</sv:value>
+      </sv:property>
+      <sv:property sv:name="atlast:ee" sv:type="String" sv:multiple="true"/>
+      <sv:property sv:name="atlast:k" sv:type="String" sv:multiple="true">
+        <sv:value>s</sv:value>
+        <sv:value>p</sv:value>
+        <sv:value>p</sv:value>
+        <sv:value>r</sv:value>
+        <sv:value>t</sv:value>
+        <sv:value>n</sv:value>
+        <sv:value>m</sv:value>
+        <sv:value>v</sv:value>
+        <sv:value>z</sv:value>
+        <sv:value>d</sv:value>
+        <sv:value>f</sv:value>
+        <sv:value>h</sv:value>
+        <sv:value>k</sv:value>
+        <sv:value>l</sv:value>
+        <sv:value>p</sv:value>
+      </sv:property>
+      <sv:property sv:name="atlast:names" sv:type="String" sv:multiple="true">
+        <sv:value>SPUKAN</sv:value>
+        <sv:value>SPUKUKAN</sv:value>
+        <sv:value>KUKAN</sv:value>
+        <sv:value>KUKUKAN</sv:value>
+        <sv:value>KOAKAN</sv:value>
+        <sv:value>SPOAKAN</sv:value>
+        <sv:value>USPAN</sv:value>
+        <sv:value>USPUKAN</sv:value>
+        <sv:value>SPUKAN</sv:value>
+        <sv:value>SPUTTAN</sv:value>
+        <sv:value>KUTTAN</sv:value>
+      </sv:property>
+      <sv:property sv:name="atlast:oa" sv:type="String" sv:multiple="true">
+        <sv:value>ou</sv:value>
+      </sv:property>
+      <sv:property sv:name="atlast:patronyms" sv:type="String" sv:multiple="true">
+        <sv:value>F1</sv:value>
+      </sv:property>
+      <sv:property sv:name="atlast:ri" sv:type="String" sv:multiple="true"/>
+      <sv:property sv:name="atlast:sp" sv:type="String" sv:multiple="true">
+        <sv:value>sp</sv:value>
+        <sv:value>st</sv:value>
+        <sv:value>sr</sv:value>
+        <sv:value>str</sv:value>
+      </sv:property>
+      <sv:property sv:name="atlast:tt" sv:type="String" sv:multiple="true">
+        <sv:value>pp</sv:value>
+        <sv:value>tt</sv:value>
+        <sv:value>x</sv:value>
+        <sv:value>rt</sv:value>
+      </sv:property>
+      <sv:property sv:name="atlast:u" sv:type="String" sv:multiple="true">
+        <sv:value>a</sv:value>
+        <sv:value>o</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true"/>
+      <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+        <sv:value>languages/spapados/spapados[2]</sv:value>
+        <sv:value>languages/spapados/spapados[3]</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostd:state" sv:type="String">
+        <sv:value>draft</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+        <sv:value>live</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+        <sv:value>admin</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+        <sv:value>2015-07-20T13:10:28.204-04:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+        <sv:value>2015-07-20T23:13:07.337-04:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+        <sv:value>admin</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippotranslation:id" sv:type="String">
+        <sv:value>cf429f3b-8dd4-492e-b779-5041c90fbcac</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippotranslation:locale" sv:type="String">
+        <sv:value>en</sv:value>
+      </sv:property>
+    </sv:node>
+    <sv:node sv:name="hippo:translation">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>hippo:translation</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:language" sv:type="String">
+        <sv:value/>
+      </sv:property>
+      <sv:property sv:name="hippo:message" sv:type="String">
+        <sv:value>Spapados</sv:value>
+      </sv:property>
+    </sv:node>
+    <sv:node sv:name="spapados">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>atlast:languagedescriptor</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+        <sv:value>mix:versionable</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:uuid" sv:type="String">
+        <sv:value>08721832-2940-4066-825d-69fdc9141158</sv:value>
+      </sv:property>
+      <sv:property sv:name="atlast:an" sv:type="String" sv:multiple="true">
+        <sv:value>os</sv:value>
+        <sv:value>us</sv:value>
+        <sv:value>ous</sv:value>
+      </sv:property>
+      <sv:property sv:name="atlast:count" sv:type="Long">
+        <sv:value>2</sv:value>
+      </sv:property>
+      <sv:property sv:name="atlast:ee" sv:type="String" sv:multiple="true"/>
+      <sv:property sv:name="atlast:k" sv:type="String" sv:multiple="true">
+        <sv:value>s</sv:value>
+        <sv:value>p</sv:value>
+        <sv:value>p</sv:value>
+        <sv:value>r</sv:value>
+        <sv:value>t</sv:value>
+        <sv:value>n</sv:value>
+        <sv:value>m</sv:value>
+        <sv:value>v</sv:value>
+        <sv:value>z</sv:value>
+        <sv:value>d</sv:value>
+        <sv:value>f</sv:value>
+        <sv:value>h</sv:value>
+        <sv:value>k</sv:value>
+        <sv:value>l</sv:value>
+        <sv:value>p</sv:value>
+      </sv:property>
+      <sv:property sv:name="atlast:names" sv:type="String" sv:multiple="true">
+        <sv:value>SPUKAN</sv:value>
+        <sv:value>SPUKUKAN</sv:value>
+        <sv:value>KUKAN</sv:value>
+        <sv:value>KUKUKAN</sv:value>
+        <sv:value>KOAKAN</sv:value>
+        <sv:value>SPOAKAN</sv:value>
+        <sv:value>USPAN</sv:value>
+        <sv:value>USPUKAN</sv:value>
+        <sv:value>SPUKAN</sv:value>
+        <sv:value>SPUTTAN</sv:value>
+        <sv:value>KUTTAN</sv:value>
+      </sv:property>
+      <sv:property sv:name="atlast:oa" sv:type="String" sv:multiple="true">
+        <sv:value>ou</sv:value>
+      </sv:property>
+      <sv:property sv:name="atlast:patronyms" sv:type="String" sv:multiple="true">
+        <sv:value>F1</sv:value>
+      </sv:property>
+      <sv:property sv:name="atlast:ri" sv:type="String" sv:multiple="true"/>
+      <sv:property sv:name="atlast:sp" sv:type="String" sv:multiple="true">
+        <sv:value>sp</sv:value>
+        <sv:value>st</sv:value>
+        <sv:value>sr</sv:value>
+        <sv:value>str</sv:value>
+      </sv:property>
+      <sv:property sv:name="atlast:tt" sv:type="String" sv:multiple="true">
+        <sv:value>pp</sv:value>
+        <sv:value>tt</sv:value>
+        <sv:value>x</sv:value>
+        <sv:value>rt</sv:value>
+      </sv:property>
+      <sv:property sv:name="atlast:u" sv:type="String" sv:multiple="true">
+        <sv:value>a</sv:value>
+        <sv:value>o</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
+        <sv:value>preview</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+        <sv:value>languages/spapados/spapados[3]</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostd:state" sv:type="String">
+        <sv:value>unpublished</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+        <sv:value>live</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+        <sv:value>admin</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+        <sv:value>2015-07-20T13:10:28.204-04:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+        <sv:value>2015-07-20T13:46:58.794-04:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+        <sv:value>admin</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippotranslation:id" sv:type="String">
+        <sv:value>cf429f3b-8dd4-492e-b779-5041c90fbcac</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippotranslation:locale" sv:type="String">
+        <sv:value>en</sv:value>
+      </sv:property>
+    </sv:node>
+    <sv:node sv:name="spapados">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>atlast:languagedescriptor</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+        <sv:value>mix:referenceable</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:uuid" sv:type="String">
+        <sv:value>819bac66-7738-44a2-beb4-80e212051985</sv:value>
+      </sv:property>
+      <sv:property sv:name="atlast:an" sv:type="String" sv:multiple="true">
+        <sv:value>os</sv:value>
+        <sv:value>us</sv:value>
+        <sv:value>ous</sv:value>
+      </sv:property>
+      <sv:property sv:name="atlast:count" sv:type="Long">
+        <sv:value>2</sv:value>
+      </sv:property>
+      <sv:property sv:name="atlast:ee" sv:type="String" sv:multiple="true"/>
+      <sv:property sv:name="atlast:k" sv:type="String" sv:multiple="true">
+        <sv:value>s</sv:value>
+        <sv:value>p</sv:value>
+        <sv:value>p</sv:value>
+        <sv:value>r</sv:value>
+        <sv:value>t</sv:value>
+        <sv:value>n</sv:value>
+        <sv:value>m</sv:value>
+        <sv:value>v</sv:value>
+        <sv:value>z</sv:value>
+        <sv:value>d</sv:value>
+        <sv:value>f</sv:value>
+        <sv:value>h</sv:value>
+        <sv:value>k</sv:value>
+        <sv:value>l</sv:value>
+        <sv:value>p</sv:value>
+      </sv:property>
+      <sv:property sv:name="atlast:names" sv:type="String" sv:multiple="true">
+        <sv:value>SPUKAN</sv:value>
+        <sv:value>SPUKUKAN</sv:value>
+        <sv:value>KUKAN</sv:value>
+        <sv:value>KUKUKAN</sv:value>
+        <sv:value>KOAKAN</sv:value>
+        <sv:value>SPOAKAN</sv:value>
+        <sv:value>USPAN</sv:value>
+        <sv:value>USPUKAN</sv:value>
+        <sv:value>SPUKAN</sv:value>
+        <sv:value>SPUTTAN</sv:value>
+        <sv:value>KUTTAN</sv:value>
+      </sv:property>
+      <sv:property sv:name="atlast:oa" sv:type="String" sv:multiple="true">
+        <sv:value>ou</sv:value>
+      </sv:property>
+      <sv:property sv:name="atlast:patronyms" sv:type="String" sv:multiple="true">
+        <sv:value>F1</sv:value>
+      </sv:property>
+      <sv:property sv:name="atlast:ri" sv:type="String" sv:multiple="true"/>
+      <sv:property sv:name="atlast:sp" sv:type="String" sv:multiple="true">
+        <sv:value>sp</sv:value>
+        <sv:value>st</sv:value>
+        <sv:value>sr</sv:value>
+        <sv:value>str</sv:value>
+      </sv:property>
+      <sv:property sv:name="atlast:tt" sv:type="String" sv:multiple="true">
+        <sv:value>pp</sv:value>
+        <sv:value>tt</sv:value>
+        <sv:value>x</sv:value>
+        <sv:value>rt</sv:value>
+      </sv:property>
+      <sv:property sv:name="atlast:u" sv:type="String" sv:multiple="true">
+        <sv:value>a</sv:value>
+        <sv:value>o</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
+        <sv:value>live</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+        <sv:value>languages/spapados/spapados[2]</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostd:state" sv:type="String">
+        <sv:value>published</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+        <sv:value>live</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+        <sv:value>admin</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+        <sv:value>2015-07-20T13:10:28.204-04:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+        <sv:value>2015-07-20T13:46:58.794-04:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+        <sv:value>admin</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:publicationDate" sv:type="Date">
+        <sv:value>2015-07-20T13:47:00.470-04:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippotranslation:id" sv:type="String">
+        <sv:value>cf429f3b-8dd4-492e-b779-5041c90fbcac</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippotranslation:locale" sv:type="String">
+        <sv:value>en</sv:value>
+      </sv:property>
+    </sv:node>
+  </sv:node>
+  <sv:node sv:name="muldi">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hippo:handle</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+      <sv:value>mix:referenceable</sv:value>
+      <sv:value>hippo:translated</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:uuid" sv:type="String">
+      <sv:value>d56b6b18-407f-4a33-884b-6c2cdcf0584b</sv:value>
+    </sv:property>
+    <sv:node sv:name="muldi">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>atlast:languagedescriptor</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+        <sv:value>mix:referenceable</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:uuid" sv:type="String">
+        <sv:value>42943bef-dbfc-4a94-8d13-fe77727c88f5</sv:value>
+      </sv:property>
+      <sv:property sv:name="atlast:an" sv:type="String" sv:multiple="true"/>
+      <sv:property sv:name="atlast:count" sv:type="Long">
+        <sv:value>3</sv:value>
+      </sv:property>
+      <sv:property sv:name="atlast:ee" sv:type="Double" sv:multiple="true"/>
+      <sv:property sv:name="atlast:k" sv:type="String" sv:multiple="true">
+        <sv:value>b</sv:value>
+        <sv:value>ż</sv:value>
+        <sv:value>ċ</sv:value>
+        <sv:value>ħ</sv:value>
+        <sv:value>ġ</sv:value>
+        <sv:value>g</sv:value>
+        <sv:value>z</sv:value>
+        <sv:value>d</sv:value>
+        <sv:value>f</sv:value>
+        <sv:value>w</sv:value>
+        <sv:value>q</sv:value>
+        <sv:value>m</sv:value>
+        <sv:value>n</sv:value>
+        <sv:value>r</sv:value>
+        <sv:value>s</sv:value>
+        <sv:value>t</sv:value>
+        <sv:value>k</sv:value>
+      </sv:property>
+      <sv:property sv:name="atlast:names" sv:type="String" sv:multiple="true">
+        <sv:value>KUKUK</sv:value>
+        <sv:value>KUTTUK</sv:value>
+        <sv:value>SPUKUK</sv:value>
+        <sv:value>SPUTTUK</sv:value>
+        <sv:value>KUSPUK</sv:value>
+        <sv:value>KUSPUTTUK</sv:value>
+        <sv:value>USPUK</sv:value>
+        <sv:value>KUKRIK</sv:value>
+        <sv:value>KUTTURIK</sv:value>
+        <sv:value>KUSPURIK</sv:value>
+      </sv:property>
+      <sv:property sv:name="atlast:oa" sv:type="Double" sv:multiple="true"/>
+      <sv:property sv:name="atlast:patronyms" sv:type="String" sv:multiple="true">
+        <sv:value>F1elu</sv:value>
+      </sv:property>
+      <sv:property sv:name="atlast:ri" sv:type="String" sv:multiple="true">
+        <sv:value>lu</sv:value>
+        <sv:value>zu</sv:value>
+        <sv:value>żu</sv:value>
+        <sv:value>ċu</sv:value>
+        <sv:value>gu</sv:value>
+        <sv:value>ġu</sv:value>
+        <sv:value>su</sv:value>
+        <sv:value>ru</sv:value>
+      </sv:property>
+      <sv:property sv:name="atlast:sp" sv:type="String" sv:multiple="true">
+        <sv:value>qr</sv:value>
+        <sv:value>dr</sv:value>
+        <sv:value>fw</sv:value>
+        <sv:value>ħw</sv:value>
+        <sv:value>mn</sv:value>
+        <sv:value>mt</sv:value>
+        <sv:value>ċr</sv:value>
+        <sv:value>żg</sv:value>
+      </sv:property>
+      <sv:property sv:name="atlast:tt" sv:type="String" sv:multiple="true">
+        <sv:value>kk</sv:value>
+        <sv:value>żż</sv:value>
+        <sv:value>zz</sv:value>
+        <sv:value>gg</sv:value>
+        <sv:value>ġġ</sv:value>
+        <sv:value>qq</sv:value>
+        <sv:value>mm</sv:value>
+        <sv:value>rr</sv:value>
+        <sv:value>ss</sv:value>
+      </sv:property>
+      <sv:property sv:name="atlast:u" sv:type="String" sv:multiple="true">
+        <sv:value>u</sv:value>
+        <sv:value>u</sv:value>
+        <sv:value>a</sv:value>
+        <sv:value>e</sv:value>
+        <sv:value>i</sv:value>
+        <sv:value>o</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true"/>
+      <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+        <sv:value>languages/muldi/muldi[3]</sv:value>
+        <sv:value>languages/muldi/muldi[2]</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostd:state" sv:type="String">
+        <sv:value>draft</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+        <sv:value>live</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+        <sv:value>admin</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+        <sv:value>2015-07-23T21:05:11.481-04:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+        <sv:value>2015-07-31T10:50:52.137-04:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+        <sv:value>admin</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippotranslation:id" sv:type="String">
+        <sv:value>180bd66e-9999-4a78-a1c2-1782c953d751</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippotranslation:locale" sv:type="String">
+        <sv:value>en</sv:value>
+      </sv:property>
+    </sv:node>
+    <sv:node sv:name="hippo:translation">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>hippo:translation</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:language" sv:type="String">
+        <sv:value/>
+      </sv:property>
+      <sv:property sv:name="hippo:message" sv:type="String">
+        <sv:value>Muldi</sv:value>
+      </sv:property>
+    </sv:node>
+    <sv:node sv:name="muldi">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>atlast:languagedescriptor</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+        <sv:value>mix:versionable</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:uuid" sv:type="String">
+        <sv:value>a7df0e88-4b52-4e45-9f72-a339101e5786</sv:value>
+      </sv:property>
+      <sv:property sv:name="atlast:an" sv:type="String" sv:multiple="true"/>
+      <sv:property sv:name="atlast:count" sv:type="Long">
+        <sv:value>3</sv:value>
+      </sv:property>
+      <sv:property sv:name="atlast:ee" sv:type="Double" sv:multiple="true"/>
+      <sv:property sv:name="atlast:k" sv:type="String" sv:multiple="true">
+        <sv:value>b</sv:value>
+        <sv:value>ż</sv:value>
+        <sv:value>ċ</sv:value>
+        <sv:value>ħ</sv:value>
+        <sv:value>ġ</sv:value>
+        <sv:value>g</sv:value>
+        <sv:value>z</sv:value>
+        <sv:value>d</sv:value>
+        <sv:value>f</sv:value>
+        <sv:value>w</sv:value>
+        <sv:value>q</sv:value>
+        <sv:value>m</sv:value>
+        <sv:value>n</sv:value>
+        <sv:value>r</sv:value>
+        <sv:value>s</sv:value>
+        <sv:value>t</sv:value>
+        <sv:value>k</sv:value>
+      </sv:property>
+      <sv:property sv:name="atlast:names" sv:type="String" sv:multiple="true">
+        <sv:value>KUKUK</sv:value>
+        <sv:value>KUTTUK</sv:value>
+        <sv:value>SPUKUK</sv:value>
+        <sv:value>SPUTTUK</sv:value>
+        <sv:value>KUSPUK</sv:value>
+        <sv:value>KUSPUTTUK</sv:value>
+        <sv:value>USPUK</sv:value>
+        <sv:value>KUKRIK</sv:value>
+        <sv:value>KUTTURIK</sv:value>
+        <sv:value>KUSPURIK</sv:value>
+      </sv:property>
+      <sv:property sv:name="atlast:oa" sv:type="Double" sv:multiple="true"/>
+      <sv:property sv:name="atlast:patronyms" sv:type="String" sv:multiple="true">
+        <sv:value>F1elu</sv:value>
+      </sv:property>
+      <sv:property sv:name="atlast:ri" sv:type="String" sv:multiple="true">
+        <sv:value>lu</sv:value>
+        <sv:value>zu</sv:value>
+        <sv:value>żu</sv:value>
+        <sv:value>ċu</sv:value>
+        <sv:value>gu</sv:value>
+        <sv:value>ġu</sv:value>
+        <sv:value>su</sv:value>
+        <sv:value>ru</sv:value>
+      </sv:property>
+      <sv:property sv:name="atlast:sp" sv:type="String" sv:multiple="true">
+        <sv:value>qr</sv:value>
+        <sv:value>dr</sv:value>
+        <sv:value>fw</sv:value>
+        <sv:value>ħw</sv:value>
+        <sv:value>mn</sv:value>
+        <sv:value>mt</sv:value>
+        <sv:value>ċr</sv:value>
+        <sv:value>żg</sv:value>
+      </sv:property>
+      <sv:property sv:name="atlast:tt" sv:type="String" sv:multiple="true">
+        <sv:value>kk</sv:value>
+        <sv:value>żż</sv:value>
+        <sv:value>zz</sv:value>
+        <sv:value>gg</sv:value>
+        <sv:value>ġġ</sv:value>
+        <sv:value>qq</sv:value>
+        <sv:value>mm</sv:value>
+        <sv:value>rr</sv:value>
+        <sv:value>ss</sv:value>
+      </sv:property>
+      <sv:property sv:name="atlast:u" sv:type="String" sv:multiple="true">
+        <sv:value>u</sv:value>
+        <sv:value>u</sv:value>
+        <sv:value>a</sv:value>
+        <sv:value>e</sv:value>
+        <sv:value>i</sv:value>
+        <sv:value>o</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
+        <sv:value>preview</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+        <sv:value>languages/muldi/muldi[3]</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostd:state" sv:type="String">
+        <sv:value>unpublished</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+        <sv:value>live</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+        <sv:value>admin</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+        <sv:value>2015-07-23T21:05:11.481-04:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+        <sv:value>2015-07-31T10:51:11.127-04:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+        <sv:value>admin</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippotranslation:id" sv:type="String">
+        <sv:value>180bd66e-9999-4a78-a1c2-1782c953d751</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippotranslation:locale" sv:type="String">
+        <sv:value>en</sv:value>
+      </sv:property>
+    </sv:node>
+    <sv:node sv:name="muldi">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>atlast:languagedescriptor</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+        <sv:value>mix:referenceable</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:uuid" sv:type="String">
+        <sv:value>4a2030de-bc31-42cf-84cf-706d53a8421b</sv:value>
+      </sv:property>
+      <sv:property sv:name="atlast:an" sv:type="String" sv:multiple="true"/>
+      <sv:property sv:name="atlast:count" sv:type="Long">
+        <sv:value>3</sv:value>
+      </sv:property>
+      <sv:property sv:name="atlast:ee" sv:type="Double" sv:multiple="true"/>
+      <sv:property sv:name="atlast:k" sv:type="String" sv:multiple="true">
+        <sv:value>b</sv:value>
+        <sv:value>ż</sv:value>
+        <sv:value>ċ</sv:value>
+        <sv:value>ħ</sv:value>
+        <sv:value>ġ</sv:value>
+        <sv:value>g</sv:value>
+        <sv:value>z</sv:value>
+        <sv:value>d</sv:value>
+        <sv:value>f</sv:value>
+        <sv:value>w</sv:value>
+        <sv:value>q</sv:value>
+        <sv:value>m</sv:value>
+        <sv:value>n</sv:value>
+        <sv:value>r</sv:value>
+        <sv:value>s</sv:value>
+        <sv:value>t</sv:value>
+        <sv:value>k</sv:value>
+      </sv:property>
+      <sv:property sv:name="atlast:names" sv:type="String" sv:multiple="true">
+        <sv:value>KUKUK</sv:value>
+        <sv:value>KUTTUK</sv:value>
+        <sv:value>SPUKUK</sv:value>
+        <sv:value>SPUTTUK</sv:value>
+        <sv:value>KUSPUK</sv:value>
+        <sv:value>KUSPUTTUK</sv:value>
+        <sv:value>USPUK</sv:value>
+        <sv:value>KUKRIK</sv:value>
+        <sv:value>KUTTURIK</sv:value>
+        <sv:value>KUSPURIK</sv:value>
+      </sv:property>
+      <sv:property sv:name="atlast:oa" sv:type="Double" sv:multiple="true"/>
+      <sv:property sv:name="atlast:patronyms" sv:type="String" sv:multiple="true">
+        <sv:value>F1elu</sv:value>
+      </sv:property>
+      <sv:property sv:name="atlast:ri" sv:type="String" sv:multiple="true">
+        <sv:value>lu</sv:value>
+        <sv:value>zu</sv:value>
+        <sv:value>żu</sv:value>
+        <sv:value>ċu</sv:value>
+        <sv:value>gu</sv:value>
+        <sv:value>ġu</sv:value>
+        <sv:value>su</sv:value>
+        <sv:value>ru</sv:value>
+      </sv:property>
+      <sv:property sv:name="atlast:sp" sv:type="String" sv:multiple="true">
+        <sv:value>qr</sv:value>
+        <sv:value>dr</sv:value>
+        <sv:value>fw</sv:value>
+        <sv:value>ħw</sv:value>
+        <sv:value>mn</sv:value>
+        <sv:value>mt</sv:value>
+        <sv:value>ċr</sv:value>
+        <sv:value>żg</sv:value>
+      </sv:property>
+      <sv:property sv:name="atlast:tt" sv:type="String" sv:multiple="true">
+        <sv:value>kk</sv:value>
+        <sv:value>żż</sv:value>
+        <sv:value>zz</sv:value>
+        <sv:value>gg</sv:value>
+        <sv:value>ġġ</sv:value>
+        <sv:value>qq</sv:value>
+        <sv:value>mm</sv:value>
+        <sv:value>rr</sv:value>
+        <sv:value>ss</sv:value>
+      </sv:property>
+      <sv:property sv:name="atlast:u" sv:type="String" sv:multiple="true">
+        <sv:value>u</sv:value>
+        <sv:value>u</sv:value>
+        <sv:value>a</sv:value>
+        <sv:value>e</sv:value>
+        <sv:value>i</sv:value>
+        <sv:value>o</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
+        <sv:value>live</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+        <sv:value>languages/muldi/muldi[2]</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostd:state" sv:type="String">
+        <sv:value>published</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+        <sv:value>live</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+        <sv:value>admin</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+        <sv:value>2015-07-23T21:05:11.481-04:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+        <sv:value>2015-07-31T10:51:11.127-04:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+        <sv:value>admin</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:publicationDate" sv:type="Date">
+        <sv:value>2015-07-31T10:51:14.784-04:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippotranslation:id" sv:type="String">
+        <sv:value>180bd66e-9999-4a78-a1c2-1782c953d751</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippotranslation:locale" sv:type="String">
+        <sv:value>en</sv:value>
+      </sv:property>
+    </sv:node>
+  </sv:node>
+</sv:node>
