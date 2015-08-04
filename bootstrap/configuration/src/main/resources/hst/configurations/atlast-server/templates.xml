@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?><sv:node xmlns:sv="http://www.jcp.org/jcr/sv/1.0" sv:name="hst:templates">
+  <sv:property sv:name="jcr:primaryType" sv:type="Name">
+    <sv:value>hst:templates</sv:value>
+  </sv:property>
+  <sv:node sv:name="base-layout">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hst:template</sv:value>
+    </sv:property>
+    <sv:property sv:name="hst:renderpath" sv:type="String">
+      <sv:value>webfile:/freemarker/atlastserver/base-layout.ftl</sv:value>
+    </sv:property>
+  </sv:node>
+  <sv:node sv:name="base-top-menu">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hst:template</sv:value>
+    </sv:property>
+    <sv:property sv:name="hst:renderpath" sv:type="String">
+      <sv:value>webfile:/freemarker/atlastserver/base-top-menu.ftl</sv:value>
+    </sv:property>
+  </sv:node>
+  <sv:node sv:name="base-footer">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hst:template</sv:value>
+    </sv:property>
+    <sv:property sv:name="hst:renderpath" sv:type="String">
+      <sv:value>webfile:/freemarker/atlastserver/base-footer.ftl</sv:value>
+    </sv:property>
+  </sv:node>
+  <sv:node sv:name="homepage-main">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hst:template</sv:value>
+    </sv:property>
+    <sv:property sv:name="hst:renderpath" sv:type="String">
+      <sv:value>webfile:/freemarker/atlastserver/site/homepage-main.ftl</sv:value>
+    </sv:property>
+  </sv:node>
+  <sv:node sv:name="pagenotfound-main">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hst:template</sv:value>
+    </sv:property>
+    <sv:property sv:name="hst:renderpath" sv:type="String">
+      <sv:value>webfile:/freemarker/atlastserver/pagenotfound-main.ftl</sv:value>
+    </sv:property>
+  </sv:node>
+  <sv:node sv:name="newspage-main">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hst:template</sv:value>
+    </sv:property>
+    <sv:property sv:name="hst:renderpath" sv:type="String">
+      <sv:value>webfile:/freemarker/atlastserver/newspage-main.ftl</sv:value>
+    </sv:property>
+  </sv:node>
+  <sv:node sv:name="market-overview">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hst:template</sv:value>
+    </sv:property>
+    <sv:property sv:name="hst:renderpath" sv:type="String">
+      <sv:value>webfile:/freemarker/atlastserver/market/overview.ftl</sv:value>
+    </sv:property>
+  </sv:node>
+  <sv:node sv:name="login-form">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hst:template</sv:value>
+    </sv:property>
+    <sv:property sv:name="hst:renderpath" sv:type="String">
+      <sv:value>webfile:/freemarker/atlastserver/login/form.ftl</sv:value>
+    </sv:property>
+  </sv:node>
+  <sv:node sv:name="player-lands-overview">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hst:template</sv:value>
+    </sv:property>
+    <sv:property sv:name="hst:renderpath" sv:type="String">
+      <sv:value>webfile:/freemarker/atlastserver/player/lands/overview.ftl</sv:value>
+    </sv:property>
+  </sv:node>
+  <sv:node sv:name="player-lands-detail">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hst:template</sv:value>
+    </sv:property>
+    <sv:property sv:name="hst:renderpath" sv:type="String">
+      <sv:value>webfile:/freemarker/atlastserver/player/lands/detail.ftl</sv:value>
+    </sv:property>
+  </sv:node>
+  <sv:node sv:name="player-labour-pool">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hst:template</sv:value>
+    </sv:property>
+    <sv:property sv:name="hst:renderpath" sv:type="String">
+      <sv:value>webfile:/freemarker/atlastserver/player/labour-pool.ftl</sv:value>
+    </sv:property>
+  </sv:node>
+  <sv:node sv:name="player-stores-overview">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hst:template</sv:value>
+    </sv:property>
+    <sv:property sv:name="hst:renderpath" sv:type="String">
+      <sv:value>webfile:/freemarker/atlastserver/player/stores/overview.ftl</sv:value>
+    </sv:property>
+  </sv:node>
+  <sv:node sv:name="player-finances">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hst:template</sv:value>
+    </sv:property>
+    <sv:property sv:name="hst:renderpath" sv:type="String">
+      <sv:value>webfile:/freemarker/atlastserver/player/finances.ftl</sv:value>
+    </sv:property>
+  </sv:node>
+  <sv:node sv:name="player-store-detail">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hst:template</sv:value>
+    </sv:property>
+    <sv:property sv:name="hst:renderpath" sv:type="String">
+      <sv:value>webfile:/freemarker/atlastserver/player/stores/detail.ftl</sv:value>
+    </sv:property>
+  </sv:node>
+  <sv:node sv:name="player-pops-overview">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hst:template</sv:value>
+    </sv:property>
+    <sv:property sv:name="hst:renderpath" sv:type="String">
+      <sv:value>webfile:/freemarker/atlastserver/player/pops/overview.ftl</sv:value>
+    </sv:property>
+  </sv:node>
+  <sv:node sv:name="site-footer">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hst:template</sv:value>
+    </sv:property>
+    <sv:property sv:name="hst:renderpath" sv:type="String">
+      <sv:value>webfile:/freemarker/atlastserver/site/footer.ftl</sv:value>
+    </sv:property>
+  </sv:node>
+  <sv:node sv:name="site-topnav">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hst:template</sv:value>
+    </sv:property>
+    <sv:property sv:name="hst:renderpath" sv:type="String">
+      <sv:value>webfile:/freemarker/atlastserver/site/topnav.ftl</sv:value>
+    </sv:property>
+  </sv:node>
+  <sv:node sv:name="site-home-body">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hst:template</sv:value>
+    </sv:property>
+    <sv:property sv:name="hst:renderpath" sv:type="String">
+      <sv:value>webfile:/freemarker/atlastserver/site/home-body.ftl</sv:value>
+    </sv:property>
+  </sv:node>
+  <sv:node sv:name="site-ls-body">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hst:template</sv:value>
+    </sv:property>
+    <sv:property sv:name="hst:renderpath" sv:type="String">
+      <sv:value>webfile:/freemarker/atlastserver/site/ls-body.ftl</sv:value>
+    </sv:property>
+  </sv:node>
+  <sv:node sv:name="site-banner">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hst:template</sv:value>
+    </sv:property>
+    <sv:property sv:name="hst:renderpath" sv:type="String">
+      <sv:value>webfile:/freemarker/atlastserver/site/banner.ftl</sv:value>
+    </sv:property>
+  </sv:node>
+  <sv:node sv:name="dashboard-main">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hst:template</sv:value>
+    </sv:property>
+    <sv:property sv:name="hst:renderpath" sv:type="String">
+      <sv:value>webfile:/freemarker/atlastserver/player/dashboard.ftl</sv:value>
+    </sv:property>
+  </sv:node>
+  <sv:node sv:name="site-topnav-secure">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hst:template</sv:value>
+    </sv:property>
+    <sv:property sv:name="hst:renderpath" sv:type="String">
+      <sv:value>webfile:/freemarker/atlastserver/site/topnav-secure.ftl</sv:value>
+    </sv:property>
+  </sv:node>
+  <sv:node sv:name="player-leftmenu">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hst:template</sv:value>
+    </sv:property>
+    <sv:property sv:name="hst:renderpath" sv:type="String">
+      <sv:value>webfile:/freemarker/atlastserver/player/leftmenu.ftl</sv:value>
+    </sv:property>
+  </sv:node>
+  <sv:node sv:name="signup">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hst:template</sv:value>
+    </sv:property>
+    <sv:property sv:name="hst:renderpath" sv:type="String">
+      <sv:value>webfile:/freemarker/atlastserver/signup.ftl</sv:value>
+    </sv:property>
+  </sv:node>
+</sv:node>

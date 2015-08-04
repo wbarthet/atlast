@@ -1,0 +1,57 @@
+<'atlast'='http://www.onehippo.org/atlast/nt/1.0'>
+<'hippo'='http://www.onehippo.org/jcr/hippo/nt/2.0.4'>
+<'hippostd'='http://www.onehippo.org/jcr/hippostd/nt/2.0'>
+<'hippostdpubwf'='http://www.onehippo.org/jcr/hippostdpubwf/nt/1.0'>
+<'hippotranslation'='http://www.onehippo.org/jcr/hippotranslation/nt/1.0'>
+
+[atlast:amount] > hippo:compound, hippostd:relaxed
+  orderable
+
+[atlast:basedocument] > hippo:document, hippostd:publishableSummary, hippostdpubwf:document
+  orderable
+
+[atlast:object] > hippo:document, hippostd:relaxed
+  + * (atlast:object) = atlast:object multiple
+
+[atlast:child] > atlast:object
+
+[atlast:contentdocument] > atlast:basedocument, hippostd:relaxed, hippotranslation:translated
+  orderable
+
+[atlast:development]
+  mixin
+
+[atlast:roughterrain]
+  mixin
+
+[atlast:developmentdescriptor] > atlast:basedocument, hippostd:relaxed, hippotranslation:translated
+  orderable
+
+[atlast:languagedescriptor] > atlast:basedocument, hippostd:relaxed, hippotranslation:translated
+  orderable
+
+[atlast:land] > atlast:object
+  orderable
+
+[atlast:landdescriptor] > atlast:basedocument, hippostd:relaxed, hippotranslation:translated
+  orderable
+
+[atlast:market] > atlast:object
+
+[atlast:player] > atlast:object
+  orderable
+
+[atlast:playerdata] > atlast:object
+
+[atlast:pop] > atlast:object
+
+[atlast:recipedescriptor] > atlast:basedocument, hippostd:relaxed, hippotranslation:translated
+  orderable
+
+[atlast:resourcedescriptor] > atlast:basedocument, hippostd:relaxed, hippotranslation:translated
+  orderable
+
+[atlast:store] > atlast:object
+
+[atlast:worlddata] > atlast:object
+
