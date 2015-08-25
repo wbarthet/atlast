@@ -1,6 +1,5 @@
 package org.atlast.beans;
 
-import java.util.List;
 
 import org.hippoecm.hst.content.beans.Node;
 

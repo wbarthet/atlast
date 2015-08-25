@@ -1,6 +1,7 @@
 package org.atlast.components.world;
 
 import java.io.IOException;
+import java.security.Principal;
 
 import javax.jcr.RepositoryException;
 
@@ -32,7 +33,8 @@ public class BaseSecuredComponent extends BaseHstComponent {
         String userName = getComponentParameter("userName");
 
         final HstRequestContext requestContext = request.getRequestContext();
-        if (!userName.equals(requestContext.getServletRequest().getUserPrincipal().getName())) {
+        Principal userPrincipal = requestContext.getServletRequest().getUserPrincipal();
+        if (userPrincipal == null || !userName.equals(userPrincipal.getName())) {
             response.setStatus(401);
 
             final ResolvedSiteMapItem resolvedSiteMapItem = RequestContextProvider.get().getResolvedSiteMapItem();

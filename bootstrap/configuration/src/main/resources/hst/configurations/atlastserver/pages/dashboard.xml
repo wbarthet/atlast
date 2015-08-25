@@ -3,30 +3,17 @@
     <sv:value>hst:component</sv:value>
   </sv:property>
   <sv:property sv:name="hst:referencecomponent" sv:type="String">
-    <sv:value>hst:abstractpages/securepage</sv:value>
+    <sv:value>hst:abstractpages/base-new</sv:value>
   </sv:property>
   <sv:node sv:name="body">
     <sv:property sv:name="jcr:primaryType" sv:type="Name">
       <sv:value>hst:component</sv:value>
     </sv:property>
-    <sv:node sv:name="banner">
-      <sv:property sv:name="jcr:primaryType" sv:type="Name">
-        <sv:value>hst:component</sv:value>
-      </sv:property>
-      <sv:property sv:name="hst:template" sv:type="String">
-        <sv:value>site-banner</sv:value>
-      </sv:property>
-    </sv:node>
-    <sv:node sv:name="main">
-      <sv:property sv:name="jcr:primaryType" sv:type="Name">
-        <sv:value>hst:component</sv:value>
-      </sv:property>
-      <sv:property sv:name="hst:componentclassname" sv:type="String">
-        <sv:value>org.atlast.components.player.FinancialOverview</sv:value>
-      </sv:property>
-      <sv:property sv:name="hst:template" sv:type="String">
-        <sv:value>dashboard-main</sv:value>
-      </sv:property>
-    </sv:node>
+    <sv:property sv:name="hst:componentclassname" sv:type="String">
+      <sv:value>org.atlast.components.player.Dasboard</sv:value>
+    </sv:property>
+    <sv:property sv:name="hst:template" sv:type="String">
+      <sv:value>home-dashboard</sv:value>
+    </sv:property>
   </sv:node>
 </sv:node>

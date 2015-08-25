@@ -388,7 +388,7 @@ a img:hover {
   font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 400;
   font-style: normal;
-  font-size: 1rem !important;
+  font-size: 0.75rem !important;
   line-height: 1.3;
   letter-spacing: 0;
   text-transform: none;
@@ -675,12 +675,16 @@ Body
 
 /* line 350, ../scss/_custom.scss */
 .section-bg-color1 {
-  background-color: #fefefe;
+  background-color: #fdfefe;
 }
 
 /* line 354, ../scss/_custom.scss */
 .section-bg-color2 {
   background-color: #f5f1f0;
+}
+
+.section-bg-color3 {
+  background-color: #3e424d;
 }
 
 /* line 358, ../scss/_custom.scss */
@@ -819,6 +823,7 @@ a.no-underline, a.no-underline:hover {
   padding-bottom: 1.25em;
   margin-top: 1em;
   margin-bottom: 2em;
+  background-color: white;
 }
 
 /* line 471, ../scss/_custom.scss */
@@ -1020,13 +1025,13 @@ footer li {
   display: inline-block;
   padding-left: 1em;
   margin-right: 1em;
-  color: #373b44;
+  color: #f5f1f0;
   margin-bottom: 1em;
 }
 
 /* line 651, ../scss/_custom.scss */
 footer li a {
-  color: #373b44;
+  color: #f5f1f0;
   -webkit-transition: color 0.2s ease-out;
   -moz-transition: color 0.2s ease-out;
   transition: color 0.2s ease-out;
@@ -5738,7 +5743,13 @@ ul.off-canvas-list li a {
 }
 
 .land-icon {
+  width: 50px;
+  padding-right: 10px;
+}
+
+.land-detail-icon {
   width: 75px;
+  padding-left: 10px;
   padding-right: 10px;
 }
 
@@ -5749,11 +5760,25 @@ ul.off-canvas-list li a {
 
 .pop-icon {
   width: 20px;
-  padding-right: 1px;
-  padding-top: 2px;
 }
 
 .recipe-box {
   float: right;
   font-style: italic;
+}
+
+.select-long {
+  width: auto !important;
+  margin-right: 10px !important;
+  display: inline !important;
+}
+
+.input-number {
+  width: auto !important;
+  display: inline !important;
+  margin-right: 10px !important;
+}
+
+.row-centered {
+  text-align: center;
 }

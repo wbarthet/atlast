@@ -51,20 +51,7 @@
     </sv:property>
   </sv:node>
 
-<sv:node sv:name="atlast-server-content-gallery-atlastserver-banners">
-    <sv:property sv:name="jcr:primaryType" sv:type="Name">
-      <sv:value>hippo:initializeitem</sv:value>
-    </sv:property>
-    <sv:property sv:name="hippo:sequence" sv:type="Double">
-      <sv:value>30501.0</sv:value>
-    </sv:property>
-    <sv:property sv:name="hippo:contentresource" sv:type="String">
-      <sv:value>content/gallery/atlastserver/banners.xml</sv:value>
-    </sv:property>
-    <sv:property sv:name="hippo:contentroot" sv:type="String">
-      <sv:value>/content/gallery/atlastserver</sv:value>
-    </sv:property>
-  </sv:node>
+
   <sv:node sv:name="atlast-server-content-documents-administration">
     <sv:property sv:name="jcr:primaryType" sv:type="Name">
       <sv:value>hippo:initializeitem</sv:value>
@@ -93,20 +80,7 @@
       <sv:value>/content/documents/administration</sv:value>
     </sv:property>
   </sv:node>
-  <sv:node sv:name="atlast-server-content-gallery-atlastserver-samples">
-    <sv:property sv:name="jcr:primaryType" sv:type="Name">
-      <sv:value>hippo:initializeitem</sv:value>
-    </sv:property>
-    <sv:property sv:name="hippo:sequence" sv:type="Double">
-      <sv:value>30501.0</sv:value>
-    </sv:property>
-    <sv:property sv:name="hippo:contentresource" sv:type="String">
-      <sv:value>content/gallery/atlastserver/samples.xml</sv:value>
-    </sv:property>
-    <sv:property sv:name="hippo:contentroot" sv:type="String">
-      <sv:value>/content/gallery/atlastserver</sv:value>
-    </sv:property>
-  </sv:node>
+  
 <sv:node sv:name="atlast-server-content-documents-atlastserver-descriptors">
     <sv:property sv:name="jcr:primaryType" sv:type="Name">
       <sv:value>hippo:initializeitem</sv:value>
@@ -234,4 +208,32 @@
     </sv:property>
   </sv:node>
 
+<sv:node sv:name="atlast-server-content-gallery-atlastserver-img">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hippo:initializeitem</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippo:sequence" sv:type="Double">
+      <sv:value>30501.0</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippo:contentresource" sv:type="String">
+      <sv:value>content/gallery/atlastserver/img.xml</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippo:contentroot" sv:type="String">
+      <sv:value>/content/gallery/atlastserver</sv:value>
+    </sv:property>
+  </sv:node>
+<sv:node sv:name="atlast-server-content-gallery-atlastserver-icons">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hippo:initializeitem</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippo:sequence" sv:type="Double">
+      <sv:value>30501.0</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippo:contentresource" sv:type="String">
+      <sv:value>content/gallery/atlastserver/icons.xml</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippo:contentroot" sv:type="String">
+      <sv:value>/content/gallery/atlastserver</sv:value>
+    </sv:property>
+  </sv:node>
 </sv:node>

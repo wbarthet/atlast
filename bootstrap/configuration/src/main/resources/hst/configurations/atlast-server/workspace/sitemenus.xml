@@ -14,20 +14,12 @@
         <sv:value>root</sv:value>
       </sv:property>
     </sv:node>
-    <sv:node sv:name="market">
+    <sv:node sv:name="info">
       <sv:property sv:name="jcr:primaryType" sv:type="Name">
         <sv:value>hst:sitemenuitem</sv:value>
       </sv:property>
       <sv:property sv:name="hst:referencesitemapitem" sv:type="String">
-        <sv:value>market</sv:value>
-      </sv:property>
-    </sv:node>
-    <sv:node sv:name="signup">
-      <sv:property sv:name="jcr:primaryType" sv:type="Name">
-        <sv:value>hst:sitemenuitem</sv:value>
-      </sv:property>
-      <sv:property sv:name="hst:referencesitemapitem" sv:type="String">
-        <sv:value>signup</sv:value>
+        <sv:value>info</sv:value>
       </sv:property>
     </sv:node>
   </sv:node>
@@ -43,10 +35,24 @@
         <sv:value>path</sv:value>
       </sv:property>
       <sv:property sv:name="hst:parametervalues" sv:type="String" sv:multiple="true">
-        <sv:value>secure/_player_</sv:value>
+        <sv:value>_player_</sv:value>
       </sv:property>
       <sv:property sv:name="hst:referencesitemapitem" sv:type="String">
-        <sv:value>dashboard</sv:value>
+        <sv:value>root</sv:value>
+      </sv:property>
+    </sv:node>
+    <sv:node sv:name="info">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>hst:sitemenuitem</sv:value>
+      </sv:property>
+      <sv:property sv:name="hst:parameternames" sv:type="String" sv:multiple="true">
+        <sv:value>path</sv:value>
+      </sv:property>
+      <sv:property sv:name="hst:parametervalues" sv:type="String" sv:multiple="true">
+        <sv:value>info</sv:value>
+      </sv:property>
+      <sv:property sv:name="hst:referencesitemapitem" sv:type="String">
+        <sv:value>info</sv:value>
       </sv:property>
     </sv:node>
     <sv:node sv:name="stores">
@@ -57,10 +63,10 @@
         <sv:value>path</sv:value>
       </sv:property>
       <sv:property sv:name="hst:parametervalues" sv:type="String" sv:multiple="true">
-        <sv:value>secure/_player_/stores</sv:value>
+        <sv:value>_player_/stores</sv:value>
       </sv:property>
       <sv:property sv:name="hst:referencesitemapitem" sv:type="String">
-        <sv:value>market</sv:value>
+        <sv:value>stores</sv:value>
       </sv:property>
     </sv:node>
     <sv:node sv:name="lands">
@@ -71,10 +77,10 @@
         <sv:value>path</sv:value>
       </sv:property>
       <sv:property sv:name="hst:parametervalues" sv:type="String" sv:multiple="true">
-        <sv:value>secure/_player_/lands</sv:value>
+        <sv:value>_player_/lands</sv:value>
       </sv:property>
       <sv:property sv:name="hst:referencesitemapitem" sv:type="String">
-        <sv:value>market</sv:value>
+        <sv:value>lands</sv:value>
       </sv:property>
     </sv:node>
     <sv:node sv:name="signout">
