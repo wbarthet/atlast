@@ -18,6 +18,7 @@ import java.util.List;
 
 import javax.jcr.RepositoryException;
 
+import org.atlast.beans.Atlastimageset;
 import org.atlast.beans.BaseDocument;
 import org.hippoecm.hst.content.beans.Node;
 
@@ -41,6 +42,10 @@ public class LandDescriptor extends BaseDocument {
 
     public String[] getNamePatterns() {
         return getProperty("atlast:namePatterns");
+    }
+
+    public Atlastimageset getIcon() {
+        return getLinkedBean("atlast:icon", Atlastimageset.class);
     }
 }
 

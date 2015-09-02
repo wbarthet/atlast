@@ -17,6 +17,7 @@ package org.atlast.beans.descriptors;
 
 import java.util.List;
 
+import org.atlast.beans.Atlastimageset;
 import org.atlast.beans.BaseDocument;
 import org.hippoecm.hst.content.beans.Node;
 import org.hippoecm.hst.content.beans.standard.HippoDocument;
@@ -29,7 +30,9 @@ public class ResourceDescriptor extends BaseDocument {
     public String getName() {
         return getProperty("atlast:name");
     }
-
-
+    
+    public Atlastimageset getIcon() {
+        return getLinkedBean("atlast:icon", Atlastimageset.class);
+    }
 }
 

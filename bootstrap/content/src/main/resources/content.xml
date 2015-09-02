@@ -98,7 +98,7 @@
       <sv:value>new-atlastserver-atlastimageset-folder</sv:value>
     </sv:property>
     <sv:property sv:name="hippostd:gallerytype" sv:type="String" sv:multiple="true">
-      <sv:value>atlastserver:atlastimageset</sv:value>
+      <sv:value>atlast:atlastimageset</sv:value>
     </sv:property>
     <sv:node sv:name="hippo:translation">
       <sv:property sv:name="jcr:primaryType" sv:type="Name">

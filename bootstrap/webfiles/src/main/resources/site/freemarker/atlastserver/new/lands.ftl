@@ -15,12 +15,30 @@
 <#list lands?chunk(3) as landrow>
   <div class="row">
       <#list landrow as land>
-        <div class="small-12 medium-4 large-4 columns">
-          <div class="feature-box">
-            <h4><img class="land-icon forest" src="img/lands/lightforest.png"/> ${land.name}</h4>
-            <p>Empty Land</p>
-          </div>
-        </div>
+          <#if land.name != "pool">
+              <#if !land.development>
+                <div class="small-12 medium-4 large-4 columns">
+                  <div class="feature-box">
+                    <h4>
+                      <img class="land-icon forest" src="<@hst.link hippobean=land.landDescriptor.icon.mediumicon/>"/> ${land.name}
+                    </h4>
+                    <p>empty land</p>
+                  </div>
+                </div>
+              <#else>
+                <div class="small-12 medium-4 large-4 columns">
+                  <div class="feature-box">
+                    <h4>
+                      <img class="land-icon forest" src="<@hst.link hippobean=land.landDescriptor.icon.mediumicon/>"/> ${land.name}
+                    </h4>
+                    <p><img class="land-icon" src="<@hst.link hippobean=land.developmentDescriptor.icon/>"/>${land.developmentDescriptor.name}
+                      <span class="recipe-box">${land.recipeDescriptor.name}</span>
+                  </div>
+                </div>
+
+              </#if>
+
+          </#if>
       </#list>
 
 
@@ -47,7 +65,7 @@
         <img class="pop-icon" src="img/other/lower.png"/>
         <img class="pop-icon" src="img/other/lower.png"/>
         <img class="pop-icon" src="img/other/lower.png"/>
-        <img class="pop-icon" src="img/other/lower.png"/>
+        <img class="pop-iconinitial commit" src="img/other/lower.png"/>
         <img class="pop-icon" src="img/other/lower.png"/>
         <img class="pop-icon" src="img/other/lower.png"/>
         <img class="pop-icon" src="img/other/middle.png"/>
@@ -80,6 +98,5 @@
       </p>
     </div>
   </div>
-
 
 </div>

@@ -17,6 +17,7 @@ package org.atlast.beans.descriptors;
 
 import java.util.List;
 
+import org.atlast.beans.Atlastimageset;
 import org.atlast.beans.BaseDocument;
 import org.hippoecm.hst.content.beans.Node;
 import org.hippoecm.hst.content.beans.standard.HippoDocument;
@@ -32,6 +33,10 @@ public class DevelopmentDescriptor extends BaseDocument {
 
     public List<RecipeDescriptor> getAllowedRecipes() {
         return getLinkedBeans("atlast:allowedrecipes", RecipeDescriptor.class);
+    }
+
+    public Atlastimageset getIcon() {
+        return getLinkedBean("atlast:icon", Atlastimageset.class);
     }
 
 }

@@ -35,7 +35,7 @@
         <sv:value>hippogallery:relaxed</sv:value>
       </sv:property>
       <sv:property sv:name="hipposysedit:uri" sv:type="String">
-        <sv:value>http://www.onehippo.org/gallery/atlast/nt/1.0</sv:value>
+        <sv:value>http://www.onehippo.org/atlast/nt/1.0</sv:value>
       </sv:property>
       <sv:node sv:name="filename">
         <sv:property sv:name="jcr:primaryType" sv:type="Name">

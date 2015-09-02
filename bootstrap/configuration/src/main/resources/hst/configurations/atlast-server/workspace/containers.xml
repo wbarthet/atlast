@@ -84,7 +84,7 @@
         </sv:property>
         <sv:property sv:name="hst:parametervalues" sv:type="String" sv:multiple="true">
           <sv:value>on</sv:value>
-          <sv:value>atlastserver:newsdocument</sv:value>
+          <sv:value>atlast:newsdocument</sv:value>
           <sv:value/>
           <sv:value>desc</sv:value>
           <sv:value>off</sv:value>
