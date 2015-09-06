@@ -31,8 +31,31 @@
                     <h4>
                       <img class="land-icon forest" src="<@hst.link hippobean=land.landDescriptor.icon.mediumicon/>"/> ${land.name}
                     </h4>
-                    <p><img class="land-icon" src="<@hst.link hippobean=land.developmentDescriptor.icon/>"/>${land.developmentDescriptor.name}
-                      <span class="recipe-box">${land.recipeDescriptor.name}</span>
+                    <p>
+                      <img class="land-icon" src="<@hst.link hippobean=land.developmentDescriptor.icon/>"/>${land.developmentDescriptor.name}
+                      <span class="recipe-box">${land.recipeDescriptor.name}</span></p>
+                    <p>
+                        <#list land.pops as pop>
+                          <img class="pop-icon" src="<@hst.link path="binaries/content/gallery/atlastserver/img/lower.png"/>"/>
+                        </#list>
+                    </p>
+
+                    <p>
+                        <#if land.recipeDescriptor??>
+                            <#if land.recipeDescriptor.inputs?has_content>
+                              IN: ${land.pops?size} x
+                                <#list land.recipeDescriptor.inputs as input>
+                                  <img class="resource-icon" src="img/goods/flour.png"/>
+                                </#list>
+
+                            </#if>
+
+                          OUT: 7 x <img class="resource-icon" src="img/goods/bread.png"/>
+
+                          ($123.45)
+
+                        </#if>
+                    </p>
                   </div>
                 </div>
 

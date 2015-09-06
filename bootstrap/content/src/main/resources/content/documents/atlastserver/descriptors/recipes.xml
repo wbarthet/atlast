@@ -11678,7 +11678,7 @@
         </sv:node>
       </sv:node>
     </sv:node>
-    <sv:node sv:name="mine-amber">
+    <sv:node sv:name="mine-gems">
       <sv:property sv:name="jcr:primaryType" sv:type="Name">
         <sv:value>hippo:handle</sv:value>
       </sv:property>
@@ -11689,7 +11689,7 @@
       <sv:property sv:name="jcr:uuid" sv:type="String">
         <sv:value>d0606d5d-c2be-419e-afcf-c53273ef71e3</sv:value>
       </sv:property>
-      <sv:node sv:name="mine-amber">
+      <sv:node sv:name="mine-gems">
         <sv:property sv:name="jcr:primaryType" sv:type="Name">
           <sv:value>atlast:recipedescriptor</sv:value>
         </sv:property>
@@ -11703,13 +11703,13 @@
           <sv:value>2</sv:value>
         </sv:property>
         <sv:property sv:name="atlast:name" sv:type="String">
-          <sv:value>Mine Amber</sv:value>
+          <sv:value>Mine Gems</sv:value>
         </sv:property>
         <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
           <sv:value>preview</sv:value>
         </sv:property>
         <sv:property sv:name="hippo:related___pathreference" sv:type="String">
-          <sv:value>recipes/luxuries/mine-amber/mine-amber[3]</sv:value>
+          <sv:value>recipes/luxuries/mine-gems/mine-gems[3]</sv:value>
         </sv:property>
         <sv:property sv:name="hippostd:state" sv:type="String">
           <sv:value>unpublished</sv:value>
@@ -11760,10 +11760,10 @@
           <sv:value/>
         </sv:property>
         <sv:property sv:name="hippo:message" sv:type="String">
-          <sv:value>Mine Amber</sv:value>
+          <sv:value>Mine Gems</sv:value>
         </sv:property>
       </sv:node>
-      <sv:node sv:name="mine-amber">
+      <sv:node sv:name="mine-gems">
         <sv:property sv:name="jcr:primaryType" sv:type="Name">
           <sv:value>atlast:recipedescriptor</sv:value>
         </sv:property>
@@ -11777,7 +11777,7 @@
           <sv:value>2</sv:value>
         </sv:property>
         <sv:property sv:name="atlast:name" sv:type="String">
-          <sv:value>Mine Amber</sv:value>
+          <sv:value>Mine Gems</sv:value>
         </sv:property>
         <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true"/>
         <sv:property sv:name="hippo:related___pathreference" sv:type="String">
@@ -11825,7 +11825,7 @@
           </sv:node>
         </sv:node>
       </sv:node>
-      <sv:node sv:name="mine-amber">
+      <sv:node sv:name="mine-gems">
         <sv:property sv:name="jcr:primaryType" sv:type="Name">
           <sv:value>atlast:recipedescriptor</sv:value>
         </sv:property>
@@ -11839,13 +11839,13 @@
           <sv:value>2</sv:value>
         </sv:property>
         <sv:property sv:name="atlast:name" sv:type="String">
-          <sv:value>Mine Amber</sv:value>
+          <sv:value>Mine Gems</sv:value>
         </sv:property>
         <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
           <sv:value>live</sv:value>
         </sv:property>
         <sv:property sv:name="hippo:related___pathreference" sv:type="String">
-          <sv:value>recipes/luxuries/mine-amber/mine-amber</sv:value>
+          <sv:value>recipes/luxuries/mine-gems/mine-gems</sv:value>
         </sv:property>
         <sv:property sv:name="hippostd:state" sv:type="String">
           <sv:value>published</sv:value>

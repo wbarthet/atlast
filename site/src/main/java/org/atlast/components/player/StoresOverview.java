@@ -39,7 +39,9 @@ public class StoresOverview extends BaseSecuredComponent {
 
         request.setAttribute("stores", market);
 
+        StoresService storesService = HstServices.getComponentManager().getComponent(StoresService.class);
 
+        request.setAttribute("storesService", storesService);
     }
 
 

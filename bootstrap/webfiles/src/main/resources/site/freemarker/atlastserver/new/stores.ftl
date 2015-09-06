@@ -1,5 +1,6 @@
 <#include "../../include/imports.ftl">
 <#-- @ftlvariable name="stores" type="java.util.List<org.atlast.beans.Market>" -->
+<#-- @ftlvariable name="storesService" type="org.atlast.services.StoresService>" -->
 
 
 <div class="section-headline">
@@ -20,21 +21,22 @@
             <div class="feature-box">
               <h4><i class="fa icon-${store.name} fa-lg fa-fw"></i> ${store.name?cap_first}</h4>
               <br>
-              <#list store.items as item>
-              <p><input name="${item}range" id="${item}range" type="range" min="0" max="100" step="1" value="${store.getResourceLevel(item)}">
-                ${item?cap_first} ${store.getResource(item)}/<output name="${item}amount" for="${item}range">${store.getResourceLevel(item)}</output>&nbsp;($34.43)
-              </p>
-              </#list>
+                <#list store.items as item>
 
+                  <p>
+                    <#if storesService.getResource(item?cap_first).icon??>
+                      <img src="<@hst.link hippobean=storesService.getResource(item?cap_first).icon.smallicon/>"/>
+                    </#if>
+                    <input name="${item}range" id="${item}range" type="range" min="0" max="100" step="1" value="${store.getResourceLevel(item)}">
 
+                  ${item?cap_first} ${store.getResource(item)}/
+                    <output name="${item}amount" for="${item}range">${store.getResourceLevel(item)}</output>
+                    &nbsp;($34.43)
+                  </p>
+                </#list>
             </div>
           </div>
-
-
         </#list>
-
-
-
     </div>
 
 
@@ -42,7 +44,6 @@
 
     <input type="hidden" name="uuid" value="${stores.uuid}">
     <input type="hidden" name="type" value="save">
-
 
     <div class="row-centered">
       <input value="save" type="submit" class="button round">

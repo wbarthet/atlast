@@ -14,18 +14,13 @@ package org.atlast.beans.descriptors;
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-
-import java.util.List;
-
 import org.atlast.beans.Atlastimageset;
 import org.atlast.beans.BaseDocument;
 import org.hippoecm.hst.content.beans.Node;
-import org.hippoecm.hst.content.beans.standard.HippoDocument;
 
 
 @Node(jcrType="atlast:resourcedescriptor")
 public class ResourceDescriptor extends BaseDocument {
-
 
     public String getName() {
         return getProperty("atlast:name");
