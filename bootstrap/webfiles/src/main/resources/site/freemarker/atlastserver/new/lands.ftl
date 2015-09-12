@@ -19,18 +19,22 @@
               <#if !land.development>
                 <div class="small-12 medium-4 large-4 columns">
                   <div class="feature-box">
-                    <h4>
-                      <img class="land-icon forest" src="<@hst.link hippobean=land.landDescriptor.icon.mediumicon/>"/> ${land.name}
-                    </h4>
+                    <a href="<@hst.link hippobean=land/>">
+                      <h4>
+                        <img class="land-icon forest" src="<@hst.link hippobean=land.landDescriptor.icon.mediumicon/>"/> ${land.name}
+                      </h4>
+                    </a>
                     <p>empty land</p>
                   </div>
                 </div>
               <#else>
                 <div class="small-12 medium-4 large-4 columns">
                   <div class="feature-box">
-                    <h4>
-                      <img class="land-icon forest" src="<@hst.link hippobean=land.landDescriptor.icon.mediumicon/>"/> ${land.name}
-                    </h4>
+                    <a href="<@hst.link hippobean=land/>">
+                      <h4>
+                        <img class="land-icon forest" src="<@hst.link hippobean=land.landDescriptor.icon.mediumicon/>"/> ${land.name}
+                      </h4>
+                    </a>
                     <p>
                       <img class="land-icon" src="<@hst.link hippobean=land.developmentDescriptor.icon/>"/>${land.developmentDescriptor.name}
                       <span class="recipe-box">${land.recipeDescriptor.name}</span></p>
@@ -45,14 +49,19 @@
                             <#if land.recipeDescriptor.inputs?has_content>
                               IN: ${land.pops?size} x
                                 <#list land.recipeDescriptor.inputs as input>
-                                  <img class="resource-icon" src="img/goods/flour.png"/>
+                                  <img class="resource-icon" src="<@hst.link hippobean=input.resourceDescriptor.icon.smallicon/>"/>
                                 </#list>
 
                             </#if>
 
-                          OUT: 7 x <img class="resource-icon" src="img/goods/bread.png"/>
+                            <#if land.recipeDescriptor.outputs?has_content>
+                              OUT: 7 x
+                                <#list land.recipeDescriptor.outputs as output>
+                                  <img class="resource-icon" src="<@hst.link hippobean=output.resourceDescriptor.icon.smallicon/>"/>
+                                </#list>
 
-                          ($123.45)
+                              ($123.45)
+                            </#if>
 
                         </#if>
                     </p>
@@ -67,59 +76,4 @@
 
   </div>
 </#list>
-
-  <div class="small-12 medium-4 large-4 columns">
-    <div class="feature-box">
-      <h4><img class="land-icon" src="img/lands/lightforest.png"/> Maddraquk Woodlands</h4>
-      <p><img class="land-icon" src="img/developments/camp.png"/>Camp <span class="recipe-box">Chop Wood</span>
-      </p>
-      <p>
-        <img class="pop-icon" src="img/other/lower.png"/>
-        <img class="pop-icon" src="img/other/lower.png"/>
-        <img class="pop-icon" src="img/other/lower.png"/>
-        <img class="pop-icon" style="background-color: gold" src="img/other/lower2.png"/>
-        <img class="pop-icon" src="img/other/lower.png"/>
-        <img class="pop-icon" src="img/other/lower.png"/>
-        <img class="pop-icon" src="img/other/lower.png"/>
-        <img class="pop-icon" src="img/other/lower.png"/>
-        <img class="pop-icon" src="img/other/lower.png"/>
-        <img class="pop-icon" src="img/other/lower.png"/>
-        <img class="pop-icon" src="img/other/lower.png"/>
-        <img class="pop-icon" src="img/other/lower.png"/>
-        <img class="pop-icon" src="img/other/lower.png"/>
-        <img class="pop-icon" src="img/other/lower.png"/>
-        <img class="pop-iconinitial commit" src="img/other/lower.png"/>
-        <img class="pop-icon" src="img/other/lower.png"/>
-        <img class="pop-icon" src="img/other/lower.png"/>
-        <img class="pop-icon" src="img/other/middle.png"/>
-        <img class="pop-icon" src="img/other/upper.png"/>
-      </p>
-      <p>
-        OUT: 38 x <img class="resource-icon" src="img/goods/logs.png"/>
-
-        $123.45
-      </p>
-    </div>
-
-  </div>
-  <div class="small-12 medium-4 large-4 columns">
-    <div class="feature-box">
-      <h4><img class="land-icon" src="img/lands/grassland.png"/> Maddraquk Meadows</h4>
-      <p><img class="land-icon" src="img/developments/furnace.png"/>Furnace
-        <span class="recipe-box">Bake Bread</span>
-      </p>
-      <p>
-        <img class="pop-icon" src="img/other/middle.png"/>
-        <img class="pop-icon" src="img/other/middle.png"/>
-        <img class="pop-icon" src="img/other/upper.png"/>
-      </p>
-      <p>
-        IN: 3 x <img class="resource-icon" src="img/goods/flour.png"/>
-        OUT: 7 x <img class="resource-icon" src="img/goods/bread.png"/>
-
-        ($123.45)
-      </p>
-    </div>
-  </div>
-
 </div>

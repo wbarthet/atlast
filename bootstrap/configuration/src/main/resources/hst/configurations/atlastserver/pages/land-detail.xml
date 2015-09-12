@@ -9,30 +9,11 @@
     <sv:property sv:name="jcr:primaryType" sv:type="Name">
       <sv:value>hst:component</sv:value>
     </sv:property>
-    <sv:property sv:name="hst:template" sv:type="String">
-      <sv:value>site-ls-body</sv:value>
+    <sv:property sv:name="hst:componentclassname" sv:type="String">
+      <sv:value>org.atlast.components.player.LandDetail</sv:value>
     </sv:property>
-    <sv:node sv:name="main">
-      <sv:property sv:name="jcr:primaryType" sv:type="Name">
-        <sv:value>hst:component</sv:value>
-      </sv:property>
-      <sv:property sv:name="hst:componentclassname" sv:type="String">
-        <sv:value>org.atlast.components.player.LandDetail</sv:value>
-      </sv:property>
-      <sv:property sv:name="hst:template" sv:type="String">
-        <sv:value>player-lands-detail</sv:value>
-      </sv:property>
-      <sv:node sv:name="bottom">
-        <sv:property sv:name="jcr:primaryType" sv:type="Name">
-          <sv:value>hst:component</sv:value>
-        </sv:property>
-        <sv:property sv:name="hst:componentclassname" sv:type="String">
-          <sv:value>org.atlast.components.player.LabourPool</sv:value>
-        </sv:property>
-        <sv:property sv:name="hst:template" sv:type="String">
-          <sv:value>player-labour-pool</sv:value>
-        </sv:property>
-      </sv:node>
-    </sv:node>
+    <sv:property sv:name="hst:template" sv:type="String">
+      <sv:value>land</sv:value>
+    </sv:property>
   </sv:node>
 </sv:node>

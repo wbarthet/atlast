@@ -72,7 +72,7 @@ public class StoresOverview extends BaseSecuredComponent {
                         Value[] items = storeNode.getProperty("atlast:items").getValues();
 
                         for (Value item : items) {
-                            Double level = Double.parseDouble(getPublicRequestParameter(request, item.getString() + "rangea "));
+                            Double level = Double.parseDouble(getPublicRequestParameter(request, item.getString() + "range"));
 
                             levels.put(item.getString(), level);
                         }
