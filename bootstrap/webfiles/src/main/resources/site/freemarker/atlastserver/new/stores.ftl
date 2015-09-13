@@ -1,5 +1,6 @@
 <#include "../../include/imports.ftl">
 <#-- @ftlvariable name="stores" type="java.util.List<org.atlast.beans.Market>" -->
+<#-- @ftlvariable name="worldMarket" type="org.atlast.beans.Market" -->
 <#-- @ftlvariable name="storesService" type="org.atlast.services.StoresService>" -->
 
 
@@ -31,7 +32,7 @@
 
                   ${item?cap_first} ${store.getResource(item)}/
                     <output name="${item}amount" for="${item}range">${store.getResourceLevel(item)}</output>
-                    &nbsp;($34.43)
+                    &nbsp;(${worldMarket.getStore(store.name).getResourceLevel(item)?string.currency})
                   </p>
                 </#list>
             </div>

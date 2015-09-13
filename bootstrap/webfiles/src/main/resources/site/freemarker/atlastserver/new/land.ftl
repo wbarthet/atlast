@@ -98,6 +98,8 @@
 
   </div>
 </div>
+
+<#if land.development>
 <div class="section-bg-color2">
   <div class="row first-row">
     <div class="small-12 medium-6 large-6 columns">
@@ -138,6 +140,7 @@
     </div>
   </div>
 </div>
+</#if>
 
 <div class="section-bg-color2">
   <div class="row-centered">

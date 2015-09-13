@@ -35,13 +35,18 @@ public class StoresOverview extends BaseSecuredComponent {
 
         super.doBeforeRender(request, response);
 
-        Market market = request.getRequestContext().getContentBean(Market.class);
+        HstRequestContext requestContext = request.getRequestContext();
+        Market market = requestContext.getContentBean(Market.class);
 
         request.setAttribute("stores", market);
 
         StoresService storesService = HstServices.getComponentManager().getComponent(StoresService.class);
 
         request.setAttribute("storesService", storesService);
+
+        Market worldMarket = requestContext.getSiteContentBaseBean().getBean("worlddata/market");
+
+        request.setAttribute("worldMarket", worldMarket);
     }
 
 
@@ -65,7 +70,7 @@ public class StoresOverview extends BaseSecuredComponent {
 
                     NodeIterator stores = storesNode.getNodes();
 
-                    while(stores.hasNext()) {
+                    while (stores.hasNext()) {
 
                         Node storeNode = stores.nextNode();
 

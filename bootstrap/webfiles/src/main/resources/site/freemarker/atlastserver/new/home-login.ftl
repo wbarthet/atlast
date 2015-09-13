@@ -28,7 +28,7 @@
 
 <div class="section-bg-color2">
   <div class="row-centered">
-    <h4><a>Signup</a></h4>
+    <h4><a href="<@hst.link path="signup"/>">Signup</a></h4>
   </div>
 </div>
 
