@@ -1,12 +1,17 @@
 package org.atlast.components.player;
 
+import javax.jcr.Node;
 import javax.jcr.RepositoryException;
 
 import org.atlast.beans.Land;
+import org.atlast.beans.Pop;
 import org.atlast.components.world.BaseSecuredComponent;
 import org.atlast.services.LandsService;
 import org.hippoecm.hst.content.annotations.Persistable;
 import org.hippoecm.hst.content.beans.ObjectBeanManagerException;
+import org.hippoecm.hst.content.beans.query.HstQuery;
+import org.hippoecm.hst.content.beans.query.HstQueryResult;
+import org.hippoecm.hst.content.beans.query.exceptions.QueryException;
 import org.hippoecm.hst.core.component.HstComponentException;
 import org.hippoecm.hst.core.component.HstRequest;
 import org.hippoecm.hst.core.component.HstResponse;
@@ -27,11 +32,28 @@ public class LandDetail extends BaseSecuredComponent {
 
         super.doBeforeRender(request, response);
 
-        Land land = request.getRequestContext().getContentBean(Land.class);
+        HstRequestContext requestContext = request.getRequestContext();
+
+        Land land = requestContext.getContentBean(Land.class);
 
         request.setAttribute("land", land);
 
+        try {
+            Node poolNode = requestContext.getSiteContentBaseBean().getNode().getNode("worlddata/pool");
 
+            HstQuery query = requestContext.getQueryManager().createQuery(poolNode, Pop.class);
+
+            query.setLimit(10);
+
+            HstQueryResult hstQueryResult = query.execute();
+
+            request.setAttribute("pool", hstQueryResult.getHippoBeans());
+
+        } catch (RepositoryException e) {
+            log.error("Error retrieving worker pool");
+        } catch (QueryException e) {
+            log.error("Error retrieving workers");
+        }
     }
 
     @Persistable
@@ -49,6 +71,13 @@ public class LandDetail extends BaseSecuredComponent {
                 } catch (RepositoryException e) {
                     log.error("Error firing pop from land", e);
                 }
+            } else if ("hire".equals(type)) {
+                try {
+                    landsService.hire(request.getRequestContext(), uuid);
+                } catch (RepositoryException e) {
+                    log.error("Error updating labour pool", e);
+                }
+
             } else if ("save".equals(type)) {
 
                 try {

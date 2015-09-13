@@ -25,7 +25,7 @@ public class LandsService {
 
         Node popNode = session.getNodeByIdentifier(popId);
 
-        Node poolNode = popNode.getParent().getParent().getNode("pool");
+        Node poolNode = requestContext.getSiteContentBaseBean().getNode().getNode("worlddata/pool");
 
         session.move(popNode.getPath(), poolNode.getPath() + "/" + popNode.getName());
 

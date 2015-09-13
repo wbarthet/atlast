@@ -106,9 +106,11 @@
     <#list land.pops as pop>
       <div class="row">
         <div class="feature-box">
-          <form>
+          <form action="<@hst.actionURL/>" method="post">
+            <input type="hidden" value="${pop.uuid}" name="uuid">
+            <input type="hidden" value="fire" name="action">
             <img align="left" style="margin-right: 1em;" class="pop-icon" src="<@hst.link path="binaries/content/gallery/atlastserver/img/lower.png"/>">
-          ${pop.name} | Lumberjack: 45%
+            ${pop.name} | Lumberjack: 45%
             <input align="right" class="button round button-small" type="submit" value=">">
           </form>
         </div>
@@ -119,45 +121,20 @@
     <div class="small-12 medium-6 large-6 columns">
       <h3>Employment Pool</h3>
 
-      <div class="row">
-        <div class="feature-box">
-          <form>
-            <input align="left" style="margin-left: 1em;" class="button round button-small" type="submit" value="<">
-            Fratsu Hansi | Lumberjack: 0%
-            <img align="right" style="background-color: #66afe9;" class="pop-icon" src="img/other/lower2.png">
-          </form>
+      <#list pool as pop>
+        <div class="row">
+          <div class="feature-box">
+            <form action="<@hst.actionURL/>" method="post">
+              <input type="hidden" value="${pop.uuid}" name="uuid">
+              <input type="hidden" value="hire" name="action">
+              <input align="left" style="margin-left: 1em;" class="button round button-small" type="submit" value="<">
+              ${pop.name} | Lumberjack: 0%
+              <img align="right" style="background-color: #66afe9;" class="pop-icon" src="<@hst.link path="binaries/content/gallery/atlastserver/img/lower.png"/>">
+            </form>
+          </div>
         </div>
-      </div>
+      </#list>
 
-      <div class="row">
-        <div class="feature-box">
-          <form>
-            <input align="left" style="margin-left: 1em;" class="button round button-small" type="submit" value="<">
-            Chunsun Chu | Lumberjack: 0%
-            <img align="right" style="background-color: #843534;" class="pop-icon" src="img/other/lower2.png">
-          </form>
-        </div>
-      </div>
-
-      <div class="row">
-        <div class="feature-box">
-          <form>
-            <input align="left" style="margin-left: 1em;" class="button round button-small" type="submit" value="<">
-            Chunsun Chu | Lumberjack: 0%
-            <img align="right" style="background-color: #843534;" class="pop-icon" src="img/other/lower2.png">
-          </form>
-        </div>
-      </div>
-
-      <div class="row">
-        <div class="feature-box">
-          <form>
-            <input align="left" style="margin-left: 1em;" class="button round button-small" type="submit" value="<">
-            Chunsun Chu | Lumberjack: 0%
-            <img align="right" style="background-color: #843534;" class="pop-icon" src="img/other/lower2.png">
-          </form>
-        </div>
-      </div>
     </div>
   </div>
 </div>

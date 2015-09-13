@@ -65,7 +65,9 @@ public class Child extends Pop {
 
                 getNode().setPrimaryType("atlast:pop");
 
-                getNode().getSession().move(getNode().getPath(), player.getNode().getPath() + "/pool/" + NodeNameCodec.encode(getStringProperty("atlast:name")));
+                getNode().setProperty("hippo:availability", new String[]{"live"});
+
+                getNode().getSession().move(getNode().getPath(), "/content/documents/atlastserver/worlddata/pool/" + NodeNameCodec.encode(getStringProperty("atlast:name")));
 
                 player.setDoubleProperty("atlast:food", 0.0d);
             } else {

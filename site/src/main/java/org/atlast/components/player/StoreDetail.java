@@ -8,11 +8,15 @@ import javax.jcr.RepositoryException;
 import javax.jcr.Session;
 import javax.jcr.Value;
 
+import org.atlast.beans.Pop;
 import org.atlast.beans.Store;
 import org.atlast.components.world.BaseSecuredComponent;
 import org.atlast.services.StoresService;
 import org.hippoecm.hst.content.annotations.Persistable;
 import org.hippoecm.hst.content.beans.ObjectBeanManagerException;
+import org.hippoecm.hst.content.beans.query.HstQuery;
+import org.hippoecm.hst.content.beans.query.HstQueryResult;
+import org.hippoecm.hst.content.beans.query.exceptions.QueryException;
 import org.hippoecm.hst.core.component.HstComponentException;
 import org.hippoecm.hst.core.component.HstRequest;
 import org.hippoecm.hst.core.component.HstResponse;
@@ -33,7 +37,8 @@ public class StoreDetail extends BaseSecuredComponent {
 
         super.doBeforeRender(request, response);
 
-        Store store = request.getRequestContext().getContentBean(Store.class);
+        HstRequestContext requestContext = request.getRequestContext();
+        Store store = requestContext.getContentBean(Store.class);
 
         request.setAttribute("store", store);
     }
