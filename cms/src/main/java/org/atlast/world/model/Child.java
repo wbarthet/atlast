@@ -1,5 +1,10 @@
 package org.atlast.world.model;
 
+import java.util.ArrayList;
+import java.util.HashSet;
+import java.util.List;
+import java.util.Set;
+
 import javax.jcr.Node;
 import javax.jcr.RepositoryException;
 import javax.jcr.ValueFormatException;
@@ -41,6 +46,8 @@ public class Child extends Pop {
 
         getParent().pay(cash);
 
+        Pop parent = new Pop(getNode().getParent());
+
 
         if (food >= MATURITY_FOOD_LEVEL) {
 
@@ -59,6 +66,23 @@ public class Child extends Pop {
                 setDoubleProperty("atlast:luxuries", goods + stemLuxuries);
                 getPaid(cash + stemCash);
 
+
+                Set<String> skills = new HashSet<>();
+
+                for (String skill : parent.getStringListProperty("atlast:skills")) {
+
+                    skills.add(skill);
+
+                    Double stemSkillLevel = stem.getDoubleProperty("skill-" + skill);
+
+                    Double skillLevel = parent.getDoubleProperty("skill-"+skill) / 2;
+
+                    setDoubleProperty("skill-"+ skill, skillLevel+stemSkillLevel);
+
+                }
+
+                setStringListProperty("atlast:skills", new ArrayList<>(skills));
+
                 PopClasses popClass = luxuries > 50 ? PopClasses.UPPER : goods > 50 ? PopClasses.MIDDLE : PopClasses.WORKING;
 
                 setStringProperty("atlast:class", popClass.name());
@@ -69,8 +93,23 @@ public class Child extends Pop {
 
                 getNode().getSession().move(getNode().getPath(), "/content/documents/atlastserver/worlddata/pool/" + NodeNameCodec.encode(getStringProperty("atlast:name")));
 
-                player.setDoubleProperty("atlast:food", 0.0d);
+                player.setDoubleProperty("atlast:food", 10.0d);
             } else {
+
+                Set<String> skills = new HashSet<>();
+
+                for (String skill : parent.getStringListProperty("atlast:skills")) {
+
+                    skills.add(skill);
+
+
+                    Double skillLevel = parent.getDoubleProperty("skill-"+skill) / 2;
+
+                    setDoubleProperty("skill-"+ skill, skillLevel);
+
+                }
+
+                setStringListProperty("atlast:skills", new ArrayList<>(skills));
 
                 setDoubleProperty("atlast:goods", goods);
                 setDoubleProperty("atlast:luxuries", luxuries);
@@ -83,7 +122,7 @@ public class Child extends Pop {
 
                 getNode().getSession().move(getNode().getPath(), player.getNode().getPath() + "/stem");
 
-                player.setDoubleProperty("atlast:food", 0.0d);
+                player.setDoubleProperty("atlast:food", 10.0d);
             }
         } else {
             setDoubleProperty("atlast:food", food);

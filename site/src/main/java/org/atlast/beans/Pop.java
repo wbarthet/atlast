@@ -1,6 +1,7 @@
 package org.atlast.beans;
 
-import java.util.List;
+
+import javax.jcr.RepositoryException;
 
 import org.hippoecm.hst.content.beans.Node;
 
@@ -36,6 +37,13 @@ public class Pop extends AtlastObject {
 
     public Land getLand() {
         return (Land) getParentBean();
+    }
+
+    public Double getSkill(String skill) throws RepositoryException {
+        if (getNode().hasProperty("skill-"+skill)) {
+            return getProperty("skill-"+skill);
+        }
+        return 0.0;
     }
 
 }

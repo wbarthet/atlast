@@ -18,6 +18,9 @@ public class Pop extends AtlastObject {
     private static final double GROW_RATE = 5;
     public static final int MAX_STUFF = 100;
     public static final int CONSUMPTION_RATE = 1;
+    private static final double BASE_SKILL_LEVEL_INCREASE = 5.0;
+    private static final double LEARNING_INERTIA = 1;
+    private static final double BASE_FORGETFULLNESS = 1.0;
 
     public Pop(Node node) throws RepositoryException {
         super(node);
@@ -245,5 +248,57 @@ public class Pop extends AtlastObject {
 
     public String getName() {
         return getStringProperty("atlast:name");
+    }
+
+    public void learn(final String skill) throws RepositoryException {
+
+        List<String> skills = getStringListProperty("atlast:skills");
+
+        if (skills.contains(skill)) {
+            double skillLevel = getDoubleProperty("skill-" + skill);
+            double skillIncrease = BASE_SKILL_LEVEL_INCREASE;
+
+            double percentageDampener = 0.0;
+            if (skillLevel >= 50) {
+                percentageDampener = 100 - skillLevel;
+            } else if (skillLevel < 50) {
+                percentageDampener = skillLevel;
+            }
+
+            skillIncrease = (skillIncrease * percentageDampener / 100) / LEARNING_INERTIA;
+
+            setDoubleProperty("skill-" + skill, skillLevel + skillIncrease);
+
+        } else {
+            skills.add(skill);
+
+            setStringListProperty("atlast:skills", skills);
+
+            setDoubleProperty("skill-" + skill, BASE_SKILL_LEVEL_INCREASE);
+        }
+
+
+    }
+
+
+    public void forget() {
+        List<String> skills = getStringListProperty("atlast:skills");
+
+        for (String skill : skills) {
+            double skillLevel = getDoubleProperty("skill-" + skill);
+
+            double skillDecrease = BASE_FORGETFULLNESS;
+
+            double percentageDampener = 0.0;
+            if (skillLevel >= 50) {
+                percentageDampener = 100 - skillLevel;
+            } else if (skillLevel < 50) {
+                percentageDampener = skillLevel;
+            }
+
+            skillDecrease = (skillDecrease * percentageDampener / 100) / LEARNING_INERTIA;
+
+            setDoubleProperty("skill-" + skill, skillLevel - skillDecrease);
+        }
     }
 }

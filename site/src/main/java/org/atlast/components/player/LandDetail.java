@@ -12,6 +12,7 @@ import org.hippoecm.hst.content.beans.ObjectBeanManagerException;
 import org.hippoecm.hst.content.beans.query.HstQuery;
 import org.hippoecm.hst.content.beans.query.HstQueryResult;
 import org.hippoecm.hst.content.beans.query.exceptions.QueryException;
+import org.hippoecm.hst.content.beans.query.filter.Filter;
 import org.hippoecm.hst.core.component.HstComponentException;
 import org.hippoecm.hst.core.component.HstRequest;
 import org.hippoecm.hst.core.component.HstResponse;
@@ -42,6 +43,8 @@ public class LandDetail extends BaseSecuredComponent {
             Node poolNode = requestContext.getSiteContentBaseBean().getNode().getNode("worlddata/pool");
 
             HstQuery query = requestContext.getQueryManager().createQuery(poolNode, Pop.class);
+
+            query.addOrderByDescending("skill-" + land.getRecipeDescriptor().getSkill());
 
             query.setLimit(10);
 

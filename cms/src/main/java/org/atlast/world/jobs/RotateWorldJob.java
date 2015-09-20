@@ -104,6 +104,7 @@ public class RotateWorldJob implements RepositoryJob {
 
             pop.consume(worldMarket, pop.getPlayer().getStores());
 
+            pop.forget();
         }
     }
 

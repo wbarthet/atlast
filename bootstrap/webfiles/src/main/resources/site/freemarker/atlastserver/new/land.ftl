@@ -112,7 +112,7 @@
             <input type="hidden" value="${pop.uuid}" name="uuid">
             <input type="hidden" value="fire" name="action">
             <img align="left" style="margin-right: 1em;" class="pop-icon" src="<@hst.link path="binaries/content/gallery/atlastserver/img/lower.png"/>">
-            ${pop.name} | Lumberjack: 45%
+            ${pop.name} | ${land.recipeDescriptor.skill?cap_first}: ${pop.getSkill(land.recipeDescriptor.skill)?floor}%
             <input align="right" class="button round button-small" type="submit" value=">">
           </form>
         </div>
@@ -130,7 +130,7 @@
               <input type="hidden" value="${pop.uuid}" name="uuid">
               <input type="hidden" value="hire" name="action">
               <input align="left" style="margin-left: 1em;" class="button round button-small" type="submit" value="<">
-              ${pop.name} | Lumberjack: 0%
+              ${pop.name} | ${land.recipeDescriptor.skill?cap_first}: ${pop.getSkill(land.recipeDescriptor.skill)?floor}%
               <img align="right" style="background-color: #66afe9;" class="pop-icon" src="<@hst.link path="binaries/content/gallery/atlastserver/img/lower.png"/>">
             </form>
           </div>

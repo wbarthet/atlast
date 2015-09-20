@@ -8,6 +8,10 @@ import javax.jcr.Node;
 import javax.jcr.NodeIterator;
 import javax.jcr.RepositoryException;
 import javax.jcr.Value;
+import javax.jcr.ValueFormatException;
+import javax.jcr.lock.LockException;
+import javax.jcr.nodetype.ConstraintViolationException;
+import javax.jcr.version.VersionException;
 
 import org.hippoecm.hst.content.beans.ObjectBeanManagerException;
 import org.hippoecm.hst.content.beans.standard.HippoBean;
@@ -119,6 +123,10 @@ public class AtlastObject {
 
     protected void setStringProperty(final String propertyName, final String value) throws RepositoryException {
         getNode().setProperty(propertyName, value);
+    }
+
+    public void setStringListProperty(final String propertyName, final List<String> strings) throws RepositoryException {
+        getNode().setProperty(propertyName, strings.toArray(new String[]{}));
     }
 
 }

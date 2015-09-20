@@ -11,7 +11,7 @@ import javax.jcr.RepositoryException;
 public class Store extends AtlastObject {
 
 
-    private static final double MARKET_INERTIA = 100;
+    private static final double MARKET_INERTIA = 10;
 
     public Store(Node node) throws RepositoryException {
         super(node);

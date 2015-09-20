@@ -57,6 +57,7 @@ public class LandsService {
                 RecipeDescriptor recipeDescriptor = (RecipeDescriptor) requestContext.getContentBeansTool().getObjectConverter().getObject(session.getNodeByIdentifier(recipeUuid));
 
                 landNode.setProperty("atlast:recipedescriptor", recipeUuid);
+                landNode.setProperty("atlast:skill", recipeDescriptor.getSkill());
 
                 final List<Amount> inputDescriptors = recipeDescriptor.getInputs();
                 final int inputsSize = inputDescriptors.size();

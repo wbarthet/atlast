@@ -23,6 +23,9 @@ public class Development extends AtlastObject {
         return getLongProperty("atlast:labour");
     }
 
+    public String getSkill() {
+        return getStringProperty("atlast:skill");
+    }
 
     public List<String> getInputs() {
         return getStringListProperty("atlast:inputs");
@@ -35,6 +38,7 @@ public class Development extends AtlastObject {
     public double getWages() {
         return getDoubleProperty("atlast:wages");
     }
+
 
     public Player getPlayer() {
         try {
@@ -51,6 +55,7 @@ public class Development extends AtlastObject {
         List<Pop> pops = getPops();
 
         final long labour = getLabour();
+        String skill = getSkill();
         Player player = getPlayer();
         Market market = player.getStores();
         if (pops.size() >= labour) {
@@ -64,6 +69,7 @@ public class Development extends AtlastObject {
                 final double wages = getWages();
                 player.pay(wages);
                 pop.getPaid(wages);
+                pop.learn(skill);
             }
         }
     }

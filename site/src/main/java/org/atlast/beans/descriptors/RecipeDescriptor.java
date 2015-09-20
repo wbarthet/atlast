@@ -42,5 +42,8 @@ public class RecipeDescriptor extends BaseDocument {
         return getChildBeansByName("atlast:outputs", Amount.class);
     }
 
+    public String getSkill() {
+        return getProperty("atlast:skill");
+    }
 }
 
