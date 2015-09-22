@@ -114,10 +114,12 @@ public class LandsService {
 
         landNode.removeMixin("atlast:development");
 
+        Node poolNode = requestContext.getSiteContentBaseBean().getNode().getNode("worlddata/pool");
+
         NodeIterator popNodes = landNode.getNodes();
         while (popNodes.hasNext()) {
             Node popNode = popNodes.nextNode();
-            session.move(popNode.getPath(), landNode.getParent().getNode("pool").getPath() + "/" + popNode.getName());
+            session.move(popNode.getPath(), poolNode.getPath() + "/" + popNode.getName());
         }
 
         landNode.setProperty("atlast:developmentdescriptor", "empty");

@@ -74,9 +74,11 @@ public class Land extends AtlastObject {
         for (Amount output : amountList) {
             Double amount = Double.valueOf(output.getQuantity() / amountList.size());
 
-            amount += getPops().size() * 2 * getSkillLevel(getRecipeDescriptor().getSkill()) / 100;
+            amount += 2 * getSkillLevel(getRecipeDescriptor().getSkill()) / 100;
+            amount *= getPops().size() / getRecipeDescriptor().getLabour();
             outputs.put(output.getResourceDescriptor().getName(), amount);
         }
+
 
 
         return outputs;

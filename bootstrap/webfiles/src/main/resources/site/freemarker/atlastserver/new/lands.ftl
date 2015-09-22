@@ -1,6 +1,7 @@
 <#include "../../include/imports.ftl">
 <#-- @ftlvariable name="lands" type="java.util.List<org.atlast.beans.Land>" -->
 
+<#-- @ftlvariable name="worldMarket" type="org.atlast.beans.Market" -->
 
 <div class="section-headline">
   <div class="row">
@@ -46,21 +47,36 @@
 
                     <p>
                         <#if land.recipeDescriptor??>
-                            <#if land.recipeDescriptor.inputs?has_content>
-                              IN: ${land.pops?size} x
-                                <#list land.recipeDescriptor.inputs as input>
-                                  <img class="resource-icon" src="<@hst.link hippobean=input.resourceDescriptor.icon.smallicon/>"/>
-                                </#list>
+                            <#if land.pops?has_content>
 
-                            </#if>
+                              <p>
+                                Skill level ${land.getSkillLevel(land.recipeDescriptor.skill)}% | Tech level: 43% | Land exhaustion: 67%
+                              </p>
+                              <p>
+                                  <#assign pnl=0.00/>
+                                  <#if land.recipeDescriptor.inputs?has_content>
+                                    Input:
+                                      <#list land.recipeDescriptor.inputs as input>
+                                          <#assign inputCount = input.quantity * land.pops?size / land.recipeDescriptor.labour/>
+                                      ${inputCount} x ${input.resourceDescriptor.name}
+                                        <img class="resource-icon" src="<@hst.link hippobean=input.resourceDescriptor.icon.smallicon/>"/>
+                                          <#assign pnl=pnl-inputCount * worldMarket.getStore(input.resourceDescriptor.category?lower_case).getResourceLevel(input.resourceDescriptor.name?lower_case)?double/>
+                                      </#list>
+                                    |</#if>
+                                  <#assign pnl = pnl - (land.wages * land.pops?size)/>
 
-                            <#if land.recipeDescriptor.outputs?has_content>
-                              OUT: 7 x
-                                <#list land.recipeDescriptor.outputs as output>
-                                  <img class="resource-icon" src="<@hst.link hippobean=output.resourceDescriptor.icon.smallicon/>"/>
-                                </#list>
-
-                              ($123.45)
+                                  <#if land.recipeDescriptor.outputs?has_content>
+                                    Output:
+                                      <#list land.recipeDescriptor.outputs as output>
+                                      ${output.resourceDescriptor.name} x ${land.outputs[output.resourceDescriptor.name]}
+                                      <#-- ${land.getOutputs().get(output.name)} x ${output.name}-->
+                                        <img class="resource-icon" src="<@hst.link hippobean=output.resourceDescriptor.icon.smallicon/>"/>
+                                          <#assign pnl=pnl + land.outputs[output.resourceDescriptor.name] * worldMarket.getStore(output.resourceDescriptor.category?lower_case).getResourceLevel(output.resourceDescriptor.name?lower_case) />
+                                      </#list>
+                                  </#if>
+                                |
+                              ${pnl?string.currency}
+                              </p>
                             </#if>
 
                         </#if>

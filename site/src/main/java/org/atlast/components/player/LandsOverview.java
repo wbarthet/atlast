@@ -6,6 +6,7 @@ import org.atlast.components.world.BaseSecuredComponent;
 import org.hippoecm.hst.core.component.HstComponentException;
 import org.hippoecm.hst.core.component.HstRequest;
 import org.hippoecm.hst.core.component.HstResponse;
+import org.hippoecm.hst.core.request.HstRequestContext;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -21,10 +22,14 @@ public class LandsOverview extends BaseSecuredComponent {
 
         super.doBeforeRender(request, response);
 
-        Player player = request.getRequestContext().getContentBean(Player.class);
+        HstRequestContext requestContext = request.getRequestContext();
+        Player player = requestContext.getContentBean(Player.class);
 
         request.setAttribute("lands", player.getLands());
 
+        Market worldMarket = requestContext.getSiteContentBaseBean().getBean("worlddata/market");
+
+        request.setAttribute("worldMarket", worldMarket);
 
     }
 }

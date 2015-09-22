@@ -25,6 +25,10 @@ public class ResourceDescriptor extends BaseDocument {
     public String getName() {
         return getProperty("atlast:name");
     }
+
+    public String getCategory() {
+        return getParentBean().getName();
+    }
     
     public Atlastimageset getIcon() {
         return getLinkedBean("atlast:icon", Atlastimageset.class);

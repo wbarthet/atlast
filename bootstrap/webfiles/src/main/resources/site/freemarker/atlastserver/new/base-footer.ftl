@@ -13,11 +13,7 @@
         <!--  ************************************************************************************ -->
 
       </ul>
-      <div class="social-icons">
-        <div class="footer-badge">
-          <a href="index.html"><img src="img/footer-badge@2x.png" width="57" height="57" alt="Home"/></a>
-        </div>
-      </div>
+
     </div>
   </div>
 </footer>

@@ -4,6 +4,7 @@ import javax.jcr.Node;
 import javax.jcr.RepositoryException;
 
 import org.atlast.beans.Land;
+import org.atlast.beans.Market;
 import org.atlast.beans.Pop;
 import org.atlast.components.world.BaseSecuredComponent;
 import org.atlast.services.LandsService;
@@ -38,6 +39,10 @@ public class LandDetail extends BaseSecuredComponent {
         Land land = requestContext.getContentBean(Land.class);
 
         request.setAttribute("land", land);
+
+        Market worldMarket = requestContext.getSiteContentBaseBean().getBean("worlddata/market");
+
+        request.setAttribute("worldMarket", worldMarket);
 
         try {
             Node poolNode = requestContext.getSiteContentBaseBean().getNode().getNode("worlddata/pool");

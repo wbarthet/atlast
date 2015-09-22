@@ -424,7 +424,7 @@
           <sv:value>2015-07-13T18:57:37.157-04:00</sv:value>
         </sv:property>
         <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
-          <sv:value>2015-09-15T20:13:27.864-04:00</sv:value>
+          <sv:value>2015-09-22T19:16:58.691-04:00</sv:value>
         </sv:property>
         <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
           <sv:value>admin</sv:value>
@@ -500,7 +500,7 @@
           <sv:value>2015-07-13T18:57:37.157-04:00</sv:value>
         </sv:property>
         <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
-          <sv:value>2015-09-15T20:13:31.025-04:00</sv:value>
+          <sv:value>2015-09-22T19:17:01.070-04:00</sv:value>
         </sv:property>
         <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
           <sv:value>admin</sv:value>
@@ -576,13 +576,13 @@
           <sv:value>2015-07-13T18:57:37.157-04:00</sv:value>
         </sv:property>
         <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
-          <sv:value>2015-09-15T20:13:31.025-04:00</sv:value>
+          <sv:value>2015-09-22T19:17:01.070-04:00</sv:value>
         </sv:property>
         <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
           <sv:value>admin</sv:value>
         </sv:property>
         <sv:property sv:name="hippostdpubwf:publicationDate" sv:type="Date">
-          <sv:value>2015-09-21T21:19:28.733-04:00</sv:value>
+          <sv:value>2015-09-22T19:17:03.238-04:00</sv:value>
         </sv:property>
         <sv:property sv:name="hippotranslation:id" sv:type="String">
           <sv:value>bd6f5b02-31fc-485a-bf36-a7163e5b1255</sv:value>
@@ -666,7 +666,7 @@
           <sv:value>2015-07-22T16:50:31.331-04:00</sv:value>
         </sv:property>
         <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
-          <sv:value>2015-09-15T20:13:32.822-04:00</sv:value>
+          <sv:value>2015-09-22T19:16:47.927-04:00</sv:value>
         </sv:property>
         <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
           <sv:value>admin</sv:value>
@@ -753,7 +753,7 @@
           <sv:value>2015-07-22T16:50:31.331-04:00</sv:value>
         </sv:property>
         <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
-          <sv:value>2015-09-15T20:13:35.423-04:00</sv:value>
+          <sv:value>2015-09-22T19:16:50.521-04:00</sv:value>
         </sv:property>
         <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
           <sv:value>admin</sv:value>
@@ -829,13 +829,13 @@
           <sv:value>2015-07-22T16:50:31.331-04:00</sv:value>
         </sv:property>
         <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
-          <sv:value>2015-09-15T20:13:35.423-04:00</sv:value>
+          <sv:value>2015-09-22T19:16:50.521-04:00</sv:value>
         </sv:property>
         <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
           <sv:value>admin</sv:value>
         </sv:property>
         <sv:property sv:name="hippostdpubwf:publicationDate" sv:type="Date">
-          <sv:value>2015-09-21T21:19:31.408-04:00</sv:value>
+          <sv:value>2015-09-22T19:16:53.162-04:00</sv:value>
         </sv:property>
         <sv:property sv:name="hippotranslation:id" sv:type="String">
           <sv:value>b9cd603f-6e8e-496c-815e-31d4573d2228</sv:value>
@@ -919,7 +919,7 @@
           <sv:value>2015-07-22T16:51:54.180-04:00</sv:value>
         </sv:property>
         <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
-          <sv:value>2015-09-15T20:14:06.290-04:00</sv:value>
+          <sv:value>2015-09-22T19:14:25.700-04:00</sv:value>
         </sv:property>
         <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
           <sv:value>admin</sv:value>
@@ -1569,7 +1569,7 @@
           <sv:value>2015-07-22T17:56:19.337-04:00</sv:value>
         </sv:property>
         <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
-          <sv:value>2015-09-15T20:14:22.375-04:00</sv:value>
+          <sv:value>2015-09-22T19:16:16.599-04:00</sv:value>
         </sv:property>
         <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
           <sv:value>admin</sv:value>
@@ -1680,7 +1680,7 @@
           <sv:value>2015-07-22T17:56:19.337-04:00</sv:value>
         </sv:property>
         <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
-          <sv:value>2015-09-15T20:14:27.138-04:00</sv:value>
+          <sv:value>2015-09-22T19:16:22.350-04:00</sv:value>
         </sv:property>
         <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
           <sv:value>admin</sv:value>
@@ -1780,13 +1780,13 @@
           <sv:value>2015-07-22T17:56:19.337-04:00</sv:value>
         </sv:property>
         <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
-          <sv:value>2015-09-15T20:14:27.138-04:00</sv:value>
+          <sv:value>2015-09-22T19:16:22.350-04:00</sv:value>
         </sv:property>
         <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
           <sv:value>admin</sv:value>
         </sv:property>
         <sv:property sv:name="hippostdpubwf:publicationDate" sv:type="Date">
-          <sv:value>2015-09-21T21:19:38.508-04:00</sv:value>
+          <sv:value>2015-09-22T19:16:24.783-04:00</sv:value>
         </sv:property>
         <sv:property sv:name="hippotranslation:id" sv:type="String">
           <sv:value>b0569312-5145-46ad-bc58-b2a84f8f2cf2</sv:value>
@@ -5325,7 +5325,7 @@
           <sv:value>2015-07-22T19:45:12.291-04:00</sv:value>
         </sv:property>
         <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
-          <sv:value>2015-09-15T20:15:59.973-04:00</sv:value>
+          <sv:value>2015-09-22T19:46:29.137-04:00</sv:value>
         </sv:property>
         <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
           <sv:value>admin</sv:value>
@@ -5338,7 +5338,7 @@
         </sv:property>
         <sv:property sv:name="inputs" sv:type="String" sv:multiple="true"/>
         <sv:property sv:name="output-food-fruit" sv:type="Long">
-          <sv:value>0</sv:value>
+          <sv:value>4</sv:value>
         </sv:property>
         <sv:property sv:name="output-fruit" sv:type="Long">
           <sv:value>0</sv:value>
@@ -5351,7 +5351,7 @@
             <sv:value>atlast:amount</sv:value>
           </sv:property>
           <sv:property sv:name="atlast:quantity" sv:type="Long">
-            <sv:value>0</sv:value>
+            <sv:value>4</sv:value>
           </sv:property>
           <sv:node sv:name="atlast:resource">
             <sv:property sv:name="jcr:primaryType" sv:type="Name">
@@ -5412,7 +5412,7 @@
           <sv:value>2015-07-22T19:45:12.291-04:00</sv:value>
         </sv:property>
         <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
-          <sv:value>2015-09-15T20:16:06.001-04:00</sv:value>
+          <sv:value>2015-09-22T19:46:33.995-04:00</sv:value>
         </sv:property>
         <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
           <sv:value>admin</sv:value>
@@ -5425,7 +5425,7 @@
         </sv:property>
         <sv:property sv:name="inputs" sv:type="String" sv:multiple="true"/>
         <sv:property sv:name="output-food-fruit" sv:type="Long">
-          <sv:value>0</sv:value>
+          <sv:value>4</sv:value>
         </sv:property>
         <sv:property sv:name="output-fruit" sv:type="Long">
           <sv:value>0</sv:value>
@@ -5438,7 +5438,7 @@
             <sv:value>atlast:amount</sv:value>
           </sv:property>
           <sv:property sv:name="atlast:quantity" sv:type="Long">
-            <sv:value>0</sv:value>
+            <sv:value>4</sv:value>
           </sv:property>
           <sv:node sv:name="atlast:resource">
             <sv:property sv:name="jcr:primaryType" sv:type="Name">
@@ -5488,13 +5488,13 @@
           <sv:value>2015-07-22T19:45:12.291-04:00</sv:value>
         </sv:property>
         <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
-          <sv:value>2015-09-15T20:16:06.001-04:00</sv:value>
+          <sv:value>2015-09-22T19:46:33.995-04:00</sv:value>
         </sv:property>
         <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
           <sv:value>admin</sv:value>
         </sv:property>
         <sv:property sv:name="hippostdpubwf:publicationDate" sv:type="Date">
-          <sv:value>2015-09-21T21:19:37.484-04:00</sv:value>
+          <sv:value>2015-09-22T19:46:35.619-04:00</sv:value>
         </sv:property>
         <sv:property sv:name="hippotranslation:id" sv:type="String">
           <sv:value>8ee999ec-8491-45b4-8985-b6f70c8ea50c</sv:value>
@@ -5504,7 +5504,7 @@
         </sv:property>
         <sv:property sv:name="inputs" sv:type="String" sv:multiple="true"/>
         <sv:property sv:name="output-food-fruit" sv:type="Long">
-          <sv:value>0</sv:value>
+          <sv:value>4</sv:value>
         </sv:property>
         <sv:property sv:name="output-fruit" sv:type="Long">
           <sv:value>0</sv:value>
@@ -5517,7 +5517,7 @@
             <sv:value>atlast:amount</sv:value>
           </sv:property>
           <sv:property sv:name="atlast:quantity" sv:type="Long">
-            <sv:value>0</sv:value>
+            <sv:value>4</sv:value>
           </sv:property>
           <sv:node sv:name="atlast:resource">
             <sv:property sv:name="jcr:primaryType" sv:type="Name">
@@ -7153,7 +7153,7 @@
           <sv:value>2015-07-22T18:28:26.721-04:00</sv:value>
         </sv:property>
         <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
-          <sv:value>2015-09-15T20:17:16.031-04:00</sv:value>
+          <sv:value>2015-09-22T19:16:29.039-04:00</sv:value>
         </sv:property>
         <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
           <sv:value>admin</sv:value>
@@ -8056,7 +8056,7 @@
           <sv:value>2015-07-22T18:33:22.412-04:00</sv:value>
         </sv:property>
         <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
-          <sv:value>2015-09-15T20:17:31.534-04:00</sv:value>
+          <sv:value>2015-09-22T19:17:16.113-04:00</sv:value>
         </sv:property>
         <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
           <sv:value>admin</sv:value>
@@ -8167,7 +8167,7 @@
           <sv:value>2015-07-22T18:33:22.412-04:00</sv:value>
         </sv:property>
         <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
-          <sv:value>2015-09-15T20:17:35.424-04:00</sv:value>
+          <sv:value>2015-09-22T19:17:29.281-04:00</sv:value>
         </sv:property>
         <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
           <sv:value>admin</sv:value>
@@ -8267,13 +8267,13 @@
           <sv:value>2015-07-22T18:33:22.412-04:00</sv:value>
         </sv:property>
         <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
-          <sv:value>2015-09-15T20:17:35.424-04:00</sv:value>
+          <sv:value>2015-09-22T19:17:29.281-04:00</sv:value>
         </sv:property>
         <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
           <sv:value>admin</sv:value>
         </sv:property>
         <sv:property sv:name="hippostdpubwf:publicationDate" sv:type="Date">
-          <sv:value>2015-09-21T21:19:35.248-04:00</sv:value>
+          <sv:value>2015-09-22T19:17:32.425-04:00</sv:value>
         </sv:property>
         <sv:property sv:name="hippotranslation:id" sv:type="String">
           <sv:value>fc374c32-64a9-4fa2-be36-e5b28af2321c</sv:value>

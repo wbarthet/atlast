@@ -71,6 +71,9 @@
       <sv:property sv:name="hst:componentconfigurationid" sv:type="String">
         <sv:value>hst:pages/lands-overview</sv:value>
       </sv:property>
+      <sv:property sv:name="hst:refId" sv:type="String">
+        <sv:value>lands</sv:value>
+      </sv:property>
       <sv:property sv:name="hst:relativecontentpath" sv:type="String">
         <sv:value>playerdata/${1}</sv:value>
       </sv:property>
