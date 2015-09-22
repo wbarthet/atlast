@@ -1,6 +1,7 @@
 package org.atlast.world.model;
 
 import java.util.List;
+import java.util.Map;
 
 import javax.jcr.Node;
 import javax.jcr.RepositoryException;
@@ -35,6 +36,10 @@ public class Development extends AtlastObject {
         return getStringListProperty("atlast:outputs");
     }
 
+    public Recipe getRecipe() throws RepositoryException {
+        return new Recipe(getNode().getSession(), getStringProperty("atlast:recipedescriptor"));
+    }
+
     public double getWages() {
         return getDoubleProperty("atlast:wages");
     }
@@ -55,21 +60,45 @@ public class Development extends AtlastObject {
         List<Pop> pops = getPops();
 
         final long labour = getLabour();
-        String skill = getSkill();
+        String skillName = getSkill();
         Player player = getPlayer();
         Market market = player.getStores();
+
+        Recipe recipe = getRecipe();
+
+        Map<String, Double> inputs = recipe.getInputs();
+        Map<String, Double> outputs = recipe.getOutputs();
+
+        double skill = 0;
+
+        for (Pop pop : pops) {
+            skill += pop.getDoubleProperty("skill-"+skillName);
+        }
+
+        skill = skill / pops.size();
+
         if (pops.size() >= labour) {
-            for (int i = 0; i < labour; i += labour) {
-                if (market.hasItems(getInputs())) {
-                    market.takeItems(getInputs());
-                    market.addItems(getOutputs());
+            for (int i = 0; i < pops.size(); i += labour) {
+
+                if (market.hasItems(inputs)) {
+                    market.takeItems(inputs);
+
+                    for (String output : outputs.keySet()) {
+                        Double amount = outputs.get(output) / outputs.size();
+
+                        amount += 2 * skill / 100;
+                        outputs.put(output, amount);
+                    }
+
+
+                    market.addItems(outputs);
                 }
             }
             for (Pop pop : pops) {
                 final double wages = getWages();
                 player.pay(wages);
                 pop.getPaid(wages);
-                pop.learn(skill);
+                pop.learn(skillName);
             }
         }
     }

@@ -2,6 +2,7 @@ package org.atlast.world.model;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Map;
 
 import javax.jcr.Node;
 import javax.jcr.RepositoryException;
@@ -16,16 +17,13 @@ public class Market extends AtlastObject {
         super(node);
     }
 
-    public boolean hasItems(final List<String> items) throws RepositoryException {
+    public boolean hasItems(final Map<String, Double> itemsMap) throws RepositoryException {
         boolean hasItems = true;
-        for (String item : items) {
+        for (String item : itemsMap.keySet()) {
             if (item.contains("-")) {
                 String storeName = item.split("-")[0];
                 String itemName = item.split("-")[1];
-                Double qty = 0.0;
-                if (item.contains("-")) {
-                    qty = Double.parseDouble(item.split("-")[2]);
-                }
+                Double qty = itemsMap.get(item);
 
                 Store store = getStore(storeName);
                 if (store != null) {
@@ -62,15 +60,12 @@ public class Market extends AtlastObject {
         return getChildNodes(Store.class);
     }
 
-    public void takeItems(final List<String> items) throws RepositoryException {
-        for (String item : items) {
+    public void takeItems(final Map<String, Double> itemsMap) throws RepositoryException {
+        for (String item : itemsMap.keySet()) {
             if (item.contains("-")) {
                 String storeName = item.split("-")[0];
                 String itemName = item.split("-")[1];
-                Double qty = 0.0;
-                if (item.contains("-")) {
-                    qty = Double.parseDouble(item.split("-")[2]);
-                }
+                Double qty = itemsMap.get(item);
 
                 Store store = getStore(storeName);
                 if (store != null) {
@@ -80,15 +75,12 @@ public class Market extends AtlastObject {
         }
     }
 
-    public void addItems(final List<String> items) throws RepositoryException {
-        for (String item : items) {
+    public void addItems(final Map<String, Double> itemsMap) throws RepositoryException {
+        for (String item : itemsMap.keySet()) {
             if (item.contains("-")) {
                 String storeName = item.split("-")[0];
                 String itemName = item.split("-")[1];
-                Double qty = 0.0;
-                if (item.contains("-")) {
-                    qty = Double.parseDouble(item.split("-")[2]);
-                }
+                Double qty = itemsMap.get(item);
 
                 Store store = getStore(storeName);
                 if (store != null) {
