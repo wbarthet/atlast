@@ -14026,7 +14026,7 @@
         </sv:node>
       </sv:node>
     </sv:node>
-    <sv:node sv:name="grow-incense">
+    <sv:node sv:name="grow-spices">
       <sv:property sv:name="jcr:primaryType" sv:type="Name">
         <sv:value>hippo:handle</sv:value>
       </sv:property>
@@ -14037,7 +14037,7 @@
       <sv:property sv:name="jcr:uuid" sv:type="String">
         <sv:value>0b06c265-e695-4f9f-869c-dede2441e311</sv:value>
       </sv:property>
-      <sv:node sv:name="grow-incense">
+      <sv:node sv:name="grow-spices">
         <sv:property sv:name="jcr:primaryType" sv:type="Name">
           <sv:value>atlast:recipedescriptor</sv:value>
         </sv:property>
@@ -14051,15 +14051,15 @@
           <sv:value>2</sv:value>
         </sv:property>
         <sv:property sv:name="atlast:name" sv:type="String">
-          <sv:value>Grow Incense</sv:value>
+          <sv:value>Grow Spices</sv:value>
         </sv:property>
         <sv:property sv:name="atlast:skill" sv:type="String">
           <sv:value>cultivator</sv:value>
         </sv:property>
         <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true"/>
         <sv:property sv:name="hippo:related___pathreference" sv:type="String">
-          <sv:value>recipes/luxuries/grow-incense/grow-incense[2]</sv:value>
-          <sv:value>recipes/luxuries/grow-incense/grow-incense[3]</sv:value>
+          <sv:value>recipes/luxuries/grow-spices/grow-spices[2]</sv:value>
+          <sv:value>recipes/luxuries/grow-spices/grow-spices[3]</sv:value>
         </sv:property>
         <sv:property sv:name="hippostd:state" sv:type="String">
           <sv:value>draft</sv:value>
@@ -14086,14 +14086,14 @@
           <sv:value>en</sv:value>
         </sv:property>
         <sv:property sv:name="inputs" sv:type="String" sv:multiple="true"/>
-        <sv:property sv:name="output-incense" sv:type="Long">
+        <sv:property sv:name="output-spices" sv:type="Long">
           <sv:value>4</sv:value>
         </sv:property>
-        <sv:property sv:name="output-luxuries-incense" sv:type="Long">
+        <sv:property sv:name="output-luxuries-spices" sv:type="Long">
           <sv:value>4</sv:value>
         </sv:property>
         <sv:property sv:name="outputs" sv:type="String" sv:multiple="true">
-          <sv:value>luxuries-incense</sv:value>
+          <sv:value>luxuries-spices</sv:value>
         </sv:property>
         <sv:node sv:name="atlast:outputs">
           <sv:property sv:name="jcr:primaryType" sv:type="Name">
@@ -14120,10 +14120,10 @@
           <sv:value/>
         </sv:property>
         <sv:property sv:name="hippo:message" sv:type="String">
-          <sv:value>Grow Incense</sv:value>
+          <sv:value>Grow Spices</sv:value>
         </sv:property>
       </sv:node>
-      <sv:node sv:name="grow-incense">
+      <sv:node sv:name="grow-spices">
         <sv:property sv:name="jcr:primaryType" sv:type="Name">
           <sv:value>atlast:recipedescriptor</sv:value>
         </sv:property>
@@ -14137,7 +14137,7 @@
           <sv:value>2</sv:value>
         </sv:property>
         <sv:property sv:name="atlast:name" sv:type="String">
-          <sv:value>Grow Incense</sv:value>
+          <sv:value>Grow Spices</sv:value>
         </sv:property>
         <sv:property sv:name="atlast:skill" sv:type="String">
           <sv:value>cultivator</sv:value>
@@ -14146,7 +14146,7 @@
           <sv:value>preview</sv:value>
         </sv:property>
         <sv:property sv:name="hippo:related___pathreference" sv:type="String">
-          <sv:value>recipes/luxuries/grow-incense/grow-incense[3]</sv:value>
+          <sv:value>recipes/luxuries/grow-spices/grow-spices[3]</sv:value>
         </sv:property>
         <sv:property sv:name="hippostd:state" sv:type="String">
           <sv:value>unpublished</sv:value>
@@ -14173,14 +14173,14 @@
           <sv:value>en</sv:value>
         </sv:property>
         <sv:property sv:name="inputs" sv:type="String" sv:multiple="true"/>
-        <sv:property sv:name="output-incense" sv:type="Long">
+        <sv:property sv:name="output-spices" sv:type="Long">
           <sv:value>4</sv:value>
         </sv:property>
-        <sv:property sv:name="output-luxuries-incense" sv:type="Long">
+        <sv:property sv:name="output-luxuries-spices" sv:type="Long">
           <sv:value>4</sv:value>
         </sv:property>
         <sv:property sv:name="outputs" sv:type="String" sv:multiple="true">
-          <sv:value>luxuries-incense</sv:value>
+          <sv:value>luxuries-spices</sv:value>
         </sv:property>
         <sv:node sv:name="atlast:outputs">
           <sv:property sv:name="jcr:primaryType" sv:type="Name">
@@ -14199,7 +14199,7 @@
           </sv:node>
         </sv:node>
       </sv:node>
-      <sv:node sv:name="grow-incense">
+      <sv:node sv:name="grow-spices">
         <sv:property sv:name="jcr:primaryType" sv:type="Name">
           <sv:value>atlast:recipedescriptor</sv:value>
         </sv:property>
@@ -14213,7 +14213,7 @@
           <sv:value>2</sv:value>
         </sv:property>
         <sv:property sv:name="atlast:name" sv:type="String">
-          <sv:value>Grow Incense</sv:value>
+          <sv:value>Grow Spices</sv:value>
         </sv:property>
         <sv:property sv:name="atlast:skill" sv:type="String">
           <sv:value>cultivator</sv:value>
@@ -14222,7 +14222,7 @@
           <sv:value>live</sv:value>
         </sv:property>
         <sv:property sv:name="hippo:related___pathreference" sv:type="String">
-          <sv:value>recipes/luxuries/grow-incense/grow-incense[2]</sv:value>
+          <sv:value>recipes/luxuries/grow-spices/grow-spices[2]</sv:value>
         </sv:property>
         <sv:property sv:name="hippostd:state" sv:type="String">
           <sv:value>published</sv:value>
@@ -14252,14 +14252,14 @@
           <sv:value>en</sv:value>
         </sv:property>
         <sv:property sv:name="inputs" sv:type="String" sv:multiple="true"/>
-        <sv:property sv:name="output-incense" sv:type="Long">
+        <sv:property sv:name="output-spices" sv:type="Long">
           <sv:value>4</sv:value>
         </sv:property>
-        <sv:property sv:name="output-luxuries-incense" sv:type="Long">
+        <sv:property sv:name="output-luxuries-spices" sv:type="Long">
           <sv:value>4</sv:value>
         </sv:property>
         <sv:property sv:name="outputs" sv:type="String" sv:multiple="true">
-          <sv:value>luxuries-incense</sv:value>
+          <sv:value>luxuries-spices</sv:value>
         </sv:property>
         <sv:node sv:name="atlast:outputs">
           <sv:property sv:name="jcr:primaryType" sv:type="Name">

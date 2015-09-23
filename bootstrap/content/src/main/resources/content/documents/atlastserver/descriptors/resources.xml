@@ -5606,7 +5606,7 @@
         </sv:node>
       </sv:node>
     </sv:node>
-    <sv:node sv:name="incense">
+    <sv:node sv:name="spices">
       <sv:property sv:name="jcr:primaryType" sv:type="Name">
         <sv:value>hippo:handle</sv:value>
       </sv:property>
@@ -5617,7 +5617,7 @@
       <sv:property sv:name="jcr:uuid" sv:type="String">
         <sv:value>54cc3196-5a48-41ee-b722-fded5ebf1543</sv:value>
       </sv:property>
-      <sv:node sv:name="incense">
+      <sv:node sv:name="spices">
         <sv:property sv:name="jcr:primaryType" sv:type="Name">
           <sv:value>atlast:resourcedescriptor</sv:value>
         </sv:property>
@@ -5628,12 +5628,12 @@
           <sv:value>32e01644-dbfe-4ca9-9392-aebc3ced46cb</sv:value>
         </sv:property>
         <sv:property sv:name="atlast:name" sv:type="String">
-          <sv:value>Incense</sv:value>
+          <sv:value>Spices</sv:value>
         </sv:property>
         <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true"/>
         <sv:property sv:name="hippo:related___pathreference" sv:type="String">
-          <sv:value>resources/luxuries/incense/incense[3]</sv:value>
-          <sv:value>resources/luxuries/incense/incense[2]</sv:value>
+          <sv:value>resources/luxuries/spices/spices[3]</sv:value>
+          <sv:value>resources/luxuries/spices/spices[2]</sv:value>
         </sv:property>
         <sv:property sv:name="hippostd:state" sv:type="String">
           <sv:value>draft</sv:value>
@@ -5648,7 +5648,7 @@
           <sv:value>2015-07-22T16:15:09.856-04:00</sv:value>
         </sv:property>
         <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
-          <sv:value>2015-09-05T16:45:19.163-04:00</sv:value>
+          <sv:value>2015-09-23T19:28:50.716-04:00</sv:value>
         </sv:property>
         <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
           <sv:value>admin</sv:value>
@@ -5664,7 +5664,7 @@
             <sv:value>hippogallerypicker:imagelink</sv:value>
           </sv:property>
           <sv:property sv:name="hippo:docbase" sv:type="String">
-            <sv:value>aae68614-7784-4f9a-9149-b105bcad77d1</sv:value>
+            <sv:value>779b8aeb-938e-47e4-bfe9-d5986cd661a5</sv:value>
           </sv:property>
           <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
           <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
@@ -5679,10 +5679,10 @@
           <sv:value/>
         </sv:property>
         <sv:property sv:name="hippo:message" sv:type="String">
-          <sv:value>Incense</sv:value>
+          <sv:value>Spices</sv:value>
         </sv:property>
       </sv:node>
-      <sv:node sv:name="incense">
+      <sv:node sv:name="spices">
         <sv:property sv:name="jcr:primaryType" sv:type="Name">
           <sv:value>atlast:resourcedescriptor</sv:value>
         </sv:property>
@@ -5693,13 +5693,13 @@
           <sv:value>d672d961-b3b0-43a0-af68-a5ce19e68b20</sv:value>
         </sv:property>
         <sv:property sv:name="atlast:name" sv:type="String">
-          <sv:value>Incense</sv:value>
+          <sv:value>Spices</sv:value>
         </sv:property>
         <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
           <sv:value>preview</sv:value>
         </sv:property>
         <sv:property sv:name="hippo:related___pathreference" sv:type="String">
-          <sv:value>resources/luxuries/incense/incense[3]</sv:value>
+          <sv:value>resources/luxuries/spices/spices[3]</sv:value>
         </sv:property>
         <sv:property sv:name="hippostd:state" sv:type="String">
           <sv:value>unpublished</sv:value>
@@ -5714,7 +5714,7 @@
           <sv:value>2015-07-22T16:15:09.856-04:00</sv:value>
         </sv:property>
         <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
-          <sv:value>2015-09-05T16:46:49.647-04:00</sv:value>
+          <sv:value>2015-09-23T19:29:03.830-04:00</sv:value>
         </sv:property>
         <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
           <sv:value>admin</sv:value>
@@ -5730,14 +5730,14 @@
             <sv:value>hippogallerypicker:imagelink</sv:value>
           </sv:property>
           <sv:property sv:name="hippo:docbase" sv:type="String">
-            <sv:value>aae68614-7784-4f9a-9149-b105bcad77d1</sv:value>
+            <sv:value>779b8aeb-938e-47e4-bfe9-d5986cd661a5</sv:value>
           </sv:property>
           <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
           <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
           <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
         </sv:node>
       </sv:node>
-      <sv:node sv:name="incense">
+      <sv:node sv:name="spices">
         <sv:property sv:name="jcr:primaryType" sv:type="Name">
           <sv:value>atlast:resourcedescriptor</sv:value>
         </sv:property>
@@ -5748,13 +5748,13 @@
           <sv:value>bcd32093-aa9f-449f-aa20-5c7dcd639a82</sv:value>
         </sv:property>
         <sv:property sv:name="atlast:name" sv:type="String">
-          <sv:value>Incense</sv:value>
+          <sv:value>Spices</sv:value>
         </sv:property>
         <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
           <sv:value>live</sv:value>
         </sv:property>
         <sv:property sv:name="hippo:related___pathreference" sv:type="String">
-          <sv:value>resources/luxuries/incense/incense[2]</sv:value>
+          <sv:value>resources/luxuries/spices/spices[2]</sv:value>
         </sv:property>
         <sv:property sv:name="hippostd:state" sv:type="String">
           <sv:value>published</sv:value>
@@ -5769,13 +5769,13 @@
           <sv:value>2015-07-22T16:15:09.856-04:00</sv:value>
         </sv:property>
         <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
-          <sv:value>2015-09-05T16:46:49.647-04:00</sv:value>
+          <sv:value>2015-09-23T19:29:03.830-04:00</sv:value>
         </sv:property>
         <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
           <sv:value>admin</sv:value>
         </sv:property>
         <sv:property sv:name="hippostdpubwf:publicationDate" sv:type="Date">
-          <sv:value>2015-09-05T16:46:53.527-04:00</sv:value>
+          <sv:value>2015-09-23T19:29:06.647-04:00</sv:value>
         </sv:property>
         <sv:property sv:name="hippotranslation:id" sv:type="String">
           <sv:value>502f048c-5d80-4b52-8a7b-fa1907226f2c</sv:value>
@@ -5788,7 +5788,7 @@
             <sv:value>hippogallerypicker:imagelink</sv:value>
           </sv:property>
           <sv:property sv:name="hippo:docbase" sv:type="String">
-            <sv:value>aae68614-7784-4f9a-9149-b105bcad77d1</sv:value>
+            <sv:value>779b8aeb-938e-47e4-bfe9-d5986cd661a5</sv:value>
           </sv:property>
           <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
           <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
