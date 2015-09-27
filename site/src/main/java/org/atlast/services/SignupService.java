@@ -17,6 +17,7 @@ import org.atlast.beans.descriptors.LanguageDescriptor;
 import org.atlast.beans.descriptors.RecipeDescriptor;
 import org.atlast.beans.descriptors.ResourceDescriptor;
 import org.atlast.beans.descriptors.TraitDescriptor;
+import org.atlast.util.languages.ColourGenerator;
 import org.atlast.util.languages.NameGenerator;
 import org.hippoecm.hst.content.beans.query.HstQuery;
 import org.hippoecm.hst.content.beans.query.HstQueryResult;
@@ -153,6 +154,8 @@ public class SignupService {
         identityNode.setProperty("atlast:name", isRace ? NameGenerator.generateRaceName(languageNode) : NameGenerator.generateReligionName(languageNode));
 
         identityNode.setProperty("atlast:languagedescriptor", languageNode.getIdentifier());
+
+        identityNode.setProperty("atlast:colour", ColourGenerator.generateColour());
 
         List<String> traits = new ArrayList<>();
 
@@ -350,7 +353,8 @@ public class SignupService {
             popNode.setProperty("religion-" + religion, 100.0d);
             popNode.setProperty("hippo:availability", new String[]{"live"});
 
-
+            String identity = "none".equals(race)?religion:race;
+            popNode.setProperty("atlast:identity", identity);
         }
 
     }

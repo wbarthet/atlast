@@ -40,10 +40,33 @@ public class Pop extends AtlastObject {
     }
 
     public Double getSkill(String skill) throws RepositoryException {
-        if (getNode().hasProperty("skill-"+skill)) {
-            return getProperty("skill-"+skill);
+        if (getNode().hasProperty("skill-" + skill)) {
+            return getProperty("skill-" + skill);
         }
         return 0.0;
     }
+
+    public Identity getIdentity() {
+        return getBeanByUUID(getProperty("atlast:identity"), Identity.class);
+    }
+
+
+    public Double getIdentityLevel(String identity) {
+
+        double level = 0;
+
+        Double raceLevel = getProperty("race-" + identity);
+        Double religionLevel = getProperty("religion-" + identity);
+
+        if (raceLevel != null && raceLevel > 0) {
+            level = raceLevel;
+        }
+        else if (religionLevel != null && religionLevel > 0) {
+            level = religionLevel;
+        }
+
+        return level;
+    }
+
 
 }

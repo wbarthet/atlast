@@ -1,6 +1,8 @@
 <#include "../../include/imports.ftl">
 <#-- @ftlvariable name="land" type="org.atlast.beans.Land" -->
+<#-- @ftlvariable name="pool" type="java.util.List<org.atlast.beans.Pop>" -->
 <#-- @ftlvariable name="worldMarket" type="org.atlast.beans.Market" -->
+<#-- @ftlvariable name="player" type="org.atlast.beans.Player" -->
 
 <div class="section-headline">
   <div class="row">
@@ -124,8 +126,8 @@
                   <form action="<@hst.actionURL/>" method="post">
                     <input type="hidden" value="${pop.uuid}" name="uuid">
                     <input type="hidden" value="fire" name="action">
-                    <img align="left" style="margin-right: 1em;" class="pop-icon" src="<@hst.link path="binaries/content/gallery/atlastserver/img/lower2.png"/>">
-                  ${pop.name} | ${land.recipeDescriptor.skill?cap_first}: ${pop.getSkill(land.recipeDescriptor.skill)?floor}%
+                    <img align="left" style="margin-right: 1em; background-color: ${pop.identity.colour};" class="pop-icon" src="<@hst.link path="binaries/content/gallery/atlastserver/img/lower2.png"/>">
+                  ${pop.name} | ${land.recipeDescriptor.skill?cap_first}: ${pop.getSkill(land.recipeDescriptor.skill)?floor}% | ${player.identity.name} ${pop.getIdentityLevel(player.identity.getUuid())?floor}%
                     <input align="right" class="button round button-small" type="submit" value=">">
                   </form>
                 </div>
@@ -135,8 +137,7 @@
     </div>
 
     <div class="small-12 medium-6 large-6 columns">
-      <h3>Employment Pool</h3>
-
+      <h3>Employment Pool <a href="?sort=skill">(Skill&downarrow;)</a> <a href="?sort=alignment">(Alignment&downarrow;)</a></h3>
         <#list pool as pop>
           <div class="row">
             <div class="feature-box">
@@ -144,8 +145,8 @@
                 <input type="hidden" value="${pop.uuid}" name="uuid">
                 <input type="hidden" value="hire" name="action">
                 <input align="left" style="margin-left: 1em;" class="button round button-small" type="submit" value="<">
-              ${pop.name} | ${land.recipeDescriptor.skill?cap_first}: ${pop.getSkill(land.recipeDescriptor.skill)?floor}%
-                <img align="right" style="background-color: #66afe9;" class="pop-icon" src="<@hst.link path="binaries/content/gallery/atlastserver/img/lower2.png"/>">
+              ${pop.name} | ${land.recipeDescriptor.skill?cap_first}: ${pop.getSkill(land.recipeDescriptor.skill)?floor}% | ${player.identity.name} ${pop.getIdentityLevel(player.identity.getUuid())?floor}%
+                <img align="right" style="background-color: ${pop.identity.colour};" class="pop-icon" src="<@hst.link path="binaries/content/gallery/atlastserver/img/lower2.png"/>">
               </form>
             </div>
           </div>

@@ -84,4 +84,8 @@ public class Land extends AtlastObject {
         return outputs;
     }
 
+    public Player getPlayer() {
+        return (Player) getParentBean();
+    }
+
 }

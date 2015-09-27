@@ -41,7 +41,7 @@
                       <span class="recipe-box">${land.recipeDescriptor.name}</span></p>
                     <p>
                         <#list land.pops as pop>
-                          <img class="pop-icon" src="<@hst.link path="binaries/content/gallery/atlastserver/img/lower.png"/>"/>
+                          <img class="pop-icon" style="background-color: ${pop.identity.colour};" src="<@hst.link path="binaries/content/gallery/atlastserver/img/lower2.png"/>"/>
                         </#list>
                     </p>
 

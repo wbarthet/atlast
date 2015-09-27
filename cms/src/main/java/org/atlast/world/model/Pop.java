@@ -237,7 +237,10 @@ public class Pop extends AtlastObject {
             child.setProperty("atlast:food", 0.0d);
             child.setProperty("atlast:cash", 0.0d);
 
-            Node identityNode = getNode().getSession().getNodeByIdentifier(determineIdentity());
+            String identity = determineIdentity();
+            Node identityNode = getNode().getSession().getNodeByIdentifier(identity);
+
+            child.setProperty("atlast:identity", identity);
 
             Node languageDescriptorNode = getNode().getSession().getNodeByIdentifier(identityNode.getProperty("atlast:languagedescriptor").getString());
 
@@ -311,26 +314,26 @@ public class Pop extends AtlastObject {
         double biggestRaceLevel = 0;
         String biggestRace = "none";
 
-        for (String race : getStringListProperty("atalast:races")) {
+        for (String race : getStringListProperty("atlast:races")) {
             if (!"none".equals(race)) {
                 double raceLevel = getDoubleProperty("race-" + race);
-                biggestRaceLevel = raceLevel > biggestRaceLevel ? raceLevel : biggestRaceLevel;
                 biggestRace = raceLevel > biggestRaceLevel ? race : biggestRace;
+                biggestRaceLevel = raceLevel > biggestRaceLevel ? raceLevel : biggestRaceLevel;
             }
         }
 
         double biggestReligionLevel = 0;
         String biggestReligion = "none";
 
-        for (String race : getStringListProperty("atalast:races")) {
-            if (!"none".equals(race)) {
-                double raceLevel = getDoubleProperty("race-" + race);
-                biggestReligionLevel = raceLevel > biggestReligionLevel ? raceLevel : biggestReligionLevel;
-                biggestReligion = raceLevel > biggestReligionLevel ? race : biggestReligion;
+        for (String religion : getStringListProperty("atlast:religions")) {
+            if (!"none".equals(religion)) {
+                double religionLevel = getDoubleProperty("religion-" + religion);
+                biggestReligion = religionLevel > biggestReligionLevel ? religion : biggestReligion;
+                biggestReligionLevel = religionLevel > biggestReligionLevel ? religionLevel : biggestReligionLevel;
             }
         }
 
-        String identity = biggestRaceLevel>biggestReligionLevel?biggestRace:biggestReligion;
+        String identity = biggestRaceLevel > biggestReligionLevel ? biggestRace : biggestReligion;
 
         return identity;
     }

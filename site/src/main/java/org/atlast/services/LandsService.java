@@ -123,7 +123,7 @@ public class LandsService {
         NodeIterator popNodes = landNode.getNodes();
         while (popNodes.hasNext()) {
             Node popNode = popNodes.nextNode();
-            session.move(popNode.getPath(), poolNode.getPath() + "/" + popNode.getName());
+            fire(requestContext, popNode.getIdentifier());
         }
 
         landNode.setProperty("atlast:developmentdescriptor", "empty");

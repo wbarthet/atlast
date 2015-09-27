@@ -64,7 +64,7 @@
         <sv:value>2015-07-13T16:04:09.402-04:00</sv:value>
       </sv:property>
       <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
-        <sv:value>2015-09-23T20:52:26.456-04:00</sv:value>
+        <sv:value>2015-09-27T12:06:39.461-04:00</sv:value>
       </sv:property>
       <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
         <sv:value>admin</sv:value>
@@ -133,6 +133,14 @@
         <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
         <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
         <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+      </sv:node>
+      <sv:node sv:name="atlast:allowedrecipes">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippo:mirror</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:docbase" sv:type="String">
+          <sv:value>185859f1-20e7-4098-8fd0-cf27ddf055f9</sv:value>
+        </sv:property>
       </sv:node>
     </sv:node>
     <sv:node sv:name="hippo:translation">
@@ -181,7 +189,7 @@
         <sv:value>2015-07-13T16:04:09.402-04:00</sv:value>
       </sv:property>
       <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
-        <sv:value>2015-09-23T20:52:29.668-04:00</sv:value>
+        <sv:value>2015-09-27T12:06:48.552-04:00</sv:value>
       </sv:property>
       <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
         <sv:value>admin</sv:value>
@@ -250,6 +258,14 @@
         <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
         <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
         <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+      </sv:node>
+      <sv:node sv:name="atlast:allowedrecipes">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippo:mirror</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:docbase" sv:type="String">
+          <sv:value>185859f1-20e7-4098-8fd0-cf27ddf055f9</sv:value>
+        </sv:property>
       </sv:node>
     </sv:node>
     <sv:node sv:name="farm">
@@ -287,13 +303,13 @@
         <sv:value>2015-07-13T16:04:09.402-04:00</sv:value>
       </sv:property>
       <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
-        <sv:value>2015-09-23T20:52:29.668-04:00</sv:value>
+        <sv:value>2015-09-27T12:06:48.552-04:00</sv:value>
       </sv:property>
       <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
         <sv:value>admin</sv:value>
       </sv:property>
       <sv:property sv:name="hippostdpubwf:publicationDate" sv:type="Date">
-        <sv:value>2015-09-23T20:53:07.785-04:00</sv:value>
+        <sv:value>2015-09-27T12:06:50.295-04:00</sv:value>
       </sv:property>
       <sv:property sv:name="hippotranslation:id" sv:type="String">
         <sv:value>2638430c-4e58-4141-b762-93c78211512b</sv:value>
@@ -359,6 +375,14 @@
         <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
         <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
         <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+      </sv:node>
+      <sv:node sv:name="atlast:allowedrecipes">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippo:mirror</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:docbase" sv:type="String">
+          <sv:value>185859f1-20e7-4098-8fd0-cf27ddf055f9</sv:value>
+        </sv:property>
       </sv:node>
     </sv:node>
   </sv:node>
@@ -407,7 +431,7 @@
         <sv:value>2015-07-13T23:02:57.916-04:00</sv:value>
       </sv:property>
       <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
-        <sv:value>2015-09-23T20:52:30.791-04:00</sv:value>
+        <sv:value>2015-09-27T12:40:37.502-04:00</sv:value>
       </sv:property>
       <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
         <sv:value>admin</sv:value>
@@ -484,6 +508,22 @@
         <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
         <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
         <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+      </sv:node>
+      <sv:node sv:name="atlast:allowedrecipes">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippo:mirror</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:docbase" sv:type="String">
+          <sv:value>a8dfb05b-1391-4fad-a8f2-6420300224eb</sv:value>
+        </sv:property>
+      </sv:node>
+      <sv:node sv:name="atlast:allowedrecipes">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippo:mirror</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:docbase" sv:type="String">
+          <sv:value>4573efae-63cc-49b5-a146-4f0a3550c9d5</sv:value>
+        </sv:property>
       </sv:node>
     </sv:node>
     <sv:node sv:name="hippo:translation">
@@ -532,7 +572,7 @@
         <sv:value>2015-07-13T23:02:57.916-04:00</sv:value>
       </sv:property>
       <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
-        <sv:value>2015-09-23T20:52:31.753-04:00</sv:value>
+        <sv:value>2015-09-27T12:41:31.882-04:00</sv:value>
       </sv:property>
       <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
         <sv:value>admin</sv:value>
@@ -609,6 +649,22 @@
         <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
         <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
         <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+      </sv:node>
+      <sv:node sv:name="atlast:allowedrecipes">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippo:mirror</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:docbase" sv:type="String">
+          <sv:value>a8dfb05b-1391-4fad-a8f2-6420300224eb</sv:value>
+        </sv:property>
+      </sv:node>
+      <sv:node sv:name="atlast:allowedrecipes">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippo:mirror</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:docbase" sv:type="String">
+          <sv:value>4573efae-63cc-49b5-a146-4f0a3550c9d5</sv:value>
+        </sv:property>
       </sv:node>
     </sv:node>
     <sv:node sv:name="mill">
@@ -646,13 +702,13 @@
         <sv:value>2015-07-13T23:02:57.916-04:00</sv:value>
       </sv:property>
       <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
-        <sv:value>2015-09-23T20:52:31.753-04:00</sv:value>
+        <sv:value>2015-09-27T12:41:31.882-04:00</sv:value>
       </sv:property>
       <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
         <sv:value>admin</sv:value>
       </sv:property>
       <sv:property sv:name="hippostdpubwf:publicationDate" sv:type="Date">
-        <sv:value>2015-09-23T20:53:07.563-04:00</sv:value>
+        <sv:value>2015-09-27T12:41:33.568-04:00</sv:value>
       </sv:property>
       <sv:property sv:name="hippotranslation:id" sv:type="String">
         <sv:value>0821ccce-40b9-450d-b886-d0687955871c</sv:value>
@@ -726,6 +782,22 @@
         <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
         <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
         <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+      </sv:node>
+      <sv:node sv:name="atlast:allowedrecipes">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippo:mirror</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:docbase" sv:type="String">
+          <sv:value>a8dfb05b-1391-4fad-a8f2-6420300224eb</sv:value>
+        </sv:property>
+      </sv:node>
+      <sv:node sv:name="atlast:allowedrecipes">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippo:mirror</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:docbase" sv:type="String">
+          <sv:value>4573efae-63cc-49b5-a146-4f0a3550c9d5</sv:value>
+        </sv:property>
       </sv:node>
     </sv:node>
   </sv:node>

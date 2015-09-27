@@ -4002,7 +4002,7 @@
           <sv:value>1</sv:value>
         </sv:property>
         <sv:property sv:name="atlast:name" sv:type="String">
-          <sv:value>Make Sheep Cheese</sv:value>
+          <sv:value>Make Goat Cheese</sv:value>
         </sv:property>
         <sv:property sv:name="atlast:skill" sv:type="String">
           <sv:value>diaryfarmer</sv:value>
@@ -4025,7 +4025,7 @@
           <sv:value>2015-07-22T18:13:50.766-04:00</sv:value>
         </sv:property>
         <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
-          <sv:value>2015-09-15T20:16:35.201-04:00</sv:value>
+          <sv:value>2015-09-27T12:30:00.143-04:00</sv:value>
         </sv:property>
         <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
           <sv:value>admin</sv:value>
@@ -4036,6 +4036,9 @@
         <sv:property sv:name="hippotranslation:locale" sv:type="String">
           <sv:value>en</sv:value>
         </sv:property>
+        <sv:property sv:name="input-agriculture-goats" sv:type="Long">
+          <sv:value>1</sv:value>
+        </sv:property>
         <sv:property sv:name="input-agriculture-sheep" sv:type="Long">
           <sv:value>1</sv:value>
         </sv:property>
@@ -4043,7 +4046,7 @@
           <sv:value>1</sv:value>
         </sv:property>
         <sv:property sv:name="inputs" sv:type="String" sv:multiple="true">
-          <sv:value>agriculture-sheep</sv:value>
+          <sv:value>agriculture-goats</sv:value>
         </sv:property>
         <sv:property sv:name="output-cheese" sv:type="Long">
           <sv:value>3</sv:value>
@@ -4066,7 +4069,7 @@
               <sv:value>hippo:mirror</sv:value>
             </sv:property>
             <sv:property sv:name="hippo:docbase" sv:type="String">
-              <sv:value>c2e45597-db50-4c1e-abe1-076bbbbf7eb8</sv:value>
+              <sv:value>f88d9961-3c38-4851-a37a-0d530be6ab83</sv:value>
             </sv:property>
           </sv:node>
         </sv:node>
@@ -4112,7 +4115,7 @@
           <sv:value>1</sv:value>
         </sv:property>
         <sv:property sv:name="atlast:name" sv:type="String">
-          <sv:value>Make Sheep Cheese</sv:value>
+          <sv:value>Make Goat Cheese</sv:value>
         </sv:property>
         <sv:property sv:name="atlast:skill" sv:type="String">
           <sv:value>diaryfarmer</sv:value>
@@ -4136,7 +4139,7 @@
           <sv:value>2015-07-22T18:13:50.766-04:00</sv:value>
         </sv:property>
         <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
-          <sv:value>2015-09-15T20:16:39.379-04:00</sv:value>
+          <sv:value>2015-09-27T12:30:05.938-04:00</sv:value>
         </sv:property>
         <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
           <sv:value>admin</sv:value>
@@ -4147,6 +4150,9 @@
         <sv:property sv:name="hippotranslation:locale" sv:type="String">
           <sv:value>en</sv:value>
         </sv:property>
+        <sv:property sv:name="input-agriculture-goats" sv:type="Long">
+          <sv:value>1</sv:value>
+        </sv:property>
         <sv:property sv:name="input-agriculture-sheep" sv:type="Long">
           <sv:value>1</sv:value>
         </sv:property>
@@ -4154,7 +4160,7 @@
           <sv:value>1</sv:value>
         </sv:property>
         <sv:property sv:name="inputs" sv:type="String" sv:multiple="true">
-          <sv:value>agriculture-sheep</sv:value>
+          <sv:value>agriculture-goats</sv:value>
         </sv:property>
         <sv:property sv:name="output-cheese" sv:type="Long">
           <sv:value>3</sv:value>
@@ -4177,7 +4183,7 @@
               <sv:value>hippo:mirror</sv:value>
             </sv:property>
             <sv:property sv:name="hippo:docbase" sv:type="String">
-              <sv:value>c2e45597-db50-4c1e-abe1-076bbbbf7eb8</sv:value>
+              <sv:value>f88d9961-3c38-4851-a37a-0d530be6ab83</sv:value>
             </sv:property>
           </sv:node>
         </sv:node>
@@ -4212,7 +4218,7 @@
           <sv:value>1</sv:value>
         </sv:property>
         <sv:property sv:name="atlast:name" sv:type="String">
-          <sv:value>Make Sheep Cheese</sv:value>
+          <sv:value>Make Goat Cheese</sv:value>
         </sv:property>
         <sv:property sv:name="atlast:skill" sv:type="String">
           <sv:value>diaryfarmer</sv:value>
@@ -4236,19 +4242,22 @@
           <sv:value>2015-07-22T18:13:50.766-04:00</sv:value>
         </sv:property>
         <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
-          <sv:value>2015-09-15T20:16:39.379-04:00</sv:value>
+          <sv:value>2015-09-27T12:30:05.938-04:00</sv:value>
         </sv:property>
         <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
           <sv:value>admin</sv:value>
         </sv:property>
         <sv:property sv:name="hippostdpubwf:publicationDate" sv:type="Date">
-          <sv:value>2015-09-21T21:19:35.791-04:00</sv:value>
+          <sv:value>2015-09-27T12:30:07.843-04:00</sv:value>
         </sv:property>
         <sv:property sv:name="hippotranslation:id" sv:type="String">
           <sv:value>86f27f12-e94d-43af-9492-0643f866a2b7</sv:value>
         </sv:property>
         <sv:property sv:name="hippotranslation:locale" sv:type="String">
           <sv:value>en</sv:value>
+        </sv:property>
+        <sv:property sv:name="input-agriculture-goats" sv:type="Long">
+          <sv:value>1</sv:value>
         </sv:property>
         <sv:property sv:name="input-agriculture-sheep" sv:type="Long">
           <sv:value>1</sv:value>
@@ -4257,7 +4266,7 @@
           <sv:value>1</sv:value>
         </sv:property>
         <sv:property sv:name="inputs" sv:type="String" sv:multiple="true">
-          <sv:value>agriculture-sheep</sv:value>
+          <sv:value>agriculture-goats</sv:value>
         </sv:property>
         <sv:property sv:name="output-cheese" sv:type="Long">
           <sv:value>3</sv:value>
@@ -4280,7 +4289,7 @@
               <sv:value>hippo:mirror</sv:value>
             </sv:property>
             <sv:property sv:name="hippo:docbase" sv:type="String">
-              <sv:value>c2e45597-db50-4c1e-abe1-076bbbbf7eb8</sv:value>
+              <sv:value>f88d9961-3c38-4851-a37a-0d530be6ab83</sv:value>
             </sv:property>
           </sv:node>
         </sv:node>
@@ -21398,7 +21407,7 @@
           <sv:value>Shear Sheep</sv:value>
         </sv:property>
         <sv:property sv:name="atlast:skill" sv:type="String">
-          <sv:value>shearer</sv:value>
+          <sv:value>weaver</sv:value>
         </sv:property>
         <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true"/>
         <sv:property sv:name="hippo:related___pathreference" sv:type="String">
@@ -21508,7 +21517,7 @@
           <sv:value>Shear Sheep</sv:value>
         </sv:property>
         <sv:property sv:name="atlast:skill" sv:type="String">
-          <sv:value>shearer</sv:value>
+          <sv:value>weaver</sv:value>
         </sv:property>
         <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
           <sv:value>preview</sv:value>
@@ -21608,7 +21617,7 @@
           <sv:value>Shear Sheep</sv:value>
         </sv:property>
         <sv:property sv:name="atlast:skill" sv:type="String">
-          <sv:value>shearer</sv:value>
+          <sv:value>weaver</sv:value>
         </sv:property>
         <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
           <sv:value>live</sv:value>
@@ -21690,6 +21699,620 @@
             </sv:property>
             <sv:property sv:name="hippo:docbase" sv:type="String">
               <sv:value>63fc90fb-0766-4ecb-816a-dc2bf8bdbc88</sv:value>
+            </sv:property>
+          </sv:node>
+        </sv:node>
+      </sv:node>
+    </sv:node>
+    <sv:node sv:name="make-wool-cloth">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>hippo:handle</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+        <sv:value>mix:referenceable</sv:value>
+        <sv:value>hippo:translated</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:uuid" sv:type="String">
+        <sv:value>a8dfb05b-1391-4fad-a8f2-6420300224eb</sv:value>
+      </sv:property>
+      <sv:node sv:name="make-wool-cloth">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>atlast:recipedescriptor</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+          <sv:value>mix:referenceable</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:uuid" sv:type="String">
+          <sv:value>8a25bf1e-aa88-4bfa-bcbb-7067330278f3</sv:value>
+        </sv:property>
+        <sv:property sv:name="atlast:labour" sv:type="Long">
+          <sv:value>2</sv:value>
+        </sv:property>
+        <sv:property sv:name="atlast:name" sv:type="String">
+          <sv:value>Make Wool Cloth</sv:value>
+        </sv:property>
+        <sv:property sv:name="atlast:skill" sv:type="String">
+          <sv:value>weaver</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true"/>
+        <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+          <sv:value>recipes/secondary/make-wool-cloth/make-wool-cloth[2]</sv:value>
+          <sv:value>recipes/secondary/make-wool-cloth/make-wool-cloth[3]</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:state" sv:type="String">
+          <sv:value>draft</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+          <sv:value>live</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+          <sv:value>admin</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+          <sv:value>2015-09-27T12:31:22.535-04:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+          <sv:value>2015-09-27T12:32:46.803-04:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+          <sv:value>admin</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippotranslation:id" sv:type="String">
+          <sv:value>ac876655-75a9-4758-bdc6-8f6486280e9b</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippotranslation:locale" sv:type="String">
+          <sv:value>en</sv:value>
+        </sv:property>
+        <sv:property sv:name="input-secondary-wool" sv:type="Long">
+          <sv:value>2</sv:value>
+        </sv:property>
+        <sv:property sv:name="inputs" sv:type="String" sv:multiple="true">
+          <sv:value>secondary-wool</sv:value>
+        </sv:property>
+        <sv:property sv:name="output-secondary-cloth" sv:type="Long">
+          <sv:value>6</sv:value>
+        </sv:property>
+        <sv:property sv:name="outputs" sv:type="String" sv:multiple="true">
+          <sv:value>secondary-cloth</sv:value>
+        </sv:property>
+        <sv:node sv:name="atlast:inputs">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>atlast:amount</sv:value>
+          </sv:property>
+          <sv:property sv:name="atlast:quantity" sv:type="Long">
+            <sv:value>2</sv:value>
+          </sv:property>
+          <sv:node sv:name="atlast:resource">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippo:mirror</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:docbase" sv:type="String">
+              <sv:value>63fc90fb-0766-4ecb-816a-dc2bf8bdbc88</sv:value>
+            </sv:property>
+          </sv:node>
+        </sv:node>
+        <sv:node sv:name="atlast:outputs">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>atlast:amount</sv:value>
+          </sv:property>
+          <sv:property sv:name="atlast:quantity" sv:type="Long">
+            <sv:value>6</sv:value>
+          </sv:property>
+          <sv:node sv:name="atlast:resource">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippo:mirror</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:docbase" sv:type="String">
+              <sv:value>e36b4193-85f5-4e8c-9c05-a04e4cc230bc</sv:value>
+            </sv:property>
+          </sv:node>
+        </sv:node>
+      </sv:node>
+      <sv:node sv:name="hippo:translation">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippo:translation</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:language" sv:type="String">
+          <sv:value/>
+        </sv:property>
+        <sv:property sv:name="hippo:message" sv:type="String">
+          <sv:value>Make wool cloth</sv:value>
+        </sv:property>
+      </sv:node>
+      <sv:node sv:name="make-wool-cloth">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>atlast:recipedescriptor</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+          <sv:value>mix:versionable</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:uuid" sv:type="String">
+          <sv:value>147a1a99-929c-4468-a631-2ce615ea1dad</sv:value>
+        </sv:property>
+        <sv:property sv:name="atlast:labour" sv:type="Long">
+          <sv:value>2</sv:value>
+        </sv:property>
+        <sv:property sv:name="atlast:name" sv:type="String">
+          <sv:value>Make Wool Cloth</sv:value>
+        </sv:property>
+        <sv:property sv:name="atlast:skill" sv:type="String">
+          <sv:value>weaver</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
+          <sv:value>preview</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+          <sv:value>recipes/secondary/make-wool-cloth/make-wool-cloth[3]</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:state" sv:type="String">
+          <sv:value>unpublished</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+          <sv:value>live</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+          <sv:value>admin</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+          <sv:value>2015-09-27T12:31:22.535-04:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+          <sv:value>2015-09-27T12:32:52.427-04:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+          <sv:value>admin</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippotranslation:id" sv:type="String">
+          <sv:value>ac876655-75a9-4758-bdc6-8f6486280e9b</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippotranslation:locale" sv:type="String">
+          <sv:value>en</sv:value>
+        </sv:property>
+        <sv:property sv:name="input-secondary-wool" sv:type="Long">
+          <sv:value>2</sv:value>
+        </sv:property>
+        <sv:property sv:name="inputs" sv:type="String" sv:multiple="true">
+          <sv:value>secondary-wool</sv:value>
+        </sv:property>
+        <sv:property sv:name="output-secondary-cloth" sv:type="Long">
+          <sv:value>6</sv:value>
+        </sv:property>
+        <sv:property sv:name="outputs" sv:type="String" sv:multiple="true">
+          <sv:value>secondary-cloth</sv:value>
+        </sv:property>
+        <sv:node sv:name="atlast:inputs">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>atlast:amount</sv:value>
+          </sv:property>
+          <sv:property sv:name="atlast:quantity" sv:type="Long">
+            <sv:value>2</sv:value>
+          </sv:property>
+          <sv:node sv:name="atlast:resource">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippo:mirror</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:docbase" sv:type="String">
+              <sv:value>63fc90fb-0766-4ecb-816a-dc2bf8bdbc88</sv:value>
+            </sv:property>
+          </sv:node>
+        </sv:node>
+        <sv:node sv:name="atlast:outputs">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>atlast:amount</sv:value>
+          </sv:property>
+          <sv:property sv:name="atlast:quantity" sv:type="Long">
+            <sv:value>6</sv:value>
+          </sv:property>
+          <sv:node sv:name="atlast:resource">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippo:mirror</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:docbase" sv:type="String">
+              <sv:value>e36b4193-85f5-4e8c-9c05-a04e4cc230bc</sv:value>
+            </sv:property>
+          </sv:node>
+        </sv:node>
+      </sv:node>
+      <sv:node sv:name="make-wool-cloth">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>atlast:recipedescriptor</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+          <sv:value>mix:referenceable</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:uuid" sv:type="String">
+          <sv:value>e5da5b2d-4c9a-482a-a6d4-521fa170ae72</sv:value>
+        </sv:property>
+        <sv:property sv:name="atlast:labour" sv:type="Long">
+          <sv:value>2</sv:value>
+        </sv:property>
+        <sv:property sv:name="atlast:name" sv:type="String">
+          <sv:value>Make Wool Cloth</sv:value>
+        </sv:property>
+        <sv:property sv:name="atlast:skill" sv:type="String">
+          <sv:value>weaver</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
+          <sv:value>live</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+          <sv:value>recipes/secondary/make-wool-cloth/make-wool-cloth[2]</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:state" sv:type="String">
+          <sv:value>published</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+          <sv:value>live</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+          <sv:value>admin</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+          <sv:value>2015-09-27T12:31:22.535-04:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+          <sv:value>2015-09-27T12:32:52.427-04:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+          <sv:value>admin</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:publicationDate" sv:type="Date">
+          <sv:value>2015-09-27T12:32:55.147-04:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippotranslation:id" sv:type="String">
+          <sv:value>ac876655-75a9-4758-bdc6-8f6486280e9b</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippotranslation:locale" sv:type="String">
+          <sv:value>en</sv:value>
+        </sv:property>
+        <sv:property sv:name="input-secondary-wool" sv:type="Long">
+          <sv:value>2</sv:value>
+        </sv:property>
+        <sv:property sv:name="inputs" sv:type="String" sv:multiple="true">
+          <sv:value>secondary-wool</sv:value>
+        </sv:property>
+        <sv:property sv:name="output-secondary-cloth" sv:type="Long">
+          <sv:value>6</sv:value>
+        </sv:property>
+        <sv:property sv:name="outputs" sv:type="String" sv:multiple="true">
+          <sv:value>secondary-cloth</sv:value>
+        </sv:property>
+        <sv:node sv:name="atlast:inputs">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>atlast:amount</sv:value>
+          </sv:property>
+          <sv:property sv:name="atlast:quantity" sv:type="Long">
+            <sv:value>2</sv:value>
+          </sv:property>
+          <sv:node sv:name="atlast:resource">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippo:mirror</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:docbase" sv:type="String">
+              <sv:value>63fc90fb-0766-4ecb-816a-dc2bf8bdbc88</sv:value>
+            </sv:property>
+          </sv:node>
+        </sv:node>
+        <sv:node sv:name="atlast:outputs">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>atlast:amount</sv:value>
+          </sv:property>
+          <sv:property sv:name="atlast:quantity" sv:type="Long">
+            <sv:value>6</sv:value>
+          </sv:property>
+          <sv:node sv:name="atlast:resource">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippo:mirror</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:docbase" sv:type="String">
+              <sv:value>e36b4193-85f5-4e8c-9c05-a04e4cc230bc</sv:value>
+            </sv:property>
+          </sv:node>
+        </sv:node>
+      </sv:node>
+    </sv:node>
+    <sv:node sv:name="make-cloth">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>hippo:handle</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+        <sv:value>mix:referenceable</sv:value>
+        <sv:value>hippo:translated</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:uuid" sv:type="String">
+        <sv:value>4573efae-63cc-49b5-a146-4f0a3550c9d5</sv:value>
+      </sv:property>
+      <sv:node sv:name="make-cloth">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>atlast:recipedescriptor</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+          <sv:value>mix:versionable</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:uuid" sv:type="String">
+          <sv:value>6a42195c-d54c-4a73-859e-45418c022c0b</sv:value>
+        </sv:property>
+        <sv:property sv:name="atlast:labour" sv:type="Long">
+          <sv:value>2</sv:value>
+        </sv:property>
+        <sv:property sv:name="atlast:name" sv:type="String">
+          <sv:value>Make Cloth</sv:value>
+        </sv:property>
+        <sv:property sv:name="atlast:skill" sv:type="String">
+          <sv:value>weaver</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
+          <sv:value>preview</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+          <sv:value>recipes/secondary/make-cloth/make-cloth[3]</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:state" sv:type="String">
+          <sv:value>unpublished</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+          <sv:value>live</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+          <sv:value>admin</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+          <sv:value>2015-09-27T12:31:22.535-04:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+          <sv:value>2015-09-27T12:32:44.686-04:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+          <sv:value>admin</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippotranslation:id" sv:type="String">
+          <sv:value>cfa80595-e184-4263-825e-4f1f7f5eaff4</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippotranslation:locale" sv:type="String">
+          <sv:value>en</sv:value>
+        </sv:property>
+        <sv:property sv:name="input-agriculture-cotton" sv:type="Long">
+          <sv:value>2</sv:value>
+        </sv:property>
+        <sv:property sv:name="inputs" sv:type="String" sv:multiple="true">
+          <sv:value>agriculture-cotton</sv:value>
+        </sv:property>
+        <sv:property sv:name="output-secondary-cloth" sv:type="Long">
+          <sv:value>6</sv:value>
+        </sv:property>
+        <sv:property sv:name="outputs" sv:type="String" sv:multiple="true">
+          <sv:value>secondary-cloth</sv:value>
+        </sv:property>
+        <sv:node sv:name="atlast:inputs">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>atlast:amount</sv:value>
+          </sv:property>
+          <sv:property sv:name="atlast:quantity" sv:type="Long">
+            <sv:value>2</sv:value>
+          </sv:property>
+          <sv:node sv:name="atlast:resource">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippo:mirror</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:docbase" sv:type="String">
+              <sv:value>96a09ffc-53bc-49f2-8203-9bc8adb63b1f</sv:value>
+            </sv:property>
+          </sv:node>
+        </sv:node>
+        <sv:node sv:name="atlast:outputs">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>atlast:amount</sv:value>
+          </sv:property>
+          <sv:property sv:name="atlast:quantity" sv:type="Long">
+            <sv:value>6</sv:value>
+          </sv:property>
+          <sv:node sv:name="atlast:resource">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippo:mirror</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:docbase" sv:type="String">
+              <sv:value>e36b4193-85f5-4e8c-9c05-a04e4cc230bc</sv:value>
+            </sv:property>
+          </sv:node>
+        </sv:node>
+      </sv:node>
+      <sv:node sv:name="hippo:translation">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippo:translation</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:language" sv:type="String">
+          <sv:value/>
+        </sv:property>
+        <sv:property sv:name="hippo:message" sv:type="String">
+          <sv:value>Make cloth</sv:value>
+        </sv:property>
+      </sv:node>
+      <sv:node sv:name="make-cloth">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>atlast:recipedescriptor</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+          <sv:value>mix:referenceable</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:uuid" sv:type="String">
+          <sv:value>f1650fe0-c8c3-45e8-8d44-5047f5235dd6</sv:value>
+        </sv:property>
+        <sv:property sv:name="atlast:labour" sv:type="Long">
+          <sv:value>2</sv:value>
+        </sv:property>
+        <sv:property sv:name="atlast:name" sv:type="String">
+          <sv:value>Make Cloth</sv:value>
+        </sv:property>
+        <sv:property sv:name="atlast:skill" sv:type="String">
+          <sv:value>weaver</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true"/>
+        <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+          <sv:value>recipes/secondary/make-cloth/make-cloth</sv:value>
+          <sv:value>recipes/secondary/make-cloth/make-cloth[3]</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:state" sv:type="String">
+          <sv:value>draft</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+          <sv:value>live</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+          <sv:value>admin</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+          <sv:value>2015-09-27T12:31:22.535-04:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+          <sv:value>2015-09-27T12:32:17.992-04:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+          <sv:value>admin</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippotranslation:id" sv:type="String">
+          <sv:value>cfa80595-e184-4263-825e-4f1f7f5eaff4</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippotranslation:locale" sv:type="String">
+          <sv:value>en</sv:value>
+        </sv:property>
+        <sv:property sv:name="input-agriculture-cotton" sv:type="Long">
+          <sv:value>2</sv:value>
+        </sv:property>
+        <sv:property sv:name="inputs" sv:type="String" sv:multiple="true">
+          <sv:value>agriculture-cotton</sv:value>
+        </sv:property>
+        <sv:property sv:name="output-secondary-cloth" sv:type="Long">
+          <sv:value>6</sv:value>
+        </sv:property>
+        <sv:property sv:name="outputs" sv:type="String" sv:multiple="true">
+          <sv:value>secondary-cloth</sv:value>
+        </sv:property>
+        <sv:node sv:name="atlast:inputs">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>atlast:amount</sv:value>
+          </sv:property>
+          <sv:property sv:name="atlast:quantity" sv:type="Long">
+            <sv:value>2</sv:value>
+          </sv:property>
+          <sv:node sv:name="atlast:resource">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippo:mirror</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:docbase" sv:type="String">
+              <sv:value>96a09ffc-53bc-49f2-8203-9bc8adb63b1f</sv:value>
+            </sv:property>
+          </sv:node>
+        </sv:node>
+        <sv:node sv:name="atlast:outputs">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>atlast:amount</sv:value>
+          </sv:property>
+          <sv:property sv:name="atlast:quantity" sv:type="Long">
+            <sv:value>6</sv:value>
+          </sv:property>
+          <sv:node sv:name="atlast:resource">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippo:mirror</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:docbase" sv:type="String">
+              <sv:value>e36b4193-85f5-4e8c-9c05-a04e4cc230bc</sv:value>
+            </sv:property>
+          </sv:node>
+        </sv:node>
+      </sv:node>
+      <sv:node sv:name="make-cloth">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>atlast:recipedescriptor</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+          <sv:value>mix:referenceable</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:uuid" sv:type="String">
+          <sv:value>aecb5f30-7538-4413-80f8-e43e74d4a937</sv:value>
+        </sv:property>
+        <sv:property sv:name="atlast:labour" sv:type="Long">
+          <sv:value>2</sv:value>
+        </sv:property>
+        <sv:property sv:name="atlast:name" sv:type="String">
+          <sv:value>Make Cloth</sv:value>
+        </sv:property>
+        <sv:property sv:name="atlast:skill" sv:type="String">
+          <sv:value>weaver</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
+          <sv:value>live</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+          <sv:value>recipes/secondary/make-cloth/make-cloth</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:state" sv:type="String">
+          <sv:value>published</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+          <sv:value>live</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+          <sv:value>admin</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+          <sv:value>2015-09-27T12:31:22.535-04:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+          <sv:value>2015-09-27T12:32:44.686-04:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+          <sv:value>admin</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:publicationDate" sv:type="Date">
+          <sv:value>2015-09-27T12:32:58.449-04:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippotranslation:id" sv:type="String">
+          <sv:value>cfa80595-e184-4263-825e-4f1f7f5eaff4</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippotranslation:locale" sv:type="String">
+          <sv:value>en</sv:value>
+        </sv:property>
+        <sv:property sv:name="input-agriculture-cotton" sv:type="Long">
+          <sv:value>2</sv:value>
+        </sv:property>
+        <sv:property sv:name="inputs" sv:type="String" sv:multiple="true">
+          <sv:value>agriculture-cotton</sv:value>
+        </sv:property>
+        <sv:property sv:name="output-secondary-cloth" sv:type="Long">
+          <sv:value>6</sv:value>
+        </sv:property>
+        <sv:property sv:name="outputs" sv:type="String" sv:multiple="true">
+          <sv:value>secondary-cloth</sv:value>
+        </sv:property>
+        <sv:node sv:name="atlast:inputs">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>atlast:amount</sv:value>
+          </sv:property>
+          <sv:property sv:name="atlast:quantity" sv:type="Long">
+            <sv:value>2</sv:value>
+          </sv:property>
+          <sv:node sv:name="atlast:resource">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippo:mirror</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:docbase" sv:type="String">
+              <sv:value>96a09ffc-53bc-49f2-8203-9bc8adb63b1f</sv:value>
+            </sv:property>
+          </sv:node>
+        </sv:node>
+        <sv:node sv:name="atlast:outputs">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>atlast:amount</sv:value>
+          </sv:property>
+          <sv:property sv:name="atlast:quantity" sv:type="Long">
+            <sv:value>6</sv:value>
+          </sv:property>
+          <sv:node sv:name="atlast:resource">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippo:mirror</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:docbase" sv:type="String">
+              <sv:value>e36b4193-85f5-4e8c-9c05-a04e4cc230bc</sv:value>
             </sv:property>
           </sv:node>
         </sv:node>

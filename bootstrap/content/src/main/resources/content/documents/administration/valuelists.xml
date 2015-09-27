@@ -236,10 +236,10 @@
           <sv:value>selection:listitem</sv:value>
         </sv:property>
         <sv:property sv:name="selection:key" sv:type="String">
-          <sv:value>shearer</sv:value>
+          <sv:value>weaver</sv:value>
         </sv:property>
         <sv:property sv:name="selection:label" sv:type="String">
-          <sv:value>Shearer</sv:value>
+          <sv:value>Weaver</sv:value>
         </sv:property>
       </sv:node>
       <sv:node sv:name="selection:listitem">

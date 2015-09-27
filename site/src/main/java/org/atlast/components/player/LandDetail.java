@@ -3,8 +3,10 @@ package org.atlast.components.player;
 import javax.jcr.Node;
 import javax.jcr.RepositoryException;
 
+import org.atlast.beans.Identity;
 import org.atlast.beans.Land;
 import org.atlast.beans.Market;
+import org.atlast.beans.Player;
 import org.atlast.beans.Pop;
 import org.atlast.components.world.BaseSecuredComponent;
 import org.atlast.services.LandsService;
@@ -40,6 +42,9 @@ public class LandDetail extends BaseSecuredComponent {
 
         request.setAttribute("land", land);
 
+        Player player = land.getPlayer();
+        request.setAttribute("player", player);
+
         if (land.getRecipeDescriptor() != null) {
 
             Market worldMarket = requestContext.getSiteContentBaseBean().getBean("worlddata/market");
@@ -51,8 +56,14 @@ public class LandDetail extends BaseSecuredComponent {
 
                 HstQuery query = requestContext.getQueryManager().createQuery(poolNode, Pop.class);
 
-                query.addOrderByDescending("skill-" + land.getRecipeDescriptor().getSkill());
+                if ("alignment".equals(getPublicRequestParameter(request, "sort"))) {
+                    Identity identity = player.getIdentity();
+                    String identityType = identity.isRace() ? "race" : "religion";
 
+                    query.addOrderByDescending(identityType + "-" + identity.getUuid());
+                } else {
+                    query.addOrderByDescending("skill-" + land.getRecipeDescriptor().getSkill());
+                }
                 query.setLimit(10);
 
                 HstQueryResult hstQueryResult = query.execute();

@@ -32,4 +32,8 @@ public class Player extends AtlastObject {
         }
     }
 
+    public Identity getIdentity() {
+        return getBean("identity");
+    }
+
 }
