@@ -237,7 +237,11 @@ public class Pop extends AtlastObject {
             child.setProperty("atlast:food", 0.0d);
             child.setProperty("atlast:cash", 0.0d);
 
-            child.setProperty("atlast:name", NameGenerator.generatePopName(getPlayer().getLanguageDescriptorNode(), getName()));
+            Node identityNode = getNode().getSession().getNodeByIdentifier(determineIdentity());
+
+            Node languageDescriptorNode = getNode().getSession().getNodeByIdentifier(identityNode.getProperty("atlast:languagedescriptor").getString());
+
+            child.setProperty("atlast:name", NameGenerator.generatePopName(languageDescriptorNode, getName()));
         } else {
             child = getNode().getNode("child");
         }
@@ -300,5 +304,34 @@ public class Pop extends AtlastObject {
 
             setDoubleProperty("skill-" + skill, skillLevel - skillDecrease);
         }
+    }
+
+    public String determineIdentity() {
+
+        double biggestRaceLevel = 0;
+        String biggestRace = "none";
+
+        for (String race : getStringListProperty("atalast:races")) {
+            if (!"none".equals(race)) {
+                double raceLevel = getDoubleProperty("race-" + race);
+                biggestRaceLevel = raceLevel > biggestRaceLevel ? raceLevel : biggestRaceLevel;
+                biggestRace = raceLevel > biggestRaceLevel ? race : biggestRace;
+            }
+        }
+
+        double biggestReligionLevel = 0;
+        String biggestReligion = "none";
+
+        for (String race : getStringListProperty("atalast:races")) {
+            if (!"none".equals(race)) {
+                double raceLevel = getDoubleProperty("race-" + race);
+                biggestReligionLevel = raceLevel > biggestReligionLevel ? raceLevel : biggestReligionLevel;
+                biggestReligion = raceLevel > biggestReligionLevel ? race : biggestReligion;
+            }
+        }
+
+        String identity = biggestRaceLevel>biggestReligionLevel?biggestRace:biggestReligion;
+
+        return identity;
     }
 }

@@ -6503,7 +6503,7 @@
           <sv:value>2015-07-22T18:25:31.749-04:00</sv:value>
         </sv:property>
         <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
-          <sv:value>2015-09-15T20:17:07.380-04:00</sv:value>
+          <sv:value>2015-09-27T10:41:56.274-04:00</sv:value>
         </sv:property>
         <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
           <sv:value>admin</sv:value>
@@ -6514,6 +6514,9 @@
         <sv:property sv:name="hippotranslation:locale" sv:type="String">
           <sv:value>en</sv:value>
         </sv:property>
+        <sv:property sv:name="input-agriculture-wheat" sv:type="Long">
+          <sv:value>2</sv:value>
+        </sv:property>
         <sv:property sv:name="input-beer" sv:type="Long">
           <sv:value>2</sv:value>
         </sv:property>
@@ -6521,16 +6524,19 @@
           <sv:value>2</sv:value>
         </sv:property>
         <sv:property sv:name="inputs" sv:type="String" sv:multiple="true">
-          <sv:value>goods-beer</sv:value>
+          <sv:value>agriculture-wheat</sv:value>
         </sv:property>
         <sv:property sv:name="output-agriculture-wheat" sv:type="Long">
+          <sv:value>6</sv:value>
+        </sv:property>
+        <sv:property sv:name="output-goods-beer" sv:type="Long">
           <sv:value>6</sv:value>
         </sv:property>
         <sv:property sv:name="output-wheat" sv:type="Long">
           <sv:value>6</sv:value>
         </sv:property>
         <sv:property sv:name="outputs" sv:type="String" sv:multiple="true">
-          <sv:value>agriculture-wheat</sv:value>
+          <sv:value>goods-beer</sv:value>
         </sv:property>
         <sv:node sv:name="atlast:inputs">
           <sv:property sv:name="jcr:primaryType" sv:type="Name">
@@ -6544,7 +6550,7 @@
               <sv:value>hippo:mirror</sv:value>
             </sv:property>
             <sv:property sv:name="hippo:docbase" sv:type="String">
-              <sv:value>8673b6af-faa4-4fd1-99a5-fa5d6a642343</sv:value>
+              <sv:value>66e6c2c1-66d1-4b38-8d6b-b374e43ac69f</sv:value>
             </sv:property>
           </sv:node>
         </sv:node>
@@ -6560,7 +6566,7 @@
               <sv:value>hippo:mirror</sv:value>
             </sv:property>
             <sv:property sv:name="hippo:docbase" sv:type="String">
-              <sv:value>66e6c2c1-66d1-4b38-8d6b-b374e43ac69f</sv:value>
+              <sv:value>8673b6af-faa4-4fd1-99a5-fa5d6a642343</sv:value>
             </sv:property>
           </sv:node>
         </sv:node>
@@ -6614,7 +6620,7 @@
           <sv:value>2015-07-22T18:25:31.749-04:00</sv:value>
         </sv:property>
         <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
-          <sv:value>2015-09-15T20:17:10.341-04:00</sv:value>
+          <sv:value>2015-09-27T10:42:08.397-04:00</sv:value>
         </sv:property>
         <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
           <sv:value>admin</sv:value>
@@ -6625,6 +6631,9 @@
         <sv:property sv:name="hippotranslation:locale" sv:type="String">
           <sv:value>en</sv:value>
         </sv:property>
+        <sv:property sv:name="input-agriculture-wheat" sv:type="Long">
+          <sv:value>2</sv:value>
+        </sv:property>
         <sv:property sv:name="input-beer" sv:type="Long">
           <sv:value>2</sv:value>
         </sv:property>
@@ -6632,16 +6641,19 @@
           <sv:value>2</sv:value>
         </sv:property>
         <sv:property sv:name="inputs" sv:type="String" sv:multiple="true">
-          <sv:value>goods-beer</sv:value>
+          <sv:value>agriculture-wheat</sv:value>
         </sv:property>
         <sv:property sv:name="output-agriculture-wheat" sv:type="Long">
+          <sv:value>6</sv:value>
+        </sv:property>
+        <sv:property sv:name="output-goods-beer" sv:type="Long">
           <sv:value>6</sv:value>
         </sv:property>
         <sv:property sv:name="output-wheat" sv:type="Long">
           <sv:value>6</sv:value>
         </sv:property>
         <sv:property sv:name="outputs" sv:type="String" sv:multiple="true">
-          <sv:value>agriculture-wheat</sv:value>
+          <sv:value>goods-beer</sv:value>
         </sv:property>
         <sv:node sv:name="atlast:inputs">
           <sv:property sv:name="jcr:primaryType" sv:type="Name">
@@ -6655,7 +6667,7 @@
               <sv:value>hippo:mirror</sv:value>
             </sv:property>
             <sv:property sv:name="hippo:docbase" sv:type="String">
-              <sv:value>8673b6af-faa4-4fd1-99a5-fa5d6a642343</sv:value>
+              <sv:value>66e6c2c1-66d1-4b38-8d6b-b374e43ac69f</sv:value>
             </sv:property>
           </sv:node>
         </sv:node>
@@ -6671,7 +6683,7 @@
               <sv:value>hippo:mirror</sv:value>
             </sv:property>
             <sv:property sv:name="hippo:docbase" sv:type="String">
-              <sv:value>66e6c2c1-66d1-4b38-8d6b-b374e43ac69f</sv:value>
+              <sv:value>8673b6af-faa4-4fd1-99a5-fa5d6a642343</sv:value>
             </sv:property>
           </sv:node>
         </sv:node>
@@ -6714,19 +6726,22 @@
           <sv:value>2015-07-22T18:25:31.749-04:00</sv:value>
         </sv:property>
         <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
-          <sv:value>2015-09-15T20:17:10.341-04:00</sv:value>
+          <sv:value>2015-09-27T10:42:08.397-04:00</sv:value>
         </sv:property>
         <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
           <sv:value>admin</sv:value>
         </sv:property>
         <sv:property sv:name="hippostdpubwf:publicationDate" sv:type="Date">
-          <sv:value>2015-09-21T21:19:32.300-04:00</sv:value>
+          <sv:value>2015-09-27T10:42:10.760-04:00</sv:value>
         </sv:property>
         <sv:property sv:name="hippotranslation:id" sv:type="String">
           <sv:value>949c8e52-9ce0-4319-ab18-74a6b8d071dc</sv:value>
         </sv:property>
         <sv:property sv:name="hippotranslation:locale" sv:type="String">
           <sv:value>en</sv:value>
+        </sv:property>
+        <sv:property sv:name="input-agriculture-wheat" sv:type="Long">
+          <sv:value>2</sv:value>
         </sv:property>
         <sv:property sv:name="input-beer" sv:type="Long">
           <sv:value>2</sv:value>
@@ -6735,16 +6750,19 @@
           <sv:value>2</sv:value>
         </sv:property>
         <sv:property sv:name="inputs" sv:type="String" sv:multiple="true">
-          <sv:value>goods-beer</sv:value>
+          <sv:value>agriculture-wheat</sv:value>
         </sv:property>
         <sv:property sv:name="output-agriculture-wheat" sv:type="Long">
+          <sv:value>6</sv:value>
+        </sv:property>
+        <sv:property sv:name="output-goods-beer" sv:type="Long">
           <sv:value>6</sv:value>
         </sv:property>
         <sv:property sv:name="output-wheat" sv:type="Long">
           <sv:value>6</sv:value>
         </sv:property>
         <sv:property sv:name="outputs" sv:type="String" sv:multiple="true">
-          <sv:value>agriculture-wheat</sv:value>
+          <sv:value>goods-beer</sv:value>
         </sv:property>
         <sv:node sv:name="atlast:inputs">
           <sv:property sv:name="jcr:primaryType" sv:type="Name">
@@ -6758,7 +6776,7 @@
               <sv:value>hippo:mirror</sv:value>
             </sv:property>
             <sv:property sv:name="hippo:docbase" sv:type="String">
-              <sv:value>8673b6af-faa4-4fd1-99a5-fa5d6a642343</sv:value>
+              <sv:value>66e6c2c1-66d1-4b38-8d6b-b374e43ac69f</sv:value>
             </sv:property>
           </sv:node>
         </sv:node>
@@ -6774,7 +6792,7 @@
               <sv:value>hippo:mirror</sv:value>
             </sv:property>
             <sv:property sv:name="hippo:docbase" sv:type="String">
-              <sv:value>66e6c2c1-66d1-4b38-8d6b-b374e43ac69f</sv:value>
+              <sv:value>8673b6af-faa4-4fd1-99a5-fa5d6a642343</sv:value>
             </sv:property>
           </sv:node>
         </sv:node>
@@ -14086,10 +14104,10 @@
           <sv:value>en</sv:value>
         </sv:property>
         <sv:property sv:name="inputs" sv:type="String" sv:multiple="true"/>
-        <sv:property sv:name="output-spices" sv:type="Long">
+        <sv:property sv:name="output-luxuries-spices" sv:type="Long">
           <sv:value>4</sv:value>
         </sv:property>
-        <sv:property sv:name="output-luxuries-spices" sv:type="Long">
+        <sv:property sv:name="output-spices" sv:type="Long">
           <sv:value>4</sv:value>
         </sv:property>
         <sv:property sv:name="outputs" sv:type="String" sv:multiple="true">
@@ -14173,10 +14191,10 @@
           <sv:value>en</sv:value>
         </sv:property>
         <sv:property sv:name="inputs" sv:type="String" sv:multiple="true"/>
-        <sv:property sv:name="output-spices" sv:type="Long">
+        <sv:property sv:name="output-luxuries-spices" sv:type="Long">
           <sv:value>4</sv:value>
         </sv:property>
-        <sv:property sv:name="output-luxuries-spices" sv:type="Long">
+        <sv:property sv:name="output-spices" sv:type="Long">
           <sv:value>4</sv:value>
         </sv:property>
         <sv:property sv:name="outputs" sv:type="String" sv:multiple="true">
@@ -14252,10 +14270,10 @@
           <sv:value>en</sv:value>
         </sv:property>
         <sv:property sv:name="inputs" sv:type="String" sv:multiple="true"/>
-        <sv:property sv:name="output-spices" sv:type="Long">
+        <sv:property sv:name="output-luxuries-spices" sv:type="Long">
           <sv:value>4</sv:value>
         </sv:property>
-        <sv:property sv:name="output-luxuries-spices" sv:type="Long">
+        <sv:property sv:name="output-spices" sv:type="Long">
           <sv:value>4</sv:value>
         </sv:property>
         <sv:property sv:name="outputs" sv:type="String" sv:multiple="true">
@@ -19093,7 +19111,7 @@
           <sv:value>2</sv:value>
         </sv:property>
         <sv:property sv:name="atlast:name" sv:type="String">
-          <sv:value>Make Bricks from Wood</sv:value>
+          <sv:value>Make Lumber from Wood</sv:value>
         </sv:property>
         <sv:property sv:name="atlast:skill" sv:type="String">
           <sv:value>carpenter</sv:value>
@@ -19117,7 +19135,7 @@
           <sv:value>2015-07-13T23:03:36.013-04:00</sv:value>
         </sv:property>
         <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
-          <sv:value>2015-09-15T20:23:15.889-04:00</sv:value>
+          <sv:value>2015-09-27T10:38:37.740-04:00</sv:value>
         </sv:property>
         <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
           <sv:value>admin</sv:value>
@@ -19204,7 +19222,7 @@
           <sv:value>2</sv:value>
         </sv:property>
         <sv:property sv:name="atlast:name" sv:type="String">
-          <sv:value>Make Bricks from Wood</sv:value>
+          <sv:value>Make Lumber from Wood</sv:value>
         </sv:property>
         <sv:property sv:name="atlast:skill" sv:type="String">
           <sv:value>carpenter</sv:value>
@@ -19227,7 +19245,7 @@
           <sv:value>2015-07-13T23:03:36.013-04:00</sv:value>
         </sv:property>
         <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
-          <sv:value>2015-09-15T20:23:13.445-04:00</sv:value>
+          <sv:value>2015-09-27T10:38:33.416-04:00</sv:value>
         </sv:property>
         <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
           <sv:value>admin</sv:value>
@@ -19303,7 +19321,7 @@
           <sv:value>2</sv:value>
         </sv:property>
         <sv:property sv:name="atlast:name" sv:type="String">
-          <sv:value>Make Bricks from Wood</sv:value>
+          <sv:value>Make Lumber from Wood</sv:value>
         </sv:property>
         <sv:property sv:name="atlast:skill" sv:type="String">
           <sv:value>carpenter</sv:value>
@@ -19327,13 +19345,13 @@
           <sv:value>2015-07-13T23:03:36.013-04:00</sv:value>
         </sv:property>
         <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
-          <sv:value>2015-09-15T20:23:15.889-04:00</sv:value>
+          <sv:value>2015-09-27T10:38:37.740-04:00</sv:value>
         </sv:property>
         <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
           <sv:value>admin</sv:value>
         </sv:property>
         <sv:property sv:name="hippostdpubwf:publicationDate" sv:type="Date">
-          <sv:value>2015-09-21T21:19:32.842-04:00</sv:value>
+          <sv:value>2015-09-27T10:38:39.323-04:00</sv:value>
         </sv:property>
         <sv:property sv:name="hippotranslation:id" sv:type="String">
           <sv:value>af9d688b-8c85-40d3-8076-6c246f48b69d</sv:value>
@@ -21067,7 +21085,7 @@
           <sv:value>2015-07-13T23:03:36.013-04:00</sv:value>
         </sv:property>
         <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
-          <sv:value>2015-09-15T20:23:51.257-04:00</sv:value>
+          <sv:value>2015-09-26T11:01:41.389-04:00</sv:value>
         </sv:property>
         <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
           <sv:value>admin</sv:value>
@@ -21078,6 +21096,9 @@
         <sv:property sv:name="hippotranslation:locale" sv:type="String">
           <sv:value>en</sv:value>
         </sv:property>
+        <sv:property sv:name="input-agriculture-barley" sv:type="Long">
+          <sv:value>1</sv:value>
+        </sv:property>
         <sv:property sv:name="input-agriculture-wheat" sv:type="Long">
           <sv:value>1</sv:value>
         </sv:property>
@@ -21085,7 +21106,7 @@
           <sv:value>1</sv:value>
         </sv:property>
         <sv:property sv:name="inputs" sv:type="String" sv:multiple="true">
-          <sv:value>agriculture-wheat</sv:value>
+          <sv:value>agriculture-barley</sv:value>
         </sv:property>
         <sv:property sv:name="output-flour" sv:type="Long">
           <sv:value>3</sv:value>
@@ -21108,7 +21129,7 @@
               <sv:value>hippo:mirror</sv:value>
             </sv:property>
             <sv:property sv:name="hippo:docbase" sv:type="String">
-              <sv:value>66e6c2c1-66d1-4b38-8d6b-b374e43ac69f</sv:value>
+              <sv:value>fa98959c-5833-4bb6-b021-c6a847dd4fa0</sv:value>
             </sv:property>
           </sv:node>
         </sv:node>
@@ -21177,7 +21198,7 @@
           <sv:value>2015-07-13T23:03:36.013-04:00</sv:value>
         </sv:property>
         <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
-          <sv:value>2015-09-15T20:23:48.391-04:00</sv:value>
+          <sv:value>2015-09-26T11:01:37.494-04:00</sv:value>
         </sv:property>
         <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
           <sv:value>admin</sv:value>
@@ -21188,6 +21209,9 @@
         <sv:property sv:name="hippotranslation:locale" sv:type="String">
           <sv:value>en</sv:value>
         </sv:property>
+        <sv:property sv:name="input-agriculture-barley" sv:type="Long">
+          <sv:value>1</sv:value>
+        </sv:property>
         <sv:property sv:name="input-agriculture-wheat" sv:type="Long">
           <sv:value>1</sv:value>
         </sv:property>
@@ -21195,7 +21219,7 @@
           <sv:value>1</sv:value>
         </sv:property>
         <sv:property sv:name="inputs" sv:type="String" sv:multiple="true">
-          <sv:value>agriculture-wheat</sv:value>
+          <sv:value>agriculture-barley</sv:value>
         </sv:property>
         <sv:property sv:name="output-flour" sv:type="Long">
           <sv:value>3</sv:value>
@@ -21218,7 +21242,7 @@
               <sv:value>hippo:mirror</sv:value>
             </sv:property>
             <sv:property sv:name="hippo:docbase" sv:type="String">
-              <sv:value>66e6c2c1-66d1-4b38-8d6b-b374e43ac69f</sv:value>
+              <sv:value>fa98959c-5833-4bb6-b021-c6a847dd4fa0</sv:value>
             </sv:property>
           </sv:node>
         </sv:node>
@@ -21277,19 +21301,22 @@
           <sv:value>2015-07-13T23:03:36.013-04:00</sv:value>
         </sv:property>
         <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
-          <sv:value>2015-09-15T20:23:51.257-04:00</sv:value>
+          <sv:value>2015-09-26T11:01:41.389-04:00</sv:value>
         </sv:property>
         <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
           <sv:value>admin</sv:value>
         </sv:property>
         <sv:property sv:name="hippostdpubwf:publicationDate" sv:type="Date">
-          <sv:value>2015-09-21T21:19:28.950-04:00</sv:value>
+          <sv:value>2015-09-26T11:01:43.351-04:00</sv:value>
         </sv:property>
         <sv:property sv:name="hippotranslation:id" sv:type="String">
           <sv:value>b3fcd1d0-6fca-4155-a39c-401588f4fe7d</sv:value>
         </sv:property>
         <sv:property sv:name="hippotranslation:locale" sv:type="String">
           <sv:value>en</sv:value>
+        </sv:property>
+        <sv:property sv:name="input-agriculture-barley" sv:type="Long">
+          <sv:value>1</sv:value>
         </sv:property>
         <sv:property sv:name="input-agriculture-wheat" sv:type="Long">
           <sv:value>1</sv:value>
@@ -21298,7 +21325,7 @@
           <sv:value>1</sv:value>
         </sv:property>
         <sv:property sv:name="inputs" sv:type="String" sv:multiple="true">
-          <sv:value>agriculture-wheat</sv:value>
+          <sv:value>agriculture-barley</sv:value>
         </sv:property>
         <sv:property sv:name="output-flour" sv:type="Long">
           <sv:value>3</sv:value>
@@ -21321,7 +21348,7 @@
               <sv:value>hippo:mirror</sv:value>
             </sv:property>
             <sv:property sv:name="hippo:docbase" sv:type="String">
-              <sv:value>66e6c2c1-66d1-4b38-8d6b-b374e43ac69f</sv:value>
+              <sv:value>fa98959c-5833-4bb6-b021-c6a847dd4fa0</sv:value>
             </sv:property>
           </sv:node>
         </sv:node>
@@ -22004,7 +22031,7 @@
           <sv:value>2015-07-13T18:55:44.428-04:00</sv:value>
         </sv:property>
         <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
-          <sv:value>2015-09-15T20:24:15.433-04:00</sv:value>
+          <sv:value>2015-09-26T11:00:27.673-04:00</sv:value>
         </sv:property>
         <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
           <sv:value>admin</sv:value>
@@ -22016,6 +22043,9 @@
           <sv:value>en</sv:value>
         </sv:property>
         <sv:property sv:name="inputs" sv:type="String" sv:multiple="true"/>
+        <sv:property sv:name="output-agriculture-barley" sv:type="Long">
+          <sv:value>4</sv:value>
+        </sv:property>
         <sv:property sv:name="output-agriculture-wheat" sv:type="Long">
           <sv:value>4</sv:value>
         </sv:property>
@@ -22023,7 +22053,7 @@
           <sv:value>4</sv:value>
         </sv:property>
         <sv:property sv:name="outputs" sv:type="String" sv:multiple="true">
-          <sv:value>agriculture-wheat</sv:value>
+          <sv:value>agriculture-barley</sv:value>
         </sv:property>
         <sv:node sv:name="atlast:outputs">
           <sv:property sv:name="jcr:primaryType" sv:type="Name">
@@ -22037,7 +22067,7 @@
               <sv:value>hippo:mirror</sv:value>
             </sv:property>
             <sv:property sv:name="hippo:docbase" sv:type="String">
-              <sv:value>66e6c2c1-66d1-4b38-8d6b-b374e43ac69f</sv:value>
+              <sv:value>fa98959c-5833-4bb6-b021-c6a847dd4fa0</sv:value>
             </sv:property>
           </sv:node>
         </sv:node>
@@ -22090,7 +22120,7 @@
           <sv:value>2015-07-13T18:55:44.428-04:00</sv:value>
         </sv:property>
         <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
-          <sv:value>2015-09-15T20:24:12.177-04:00</sv:value>
+          <sv:value>2015-09-26T11:00:22.725-04:00</sv:value>
         </sv:property>
         <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
           <sv:value>admin</sv:value>
@@ -22102,6 +22132,9 @@
           <sv:value>en</sv:value>
         </sv:property>
         <sv:property sv:name="inputs" sv:type="String" sv:multiple="true"/>
+        <sv:property sv:name="output-agriculture-barley" sv:type="Long">
+          <sv:value>4</sv:value>
+        </sv:property>
         <sv:property sv:name="output-agriculture-wheat" sv:type="Long">
           <sv:value>4</sv:value>
         </sv:property>
@@ -22109,7 +22142,7 @@
           <sv:value>4</sv:value>
         </sv:property>
         <sv:property sv:name="outputs" sv:type="String" sv:multiple="true">
-          <sv:value>agriculture-wheat</sv:value>
+          <sv:value>agriculture-barley</sv:value>
         </sv:property>
         <sv:node sv:name="atlast:outputs">
           <sv:property sv:name="jcr:primaryType" sv:type="Name">
@@ -22123,7 +22156,7 @@
               <sv:value>hippo:mirror</sv:value>
             </sv:property>
             <sv:property sv:name="hippo:docbase" sv:type="String">
-              <sv:value>66e6c2c1-66d1-4b38-8d6b-b374e43ac69f</sv:value>
+              <sv:value>fa98959c-5833-4bb6-b021-c6a847dd4fa0</sv:value>
             </sv:property>
           </sv:node>
         </sv:node>
@@ -22166,13 +22199,13 @@
           <sv:value>2015-07-13T18:55:44.428-04:00</sv:value>
         </sv:property>
         <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
-          <sv:value>2015-09-15T20:24:15.433-04:00</sv:value>
+          <sv:value>2015-09-26T11:00:27.673-04:00</sv:value>
         </sv:property>
         <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
           <sv:value>admin</sv:value>
         </sv:property>
         <sv:property sv:name="hippostdpubwf:publicationDate" sv:type="Date">
-          <sv:value>2015-09-21T21:19:35.487-04:00</sv:value>
+          <sv:value>2015-09-26T11:00:29.880-04:00</sv:value>
         </sv:property>
         <sv:property sv:name="hippotranslation:id" sv:type="String">
           <sv:value>ff779f9c-425a-4f52-b1c4-4aa2411cc699</sv:value>
@@ -22181,6 +22214,9 @@
           <sv:value>en</sv:value>
         </sv:property>
         <sv:property sv:name="inputs" sv:type="String" sv:multiple="true"/>
+        <sv:property sv:name="output-agriculture-barley" sv:type="Long">
+          <sv:value>4</sv:value>
+        </sv:property>
         <sv:property sv:name="output-agriculture-wheat" sv:type="Long">
           <sv:value>4</sv:value>
         </sv:property>
@@ -22188,7 +22224,7 @@
           <sv:value>4</sv:value>
         </sv:property>
         <sv:property sv:name="outputs" sv:type="String" sv:multiple="true">
-          <sv:value>agriculture-wheat</sv:value>
+          <sv:value>agriculture-barley</sv:value>
         </sv:property>
         <sv:node sv:name="atlast:outputs">
           <sv:property sv:name="jcr:primaryType" sv:type="Name">
@@ -22202,7 +22238,7 @@
               <sv:value>hippo:mirror</sv:value>
             </sv:property>
             <sv:property sv:name="hippo:docbase" sv:type="String">
-              <sv:value>66e6c2c1-66d1-4b38-8d6b-b374e43ac69f</sv:value>
+              <sv:value>fa98959c-5833-4bb6-b021-c6a847dd4fa0</sv:value>
             </sv:property>
           </sv:node>
         </sv:node>

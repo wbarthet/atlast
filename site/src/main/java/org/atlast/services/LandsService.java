@@ -27,18 +27,22 @@ public class LandsService {
 
         Node poolNode = requestContext.getSiteContentBaseBean().getNode().getNode("worlddata/pool");
 
+        popNode.setProperty("atlast:player", "global");
+
         session.move(popNode.getPath(), poolNode.getPath() + "/" + popNode.getName());
 
         session.save();
     }
 
 
-    public void hire(HstRequestContext requestContext, String popId) throws RepositoryException {
+    public void hire(HstRequestContext requestContext, String popId, String player) throws RepositoryException {
         Session session = requestContext.getSession();
 
         Node popNode = session.getNodeByIdentifier(popId);
 
         Node landNode = requestContext.getContentBean().getNode();
+
+        popNode.setProperty("atlast:player", player);
 
         session.move(popNode.getPath(), landNode.getPath()+"/"+popNode.getName());
 

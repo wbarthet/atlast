@@ -2,27 +2,26 @@ package org.atlast.services;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Random;
 
-import javax.jcr.ItemExistsException;
 import javax.jcr.Node;
 import javax.jcr.NodeIterator;
-import javax.jcr.PathNotFoundException;
 import javax.jcr.RepositoryException;
 import javax.jcr.Session;
 import javax.jcr.Value;
-import javax.jcr.lock.LockException;
-import javax.jcr.nodetype.ConstraintViolationException;
-import javax.jcr.nodetype.NoSuchNodeTypeException;
-import javax.jcr.version.VersionException;
 
 
+import org.atlast.beans.descriptors.DevelopmentDescriptor;
 import org.atlast.beans.descriptors.LandDescriptor;
 import org.atlast.beans.descriptors.LanguageDescriptor;
+import org.atlast.beans.descriptors.RecipeDescriptor;
 import org.atlast.beans.descriptors.ResourceDescriptor;
+import org.atlast.beans.descriptors.TraitDescriptor;
 import org.atlast.util.languages.NameGenerator;
 import org.hippoecm.hst.content.beans.query.HstQuery;
 import org.hippoecm.hst.content.beans.query.HstQueryResult;
 import org.hippoecm.hst.content.beans.query.exceptions.QueryException;
+import org.hippoecm.hst.content.beans.query.filter.Filter;
 import org.hippoecm.hst.content.beans.standard.HippoBeanIterator;
 import org.hippoecm.hst.core.request.HstRequestContext;
 import org.hippoecm.repository.api.NodeNameCodec;
@@ -40,7 +39,7 @@ public class SignupService {
     private static final int MIDDLE_START_COUNT = 3;
     private static final int UPPER_START_COUNT = 1;
     public static final double POP_START_CASH = 50.0;
-    public static final double POP_START_FOOD = 10.0;
+    public static final double POP_START_FOOD = 50.0;
 
     public String signup(HstRequestContext requestContext, String userName, String password) throws RepositoryException, QueryException {
         Session session = requestContext.getSession();
@@ -66,11 +65,14 @@ public class SignupService {
 
             createPlayerStores(userPlayerDataNode, requestContext, userName);
 
-            //create lands
-            createPlayerLands(requestContext, userPlayerDataNode, userName);
+            Node identityNode = userPlayerDataNode.getNode("identity");
 
-            //create pops
-            createPlayerPops(requestContext, userPlayerDataNode, userName);
+            String race = identityNode.getProperty("atlast:race").getBoolean()?identityNode.getIdentifier():"none";
+            String religion = !identityNode.getProperty("atlast:race").getBoolean()?identityNode.getIdentifier():"none";
+
+            //create lands
+            createPlayerLands(requestContext, userPlayerDataNode, userName, race, religion);
+
 
             //create notification
 
@@ -139,12 +141,53 @@ public class SignupService {
 
         playerdataNode.setProperty("atlast:player", userName);
         playerdataNode.setProperty("atlast:cash", STARTING_CASH);
-        playerdataNode.setProperty("atlast:languagedescriptor", pickLanguage(requestContext));
+
+        Node languageNode = pickLanguage(requestContext);
+
+
+        Node identityNode = playerdataNode.addNode("identity", "atlast:identity");
+
+        boolean isRace = languageNode.getNode(languageNode.getName()).getProperty("atlast:count").getLong() % 2 == 0;
+        identityNode.setProperty("atlast:race", isRace);
+
+        identityNode.setProperty("atlast:name", isRace ? NameGenerator.generateRaceName(languageNode) : NameGenerator.generateReligionName(languageNode));
+
+        identityNode.setProperty("atlast:languagedescriptor", languageNode.getIdentifier());
+
+        List<String> traits = new ArrayList<>();
+
+        HstQuery query = requestContext.getQueryManager().createQuery(requestContext.getSession().getRootNode(), TraitDescriptor.class);
+
+        query.setLimit(3);
+
+        query.addOrderByAscending("atlast:count");
+
+        Filter filter = query.createFilter();
+
+        filter.addEqualTo("atlast:race", isRace);
+
+        query.setFilter(filter);
+
+        HstQueryResult result = query.execute();
+
+        HippoBeanIterator beanIterator = result.getHippoBeans();
+
+        Node handle = null;
+
+        while (beanIterator.hasNext()) {
+            handle = beanIterator.nextHippoBean().getNode().getParent();
+            incrementCount(handle);
+
+            traits.add(handle.getIdentifier());
+        }
+
+        identityNode.setProperty("atlast:traits", traits.toArray(new String[]{}));
+        
 
         return playerdataNode;
     }
 
-    private String pickLanguage(HstRequestContext requestContext) throws RepositoryException, QueryException {
+    private Node pickLanguage(HstRequestContext requestContext) throws RepositoryException, QueryException {
 
         HstQuery query = requestContext.getQueryManager().createQuery(requestContext.getSession().getRootNode(), LanguageDescriptor.class);
 
@@ -156,16 +199,15 @@ public class SignupService {
 
         HippoBeanIterator beanIterator = result.getHippoBeans();
 
-        String uuid = "";
+        Node handle = null;
 
         if (beanIterator.hasNext()) {
-            Node handle = beanIterator.nextHippoBean().getNode().getParent();
+            handle = beanIterator.nextHippoBean().getNode().getParent();
             incrementCount(handle);
 
-            uuid = handle.getIdentifier();
         }
 
-        return uuid;
+        return handle;
     }
 
     private void incrementCount(final Node handle) throws RepositoryException {
@@ -181,7 +223,7 @@ public class SignupService {
         }
     }
 
-    private void createPlayerLands(final HstRequestContext requestContext, final Node userPlayerDataNode, final String userName) throws RepositoryException, QueryException {
+    private void createPlayerLands(final HstRequestContext requestContext, final Node userPlayerDataNode, final String userName, final String race, final String religion) throws RepositoryException, QueryException {
 
         HstQuery query = requestContext.getQueryManager().createQuery(requestContext.getSession().getRootNode(), LandDescriptor.class);
 
@@ -223,7 +265,7 @@ public class SignupService {
 
         incrementCount(easy.getNode().getParent());
 
-        Node languageDescriptorNode = requestContext.getSession().getNodeByIdentifier(userPlayerDataNode.getProperty("atlast:languagedescriptor").getString());
+        Node languageDescriptorNode = requestContext.getSession().getNodeByIdentifier(userPlayerDataNode.getNode("identity").getProperty("atlast:languagedescriptor").getString());
 
         for (int i = 0; i < ROUGH_START_COUNT; i++) {
             String name = NameGenerator.generateLandName(languageDescriptorNode, rough.getNamePatterns());
@@ -232,6 +274,10 @@ public class SignupService {
             landNode.setProperty("atlast:player", userName);
             landNode.setProperty("atlast:name", name);
             landNode.setProperty("atlast:landdescriptor", rough.getUuid());
+
+            if (i == 0) {
+                developLand(requestContext, userPlayerDataNode, userName, rough, landNode, true, race, religion);
+            }
         }
 
         for (int i = 0; i < EASY_START_COUNT; i++) {
@@ -241,56 +287,69 @@ public class SignupService {
             landNode.setProperty("atlast:player", userName);
             landNode.setProperty("atlast:name", name);
             landNode.setProperty("atlast:landdescriptor", easy.getUuid());
+
+            if (i == 0) {
+                developLand(requestContext, userPlayerDataNode, userName, easy, landNode, true, race, religion);
+            }
+
+            if (i == 1) {
+                developLand(requestContext, userPlayerDataNode, userName, easy, landNode, false, race, religion);
+            }
         }
     }
 
-    private void createPlayerPops(final HstRequestContext requestContext, final Node userPlayerDataNode, final String userName) throws RepositoryException {
+    private void developLand(final HstRequestContext requestContext, final Node userPlayerDataNode, final String userName, final LandDescriptor landDescriptor, final Node landNode, boolean primary, final String race, final String religion) throws RepositoryException {
+        landNode.addMixin("atlast:development");
+        landNode.setProperty("atlast:wages", 100.0d);
 
-        Node poolNode = userPlayerDataNode.addNode("pool", "atlast:land");
+        DevelopmentDescriptor development = null;
 
-        poolNode.setProperty("atlast:name", "pool");
+        for (DevelopmentDescriptor developmentDescriptor : landDescriptor.getAllowedDevelopments()) {
+            if (developmentDescriptor.isPrimary() == primary) {
+                development = developmentDescriptor;
+                break;
+            }
+        }
 
-        Node languageDescriptorNode = requestContext.getSession().getNodeByIdentifier(userPlayerDataNode.getProperty("atlast:languagedescriptor").getString());
+        Random random = new Random();
 
-        for (int i = 0; i < WORKING_START_COUNT; i++) {
+        List<RecipeDescriptor> allowedRecipes = development.getAllowedRecipes();
+        int recipeIndex = random.nextInt(allowedRecipes.size());
+
+        RecipeDescriptor recipe = allowedRecipes.get(recipeIndex);
+
+        String popClass = primary ? "working" : "middle";
+
+        createPlayerPops(requestContext, userPlayerDataNode, userName, landNode, popClass, 3, recipe.getSkill(), race, religion);
+
+        landNode.setProperty("atlast:developmentdescriptor", development.getNode().getParent().getIdentifier());
+        landNode.setProperty("atlast:recipedescriptor", recipe.getNode().getParent().getIdentifier());
+    }
+
+    private void createPlayerPops(final HstRequestContext requestContext, final Node userPlayerDataNode, final String userName, final Node landNode, String popClass, int count, String skill, String race, String religion) throws RepositoryException {
+
+
+        Node languageDescriptorNode = requestContext.getSession().getNodeByIdentifier(userPlayerDataNode.getNode("identity").getProperty("atlast:languagedescriptor").getString());
+
+        for (int i = 0; i < count; i++) {
             String name = NameGenerator.generatePopName(languageDescriptorNode, NameGenerator.generateName(languageDescriptorNode));
-            Node popNode = poolNode.addNode(NodeNameCodec.encode(name), "atlast:pop");
+            Node popNode = landNode.addNode(NodeNameCodec.encode(name), "atlast:pop");
 
             popNode.setProperty("atlast:player", userName);
             popNode.setProperty("atlast:cash", POP_START_CASH);
             popNode.setProperty("atlast:name", name);
             popNode.setProperty("atlast:food", POP_START_FOOD);
-            popNode.setProperty("atlast:class", "working");
-            popNode.setProperty("atlast:goods", 0.0d);
-            popNode.setProperty("atlast:luxuries", 0.0d);
+            popNode.setProperty("atlast:class", popClass);
+            popNode.setProperty("atlast:goods", 10.0d);
+            popNode.setProperty("atlast:luxuries", 10.0d);
+            popNode.setProperty("atlast:skills", new String[]{skill});
+            popNode.setProperty("atlast:races", new String[]{race});
+            popNode.setProperty("atlast:religions", new String[]{religion});
+            popNode.setProperty("skill-" + skill, 50.0d);
+            popNode.setProperty("race-" + race, 100.0d);
+            popNode.setProperty("religion-" + religion, 100.0d);
+            popNode.setProperty("hippo:availability", new String[]{"live"});
 
-        }
-
-        for (int i = 0; i < MIDDLE_START_COUNT; i++) {
-            String name = NameGenerator.generatePopName(languageDescriptorNode, NameGenerator.generateName(languageDescriptorNode));
-            Node popNode = poolNode.addNode(NodeNameCodec.encode(name), "atlast:pop");
-
-            popNode.setProperty("atlast:player", userName);
-            popNode.setProperty("atlast:cash", POP_START_CASH*2);
-            popNode.setProperty("atlast:name", name);
-            popNode.setProperty("atlast:food", POP_START_FOOD);
-            popNode.setProperty("atlast:class", "middle");
-            popNode.setProperty("atlast:goods", POP_START_FOOD);
-            popNode.setProperty("atlast:luxuries", 0.0d);
-
-        }
-
-        for (int i = 0; i < UPPER_START_COUNT; i++) {
-            String name = NameGenerator.generatePopName(languageDescriptorNode, NameGenerator.generateName(languageDescriptorNode));
-            Node popNode = poolNode.addNode(NodeNameCodec.encode(name), "atlast:pop");
-
-            popNode.setProperty("atlast:player", userName);
-            popNode.setProperty("atlast:cash", POP_START_CASH*3);
-            popNode.setProperty("atlast:name", name);
-            popNode.setProperty("atlast:food", POP_START_FOOD);
-            popNode.setProperty("atlast:class", "upper");
-            popNode.setProperty("atlast:goods", POP_START_FOOD);
-            popNode.setProperty("atlast:luxuries", POP_START_FOOD);
 
         }
 

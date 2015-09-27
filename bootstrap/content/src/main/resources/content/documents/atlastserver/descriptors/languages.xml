@@ -80,6 +80,16 @@
       <sv:property sv:name="atlast:patronyms" sv:type="String" sv:multiple="true">
         <sv:value>F1king</sv:value>
       </sv:property>
+      <sv:property sv:name="atlast:races" sv:type="String" sv:multiple="true">
+        <sv:value>${NAME} People</sv:value>
+        <sv:value>${NAME}s</sv:value>
+        <sv:value>${NAME}</sv:value>
+      </sv:property>
+      <sv:property sv:name="atlast:religions" sv:type="String" sv:multiple="true">
+        <sv:value>${NAME}tist</sv:value>
+        <sv:value>${NAME} Faithful</sv:value>
+        <sv:value>${NAME} Worshipers</sv:value>
+      </sv:property>
       <sv:property sv:name="atlast:ri" sv:type="String" sv:multiple="true"/>
       <sv:property sv:name="atlast:sp" sv:type="String" sv:multiple="true">
         <sv:value>sp</sv:value>
@@ -126,7 +136,7 @@
         <sv:value>2015-07-20T12:19:07.079-04:00</sv:value>
       </sv:property>
       <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
-        <sv:value>2015-07-20T23:10:29.962-04:00</sv:value>
+        <sv:value>2015-09-23T22:59:00.951-04:00</sv:value>
       </sv:property>
       <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
         <sv:value>admin</sv:value>
@@ -199,6 +209,16 @@
       <sv:property sv:name="atlast:patronyms" sv:type="String" sv:multiple="true">
         <sv:value>F1king</sv:value>
       </sv:property>
+      <sv:property sv:name="atlast:races" sv:type="String" sv:multiple="true">
+        <sv:value>${NAME} People</sv:value>
+        <sv:value>${NAME}s</sv:value>
+        <sv:value>${NAME}</sv:value>
+      </sv:property>
+      <sv:property sv:name="atlast:religions" sv:type="String" sv:multiple="true">
+        <sv:value>${NAME}tist</sv:value>
+        <sv:value>${NAME} Faithful</sv:value>
+        <sv:value>${NAME} Worshipers</sv:value>
+      </sv:property>
       <sv:property sv:name="atlast:ri" sv:type="String" sv:multiple="true"/>
       <sv:property sv:name="atlast:sp" sv:type="String" sv:multiple="true">
         <sv:value>sp</sv:value>
@@ -246,7 +266,7 @@
         <sv:value>2015-07-20T12:19:07.079-04:00</sv:value>
       </sv:property>
       <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
-        <sv:value>2015-07-20T23:10:39.773-04:00</sv:value>
+        <sv:value>2015-09-23T23:00:40.810-04:00</sv:value>
       </sv:property>
       <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
         <sv:value>admin</sv:value>
@@ -308,6 +328,16 @@
       <sv:property sv:name="atlast:patronyms" sv:type="String" sv:multiple="true">
         <sv:value>F1king</sv:value>
       </sv:property>
+      <sv:property sv:name="atlast:races" sv:type="String" sv:multiple="true">
+        <sv:value>${NAME} People</sv:value>
+        <sv:value>${NAME}s</sv:value>
+        <sv:value>${NAME}</sv:value>
+      </sv:property>
+      <sv:property sv:name="atlast:religions" sv:type="String" sv:multiple="true">
+        <sv:value>${NAME}tist</sv:value>
+        <sv:value>${NAME} Faithful</sv:value>
+        <sv:value>${NAME} Worshipers</sv:value>
+      </sv:property>
       <sv:property sv:name="atlast:ri" sv:type="String" sv:multiple="true"/>
       <sv:property sv:name="atlast:sp" sv:type="String" sv:multiple="true">
         <sv:value>sp</sv:value>
@@ -355,13 +385,13 @@
         <sv:value>2015-07-20T12:19:07.079-04:00</sv:value>
       </sv:property>
       <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
-        <sv:value>2015-07-20T23:10:39.773-04:00</sv:value>
+        <sv:value>2015-09-23T23:00:40.810-04:00</sv:value>
       </sv:property>
       <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
         <sv:value>admin</sv:value>
       </sv:property>
       <sv:property sv:name="hippostdpubwf:publicationDate" sv:type="Date">
-        <sv:value>2015-07-20T23:10:41.604-04:00</sv:value>
+        <sv:value>2015-09-23T23:03:13.933-04:00</sv:value>
       </sv:property>
       <sv:property sv:name="hippotranslation:id" sv:type="String">
         <sv:value>cbaff22c-e2c2-4977-8e28-8b88c45e4224</sv:value>
@@ -398,7 +428,7 @@
         <sv:value>ous</sv:value>
       </sv:property>
       <sv:property sv:name="atlast:count" sv:type="Long">
-        <sv:value>2</sv:value>
+        <sv:value>3</sv:value>
       </sv:property>
       <sv:property sv:name="atlast:ee" sv:type="String" sv:multiple="true"/>
       <sv:property sv:name="atlast:k" sv:type="String" sv:multiple="true">
@@ -437,6 +467,16 @@
       <sv:property sv:name="atlast:patronyms" sv:type="String" sv:multiple="true">
         <sv:value>F1</sv:value>
       </sv:property>
+      <sv:property sv:name="atlast:races" sv:type="String" sv:multiple="true">
+        <sv:value>${NAME}os</sv:value>
+        <sv:value>${NAME}</sv:value>
+        <sv:value>Descendants of ${NAME}</sv:value>
+      </sv:property>
+      <sv:property sv:name="atlast:religions" sv:type="String" sv:multiple="true">
+        <sv:value>${NAME}i</sv:value>
+        <sv:value>${NAME}ians</sv:value>
+        <sv:value>${NAME} Truthers</sv:value>
+      </sv:property>
       <sv:property sv:name="atlast:ri" sv:type="String" sv:multiple="true"/>
       <sv:property sv:name="atlast:sp" sv:type="String" sv:multiple="true">
         <sv:value>sp</sv:value>
@@ -472,7 +512,7 @@
         <sv:value>2015-07-20T13:10:28.204-04:00</sv:value>
       </sv:property>
       <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
-        <sv:value>2015-07-20T23:13:07.337-04:00</sv:value>
+        <sv:value>2015-09-23T23:00:42.550-04:00</sv:value>
       </sv:property>
       <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
         <sv:value>admin</sv:value>
@@ -511,7 +551,7 @@
         <sv:value>ous</sv:value>
       </sv:property>
       <sv:property sv:name="atlast:count" sv:type="Long">
-        <sv:value>2</sv:value>
+        <sv:value>3</sv:value>
       </sv:property>
       <sv:property sv:name="atlast:ee" sv:type="String" sv:multiple="true"/>
       <sv:property sv:name="atlast:k" sv:type="String" sv:multiple="true">
@@ -549,6 +589,16 @@
       </sv:property>
       <sv:property sv:name="atlast:patronyms" sv:type="String" sv:multiple="true">
         <sv:value>F1</sv:value>
+      </sv:property>
+      <sv:property sv:name="atlast:races" sv:type="String" sv:multiple="true">
+        <sv:value>${NAME}os</sv:value>
+        <sv:value>${NAME}</sv:value>
+        <sv:value>Descendants of ${NAME}</sv:value>
+      </sv:property>
+      <sv:property sv:name="atlast:religions" sv:type="String" sv:multiple="true">
+        <sv:value>${NAME}i</sv:value>
+        <sv:value>${NAME}ians</sv:value>
+        <sv:value>${NAME} Truthers</sv:value>
       </sv:property>
       <sv:property sv:name="atlast:ri" sv:type="String" sv:multiple="true"/>
       <sv:property sv:name="atlast:sp" sv:type="String" sv:multiple="true">
@@ -586,7 +636,7 @@
         <sv:value>2015-07-20T13:10:28.204-04:00</sv:value>
       </sv:property>
       <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
-        <sv:value>2015-07-20T13:46:58.794-04:00</sv:value>
+        <sv:value>2015-09-23T23:01:48.246-04:00</sv:value>
       </sv:property>
       <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
         <sv:value>admin</sv:value>
@@ -614,7 +664,7 @@
         <sv:value>ous</sv:value>
       </sv:property>
       <sv:property sv:name="atlast:count" sv:type="Long">
-        <sv:value>2</sv:value>
+        <sv:value>3</sv:value>
       </sv:property>
       <sv:property sv:name="atlast:ee" sv:type="String" sv:multiple="true"/>
       <sv:property sv:name="atlast:k" sv:type="String" sv:multiple="true">
@@ -653,6 +703,16 @@
       <sv:property sv:name="atlast:patronyms" sv:type="String" sv:multiple="true">
         <sv:value>F1</sv:value>
       </sv:property>
+      <sv:property sv:name="atlast:races" sv:type="String" sv:multiple="true">
+        <sv:value>${NAME}os</sv:value>
+        <sv:value>${NAME}</sv:value>
+        <sv:value>Descendants of ${NAME}</sv:value>
+      </sv:property>
+      <sv:property sv:name="atlast:religions" sv:type="String" sv:multiple="true">
+        <sv:value>${NAME}i</sv:value>
+        <sv:value>${NAME}ians</sv:value>
+        <sv:value>${NAME} Truthers</sv:value>
+      </sv:property>
       <sv:property sv:name="atlast:ri" sv:type="String" sv:multiple="true"/>
       <sv:property sv:name="atlast:sp" sv:type="String" sv:multiple="true">
         <sv:value>sp</sv:value>
@@ -689,13 +749,13 @@
         <sv:value>2015-07-20T13:10:28.204-04:00</sv:value>
       </sv:property>
       <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
-        <sv:value>2015-07-20T13:46:58.794-04:00</sv:value>
+        <sv:value>2015-09-23T23:01:48.246-04:00</sv:value>
       </sv:property>
       <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
         <sv:value>admin</sv:value>
       </sv:property>
       <sv:property sv:name="hippostdpubwf:publicationDate" sv:type="Date">
-        <sv:value>2015-07-20T13:47:00.470-04:00</sv:value>
+        <sv:value>2015-09-23T23:03:13.742-04:00</sv:value>
       </sv:property>
       <sv:property sv:name="hippotranslation:id" sv:type="String">
         <sv:value>cf429f3b-8dd4-492e-b779-5041c90fbcac</sv:value>
@@ -728,7 +788,7 @@
       </sv:property>
       <sv:property sv:name="atlast:an" sv:type="String" sv:multiple="true"/>
       <sv:property sv:name="atlast:count" sv:type="Long">
-        <sv:value>3</sv:value>
+        <sv:value>2</sv:value>
       </sv:property>
       <sv:property sv:name="atlast:ee" sv:type="Double" sv:multiple="true"/>
       <sv:property sv:name="atlast:k" sv:type="String" sv:multiple="true">
@@ -765,6 +825,16 @@
       <sv:property sv:name="atlast:oa" sv:type="Double" sv:multiple="true"/>
       <sv:property sv:name="atlast:patronyms" sv:type="String" sv:multiple="true">
         <sv:value>F1elu</sv:value>
+      </sv:property>
+      <sv:property sv:name="atlast:races" sv:type="String" sv:multiple="true">
+        <sv:value>${NAME}in</sv:value>
+        <sv:value>${NAME}i</sv:value>
+        <sv:value>${NAME}jin</sv:value>
+      </sv:property>
+      <sv:property sv:name="atlast:religions" sv:type="String" sv:multiple="true">
+        <sv:value>${NAME}ani</sv:value>
+        <sv:value>${NAME}isti</sv:value>
+        <sv:value>${NAME}in</sv:value>
       </sv:property>
       <sv:property sv:name="atlast:ri" sv:type="String" sv:multiple="true">
         <sv:value>lu</sv:value>
@@ -823,7 +893,7 @@
         <sv:value>2015-07-23T21:05:11.481-04:00</sv:value>
       </sv:property>
       <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
-        <sv:value>2015-07-31T10:50:52.137-04:00</sv:value>
+        <sv:value>2015-09-23T23:01:49.646-04:00</sv:value>
       </sv:property>
       <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
         <sv:value>admin</sv:value>
@@ -858,7 +928,7 @@
       </sv:property>
       <sv:property sv:name="atlast:an" sv:type="String" sv:multiple="true"/>
       <sv:property sv:name="atlast:count" sv:type="Long">
-        <sv:value>3</sv:value>
+        <sv:value>2</sv:value>
       </sv:property>
       <sv:property sv:name="atlast:ee" sv:type="Double" sv:multiple="true"/>
       <sv:property sv:name="atlast:k" sv:type="String" sv:multiple="true">
@@ -895,6 +965,16 @@
       <sv:property sv:name="atlast:oa" sv:type="Double" sv:multiple="true"/>
       <sv:property sv:name="atlast:patronyms" sv:type="String" sv:multiple="true">
         <sv:value>F1elu</sv:value>
+      </sv:property>
+      <sv:property sv:name="atlast:races" sv:type="String" sv:multiple="true">
+        <sv:value>${NAME}in</sv:value>
+        <sv:value>${NAME}i</sv:value>
+        <sv:value>${NAME}jin</sv:value>
+      </sv:property>
+      <sv:property sv:name="atlast:religions" sv:type="String" sv:multiple="true">
+        <sv:value>${NAME}ani</sv:value>
+        <sv:value>${NAME}isti</sv:value>
+        <sv:value>${NAME}in</sv:value>
       </sv:property>
       <sv:property sv:name="atlast:ri" sv:type="String" sv:multiple="true">
         <sv:value>lu</sv:value>
@@ -954,7 +1034,7 @@
         <sv:value>2015-07-23T21:05:11.481-04:00</sv:value>
       </sv:property>
       <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
-        <sv:value>2015-07-31T10:51:11.127-04:00</sv:value>
+        <sv:value>2015-09-23T23:03:08.730-04:00</sv:value>
       </sv:property>
       <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
         <sv:value>admin</sv:value>
@@ -978,7 +1058,7 @@
       </sv:property>
       <sv:property sv:name="atlast:an" sv:type="String" sv:multiple="true"/>
       <sv:property sv:name="atlast:count" sv:type="Long">
-        <sv:value>3</sv:value>
+        <sv:value>2</sv:value>
       </sv:property>
       <sv:property sv:name="atlast:ee" sv:type="Double" sv:multiple="true"/>
       <sv:property sv:name="atlast:k" sv:type="String" sv:multiple="true">
@@ -1015,6 +1095,16 @@
       <sv:property sv:name="atlast:oa" sv:type="Double" sv:multiple="true"/>
       <sv:property sv:name="atlast:patronyms" sv:type="String" sv:multiple="true">
         <sv:value>F1elu</sv:value>
+      </sv:property>
+      <sv:property sv:name="atlast:races" sv:type="String" sv:multiple="true">
+        <sv:value>${NAME}in</sv:value>
+        <sv:value>${NAME}i</sv:value>
+        <sv:value>${NAME}jin</sv:value>
+      </sv:property>
+      <sv:property sv:name="atlast:religions" sv:type="String" sv:multiple="true">
+        <sv:value>${NAME}ani</sv:value>
+        <sv:value>${NAME}isti</sv:value>
+        <sv:value>${NAME}in</sv:value>
       </sv:property>
       <sv:property sv:name="atlast:ri" sv:type="String" sv:multiple="true">
         <sv:value>lu</sv:value>
@@ -1074,13 +1164,13 @@
         <sv:value>2015-07-23T21:05:11.481-04:00</sv:value>
       </sv:property>
       <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
-        <sv:value>2015-07-31T10:51:11.127-04:00</sv:value>
+        <sv:value>2015-09-23T23:03:08.730-04:00</sv:value>
       </sv:property>
       <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
         <sv:value>admin</sv:value>
       </sv:property>
       <sv:property sv:name="hippostdpubwf:publicationDate" sv:type="Date">
-        <sv:value>2015-07-31T10:51:14.784-04:00</sv:value>
+        <sv:value>2015-09-23T23:03:14.098-04:00</sv:value>
       </sv:property>
       <sv:property sv:name="hippotranslation:id" sv:type="String">
         <sv:value>180bd66e-9999-4a78-a1c2-1782c953d751</sv:value>

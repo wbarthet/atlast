@@ -50,7 +50,7 @@ public class LabourPool extends BaseSecuredComponent {
         if (securityCheck(request, uuid)) {
             if ("hire".equals(type)) {
                 try {
-                   landsService.hire(request.getRequestContext(), uuid);
+                   landsService.hire(request.getRequestContext(), uuid, "global");
                 } catch (RepositoryException e) {
                     log.error("Error updating labour pool", e);
                 }

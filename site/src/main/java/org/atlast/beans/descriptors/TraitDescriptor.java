@@ -20,27 +20,26 @@ import java.util.List;
 import org.atlast.beans.Atlastimageset;
 import org.atlast.beans.BaseDocument;
 import org.hippoecm.hst.content.beans.Node;
-import org.hippoecm.hst.content.beans.standard.HippoDocument;
 
 
-@Node(jcrType="atlast:developmentdescriptor")
-public class DevelopmentDescriptor extends BaseDocument {
+@Node(jcrType="atlast:traitdescriptor")
+public class TraitDescriptor extends BaseDocument {
 
 
     public String getName() {
         return getProperty("atlast:name");
     }
 
-    public List<RecipeDescriptor> getAllowedRecipes() {
-        return getLinkedBeans("atlast:allowedrecipes", RecipeDescriptor.class);
+    public List<Amount> getEffects() {
+        return getChildBeansByName("atlast:effects", Amount.class);
     }
 
-    public Atlastimageset getIcon() {
-        return getLinkedBean("atlast:icon", Atlastimageset.class);
-    }
 
-    public boolean isPrimary() {
-        return getProperty("atlast:primary");
+    public boolean isRace() {
+        return getProperty("atlast:race");
+    }
+    public boolean isReligion() {
+        return getProperty("atlast:religion");
     }
 }
 

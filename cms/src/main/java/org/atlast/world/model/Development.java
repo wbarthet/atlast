@@ -20,21 +20,8 @@ public class Development extends AtlastObject {
         return getChildNodes(Pop.class);
     }
 
-    public long getLabour() {
-        return getLongProperty("atlast:labour");
-    }
 
-    public String getSkill() {
-        return getStringProperty("atlast:skill");
-    }
 
-    public List<String> getInputs() {
-        return getStringListProperty("atlast:inputs");
-    }
-
-    public List<String> getOutputs() {
-        return getStringListProperty("atlast:outputs");
-    }
 
     public Recipe getRecipe() throws RepositoryException {
         return new Recipe(getNode().getSession(), getStringProperty("atlast:recipedescriptor"));
@@ -59,12 +46,14 @@ public class Development extends AtlastObject {
     public void produce() throws RepositoryException {
         List<Pop> pops = getPops();
 
-        final long labour = getLabour();
-        String skillName = getSkill();
+
+
         Player player = getPlayer();
         Market market = player.getStores();
 
         Recipe recipe = getRecipe();
+        final long labour = recipe.getLabour();
+        final String skillName = recipe.getSkill();
 
         Map<String, Double> inputs = recipe.getInputs();
         Map<String, Double> outputs = recipe.getOutputs();
@@ -77,7 +66,7 @@ public class Development extends AtlastObject {
 
         skill = skill / pops.size();
 
-        if (pops.size() >= labour) {
+        if (pops.size() >= labour && labour != 0) {
             for (int i = 0; i < pops.size(); i += labour) {
 
                 if (market.hasItems(inputs)) {

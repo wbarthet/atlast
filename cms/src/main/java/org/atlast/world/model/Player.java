@@ -48,7 +48,7 @@ public class Player extends AtlastObject {
         return null;
     }
 
-    public Node getLanguageDescriptorNode() throws RepositoryException {
-        return getNode().getSession().getNodeByIdentifier(getStringProperty("atlast:languagedescriptor"));
+    public Identity getIdentity() throws RepositoryException {
+        return new Identity(getNode().getNode("identity"));
     }
 }

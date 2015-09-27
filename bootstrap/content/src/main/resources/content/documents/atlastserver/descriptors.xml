@@ -19,4 +19,1718 @@
   <sv:property sv:name="hippotranslation:locale" sv:type="String">
     <sv:value>en</sv:value>
   </sv:property>
+  <sv:node sv:name="trait">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hippostd:folder</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+      <sv:value>hippotranslation:translated</sv:value>
+      <sv:value>mix:versionable</sv:value>
+      <sv:value>hippo:translated</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:uuid" sv:type="String">
+      <sv:value>cc1c62cd-67e5-40af-9f29-b2178179dfd0</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippostd:foldertype" sv:type="String" sv:multiple="true">
+      <sv:value>new-translated-folder</sv:value>
+      <sv:value>new-document</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippotranslation:id" sv:type="String">
+      <sv:value>9d70bdea-4fae-419c-9cf3-9c7f88585d55</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippotranslation:locale" sv:type="String">
+      <sv:value>en</sv:value>
+    </sv:property>
+    <sv:node sv:name="hippo:translation">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>hippo:translation</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:language" sv:type="String">
+        <sv:value/>
+      </sv:property>
+      <sv:property sv:name="hippo:message" sv:type="String">
+        <sv:value>traIts</sv:value>
+      </sv:property>
+    </sv:node>
+    <sv:node sv:name="vegitarian">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>hippo:handle</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+        <sv:value>mix:referenceable</sv:value>
+        <sv:value>hippo:translated</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:uuid" sv:type="String">
+        <sv:value>389176d2-c6cb-4347-a4bf-83ab06c1a9b9</sv:value>
+      </sv:property>
+      <sv:node sv:name="vegitarian">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>atlast:traitdescriptor</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+          <sv:value>mix:referenceable</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:uuid" sv:type="String">
+          <sv:value>1df9fefa-1627-4e6c-bf66-fb0618385608</sv:value>
+        </sv:property>
+        <sv:property sv:name="atlast:count" sv:type="Long">
+          <sv:value>6</sv:value>
+        </sv:property>
+        <sv:property sv:name="atlast:name" sv:type="String">
+          <sv:value>Vegitarian</sv:value>
+        </sv:property>
+        <sv:property sv:name="atlast:race" sv:type="Boolean">
+          <sv:value>false</sv:value>
+        </sv:property>
+        <sv:property sv:name="atlast:religion" sv:type="Boolean">
+          <sv:value>true</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true"/>
+        <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+          <sv:value>descriptors/trait/vegitarian/vegitarian[3]</sv:value>
+          <sv:value>descriptors/trait/vegitarian/vegitarian[2]</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:state" sv:type="String">
+          <sv:value>draft</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+          <sv:value>live</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+          <sv:value>admin</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+          <sv:value>2015-09-23T19:38:53.900-04:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+          <sv:value>2015-09-23T19:38:53.999-04:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+          <sv:value>admin</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippotranslation:id" sv:type="String">
+          <sv:value>f1303e11-f8b5-4b63-8557-5b2083dc358b</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippotranslation:locale" sv:type="String">
+          <sv:value>en</sv:value>
+        </sv:property>
+        <sv:node sv:name="atlast:effects">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>atlast:amount</sv:value>
+          </sv:property>
+          <sv:property sv:name="atlast:quantity" sv:type="Long">
+            <sv:value>-100</sv:value>
+          </sv:property>
+          <sv:node sv:name="atlast:resource">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippo:mirror</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:docbase" sv:type="String">
+              <sv:value>1bc4c3d6-e429-4b84-8b6c-f291fc3e1cf6</sv:value>
+            </sv:property>
+          </sv:node>
+        </sv:node>
+        <sv:node sv:name="atlast:effects">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>atlast:amount</sv:value>
+          </sv:property>
+          <sv:property sv:name="atlast:quantity" sv:type="Long">
+            <sv:value>-100</sv:value>
+          </sv:property>
+          <sv:node sv:name="atlast:resource">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippo:mirror</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:docbase" sv:type="String">
+              <sv:value>7588a594-2bed-4732-ac55-d543561a8afe</sv:value>
+            </sv:property>
+          </sv:node>
+        </sv:node>
+      </sv:node>
+      <sv:node sv:name="hippo:translation">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippo:translation</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:language" sv:type="String">
+          <sv:value/>
+        </sv:property>
+        <sv:property sv:name="hippo:message" sv:type="String">
+          <sv:value>Vegitarian</sv:value>
+        </sv:property>
+      </sv:node>
+      <sv:node sv:name="vegitarian">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>atlast:traitdescriptor</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+          <sv:value>mix:versionable</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:uuid" sv:type="String">
+          <sv:value>e1d8b8e1-34f1-4929-94ef-6e7acb536b1e</sv:value>
+        </sv:property>
+        <sv:property sv:name="atlast:count" sv:type="Long">
+          <sv:value>6</sv:value>
+        </sv:property>
+        <sv:property sv:name="atlast:name" sv:type="String">
+          <sv:value>Vegitarian</sv:value>
+        </sv:property>
+        <sv:property sv:name="atlast:race" sv:type="Boolean">
+          <sv:value>false</sv:value>
+        </sv:property>
+        <sv:property sv:name="atlast:religion" sv:type="Boolean">
+          <sv:value>true</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
+          <sv:value>preview</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+          <sv:value>descriptors/trait/vegitarian/vegitarian[3]</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:state" sv:type="String">
+          <sv:value>unpublished</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+          <sv:value>live</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+          <sv:value>admin</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+          <sv:value>2015-09-23T19:38:53.900-04:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+          <sv:value>2015-09-23T19:39:43.867-04:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+          <sv:value>admin</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippotranslation:id" sv:type="String">
+          <sv:value>f1303e11-f8b5-4b63-8557-5b2083dc358b</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippotranslation:locale" sv:type="String">
+          <sv:value>en</sv:value>
+        </sv:property>
+        <sv:node sv:name="atlast:effects">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>atlast:amount</sv:value>
+          </sv:property>
+          <sv:property sv:name="atlast:quantity" sv:type="Long">
+            <sv:value>-100</sv:value>
+          </sv:property>
+          <sv:node sv:name="atlast:resource">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippo:mirror</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:docbase" sv:type="String">
+              <sv:value>1bc4c3d6-e429-4b84-8b6c-f291fc3e1cf6</sv:value>
+            </sv:property>
+          </sv:node>
+        </sv:node>
+        <sv:node sv:name="atlast:effects">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>atlast:amount</sv:value>
+          </sv:property>
+          <sv:property sv:name="atlast:quantity" sv:type="Long">
+            <sv:value>-100</sv:value>
+          </sv:property>
+          <sv:node sv:name="atlast:resource">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippo:mirror</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:docbase" sv:type="String">
+              <sv:value>7588a594-2bed-4732-ac55-d543561a8afe</sv:value>
+            </sv:property>
+          </sv:node>
+        </sv:node>
+      </sv:node>
+      <sv:node sv:name="vegitarian">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>atlast:traitdescriptor</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+          <sv:value>mix:referenceable</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:uuid" sv:type="String">
+          <sv:value>27287fa9-4678-4b27-9926-416a4dc3a8b6</sv:value>
+        </sv:property>
+        <sv:property sv:name="atlast:count" sv:type="Long">
+          <sv:value>6</sv:value>
+        </sv:property>
+        <sv:property sv:name="atlast:name" sv:type="String">
+          <sv:value>Vegitarian</sv:value>
+        </sv:property>
+        <sv:property sv:name="atlast:race" sv:type="Boolean">
+          <sv:value>false</sv:value>
+        </sv:property>
+        <sv:property sv:name="atlast:religion" sv:type="Boolean">
+          <sv:value>true</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
+          <sv:value>live</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+          <sv:value>descriptors/trait/vegitarian/vegitarian[2]</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:state" sv:type="String">
+          <sv:value>published</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+          <sv:value>live</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+          <sv:value>admin</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+          <sv:value>2015-09-23T19:38:53.900-04:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+          <sv:value>2015-09-23T19:39:43.867-04:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+          <sv:value>admin</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:publicationDate" sv:type="Date">
+          <sv:value>2015-09-23T19:44:54.595-04:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippotranslation:id" sv:type="String">
+          <sv:value>f1303e11-f8b5-4b63-8557-5b2083dc358b</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippotranslation:locale" sv:type="String">
+          <sv:value>en</sv:value>
+        </sv:property>
+        <sv:node sv:name="atlast:effects">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>atlast:amount</sv:value>
+          </sv:property>
+          <sv:property sv:name="atlast:quantity" sv:type="Long">
+            <sv:value>-100</sv:value>
+          </sv:property>
+          <sv:node sv:name="atlast:resource">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippo:mirror</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:docbase" sv:type="String">
+              <sv:value>1bc4c3d6-e429-4b84-8b6c-f291fc3e1cf6</sv:value>
+            </sv:property>
+          </sv:node>
+        </sv:node>
+        <sv:node sv:name="atlast:effects">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>atlast:amount</sv:value>
+          </sv:property>
+          <sv:property sv:name="atlast:quantity" sv:type="Long">
+            <sv:value>-100</sv:value>
+          </sv:property>
+          <sv:node sv:name="atlast:resource">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippo:mirror</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:docbase" sv:type="String">
+              <sv:value>7588a594-2bed-4732-ac55-d543561a8afe</sv:value>
+            </sv:property>
+          </sv:node>
+        </sv:node>
+      </sv:node>
+    </sv:node>
+    <sv:node sv:name="holy-communion">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>hippo:handle</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+        <sv:value>mix:referenceable</sv:value>
+        <sv:value>hippo:translated</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:uuid" sv:type="String">
+        <sv:value>13865f6c-c321-4092-928d-6056f572fe1a</sv:value>
+      </sv:property>
+      <sv:node sv:name="holy-communion">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>atlast:traitdescriptor</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+          <sv:value>mix:referenceable</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:uuid" sv:type="String">
+          <sv:value>12043f21-f0ea-457e-875e-ea352dd8272a</sv:value>
+        </sv:property>
+        <sv:property sv:name="atlast:count" sv:type="Long">
+          <sv:value>6</sv:value>
+        </sv:property>
+        <sv:property sv:name="atlast:name" sv:type="String">
+          <sv:value>Holy Communion</sv:value>
+        </sv:property>
+        <sv:property sv:name="atlast:race" sv:type="Boolean">
+          <sv:value>false</sv:value>
+        </sv:property>
+        <sv:property sv:name="atlast:religion" sv:type="Boolean">
+          <sv:value>true</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true"/>
+        <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+          <sv:value>descriptors/trait/holy-communion/holy-communion[3]</sv:value>
+          <sv:value>descriptors/trait/holy-communion/holy-communion[2]</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:state" sv:type="String">
+          <sv:value>draft</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+          <sv:value>live</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+          <sv:value>admin</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+          <sv:value>2015-09-23T19:40:13.587-04:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+          <sv:value>2015-09-23T19:40:13.630-04:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+          <sv:value>admin</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippotranslation:id" sv:type="String">
+          <sv:value>b11329d4-9e48-48e8-b2ac-7af4646bd32c</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippotranslation:locale" sv:type="String">
+          <sv:value>en</sv:value>
+        </sv:property>
+        <sv:node sv:name="atlast:effects">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>atlast:amount</sv:value>
+          </sv:property>
+          <sv:property sv:name="atlast:quantity" sv:type="Long">
+            <sv:value>25</sv:value>
+          </sv:property>
+          <sv:node sv:name="atlast:resource">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippo:mirror</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:docbase" sv:type="String">
+              <sv:value>b2134a19-5879-4025-853d-da074d0ebe1d</sv:value>
+            </sv:property>
+          </sv:node>
+        </sv:node>
+        <sv:node sv:name="atlast:effects">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>atlast:amount</sv:value>
+          </sv:property>
+          <sv:property sv:name="atlast:quantity" sv:type="Long">
+            <sv:value>25</sv:value>
+          </sv:property>
+          <sv:node sv:name="atlast:resource">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippo:mirror</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:docbase" sv:type="String">
+              <sv:value>69f54715-6f81-4128-96af-4a60333dde17</sv:value>
+            </sv:property>
+          </sv:node>
+        </sv:node>
+      </sv:node>
+      <sv:node sv:name="hippo:translation">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippo:translation</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:language" sv:type="String">
+          <sv:value/>
+        </sv:property>
+        <sv:property sv:name="hippo:message" sv:type="String">
+          <sv:value>Holy Communion</sv:value>
+        </sv:property>
+      </sv:node>
+      <sv:node sv:name="holy-communion">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>atlast:traitdescriptor</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+          <sv:value>mix:versionable</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:uuid" sv:type="String">
+          <sv:value>b39d9aed-89fd-4a1b-a042-6cd77bed356c</sv:value>
+        </sv:property>
+        <sv:property sv:name="atlast:count" sv:type="Long">
+          <sv:value>6</sv:value>
+        </sv:property>
+        <sv:property sv:name="atlast:name" sv:type="String">
+          <sv:value>Holy Communion</sv:value>
+        </sv:property>
+        <sv:property sv:name="atlast:race" sv:type="Boolean">
+          <sv:value>false</sv:value>
+        </sv:property>
+        <sv:property sv:name="atlast:religion" sv:type="Boolean">
+          <sv:value>true</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
+          <sv:value>preview</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+          <sv:value>descriptors/trait/holy-communion/holy-communion[3]</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:state" sv:type="String">
+          <sv:value>unpublished</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+          <sv:value>live</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+          <sv:value>admin</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+          <sv:value>2015-09-23T19:40:13.587-04:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+          <sv:value>2015-09-23T19:40:41.389-04:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+          <sv:value>admin</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippotranslation:id" sv:type="String">
+          <sv:value>b11329d4-9e48-48e8-b2ac-7af4646bd32c</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippotranslation:locale" sv:type="String">
+          <sv:value>en</sv:value>
+        </sv:property>
+        <sv:node sv:name="atlast:effects">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>atlast:amount</sv:value>
+          </sv:property>
+          <sv:property sv:name="atlast:quantity" sv:type="Long">
+            <sv:value>25</sv:value>
+          </sv:property>
+          <sv:node sv:name="atlast:resource">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippo:mirror</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:docbase" sv:type="String">
+              <sv:value>b2134a19-5879-4025-853d-da074d0ebe1d</sv:value>
+            </sv:property>
+          </sv:node>
+        </sv:node>
+        <sv:node sv:name="atlast:effects">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>atlast:amount</sv:value>
+          </sv:property>
+          <sv:property sv:name="atlast:quantity" sv:type="Long">
+            <sv:value>25</sv:value>
+          </sv:property>
+          <sv:node sv:name="atlast:resource">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippo:mirror</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:docbase" sv:type="String">
+              <sv:value>69f54715-6f81-4128-96af-4a60333dde17</sv:value>
+            </sv:property>
+          </sv:node>
+        </sv:node>
+      </sv:node>
+      <sv:node sv:name="holy-communion">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>atlast:traitdescriptor</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+          <sv:value>mix:referenceable</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:uuid" sv:type="String">
+          <sv:value>17d6c26d-2d4a-44f8-966b-f17c18717459</sv:value>
+        </sv:property>
+        <sv:property sv:name="atlast:count" sv:type="Long">
+          <sv:value>6</sv:value>
+        </sv:property>
+        <sv:property sv:name="atlast:name" sv:type="String">
+          <sv:value>Holy Communion</sv:value>
+        </sv:property>
+        <sv:property sv:name="atlast:race" sv:type="Boolean">
+          <sv:value>false</sv:value>
+        </sv:property>
+        <sv:property sv:name="atlast:religion" sv:type="Boolean">
+          <sv:value>true</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
+          <sv:value>live</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+          <sv:value>descriptors/trait/holy-communion/holy-communion[2]</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:state" sv:type="String">
+          <sv:value>published</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+          <sv:value>live</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+          <sv:value>admin</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+          <sv:value>2015-09-23T19:40:13.587-04:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+          <sv:value>2015-09-23T19:40:41.389-04:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+          <sv:value>admin</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:publicationDate" sv:type="Date">
+          <sv:value>2015-09-23T19:44:54.712-04:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippotranslation:id" sv:type="String">
+          <sv:value>b11329d4-9e48-48e8-b2ac-7af4646bd32c</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippotranslation:locale" sv:type="String">
+          <sv:value>en</sv:value>
+        </sv:property>
+        <sv:node sv:name="atlast:effects">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>atlast:amount</sv:value>
+          </sv:property>
+          <sv:property sv:name="atlast:quantity" sv:type="Long">
+            <sv:value>25</sv:value>
+          </sv:property>
+          <sv:node sv:name="atlast:resource">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippo:mirror</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:docbase" sv:type="String">
+              <sv:value>b2134a19-5879-4025-853d-da074d0ebe1d</sv:value>
+            </sv:property>
+          </sv:node>
+        </sv:node>
+        <sv:node sv:name="atlast:effects">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>atlast:amount</sv:value>
+          </sv:property>
+          <sv:property sv:name="atlast:quantity" sv:type="Long">
+            <sv:value>25</sv:value>
+          </sv:property>
+          <sv:node sv:name="atlast:resource">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippo:mirror</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:docbase" sv:type="String">
+              <sv:value>69f54715-6f81-4128-96af-4a60333dde17</sv:value>
+            </sv:property>
+          </sv:node>
+        </sv:node>
+      </sv:node>
+    </sv:node>
+    <sv:node sv:name="forbidden-fruit">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>hippo:handle</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+        <sv:value>mix:referenceable</sv:value>
+        <sv:value>hippo:translated</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:uuid" sv:type="String">
+        <sv:value>7a61b867-0755-4500-aa7e-5316b87d489f</sv:value>
+      </sv:property>
+      <sv:node sv:name="forbidden-fruit">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>atlast:traitdescriptor</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+          <sv:value>mix:referenceable</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:uuid" sv:type="String">
+          <sv:value>dfea62d6-39c6-4cea-b6d3-aae68d5fac7e</sv:value>
+        </sv:property>
+        <sv:property sv:name="atlast:count" sv:type="Long">
+          <sv:value>6</sv:value>
+        </sv:property>
+        <sv:property sv:name="atlast:name" sv:type="String">
+          <sv:value>Forbidden Fruit</sv:value>
+        </sv:property>
+        <sv:property sv:name="atlast:race" sv:type="Boolean">
+          <sv:value>false</sv:value>
+        </sv:property>
+        <sv:property sv:name="atlast:religion" sv:type="Boolean">
+          <sv:value>true</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true"/>
+        <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+          <sv:value>descriptors/trait/forbidden-fruit/forbidden-fruit[2]</sv:value>
+          <sv:value>descriptors/trait/forbidden-fruit/forbidden-fruit[3]</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:state" sv:type="String">
+          <sv:value>draft</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+          <sv:value>live</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+          <sv:value>admin</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+          <sv:value>2015-09-23T19:41:15.784-04:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+          <sv:value>2015-09-23T19:41:15.859-04:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+          <sv:value>admin</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippotranslation:id" sv:type="String">
+          <sv:value>27fe5fd2-743a-4ed7-ae35-55450ad7de72</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippotranslation:locale" sv:type="String">
+          <sv:value>en</sv:value>
+        </sv:property>
+        <sv:node sv:name="atlast:effects">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>atlast:amount</sv:value>
+          </sv:property>
+          <sv:property sv:name="atlast:quantity" sv:type="Long">
+            <sv:value>-100</sv:value>
+          </sv:property>
+          <sv:node sv:name="atlast:resource">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippo:mirror</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:docbase" sv:type="String">
+              <sv:value>5eea2e6f-8003-40f6-a5db-1614e8edd53a</sv:value>
+            </sv:property>
+          </sv:node>
+        </sv:node>
+        <sv:node sv:name="atlast:effects">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>atlast:amount</sv:value>
+          </sv:property>
+          <sv:property sv:name="atlast:quantity" sv:type="Long">
+            <sv:value>-50</sv:value>
+          </sv:property>
+          <sv:node sv:name="atlast:resource">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippo:mirror</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:docbase" sv:type="String">
+              <sv:value>e9d0f973-4c23-4fae-92c4-20f20bd6b638</sv:value>
+            </sv:property>
+          </sv:node>
+        </sv:node>
+      </sv:node>
+      <sv:node sv:name="hippo:translation">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippo:translation</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:language" sv:type="String">
+          <sv:value/>
+        </sv:property>
+        <sv:property sv:name="hippo:message" sv:type="String">
+          <sv:value>Forbidden Fruit</sv:value>
+        </sv:property>
+      </sv:node>
+      <sv:node sv:name="forbidden-fruit">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>atlast:traitdescriptor</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+          <sv:value>mix:versionable</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:uuid" sv:type="String">
+          <sv:value>62b7bdfd-0239-4ece-9bf4-04fc3e75857f</sv:value>
+        </sv:property>
+        <sv:property sv:name="atlast:count" sv:type="Long">
+          <sv:value>6</sv:value>
+        </sv:property>
+        <sv:property sv:name="atlast:name" sv:type="String">
+          <sv:value>Forbidden Fruit</sv:value>
+        </sv:property>
+        <sv:property sv:name="atlast:race" sv:type="Boolean">
+          <sv:value>false</sv:value>
+        </sv:property>
+        <sv:property sv:name="atlast:religion" sv:type="Boolean">
+          <sv:value>true</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
+          <sv:value>preview</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+          <sv:value>descriptors/trait/forbidden-fruit/forbidden-fruit[3]</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:state" sv:type="String">
+          <sv:value>unpublished</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+          <sv:value>live</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+          <sv:value>admin</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+          <sv:value>2015-09-23T19:41:15.784-04:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+          <sv:value>2015-09-23T19:41:42.358-04:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+          <sv:value>admin</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippotranslation:id" sv:type="String">
+          <sv:value>27fe5fd2-743a-4ed7-ae35-55450ad7de72</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippotranslation:locale" sv:type="String">
+          <sv:value>en</sv:value>
+        </sv:property>
+        <sv:node sv:name="atlast:effects">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>atlast:amount</sv:value>
+          </sv:property>
+          <sv:property sv:name="atlast:quantity" sv:type="Long">
+            <sv:value>-100</sv:value>
+          </sv:property>
+          <sv:node sv:name="atlast:resource">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippo:mirror</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:docbase" sv:type="String">
+              <sv:value>5eea2e6f-8003-40f6-a5db-1614e8edd53a</sv:value>
+            </sv:property>
+          </sv:node>
+        </sv:node>
+        <sv:node sv:name="atlast:effects">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>atlast:amount</sv:value>
+          </sv:property>
+          <sv:property sv:name="atlast:quantity" sv:type="Long">
+            <sv:value>-50</sv:value>
+          </sv:property>
+          <sv:node sv:name="atlast:resource">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippo:mirror</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:docbase" sv:type="String">
+              <sv:value>e9d0f973-4c23-4fae-92c4-20f20bd6b638</sv:value>
+            </sv:property>
+          </sv:node>
+        </sv:node>
+      </sv:node>
+      <sv:node sv:name="forbidden-fruit">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>atlast:traitdescriptor</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+          <sv:value>mix:referenceable</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:uuid" sv:type="String">
+          <sv:value>ef072cc8-2ac1-4637-a27b-2c39a57a034c</sv:value>
+        </sv:property>
+        <sv:property sv:name="atlast:count" sv:type="Long">
+          <sv:value>6</sv:value>
+        </sv:property>
+        <sv:property sv:name="atlast:name" sv:type="String">
+          <sv:value>Forbidden Fruit</sv:value>
+        </sv:property>
+        <sv:property sv:name="atlast:race" sv:type="Boolean">
+          <sv:value>false</sv:value>
+        </sv:property>
+        <sv:property sv:name="atlast:religion" sv:type="Boolean">
+          <sv:value>true</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
+          <sv:value>live</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+          <sv:value>descriptors/trait/forbidden-fruit/forbidden-fruit[2]</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:state" sv:type="String">
+          <sv:value>published</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+          <sv:value>live</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+          <sv:value>admin</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+          <sv:value>2015-09-23T19:41:15.784-04:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+          <sv:value>2015-09-23T19:41:42.358-04:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+          <sv:value>admin</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:publicationDate" sv:type="Date">
+          <sv:value>2015-09-23T19:44:54.909-04:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippotranslation:id" sv:type="String">
+          <sv:value>27fe5fd2-743a-4ed7-ae35-55450ad7de72</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippotranslation:locale" sv:type="String">
+          <sv:value>en</sv:value>
+        </sv:property>
+        <sv:node sv:name="atlast:effects">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>atlast:amount</sv:value>
+          </sv:property>
+          <sv:property sv:name="atlast:quantity" sv:type="Long">
+            <sv:value>-100</sv:value>
+          </sv:property>
+          <sv:node sv:name="atlast:resource">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippo:mirror</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:docbase" sv:type="String">
+              <sv:value>5eea2e6f-8003-40f6-a5db-1614e8edd53a</sv:value>
+            </sv:property>
+          </sv:node>
+        </sv:node>
+        <sv:node sv:name="atlast:effects">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>atlast:amount</sv:value>
+          </sv:property>
+          <sv:property sv:name="atlast:quantity" sv:type="Long">
+            <sv:value>-50</sv:value>
+          </sv:property>
+          <sv:node sv:name="atlast:resource">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippo:mirror</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:docbase" sv:type="String">
+              <sv:value>e9d0f973-4c23-4fae-92c4-20f20bd6b638</sv:value>
+            </sv:property>
+          </sv:node>
+        </sv:node>
+      </sv:node>
+    </sv:node>
+    <sv:node sv:name="sweet-tooth">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>hippo:handle</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+        <sv:value>mix:referenceable</sv:value>
+        <sv:value>hippo:translated</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:uuid" sv:type="String">
+        <sv:value>69a63209-b42b-4de8-afdc-c1a9703d1441</sv:value>
+      </sv:property>
+      <sv:node sv:name="sweet-tooth">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>atlast:traitdescriptor</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+          <sv:value>mix:referenceable</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:uuid" sv:type="String">
+          <sv:value>bd1b06ec-7a6d-4bb9-9839-c623ae5e3bbe</sv:value>
+        </sv:property>
+        <sv:property sv:name="atlast:count" sv:type="Long">
+          <sv:value>6</sv:value>
+        </sv:property>
+        <sv:property sv:name="atlast:name" sv:type="String">
+          <sv:value>Sweet Tooth</sv:value>
+        </sv:property>
+        <sv:property sv:name="atlast:race" sv:type="Boolean">
+          <sv:value>true</sv:value>
+        </sv:property>
+        <sv:property sv:name="atlast:religion" sv:type="Boolean">
+          <sv:value>false</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true"/>
+        <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+          <sv:value>descriptors/trait/sweet-tooth/sweet-tooth[3]</sv:value>
+          <sv:value>descriptors/trait/sweet-tooth/sweet-tooth[2]</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:state" sv:type="String">
+          <sv:value>draft</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+          <sv:value>live</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+          <sv:value>admin</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+          <sv:value>2015-09-23T19:42:13.978-04:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+          <sv:value>2015-09-23T19:42:14.013-04:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+          <sv:value>admin</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippotranslation:id" sv:type="String">
+          <sv:value>8ccb84dd-55ae-4ca0-9252-5a339d409ec6</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippotranslation:locale" sv:type="String">
+          <sv:value>en</sv:value>
+        </sv:property>
+        <sv:node sv:name="atlast:effects">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>atlast:amount</sv:value>
+          </sv:property>
+          <sv:property sv:name="atlast:quantity" sv:type="Long">
+            <sv:value>50</sv:value>
+          </sv:property>
+          <sv:node sv:name="atlast:resource">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippo:mirror</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:docbase" sv:type="String">
+              <sv:value>3214cb4d-299d-4504-8bc1-4ed205d5812d</sv:value>
+            </sv:property>
+          </sv:node>
+        </sv:node>
+        <sv:node sv:name="atlast:effects">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>atlast:amount</sv:value>
+          </sv:property>
+          <sv:property sv:name="atlast:quantity" sv:type="Long">
+            <sv:value>25</sv:value>
+          </sv:property>
+          <sv:node sv:name="atlast:resource">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippo:mirror</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:docbase" sv:type="String">
+              <sv:value>2dd15b24-40e9-441b-b185-0bc716ba475b</sv:value>
+            </sv:property>
+          </sv:node>
+        </sv:node>
+      </sv:node>
+      <sv:node sv:name="hippo:translation">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippo:translation</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:language" sv:type="String">
+          <sv:value/>
+        </sv:property>
+        <sv:property sv:name="hippo:message" sv:type="String">
+          <sv:value>Sweet Tooth</sv:value>
+        </sv:property>
+      </sv:node>
+      <sv:node sv:name="sweet-tooth">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>atlast:traitdescriptor</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+          <sv:value>mix:versionable</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:uuid" sv:type="String">
+          <sv:value>7a3312b4-3b16-41a8-a705-fcb897ef662d</sv:value>
+        </sv:property>
+        <sv:property sv:name="atlast:count" sv:type="Long">
+          <sv:value>6</sv:value>
+        </sv:property>
+        <sv:property sv:name="atlast:name" sv:type="String">
+          <sv:value>Sweet Tooth</sv:value>
+        </sv:property>
+        <sv:property sv:name="atlast:race" sv:type="Boolean">
+          <sv:value>true</sv:value>
+        </sv:property>
+        <sv:property sv:name="atlast:religion" sv:type="Boolean">
+          <sv:value>false</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
+          <sv:value>preview</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+          <sv:value>descriptors/trait/sweet-tooth/sweet-tooth[3]</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:state" sv:type="String">
+          <sv:value>unpublished</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+          <sv:value>live</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+          <sv:value>admin</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+          <sv:value>2015-09-23T19:42:13.978-04:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+          <sv:value>2015-09-23T19:42:43.926-04:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+          <sv:value>admin</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippotranslation:id" sv:type="String">
+          <sv:value>8ccb84dd-55ae-4ca0-9252-5a339d409ec6</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippotranslation:locale" sv:type="String">
+          <sv:value>en</sv:value>
+        </sv:property>
+        <sv:node sv:name="atlast:effects">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>atlast:amount</sv:value>
+          </sv:property>
+          <sv:property sv:name="atlast:quantity" sv:type="Long">
+            <sv:value>50</sv:value>
+          </sv:property>
+          <sv:node sv:name="atlast:resource">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippo:mirror</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:docbase" sv:type="String">
+              <sv:value>3214cb4d-299d-4504-8bc1-4ed205d5812d</sv:value>
+            </sv:property>
+          </sv:node>
+        </sv:node>
+        <sv:node sv:name="atlast:effects">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>atlast:amount</sv:value>
+          </sv:property>
+          <sv:property sv:name="atlast:quantity" sv:type="Long">
+            <sv:value>25</sv:value>
+          </sv:property>
+          <sv:node sv:name="atlast:resource">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippo:mirror</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:docbase" sv:type="String">
+              <sv:value>2dd15b24-40e9-441b-b185-0bc716ba475b</sv:value>
+            </sv:property>
+          </sv:node>
+        </sv:node>
+      </sv:node>
+      <sv:node sv:name="sweet-tooth">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>atlast:traitdescriptor</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+          <sv:value>mix:referenceable</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:uuid" sv:type="String">
+          <sv:value>73817667-3077-4b95-b161-864b2aa9f679</sv:value>
+        </sv:property>
+        <sv:property sv:name="atlast:count" sv:type="Long">
+          <sv:value>6</sv:value>
+        </sv:property>
+        <sv:property sv:name="atlast:name" sv:type="String">
+          <sv:value>Sweet Tooth</sv:value>
+        </sv:property>
+        <sv:property sv:name="atlast:race" sv:type="Boolean">
+          <sv:value>true</sv:value>
+        </sv:property>
+        <sv:property sv:name="atlast:religion" sv:type="Boolean">
+          <sv:value>false</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
+          <sv:value>live</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+          <sv:value>descriptors/trait/sweet-tooth/sweet-tooth[2]</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:state" sv:type="String">
+          <sv:value>published</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+          <sv:value>live</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+          <sv:value>admin</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+          <sv:value>2015-09-23T19:42:13.978-04:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+          <sv:value>2015-09-23T19:42:43.926-04:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+          <sv:value>admin</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:publicationDate" sv:type="Date">
+          <sv:value>2015-09-23T19:44:54.472-04:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippotranslation:id" sv:type="String">
+          <sv:value>8ccb84dd-55ae-4ca0-9252-5a339d409ec6</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippotranslation:locale" sv:type="String">
+          <sv:value>en</sv:value>
+        </sv:property>
+        <sv:node sv:name="atlast:effects">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>atlast:amount</sv:value>
+          </sv:property>
+          <sv:property sv:name="atlast:quantity" sv:type="Long">
+            <sv:value>50</sv:value>
+          </sv:property>
+          <sv:node sv:name="atlast:resource">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippo:mirror</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:docbase" sv:type="String">
+              <sv:value>3214cb4d-299d-4504-8bc1-4ed205d5812d</sv:value>
+            </sv:property>
+          </sv:node>
+        </sv:node>
+        <sv:node sv:name="atlast:effects">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>atlast:amount</sv:value>
+          </sv:property>
+          <sv:property sv:name="atlast:quantity" sv:type="Long">
+            <sv:value>25</sv:value>
+          </sv:property>
+          <sv:node sv:name="atlast:resource">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippo:mirror</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:docbase" sv:type="String">
+              <sv:value>2dd15b24-40e9-441b-b185-0bc716ba475b</sv:value>
+            </sv:property>
+          </sv:node>
+        </sv:node>
+      </sv:node>
+    </sv:node>
+    <sv:node sv:name="salted-fish">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>hippo:handle</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+        <sv:value>mix:referenceable</sv:value>
+        <sv:value>hippo:translated</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:uuid" sv:type="String">
+        <sv:value>d3272f52-1db3-4f2f-a3cc-5cc6c722d849</sv:value>
+      </sv:property>
+      <sv:node sv:name="salted-fish">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>atlast:traitdescriptor</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+          <sv:value>mix:referenceable</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:uuid" sv:type="String">
+          <sv:value>790acef2-43da-4bb4-b982-fe455c89f515</sv:value>
+        </sv:property>
+        <sv:property sv:name="atlast:count" sv:type="Long">
+          <sv:value>6</sv:value>
+        </sv:property>
+        <sv:property sv:name="atlast:name" sv:type="String">
+          <sv:value>Salted Fish</sv:value>
+        </sv:property>
+        <sv:property sv:name="atlast:race" sv:type="Boolean">
+          <sv:value>true</sv:value>
+        </sv:property>
+        <sv:property sv:name="atlast:religion" sv:type="Boolean">
+          <sv:value>false</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true"/>
+        <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+          <sv:value>descriptors/trait/salted-fish/salted-fish[2]</sv:value>
+          <sv:value>descriptors/trait/salted-fish/salted-fish[3]</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:state" sv:type="String">
+          <sv:value>draft</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+          <sv:value>live</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+          <sv:value>admin</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+          <sv:value>2015-09-23T19:43:24.576-04:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+          <sv:value>2015-09-23T19:43:24.622-04:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+          <sv:value>admin</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippotranslation:id" sv:type="String">
+          <sv:value>50233f8a-be2f-4940-a7f9-d618d40d9acb</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippotranslation:locale" sv:type="String">
+          <sv:value>en</sv:value>
+        </sv:property>
+        <sv:node sv:name="atlast:effects">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>atlast:amount</sv:value>
+          </sv:property>
+          <sv:property sv:name="atlast:quantity" sv:type="Long">
+            <sv:value>25</sv:value>
+          </sv:property>
+          <sv:node sv:name="atlast:resource">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippo:mirror</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:docbase" sv:type="String">
+              <sv:value>f980978e-d8bc-48a4-bf23-be1dd8d98dba</sv:value>
+            </sv:property>
+          </sv:node>
+        </sv:node>
+        <sv:node sv:name="atlast:effects">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>atlast:amount</sv:value>
+          </sv:property>
+          <sv:property sv:name="atlast:quantity" sv:type="Long">
+            <sv:value>50</sv:value>
+          </sv:property>
+          <sv:node sv:name="atlast:resource">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippo:mirror</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:docbase" sv:type="String">
+              <sv:value>7fcccf92-b77f-4a72-843e-2b4df61cb618</sv:value>
+            </sv:property>
+          </sv:node>
+        </sv:node>
+      </sv:node>
+      <sv:node sv:name="hippo:translation">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippo:translation</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:language" sv:type="String">
+          <sv:value/>
+        </sv:property>
+        <sv:property sv:name="hippo:message" sv:type="String">
+          <sv:value>Salted Fish</sv:value>
+        </sv:property>
+      </sv:node>
+      <sv:node sv:name="salted-fish">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>atlast:traitdescriptor</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+          <sv:value>mix:versionable</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:uuid" sv:type="String">
+          <sv:value>79c05a0c-31b5-4bea-aca7-6c773dd2a20f</sv:value>
+        </sv:property>
+        <sv:property sv:name="atlast:count" sv:type="Long">
+          <sv:value>6</sv:value>
+        </sv:property>
+        <sv:property sv:name="atlast:name" sv:type="String">
+          <sv:value>Salted Fish</sv:value>
+        </sv:property>
+        <sv:property sv:name="atlast:race" sv:type="Boolean">
+          <sv:value>true</sv:value>
+        </sv:property>
+        <sv:property sv:name="atlast:religion" sv:type="Boolean">
+          <sv:value>false</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
+          <sv:value>preview</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+          <sv:value>descriptors/trait/salted-fish/salted-fish[3]</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:state" sv:type="String">
+          <sv:value>unpublished</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+          <sv:value>live</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+          <sv:value>admin</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+          <sv:value>2015-09-23T19:43:24.576-04:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+          <sv:value>2015-09-23T19:43:50.192-04:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+          <sv:value>admin</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippotranslation:id" sv:type="String">
+          <sv:value>50233f8a-be2f-4940-a7f9-d618d40d9acb</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippotranslation:locale" sv:type="String">
+          <sv:value>en</sv:value>
+        </sv:property>
+        <sv:node sv:name="atlast:effects">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>atlast:amount</sv:value>
+          </sv:property>
+          <sv:property sv:name="atlast:quantity" sv:type="Long">
+            <sv:value>25</sv:value>
+          </sv:property>
+          <sv:node sv:name="atlast:resource">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippo:mirror</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:docbase" sv:type="String">
+              <sv:value>f980978e-d8bc-48a4-bf23-be1dd8d98dba</sv:value>
+            </sv:property>
+          </sv:node>
+        </sv:node>
+        <sv:node sv:name="atlast:effects">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>atlast:amount</sv:value>
+          </sv:property>
+          <sv:property sv:name="atlast:quantity" sv:type="Long">
+            <sv:value>50</sv:value>
+          </sv:property>
+          <sv:node sv:name="atlast:resource">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippo:mirror</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:docbase" sv:type="String">
+              <sv:value>7fcccf92-b77f-4a72-843e-2b4df61cb618</sv:value>
+            </sv:property>
+          </sv:node>
+        </sv:node>
+      </sv:node>
+      <sv:node sv:name="salted-fish">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>atlast:traitdescriptor</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+          <sv:value>mix:referenceable</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:uuid" sv:type="String">
+          <sv:value>fb88cbfd-9a62-41b6-9fc2-e65b0a180845</sv:value>
+        </sv:property>
+        <sv:property sv:name="atlast:count" sv:type="Long">
+          <sv:value>6</sv:value>
+        </sv:property>
+        <sv:property sv:name="atlast:name" sv:type="String">
+          <sv:value>Salted Fish</sv:value>
+        </sv:property>
+        <sv:property sv:name="atlast:race" sv:type="Boolean">
+          <sv:value>true</sv:value>
+        </sv:property>
+        <sv:property sv:name="atlast:religion" sv:type="Boolean">
+          <sv:value>false</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
+          <sv:value>live</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+          <sv:value>descriptors/trait/salted-fish/salted-fish[2]</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:state" sv:type="String">
+          <sv:value>published</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+          <sv:value>live</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+          <sv:value>admin</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+          <sv:value>2015-09-23T19:43:24.576-04:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+          <sv:value>2015-09-23T19:43:50.192-04:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+          <sv:value>admin</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:publicationDate" sv:type="Date">
+          <sv:value>2015-09-23T19:44:55.018-04:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippotranslation:id" sv:type="String">
+          <sv:value>50233f8a-be2f-4940-a7f9-d618d40d9acb</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippotranslation:locale" sv:type="String">
+          <sv:value>en</sv:value>
+        </sv:property>
+        <sv:node sv:name="atlast:effects">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>atlast:amount</sv:value>
+          </sv:property>
+          <sv:property sv:name="atlast:quantity" sv:type="Long">
+            <sv:value>25</sv:value>
+          </sv:property>
+          <sv:node sv:name="atlast:resource">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippo:mirror</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:docbase" sv:type="String">
+              <sv:value>f980978e-d8bc-48a4-bf23-be1dd8d98dba</sv:value>
+            </sv:property>
+          </sv:node>
+        </sv:node>
+        <sv:node sv:name="atlast:effects">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>atlast:amount</sv:value>
+          </sv:property>
+          <sv:property sv:name="atlast:quantity" sv:type="Long">
+            <sv:value>50</sv:value>
+          </sv:property>
+          <sv:node sv:name="atlast:resource">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippo:mirror</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:docbase" sv:type="String">
+              <sv:value>7fcccf92-b77f-4a72-843e-2b4df61cb618</sv:value>
+            </sv:property>
+          </sv:node>
+        </sv:node>
+      </sv:node>
+    </sv:node>
+    <sv:node sv:name="nomadic">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>hippo:handle</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+        <sv:value>mix:referenceable</sv:value>
+        <sv:value>hippo:translated</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:uuid" sv:type="String">
+        <sv:value>23946ca3-3840-48d4-963b-1b6a090a6825</sv:value>
+      </sv:property>
+      <sv:node sv:name="nomadic">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>atlast:traitdescriptor</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+          <sv:value>mix:referenceable</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:uuid" sv:type="String">
+          <sv:value>57dfd665-fc8f-49be-a012-64662095ed3a</sv:value>
+        </sv:property>
+        <sv:property sv:name="atlast:count" sv:type="Long">
+          <sv:value>6</sv:value>
+        </sv:property>
+        <sv:property sv:name="atlast:name" sv:type="String">
+          <sv:value>Nomadic</sv:value>
+        </sv:property>
+        <sv:property sv:name="atlast:race" sv:type="Boolean">
+          <sv:value>true</sv:value>
+        </sv:property>
+        <sv:property sv:name="atlast:religion" sv:type="Boolean">
+          <sv:value>false</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true"/>
+        <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+          <sv:value>descriptors/trait/nomadic/nomadic[2]</sv:value>
+          <sv:value>descriptors/trait/nomadic/nomadic[3]</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:state" sv:type="String">
+          <sv:value>draft</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+          <sv:value>live</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+          <sv:value>admin</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+          <sv:value>2015-09-23T19:44:13.931-04:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+          <sv:value>2015-09-23T19:44:13.997-04:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+          <sv:value>admin</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippotranslation:id" sv:type="String">
+          <sv:value>9cf1faae-5b1b-4b45-b148-faa69a026b39</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippotranslation:locale" sv:type="String">
+          <sv:value>en</sv:value>
+        </sv:property>
+        <sv:node sv:name="atlast:effects">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>atlast:amount</sv:value>
+          </sv:property>
+          <sv:property sv:name="atlast:quantity" sv:type="Long">
+            <sv:value>-75</sv:value>
+          </sv:property>
+          <sv:node sv:name="atlast:resource">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippo:mirror</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:docbase" sv:type="String">
+              <sv:value>8991108c-8fa8-4c30-9d4d-55f925998080</sv:value>
+            </sv:property>
+          </sv:node>
+        </sv:node>
+        <sv:node sv:name="atlast:effects">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>atlast:amount</sv:value>
+          </sv:property>
+          <sv:property sv:name="atlast:quantity" sv:type="Long">
+            <sv:value>50</sv:value>
+          </sv:property>
+          <sv:node sv:name="atlast:resource">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippo:mirror</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:docbase" sv:type="String">
+              <sv:value>4d58b951-d63c-43e7-b2dc-3572e15e9dd3</sv:value>
+            </sv:property>
+          </sv:node>
+        </sv:node>
+      </sv:node>
+      <sv:node sv:name="hippo:translation">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippo:translation</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:language" sv:type="String">
+          <sv:value/>
+        </sv:property>
+        <sv:property sv:name="hippo:message" sv:type="String">
+          <sv:value>Nomadic</sv:value>
+        </sv:property>
+      </sv:node>
+      <sv:node sv:name="nomadic">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>atlast:traitdescriptor</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+          <sv:value>mix:versionable</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:uuid" sv:type="String">
+          <sv:value>3f94962c-3d41-4ac8-b482-9e904649ec0b</sv:value>
+        </sv:property>
+        <sv:property sv:name="atlast:count" sv:type="Long">
+          <sv:value>6</sv:value>
+        </sv:property>
+        <sv:property sv:name="atlast:name" sv:type="String">
+          <sv:value>Nomadic</sv:value>
+        </sv:property>
+        <sv:property sv:name="atlast:race" sv:type="Boolean">
+          <sv:value>true</sv:value>
+        </sv:property>
+        <sv:property sv:name="atlast:religion" sv:type="Boolean">
+          <sv:value>false</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
+          <sv:value>preview</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+          <sv:value>descriptors/trait/nomadic/nomadic[3]</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:state" sv:type="String">
+          <sv:value>unpublished</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+          <sv:value>live</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+          <sv:value>admin</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+          <sv:value>2015-09-23T19:44:13.931-04:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+          <sv:value>2015-09-23T19:44:49.811-04:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+          <sv:value>admin</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippotranslation:id" sv:type="String">
+          <sv:value>9cf1faae-5b1b-4b45-b148-faa69a026b39</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippotranslation:locale" sv:type="String">
+          <sv:value>en</sv:value>
+        </sv:property>
+        <sv:node sv:name="atlast:effects">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>atlast:amount</sv:value>
+          </sv:property>
+          <sv:property sv:name="atlast:quantity" sv:type="Long">
+            <sv:value>-75</sv:value>
+          </sv:property>
+          <sv:node sv:name="atlast:resource">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippo:mirror</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:docbase" sv:type="String">
+              <sv:value>8991108c-8fa8-4c30-9d4d-55f925998080</sv:value>
+            </sv:property>
+          </sv:node>
+        </sv:node>
+        <sv:node sv:name="atlast:effects">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>atlast:amount</sv:value>
+          </sv:property>
+          <sv:property sv:name="atlast:quantity" sv:type="Long">
+            <sv:value>50</sv:value>
+          </sv:property>
+          <sv:node sv:name="atlast:resource">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippo:mirror</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:docbase" sv:type="String">
+              <sv:value>4d58b951-d63c-43e7-b2dc-3572e15e9dd3</sv:value>
+            </sv:property>
+          </sv:node>
+        </sv:node>
+      </sv:node>
+      <sv:node sv:name="nomadic">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>atlast:traitdescriptor</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+          <sv:value>mix:referenceable</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:uuid" sv:type="String">
+          <sv:value>f16829a0-ea83-4e4b-8456-fe812cee0ca4</sv:value>
+        </sv:property>
+        <sv:property sv:name="atlast:count" sv:type="Long">
+          <sv:value>6</sv:value>
+        </sv:property>
+        <sv:property sv:name="atlast:name" sv:type="String">
+          <sv:value>Nomadic</sv:value>
+        </sv:property>
+        <sv:property sv:name="atlast:race" sv:type="Boolean">
+          <sv:value>true</sv:value>
+        </sv:property>
+        <sv:property sv:name="atlast:religion" sv:type="Boolean">
+          <sv:value>false</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
+          <sv:value>live</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+          <sv:value>descriptors/trait/nomadic/nomadic[2]</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:state" sv:type="String">
+          <sv:value>published</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+          <sv:value>live</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+          <sv:value>admin</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+          <sv:value>2015-09-23T19:44:13.931-04:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+          <sv:value>2015-09-23T19:44:49.811-04:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+          <sv:value>admin</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:publicationDate" sv:type="Date">
+          <sv:value>2015-09-23T19:44:54.806-04:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippotranslation:id" sv:type="String">
+          <sv:value>9cf1faae-5b1b-4b45-b148-faa69a026b39</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippotranslation:locale" sv:type="String">
+          <sv:value>en</sv:value>
+        </sv:property>
+        <sv:node sv:name="atlast:effects">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>atlast:amount</sv:value>
+          </sv:property>
+          <sv:property sv:name="atlast:quantity" sv:type="Long">
+            <sv:value>-75</sv:value>
+          </sv:property>
+          <sv:node sv:name="atlast:resource">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippo:mirror</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:docbase" sv:type="String">
+              <sv:value>8991108c-8fa8-4c30-9d4d-55f925998080</sv:value>
+            </sv:property>
+          </sv:node>
+        </sv:node>
+        <sv:node sv:name="atlast:effects">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>atlast:amount</sv:value>
+          </sv:property>
+          <sv:property sv:name="atlast:quantity" sv:type="Long">
+            <sv:value>50</sv:value>
+          </sv:property>
+          <sv:node sv:name="atlast:resource">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippo:mirror</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:docbase" sv:type="String">
+              <sv:value>4d58b951-d63c-43e7-b2dc-3572e15e9dd3</sv:value>
+            </sv:property>
+          </sv:node>
+        </sv:node>
+      </sv:node>
+    </sv:node>
+  </sv:node>
 </sv:node>

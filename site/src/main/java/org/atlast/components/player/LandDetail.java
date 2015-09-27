@@ -40,27 +40,30 @@ public class LandDetail extends BaseSecuredComponent {
 
         request.setAttribute("land", land);
 
-        Market worldMarket = requestContext.getSiteContentBaseBean().getBean("worlddata/market");
+        if (land.getRecipeDescriptor() != null) {
 
-        request.setAttribute("worldMarket", worldMarket);
+            Market worldMarket = requestContext.getSiteContentBaseBean().getBean("worlddata/market");
 
-        try {
-            Node poolNode = requestContext.getSiteContentBaseBean().getNode().getNode("worlddata/pool");
+            request.setAttribute("worldMarket", worldMarket);
 
-            HstQuery query = requestContext.getQueryManager().createQuery(poolNode, Pop.class);
+            try {
+                Node poolNode = requestContext.getSiteContentBaseBean().getNode().getNode("worlddata/pool");
 
-            query.addOrderByDescending("skill-" + land.getRecipeDescriptor().getSkill());
+                HstQuery query = requestContext.getQueryManager().createQuery(poolNode, Pop.class);
 
-            query.setLimit(10);
+                query.addOrderByDescending("skill-" + land.getRecipeDescriptor().getSkill());
 
-            HstQueryResult hstQueryResult = query.execute();
+                query.setLimit(10);
 
-            request.setAttribute("pool", hstQueryResult.getHippoBeans());
+                HstQueryResult hstQueryResult = query.execute();
 
-        } catch (RepositoryException e) {
-            log.error("Error retrieving worker pool");
-        } catch (QueryException e) {
-            log.error("Error retrieving workers");
+                request.setAttribute("pool", hstQueryResult.getHippoBeans());
+
+            } catch (RepositoryException e) {
+                log.error("Error retrieving worker pool");
+            } catch (QueryException e) {
+                log.error("Error retrieving workers");
+            }
         }
     }
 
@@ -81,7 +84,8 @@ public class LandDetail extends BaseSecuredComponent {
                 }
             } else if ("hire".equals(type)) {
                 try {
-                    landsService.hire(request.getRequestContext(), uuid);
+                    String player = request.getRequestContext().getServletRequest().getUserPrincipal().getName();
+                    landsService.hire(request.getRequestContext(), uuid, player);
                 } catch (RepositoryException e) {
                     log.error("Error updating labour pool", e);
                 }

@@ -118,4 +118,42 @@ public class NameGenerator {
 
         return name + " " + lastName;
     }
+
+    public static String generateReligionName(Node languageDescriptorNode) throws RepositoryException {
+
+        if ("hippo:handle".equals(languageDescriptorNode.getPrimaryNodeType().getName())) {
+            languageDescriptorNode = languageDescriptorNode.getNode(languageDescriptorNode.getName());
+        }
+
+        Random r = new Random();
+
+        Value[] namePatterns = languageDescriptorNode.getProperty("atlast:religions").getValues();
+
+        int index = r.nextInt(namePatterns.length);
+
+        String name = namePatterns[index].getString();
+
+        name = name.replace("${NAME}", generateName(languageDescriptorNode));
+
+        return name;
+    }
+
+    public static String generateRaceName(Node languageDescriptorNode) throws RepositoryException {
+
+        if ("hippo:handle".equals(languageDescriptorNode.getPrimaryNodeType().getName())) {
+            languageDescriptorNode = languageDescriptorNode.getNode(languageDescriptorNode.getName());
+        }
+
+        Random r = new Random();
+
+        Value[] namePatterns = languageDescriptorNode.getProperty("atlast:races").getValues();
+
+        int index = r.nextInt(namePatterns.length);
+
+        String name = namePatterns[index].getString();
+
+        name = name.replace("${NAME}", generateName(languageDescriptorNode));
+
+        return name;
+    }
 }

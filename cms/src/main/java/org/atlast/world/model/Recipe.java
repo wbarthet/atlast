@@ -5,6 +5,7 @@ import java.util.Map;
 
 import javax.jcr.Node;
 import javax.jcr.NodeIterator;
+import javax.jcr.PathNotFoundException;
 import javax.jcr.RepositoryException;
 import javax.jcr.Session;
 import javax.jcr.Value;
@@ -15,6 +16,7 @@ import javax.jcr.Value;
 public class Recipe {
 
     Node node;
+
 
     public Recipe(Session session, String uuid) throws RepositoryException {
 
@@ -75,4 +77,7 @@ public class Recipe {
     }
 
 
+    public String getSkill() throws RepositoryException {
+        return node.getProperty("atlast:skill").getString();
+    }
 }

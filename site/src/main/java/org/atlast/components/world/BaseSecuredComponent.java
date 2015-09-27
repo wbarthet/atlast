@@ -63,7 +63,7 @@ public class BaseSecuredComponent extends BaseHstComponent {
 
             String user = request.getRequestContext().getServletRequest().getUserPrincipal().getName();
 
-            clear = player.equals(user);
+            clear = player.equals(user) || "global".equals(player);
         } catch (RepositoryException e) {
             log.error("Could not process action, security violation!");
         }
