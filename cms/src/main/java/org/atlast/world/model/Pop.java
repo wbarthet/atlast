@@ -2,6 +2,7 @@ package org.atlast.world.model;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Random;
 
 import javax.jcr.Node;
 import javax.jcr.RepositoryException;
@@ -128,72 +129,103 @@ public class Pop extends AtlastObject {
         Store market = worldMarket.getStore(store);
 
         List<String> items = playerStore.getItems();
-        List<Long> itemTotals = new ArrayList();
+
         List<Double> inverseWeights = new ArrayList();
+        List<Double> normalisedInverseWeights = new ArrayList();
+        List<Double> cumulativeNormalisedInverseWeights = new ArrayList();
         List<Double> itemPrices = new ArrayList();
 
         double maxStuff = MAX_STUFF - stuff;
 
         maxStuff = maxStuff > MAX_BOUGHT_STUFF ? MAX_BOUGHT_STUFF : maxStuff;
 
-        double totalPrices = 0.0;
-
         for (String item : items) {
 
             double price = market.getDoubleProperty(item + "-level");
             itemPrices.add(price);
-            totalPrices += price;
-
         }
 
         double totalInverseWeight = 0.0;
+        List<Trait> traits = getIdentity().getTraits();
 
         for (int i = 0; i < items.size(); i++) {
 
-            double weight = 100 / totalPrices * itemPrices.get(i);
-
-            double inverseWeight = 100 - weight;
+            double inverseWeight = 100 - itemPrices.get(i);
 
             totalInverseWeight += inverseWeight;
+
+
+            String itemName =   items.get(i);
+
+            for (Trait trait : traits) {
+                for (Amount effect : trait.getEffects()) {
+                    if (itemName.equals(effect.getResource().getName().toLowerCase())) {
+                        inverseWeight = inverseWeight + (effect.getQuantity()/100)*inverseWeight;
+                    }
+
+                }
+
+            }
+
+
 
             inverseWeights.add(inverseWeight);
 
         }
 
+        for (int i = 0; i < items.size(); i++) {
+            double normalisedInverseWeight = 100 / totalInverseWeight * inverseWeights.get(i);
+            normalisedInverseWeights.add(normalisedInverseWeight);
+        }
+
+        double cumulativeWeighting = 0.0d;
 
         for (int i = 0; i < items.size(); i++) {
-            itemTotals.add(Math.round(inverseWeights.get(i) / totalInverseWeight * maxStuff));
+            cumulativeWeighting += normalisedInverseWeights.get(i);
+            cumulativeNormalisedInverseWeights.add(cumulativeWeighting);
         }
+
+
 
         int boughtStuff = 0;
         boolean broke = false;
 
         while (boughtStuff < maxStuff && !broke) {
 
+            Random r = new Random();
+
+            int random = r.nextInt((int) Math.round(cumulativeWeighting));
+
             boolean boughtSomething = false;
+            int itemIndex = 0;
 
             for (int i = 0; i < items.size(); i++) {
 
-                double cash = getCash();
-
-                Long total = itemTotals.get(i);
-
-                if (total > 0 && cash >= itemPrices.get(i)) {
-
-                    playerStore.takeItem(items.get(i), 1.0);
-
-                    pay(itemPrices.get(i));
-
-                    getPlayer().getPaid(itemPrices.get(i));
-
-                    stuff++;
-
-                    itemTotals.set(i, total - 1);
-
-                    boughtSomething = true;
+                if (random > cumulativeNormalisedInverseWeights.get(i)) {
+                    itemIndex = i;
+                } else {
+                    break;
                 }
 
             }
+
+
+            double cash = getCash();
+
+
+            if (playerStore.hasItem(items.get(itemIndex), 1.0) && cash >= itemPrices.get(itemIndex)) {
+
+                playerStore.takeItem(items.get(itemIndex), 1.0);
+
+                pay(itemPrices.get(itemIndex));
+
+                getPlayer().getPaid(itemPrices.get(itemIndex));
+
+                stuff++;
+
+                boughtSomething = true;
+            }
+
 
             broke = !boughtSomething;
 
@@ -336,5 +368,16 @@ public class Pop extends AtlastObject {
         String identity = biggestRaceLevel > biggestReligionLevel ? biggestRace : biggestReligion;
 
         return identity;
+    }
+
+    public Identity getIdentity() throws RepositoryException {
+
+        String identityUuid = getStringProperty("atlast:identity");
+        if (identityUuid == null) {
+            identityUuid = determineIdentity();
+            setStringProperty("atlast:identity", identityUuid);
+        }
+
+        return  new Identity(getNode().getSession().getNodeByIdentifier(identityUuid));
     }
 }
