@@ -146,6 +146,8 @@ public class Pop extends AtlastObject {
         }
 
         double totalInverseWeight = 0.0;
+
+        //todo: get traits for religion and race separately
         List<Trait> traits = getIdentity().getTraits();
 
         for (int i = 0; i < items.size(); i++) {
@@ -153,7 +155,6 @@ public class Pop extends AtlastObject {
             double inverseWeight = 100 - itemPrices.get(i);
 
             totalInverseWeight += inverseWeight;
-
 
             String itemName =   items.get(i);
 
@@ -166,8 +167,6 @@ public class Pop extends AtlastObject {
                 }
 
             }
-
-
 
             inverseWeights.add(inverseWeight);
 

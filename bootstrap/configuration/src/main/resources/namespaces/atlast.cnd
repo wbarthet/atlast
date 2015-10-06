@@ -28,6 +28,8 @@
 [atlast:developmentdescriptor] > atlast:basedocument, hippostd:relaxed, hippotranslation:translated
   orderable
 
+[atlast:identity] > atlast:object
+
 [atlast:land] > atlast:object
   orderable
 
@@ -37,9 +39,10 @@
 [atlast:languagedescriptor] > atlast:basedocument, hippostd:relaxed, hippotranslation:translated
   orderable
 
-[atlast:market] > atlast:object
+[atlast:library] > atlast:object
+  orderable
 
-[atlast:identity] > atlast:object
+[atlast:market] > atlast:object
 
 [atlast:player] > atlast:object
   orderable
@@ -58,6 +61,12 @@
   mixin
 
 [atlast:store] > atlast:object
+  orderable
+
+[atlast:technology] > atlast:object
+
+[atlast:textlist] > atlast:basedocument, hippostd:relaxed, hippotranslation:translated
+  orderable
 
 [atlast:traitdescriptor] > atlast:basedocument, hippostd:relaxed, hippotranslation:translated
   orderable

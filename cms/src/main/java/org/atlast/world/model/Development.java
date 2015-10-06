@@ -17,10 +17,8 @@ public class Development extends AtlastObject {
     }
 
     public List<Pop> getPops() {
-        return getChildNodes(Pop.class);
+        return getChildNodes(Pop.class, "atlast:pop");
     }
-
-
 
 
     public Recipe getRecipe() throws RepositoryException {
@@ -41,12 +39,8 @@ public class Development extends AtlastObject {
         return null;
     }
 
-
-
     public void produce() throws RepositoryException {
         List<Pop> pops = getPops();
-
-
 
         Player player = getPlayer();
         Market market = player.getStores();

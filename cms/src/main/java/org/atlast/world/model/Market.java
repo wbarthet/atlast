@@ -57,7 +57,7 @@ public class Market extends AtlastObject {
 
     public List<Store> getStores() {
 
-        return getChildNodes(Store.class);
+        return getChildNodes(Store.class, "atlast:store");
     }
 
     public void takeItems(final Map<String, Double> itemsMap) throws RepositoryException {

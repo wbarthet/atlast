@@ -13848,7 +13848,7 @@
           <sv:value>2015-07-22T19:47:36.825-04:00</sv:value>
         </sv:property>
         <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
-          <sv:value>2015-09-15T20:20:04.196-04:00</sv:value>
+          <sv:value>2015-10-05T18:40:46.999-04:00</sv:value>
         </sv:property>
         <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
           <sv:value>admin</sv:value>
@@ -13864,7 +13864,7 @@
           <sv:value>0</sv:value>
         </sv:property>
         <sv:property sv:name="output-luxuries-fur" sv:type="Long">
-          <sv:value>0</sv:value>
+          <sv:value>2</sv:value>
         </sv:property>
         <sv:property sv:name="outputs" sv:type="String" sv:multiple="true">
           <sv:value>luxuries-fur</sv:value>
@@ -13874,7 +13874,7 @@
             <sv:value>atlast:amount</sv:value>
           </sv:property>
           <sv:property sv:name="atlast:quantity" sv:type="Long">
-            <sv:value>0</sv:value>
+            <sv:value>2</sv:value>
           </sv:property>
           <sv:node sv:name="atlast:resource">
             <sv:property sv:name="jcr:primaryType" sv:type="Name">
@@ -13935,7 +13935,7 @@
           <sv:value>2015-07-22T19:47:36.825-04:00</sv:value>
         </sv:property>
         <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
-          <sv:value>2015-09-15T20:20:08.045-04:00</sv:value>
+          <sv:value>2015-10-05T18:40:50.482-04:00</sv:value>
         </sv:property>
         <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
           <sv:value>admin</sv:value>
@@ -13951,7 +13951,7 @@
           <sv:value>0</sv:value>
         </sv:property>
         <sv:property sv:name="output-luxuries-fur" sv:type="Long">
-          <sv:value>0</sv:value>
+          <sv:value>2</sv:value>
         </sv:property>
         <sv:property sv:name="outputs" sv:type="String" sv:multiple="true">
           <sv:value>luxuries-fur</sv:value>
@@ -13961,7 +13961,7 @@
             <sv:value>atlast:amount</sv:value>
           </sv:property>
           <sv:property sv:name="atlast:quantity" sv:type="Long">
-            <sv:value>0</sv:value>
+            <sv:value>2</sv:value>
           </sv:property>
           <sv:node sv:name="atlast:resource">
             <sv:property sv:name="jcr:primaryType" sv:type="Name">
@@ -14011,13 +14011,13 @@
           <sv:value>2015-07-22T19:47:36.825-04:00</sv:value>
         </sv:property>
         <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
-          <sv:value>2015-09-15T20:20:08.045-04:00</sv:value>
+          <sv:value>2015-10-05T18:40:50.482-04:00</sv:value>
         </sv:property>
         <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
           <sv:value>admin</sv:value>
         </sv:property>
         <sv:property sv:name="hippostdpubwf:publicationDate" sv:type="Date">
-          <sv:value>2015-09-21T21:19:29.429-04:00</sv:value>
+          <sv:value>2015-10-05T18:40:52.748-04:00</sv:value>
         </sv:property>
         <sv:property sv:name="hippotranslation:id" sv:type="String">
           <sv:value>bfb0cc69-d62f-49d0-9a55-0c6f8d1fea8b</sv:value>
@@ -14030,7 +14030,7 @@
           <sv:value>0</sv:value>
         </sv:property>
         <sv:property sv:name="output-luxuries-fur" sv:type="Long">
-          <sv:value>0</sv:value>
+          <sv:value>2</sv:value>
         </sv:property>
         <sv:property sv:name="outputs" sv:type="String" sv:multiple="true">
           <sv:value>luxuries-fur</sv:value>
@@ -14040,7 +14040,7 @@
             <sv:value>atlast:amount</sv:value>
           </sv:property>
           <sv:property sv:name="atlast:quantity" sv:type="Long">
-            <sv:value>0</sv:value>
+            <sv:value>2</sv:value>
           </sv:property>
           <sv:node sv:name="atlast:resource">
             <sv:property sv:name="jcr:primaryType" sv:type="Name">

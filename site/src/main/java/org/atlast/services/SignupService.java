@@ -6,6 +6,7 @@ import java.util.Random;
 
 import javax.jcr.Node;
 import javax.jcr.NodeIterator;
+import javax.jcr.PathNotFoundException;
 import javax.jcr.RepositoryException;
 import javax.jcr.Session;
 import javax.jcr.Value;
@@ -39,8 +40,9 @@ public class SignupService {
     private static final int WORKING_START_COUNT = 6;
     private static final int MIDDLE_START_COUNT = 3;
     private static final int UPPER_START_COUNT = 1;
-    public static final double POP_START_CASH = 50.0;
-    public static final double POP_START_FOOD = 50.0;
+    public static final double POP_START_CASH = 1000.0;
+    public static final double POP_START_FOOD = 100.0;
+    public static final double START_TECH_LEVEL = 5.0d;
 
     public String signup(HstRequestContext requestContext, String userName, String password) throws RepositoryException, QueryException {
         Session session = requestContext.getSession();
@@ -64,6 +66,8 @@ public class SignupService {
 
             Node userPlayerDataNode = createPlayerData(playerdataFolderNode, userName, requestContext);
 
+            createPlayerTech(userPlayerDataNode, userName);
+
             createPlayerStores(userPlayerDataNode, requestContext, userName);
 
             Node identityNode = userPlayerDataNode.getNode("identity");
@@ -75,6 +79,7 @@ public class SignupService {
             createPlayerLands(requestContext, userPlayerDataNode, userName, race, religion);
 
 
+
             //create notification
 
             session.save();
@@ -82,6 +87,18 @@ public class SignupService {
 
 
         return "User created";
+    }
+
+    private void createPlayerTech(final Node userPlayerDataNode, final String userName) throws RepositoryException {
+        Node libraryNode = userPlayerDataNode.addNode("library", "atlast:library");
+
+        libraryNode.setProperty("atlast:player", userName);
+        libraryNode.setProperty("atlast:focus", "ascending");
+
+        Node innovationNode = libraryNode.addNode("innovation", "atlast:technology");
+
+        innovationNode.setProperty("atlast:progress", 0.0d);
+        innovationNode.setProperty("atlast:level", 0.0d);
     }
 
     private Node createPlayerStores(final Node userPlayerDataNode, final HstRequestContext requestContext, final String userName) throws RepositoryException, QueryException {
@@ -321,12 +338,27 @@ public class SignupService {
 
         RecipeDescriptor recipe = allowedRecipes.get(recipeIndex);
 
+        createTech(recipe, userPlayerDataNode);
+
         String popClass = primary ? "working" : "middle";
 
         createPlayerPops(requestContext, userPlayerDataNode, userName, landNode, popClass, 3, recipe.getSkill(), race, religion);
 
         landNode.setProperty("atlast:developmentdescriptor", development.getNode().getParent().getIdentifier());
         landNode.setProperty("atlast:recipedescriptor", recipe.getNode().getParent().getIdentifier());
+    }
+
+    private void createTech(final RecipeDescriptor recipe, final Node userPlayerDataNode) throws RepositoryException {
+
+        Node libraryNode = userPlayerDataNode.getNode("library");
+
+        if (!libraryNode.hasNode(recipe.getNode().getIdentifier())) {
+            Node techNode = libraryNode.addNode(recipe.getNode().getIdentifier(), "atlast:technology");
+
+            techNode.setProperty("atlast:progress", 0.0d);
+            techNode.setProperty("atlast:level", START_TECH_LEVEL);
+        }
+
     }
 
     private void createPlayerPops(final HstRequestContext requestContext, final Node userPlayerDataNode, final String userName, final Node landNode, String popClass, int count, String skill, String race, String religion) throws RepositoryException {

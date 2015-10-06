@@ -32,14 +32,14 @@ public class AtlastObject {
     }
 
 
-    protected <T extends AtlastObject> List<T> getChildNodes(Class<T> nodeMappingClass) {
+    protected <T extends AtlastObject> List<T> getChildNodes(Class<T> nodeMappingClass, String nodeType) {
         List<T> childNodes = new ArrayList<T>();
         NodeIterator nodes;
         try {
             nodes = node.getNodes();
             while (nodes.hasNext()) {
                 Node child = nodes.nextNode();
-                if (child == null) {
+                if (child == null || !child.getPrimaryNodeType().getName().equals(nodeType)) {
                     continue;
                 }
 

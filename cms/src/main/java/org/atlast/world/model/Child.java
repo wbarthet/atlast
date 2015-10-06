@@ -84,7 +84,7 @@ public class Child extends Pop {
                 setAttributeMap(parent, "race");
                 setAttributeMap(parent, "religion");
 
-                
+
                 setDoubleProperty("atlast:goods", goods);
                 setDoubleProperty("atlast:luxuries", luxuries);
                 setStringProperty("atlast:player", player.getStringProperty("atlast:name"));
@@ -106,18 +106,18 @@ public class Child extends Pop {
     private Set<String> setAttributeMap(final Pop parent, String attributeName) throws RepositoryException {
         Set<String> attributes = new HashSet<>();
 
-        for (String attribute : parent.getStringListProperty("atlast:"+attributeName+"s")) {
+        for (String attribute : parent.getStringListProperty("atlast:" + attributeName + "s")) {
 
             attributes.add(attribute);
 
 
-            Double attributelevel = parent.getDoubleProperty(attributeName+"-"+attribute) / 2;
+            Double attributelevel = parent.getDoubleProperty(attributeName + "-" + attribute) / 2;
 
-            setDoubleProperty(attributeName+"-"+ attribute, attributelevel);
+            setDoubleProperty(attributeName + "-" + attribute, attributelevel);
 
         }
 
-        setStringListProperty("atlast:"+attributeName+"s", new ArrayList<>(attributes));
+        setStringListProperty("atlast:" + attributeName + "s", new ArrayList<>(attributes));
 
         return attributes;
     }
@@ -125,33 +125,34 @@ public class Child extends Pop {
     private Set<String> setAttributeMap(final Pop parent, final Child stem, final String attributeName) throws RepositoryException {
         Set<String> attribues = new HashSet<>();
 
-        for (String attribute : parent.getStringListProperty("atlast:"+attributeName+"s")) {
+        for (String attribute : parent.getStringListProperty("atlast:" + attributeName + "s")) {
 
             attribues.add(attribute);
 
-            Double stemAttributeLevel = stem.getDoubleProperty(attributeName+"-" + attribute);
+            Double stemAttributeLevel = stem.getDoubleProperty(attributeName + "-" + attribute);
 
-            Double attirbuteLevel = parent.getDoubleProperty(attributeName+"-"+attribute) / 2;
+            Double attributeLevel = parent.getDoubleProperty(attributeName + "-" + attribute) / 2;
 
-            setDoubleProperty(attributeName+"-"+ attribute, attirbuteLevel+stemAttributeLevel);
+            setDoubleProperty(attributeName + "-" + attribute, attributeLevel + stemAttributeLevel);
 
         }
 
-        for (String attribute : stem.getStringListProperty("atlast:"+attributeName+"s")) {
+        for (String attribute : stem.getStringListProperty("atlast:" + attributeName + "s")) {
 
             if (!attribues.contains(attribute)) {
                 attribues.add(attribute);
+
+
+                Double stemAttributeLevel = stem.getDoubleProperty(attributeName + "-" + attribute);
+
+                Double skillLevel = getDoubleProperty(attributeName + "-" + attribute);
+
+                setDoubleProperty(attributeName + "-" + attribute, skillLevel + stemAttributeLevel);
             }
-
-            Double stemAttributeLevel = stem.getDoubleProperty(attributeName+ "-" + attribute);
-
-//                    Double skillLevel = parent.getDoubleProperty("skill-"+skill) / 2;
-
-            setDoubleProperty(attributeName+"-"+ attribute, stemAttributeLevel);
 
         }
 
-        setStringListProperty("atlast:"+attributeName+"s", new ArrayList<>(attribues));
+        setStringListProperty("atlast:" + attributeName + "s", new ArrayList<>(attribues));
         return attribues;
     }
 

@@ -1,20 +1,15 @@
 package org.atlast.world.jobs;
 
-import java.util.List;
-
-import javax.jcr.Credentials;
-import javax.jcr.Node;
 import javax.jcr.NodeIterator;
 import javax.jcr.RepositoryException;
 import javax.jcr.Session;
 import javax.jcr.SimpleCredentials;
 import javax.jcr.query.Query;
 import javax.jcr.query.QueryManager;
-import javax.jcr.query.QueryResult;
 
 import org.atlast.world.model.Development;
+import org.atlast.world.model.Library;
 import org.atlast.world.model.Market;
-import org.atlast.world.model.Player;
 import org.atlast.world.model.Pop;
 import org.onehippo.repository.scheduling.RepositoryJob;
 import org.onehippo.repository.scheduling.RepositoryJobExecutionContext;
@@ -48,6 +43,8 @@ public class RotateWorldJob implements RepositoryJob {
 
 
             produce(context, queryManager);
+
+            learn(context, queryManager);
 
 
             consume(context, worldMarket, queryManager);
@@ -117,6 +114,18 @@ public class RotateWorldJob implements RepositoryJob {
             Development development = new Development(queryResult.nextNode());
 
             development.produce();
+        }
+    }
+
+    private void learn(final RepositoryJobExecutionContext context, final QueryManager queryManager) throws RepositoryException {
+        Query query = queryManager.createQuery(context.getAttribute("playerdatalocation") + "//element(*, atlast:library)", Query.XPATH);
+        //TODO: batch processing
+        NodeIterator queryResult = query.execute().getNodes();
+
+        while (queryResult.hasNext()) {
+            Library library = new Library(queryResult.nextNode());
+
+            library.learn(queryManager);
         }
     }
 
