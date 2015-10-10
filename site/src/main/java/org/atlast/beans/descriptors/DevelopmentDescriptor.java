@@ -15,12 +15,18 @@ package org.atlast.beans.descriptors;
  * limitations under the License.
  */
 
+import java.util.ArrayList;
 import java.util.List;
+
+import javax.jcr.RepositoryException;
+
 
 import org.atlast.beans.Atlastimageset;
 import org.atlast.beans.BaseDocument;
+import org.atlast.beans.Library;
+import org.atlast.beans.Player;
 import org.hippoecm.hst.content.beans.Node;
-import org.hippoecm.hst.content.beans.standard.HippoDocument;
+
 
 
 @Node(jcrType="atlast:developmentdescriptor")
@@ -31,8 +37,36 @@ public class DevelopmentDescriptor extends BaseDocument {
         return getProperty("atlast:name");
     }
 
-    public List<RecipeDescriptor> getAllowedRecipes() {
-        return getLinkedBeans("atlast:allowedrecipes", RecipeDescriptor.class);
+
+
+    public List<RecipeDescriptor> getAllowedRecipes(Player player) throws RepositoryException {
+        Library library = player.getLibrary();
+
+        List<RecipeDescriptor> allowedRecipes = new ArrayList<>();
+
+        List<RecipeDescriptor> recipeDescriptors = getLinkedBeans("atlast:allowedrecipes", RecipeDescriptor.class);
+
+        for (RecipeDescriptor recipeDescriptor : recipeDescriptors) {
+            if (library.hasRecipe(recipeDescriptor)) {
+                allowedRecipes.add(recipeDescriptor);
+            }
+        }
+
+        return allowedRecipes;
+    }
+
+    public List<RecipeDescriptor> getAllAllowedRecipes() throws RepositoryException {
+
+        List<RecipeDescriptor> allowedRecipes = new ArrayList<>();
+
+        List<RecipeDescriptor> recipeDescriptors = getLinkedBeans("atlast:allowedrecipes", RecipeDescriptor.class);
+
+        for (RecipeDescriptor recipeDescriptor : recipeDescriptors) {
+
+                allowedRecipes.add(recipeDescriptor);
+        }
+
+        return allowedRecipes;
     }
 
     public Atlastimageset getIcon() {

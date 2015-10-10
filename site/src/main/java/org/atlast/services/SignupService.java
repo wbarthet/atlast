@@ -333,7 +333,7 @@ public class SignupService {
 
         Random random = new Random();
 
-        List<RecipeDescriptor> allowedRecipes = development.getAllowedRecipes();
+        List<RecipeDescriptor> allowedRecipes = development.getAllAllowedRecipes();
         int recipeIndex = random.nextInt(allowedRecipes.size());
 
         RecipeDescriptor recipe = allowedRecipes.get(recipeIndex);
@@ -352,8 +352,8 @@ public class SignupService {
 
         Node libraryNode = userPlayerDataNode.getNode("library");
 
-        if (!libraryNode.hasNode(recipe.getNode().getIdentifier())) {
-            Node techNode = libraryNode.addNode(recipe.getNode().getIdentifier(), "atlast:technology");
+        if (!libraryNode.hasNode(recipe.getNode().getParent().getIdentifier())) {
+            Node techNode = libraryNode.addNode(recipe.getNode().getParent().getIdentifier(), "atlast:technology");
 
             techNode.setProperty("atlast:progress", 0.0d);
             techNode.setProperty("atlast:level", START_TECH_LEVEL);

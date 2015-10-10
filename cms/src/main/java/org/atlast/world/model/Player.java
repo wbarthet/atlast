@@ -51,4 +51,8 @@ public class Player extends AtlastObject {
     public Identity getIdentity() throws RepositoryException {
         return new Identity(getNode().getNode("identity"));
     }
+
+    public Library getLibrary() throws RepositoryException {
+        return new Library(getNode().getNode("library"));
+    }
 }

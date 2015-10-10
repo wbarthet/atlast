@@ -66,7 +66,7 @@ public class Library extends AtlastObject {
 
         learning = BASE_RESEARCH + pops.size() * (BASE_RESEARCH + 2 * skill / 100);
 
-        Query query = queryManager.createQuery(getNode().getPath().substring(1) + "//element(*, atlast:technology) order by @atlast:level " + getStringProperty("atlast:focus"), Query.XPATH);
+        Query query = queryManager.createQuery(getNode().getPath().substring(1) + "//element(*, atlast:technology)[(@atlast:level <= 10.0)] order by @atlast:level " + getStringProperty("atlast:focus"), Query.XPATH);
 
         query.setLimit(getTechnology().size()/2);
 
@@ -92,5 +92,17 @@ public class Library extends AtlastObject {
             pop.getPaid(wages);
             pop.learn("scientist");
         }
+    }
+
+    public double getTechLevel(final Recipe recipe) throws RepositoryException {
+
+        Node techNode = getNode().getNode(recipe.node.getIdentifier());
+
+        if (techNode != null) {
+            return techNode.getProperty("atlast:level").getDouble();
+        }
+
+        return 0.0;
+
     }
 }

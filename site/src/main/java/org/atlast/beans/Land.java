@@ -70,12 +70,17 @@ public class Land extends AtlastObject {
     public Map<String, Double> getOutputs() throws RepositoryException {
         Map<String, Double> outputs = new HashMap<>();
 
-        List<Amount> amountList = getRecipeDescriptor().getOutputs();
+        RecipeDescriptor recipeDescriptor = getRecipeDescriptor();
+        List<Amount> amountList = recipeDescriptor.getOutputs();
+
+        double techLevel = getPlayer().getLibrary().getTechLevel(recipeDescriptor) * 10;
+
         for (Amount output : amountList) {
             Double amount = Double.valueOf(output.getQuantity() / amountList.size());
 
-            amount += 2 * getSkillLevel(getRecipeDescriptor().getSkill()) / 100;
-            amount *= getPops().size() / getRecipeDescriptor().getLabour();
+            amount += 2 * getSkillLevel(recipeDescriptor.getSkill()) / 100;
+            amount += 2 * techLevel / 100;
+            amount *= getPops().size() / recipeDescriptor.getLabour();
             outputs.put(output.getResourceDescriptor().getName(), amount);
         }
 

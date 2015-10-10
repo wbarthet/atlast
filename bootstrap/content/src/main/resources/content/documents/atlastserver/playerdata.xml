@@ -7,7 +7,7 @@
       <sv:value>atlast:player</sv:value>
     </sv:property>
     <sv:property sv:name="atlast:cash" sv:type="Double">
-      <sv:value>-13220.857143326597</sv:value>
+      <sv:value>0.0</sv:value>
     </sv:property>
     <sv:property sv:name="atlast:player" sv:type="String">
       <sv:value>test1</sv:value>
@@ -17,21 +17,21 @@
         <sv:value>atlast:identity</sv:value>
       </sv:property>
       <sv:property sv:name="atlast:colour" sv:type="String">
-        <sv:value>#42C4D1</sv:value>
+        <sv:value>#B034ED</sv:value>
       </sv:property>
       <sv:property sv:name="atlast:languagedescriptor" sv:type="String">
-        <sv:value>d56b6b18-407f-4a33-884b-6c2cdcf0584b</sv:value>
+        <sv:value>22d14954-086f-44cd-9f6a-07355e9ef953</sv:value>
       </sv:property>
       <sv:property sv:name="atlast:name" sv:type="String">
-        <sv:value>Droġġagjin</sv:value>
+        <sv:value>Poujar People</sv:value>
       </sv:property>
       <sv:property sv:name="atlast:race" sv:type="Boolean">
         <sv:value>true</sv:value>
       </sv:property>
       <sv:property sv:name="atlast:traits" sv:type="String" sv:multiple="true">
-        <sv:value>0317b4b4-5ac2-4e64-a770-3d2bc8e2258c</sv:value>
-        <sv:value>79da501d-2373-4a6e-93ce-2ae941790b0f</sv:value>
-        <sv:value>116489bb-a3f2-4f1a-a5d5-1ae88f0da481</sv:value>
+        <sv:value>32a7c112-bd9d-4c64-90a2-cf3c88661ed3</sv:value>
+        <sv:value>0cc6518e-a892-4861-83fe-84a90e4e3d33</sv:value>
+        <sv:value>7411f379-7cb4-4450-ad0d-eb50c32d5385</sv:value>
       </sv:property>
     </sv:node>
     <sv:node sv:name="library">
@@ -52,10 +52,10 @@
           <sv:value>0.0</sv:value>
         </sv:property>
         <sv:property sv:name="atlast:progress" sv:type="Double">
-          <sv:value>7.0</sv:value>
+          <sv:value>0.0</sv:value>
         </sv:property>
       </sv:node>
-      <sv:node sv:name="77788792-3b88-4892-9e9d-5767bf016593">
+      <sv:node sv:name="8a87a423-cc72-4aa1-b520-dabab5cea60e">
         <sv:property sv:name="jcr:primaryType" sv:type="Name">
           <sv:value>atlast:technology</sv:value>
         </sv:property>
@@ -66,18 +66,7 @@
           <sv:value>0.0</sv:value>
         </sv:property>
       </sv:node>
-      <sv:node sv:name="9f858cc7-da71-4f55-a920-a81aef72b83b">
-        <sv:property sv:name="jcr:primaryType" sv:type="Name">
-          <sv:value>atlast:technology</sv:value>
-        </sv:property>
-        <sv:property sv:name="atlast:level" sv:type="Double">
-          <sv:value>5.0</sv:value>
-        </sv:property>
-        <sv:property sv:name="atlast:progress" sv:type="Double">
-          <sv:value>1.0</sv:value>
-        </sv:property>
-      </sv:node>
-      <sv:node sv:name="3f154914-d36a-4006-addc-414706497c3b">
+      <sv:node sv:name="bb890879-d26d-4549-8ba7-ca9c7e3591ca">
         <sv:property sv:name="jcr:primaryType" sv:type="Name">
           <sv:value>atlast:technology</sv:value>
         </sv:property>
@@ -88,26 +77,15 @@
           <sv:value>0.0</sv:value>
         </sv:property>
       </sv:node>
-      <sv:node sv:name="bfe305d3-ca02-4d71-9f28-ba96093050d8">
+      <sv:node sv:name="4573efae-63cc-49b5-a146-4f0a3550c9d5">
         <sv:property sv:name="jcr:primaryType" sv:type="Name">
           <sv:value>atlast:technology</sv:value>
         </sv:property>
         <sv:property sv:name="atlast:level" sv:type="Double">
-          <sv:value>1.0</sv:value>
+          <sv:value>5.0</sv:value>
         </sv:property>
         <sv:property sv:name="atlast:progress" sv:type="Double">
-          <sv:value>15.0</sv:value>
-        </sv:property>
-      </sv:node>
-      <sv:node sv:name="0fb5f906-0518-46a1-985c-75461179587e">
-        <sv:property sv:name="jcr:primaryType" sv:type="Name">
-          <sv:value>atlast:technology</sv:value>
-        </sv:property>
-        <sv:property sv:name="atlast:level" sv:type="Double">
-          <sv:value>1.0</sv:value>
-        </sv:property>
-        <sv:property sv:name="atlast:progress" sv:type="Double">
-          <sv:value>4.0</sv:value>
+          <sv:value>0.0</sv:value>
         </sv:property>
       </sv:node>
     </sv:node>
@@ -141,61 +119,61 @@
           <sv:value>test1</sv:value>
         </sv:property>
         <sv:property sv:name="beer" sv:type="Double">
-          <sv:value>10.0</sv:value>
+          <sv:value>0.0</sv:value>
         </sv:property>
         <sv:property sv:name="beer-level" sv:type="Double">
           <sv:value>10.0</sv:value>
         </sv:property>
         <sv:property sv:name="clothes" sv:type="Double">
-          <sv:value>26.514454702458373</sv:value>
+          <sv:value>0.0</sv:value>
         </sv:property>
         <sv:property sv:name="clothes-level" sv:type="Double">
           <sv:value>10.0</sv:value>
         </sv:property>
         <sv:property sv:name="furniture" sv:type="Double">
-          <sv:value>10.0</sv:value>
+          <sv:value>0.0</sv:value>
         </sv:property>
         <sv:property sv:name="furniture-level" sv:type="Double">
           <sv:value>10.0</sv:value>
         </sv:property>
         <sv:property sv:name="honey" sv:type="Double">
-          <sv:value>10.0</sv:value>
+          <sv:value>0.0</sv:value>
         </sv:property>
         <sv:property sv:name="honey-level" sv:type="Double">
           <sv:value>10.0</sv:value>
         </sv:property>
         <sv:property sv:name="leather" sv:type="Double">
-          <sv:value>10.0</sv:value>
+          <sv:value>0.0</sv:value>
         </sv:property>
         <sv:property sv:name="leather-level" sv:type="Double">
           <sv:value>10.0</sv:value>
         </sv:property>
         <sv:property sv:name="paper" sv:type="Double">
-          <sv:value>10.0</sv:value>
+          <sv:value>0.0</sv:value>
         </sv:property>
         <sv:property sv:name="paper-level" sv:type="Double">
           <sv:value>10.0</sv:value>
         </sv:property>
         <sv:property sv:name="pottery" sv:type="Double">
-          <sv:value>10.0</sv:value>
+          <sv:value>0.0</sv:value>
         </sv:property>
         <sv:property sv:name="pottery-level" sv:type="Double">
           <sv:value>10.0</sv:value>
         </sv:property>
         <sv:property sv:name="salt" sv:type="Double">
-          <sv:value>10.0</sv:value>
+          <sv:value>0.0</sv:value>
         </sv:property>
         <sv:property sv:name="salt-level" sv:type="Double">
           <sv:value>10.0</sv:value>
         </sv:property>
         <sv:property sv:name="sugar" sv:type="Double">
-          <sv:value>10.0</sv:value>
+          <sv:value>0.0</sv:value>
         </sv:property>
         <sv:property sv:name="sugar-level" sv:type="Double">
           <sv:value>10.0</sv:value>
         </sv:property>
         <sv:property sv:name="tools" sv:type="Double">
-          <sv:value>10.0</sv:value>
+          <sv:value>0.0</sv:value>
         </sv:property>
         <sv:property sv:name="tools-level" sv:type="Double">
           <sv:value>10.0</sv:value>
@@ -224,61 +202,61 @@
           <sv:value>test1</sv:value>
         </sv:property>
         <sv:property sv:name="fur" sv:type="Double">
-          <sv:value>25.028909404916746</sv:value>
+          <sv:value>0.0</sv:value>
         </sv:property>
         <sv:property sv:name="fur-level" sv:type="Double">
           <sv:value>10.0</sv:value>
         </sv:property>
         <sv:property sv:name="gems" sv:type="Double">
-          <sv:value>10.0</sv:value>
+          <sv:value>0.0</sv:value>
         </sv:property>
         <sv:property sv:name="gems-level" sv:type="Double">
           <sv:value>10.0</sv:value>
         </sv:property>
         <sv:property sv:name="ivory" sv:type="Double">
-          <sv:value>10.0</sv:value>
+          <sv:value>0.0</sv:value>
         </sv:property>
         <sv:property sv:name="ivory-level" sv:type="Double">
           <sv:value>10.0</sv:value>
         </sv:property>
         <sv:property sv:name="jewelry" sv:type="Double">
-          <sv:value>10.0</sv:value>
+          <sv:value>0.0</sv:value>
         </sv:property>
         <sv:property sv:name="jewelry-level" sv:type="Double">
           <sv:value>10.0</sv:value>
         </sv:property>
         <sv:property sv:name="marble" sv:type="Double">
-          <sv:value>9.0</sv:value>
+          <sv:value>0.0</sv:value>
         </sv:property>
         <sv:property sv:name="marble-level" sv:type="Double">
           <sv:value>10.0</sv:value>
         </sv:property>
         <sv:property sv:name="oil" sv:type="Double">
-          <sv:value>10.0</sv:value>
+          <sv:value>0.0</sv:value>
         </sv:property>
         <sv:property sv:name="oil-level" sv:type="Double">
           <sv:value>10.0</sv:value>
         </sv:property>
         <sv:property sv:name="silk" sv:type="Double">
-          <sv:value>10.0</sv:value>
+          <sv:value>0.0</sv:value>
         </sv:property>
         <sv:property sv:name="silk-level" sv:type="Double">
           <sv:value>10.0</sv:value>
         </sv:property>
         <sv:property sv:name="spices" sv:type="Double">
-          <sv:value>10.0</sv:value>
+          <sv:value>0.0</sv:value>
         </sv:property>
         <sv:property sv:name="spices-level" sv:type="Double">
           <sv:value>10.0</sv:value>
         </sv:property>
         <sv:property sv:name="statuary" sv:type="Double">
-          <sv:value>10.0</sv:value>
+          <sv:value>0.0</sv:value>
         </sv:property>
         <sv:property sv:name="statuary-level" sv:type="Double">
           <sv:value>10.0</sv:value>
         </sv:property>
         <sv:property sv:name="wine" sv:type="Double">
-          <sv:value>10.0</sv:value>
+          <sv:value>0.0</sv:value>
         </sv:property>
         <sv:property sv:name="wine-level" sv:type="Double">
           <sv:value>10.0</sv:value>
@@ -307,61 +285,61 @@
           <sv:value>test1</sv:value>
         </sv:property>
         <sv:property sv:name="bread" sv:type="Double">
-          <sv:value>10.0</sv:value>
+          <sv:value>0.0</sv:value>
         </sv:property>
         <sv:property sv:name="bread-level" sv:type="Double">
           <sv:value>10.0</sv:value>
         </sv:property>
         <sv:property sv:name="cheese" sv:type="Double">
-          <sv:value>9.0</sv:value>
+          <sv:value>0.0</sv:value>
         </sv:property>
         <sv:property sv:name="cheese-level" sv:type="Double">
           <sv:value>10.0</sv:value>
         </sv:property>
         <sv:property sv:name="corn" sv:type="Double">
-          <sv:value>8.0</sv:value>
+          <sv:value>0.0</sv:value>
         </sv:property>
         <sv:property sv:name="corn-level" sv:type="Double">
           <sv:value>10.0</sv:value>
         </sv:property>
         <sv:property sv:name="egg" sv:type="Double">
-          <sv:value>9.0</sv:value>
+          <sv:value>0.0</sv:value>
         </sv:property>
         <sv:property sv:name="egg-level" sv:type="Double">
           <sv:value>10.0</sv:value>
         </sv:property>
         <sv:property sv:name="fish" sv:type="Double">
-          <sv:value>8.0</sv:value>
+          <sv:value>0.0</sv:value>
         </sv:property>
         <sv:property sv:name="fish-level" sv:type="Double">
           <sv:value>10.0</sv:value>
         </sv:property>
         <sv:property sv:name="fruit" sv:type="Double">
-          <sv:value>9.0</sv:value>
+          <sv:value>0.0</sv:value>
         </sv:property>
         <sv:property sv:name="fruit-level" sv:type="Double">
           <sv:value>10.0</sv:value>
         </sv:property>
         <sv:property sv:name="meat" sv:type="Double">
-          <sv:value>8.0</sv:value>
+          <sv:value>0.0</sv:value>
         </sv:property>
         <sv:property sv:name="meat-level" sv:type="Double">
           <sv:value>10.0</sv:value>
         </sv:property>
         <sv:property sv:name="potatoes" sv:type="Double">
-          <sv:value>8.0</sv:value>
+          <sv:value>0.0</sv:value>
         </sv:property>
         <sv:property sv:name="potatoes-level" sv:type="Double">
           <sv:value>10.0</sv:value>
         </sv:property>
         <sv:property sv:name="rice" sv:type="Double">
-          <sv:value>9.0</sv:value>
+          <sv:value>0.0</sv:value>
         </sv:property>
         <sv:property sv:name="rice-level" sv:type="Double">
           <sv:value>10.0</sv:value>
         </sv:property>
         <sv:property sv:name="sausage" sv:type="Double">
-          <sv:value>10.0</sv:value>
+          <sv:value>0.0</sv:value>
         </sv:property>
         <sv:property sv:name="sausage-level" sv:type="Double">
           <sv:value>10.0</sv:value>
@@ -388,49 +366,49 @@
           <sv:value>test1</sv:value>
         </sv:property>
         <sv:property sv:name="bricks" sv:type="Double">
-          <sv:value>26.514454702458373</sv:value>
+          <sv:value>0.0</sv:value>
         </sv:property>
         <sv:property sv:name="bricks-level" sv:type="Double">
           <sv:value>10.0</sv:value>
         </sv:property>
         <sv:property sv:name="camels" sv:type="Double">
-          <sv:value>10.0</sv:value>
+          <sv:value>0.0</sv:value>
         </sv:property>
         <sv:property sv:name="camels-level" sv:type="Double">
           <sv:value>10.0</sv:value>
         </sv:property>
         <sv:property sv:name="cloth" sv:type="Double">
-          <sv:value>6.0</sv:value>
+          <sv:value>0.0</sv:value>
         </sv:property>
         <sv:property sv:name="cloth-level" sv:type="Double">
           <sv:value>10.0</sv:value>
         </sv:property>
         <sv:property sv:name="flour" sv:type="Double">
-          <sv:value>10.0</sv:value>
+          <sv:value>0.0</sv:value>
         </sv:property>
         <sv:property sv:name="flour-level" sv:type="Double">
           <sv:value>10.0</sv:value>
         </sv:property>
         <sv:property sv:name="horses" sv:type="Double">
-          <sv:value>10.0</sv:value>
+          <sv:value>0.0</sv:value>
         </sv:property>
         <sv:property sv:name="horses-level" sv:type="Double">
           <sv:value>10.0</sv:value>
         </sv:property>
         <sv:property sv:name="lumber" sv:type="Double">
-          <sv:value>10.0</sv:value>
+          <sv:value>0.0</sv:value>
         </sv:property>
         <sv:property sv:name="lumber-level" sv:type="Double">
           <sv:value>10.0</sv:value>
         </sv:property>
         <sv:property sv:name="weapons" sv:type="Double">
-          <sv:value>10.0</sv:value>
+          <sv:value>0.0</sv:value>
         </sv:property>
         <sv:property sv:name="weapons-level" sv:type="Double">
           <sv:value>10.0</sv:value>
         </sv:property>
         <sv:property sv:name="wool" sv:type="Double">
-          <sv:value>10.0</sv:value>
+          <sv:value>0.0</sv:value>
         </sv:property>
         <sv:property sv:name="wool-level" sv:type="Double">
           <sv:value>10.0</sv:value>
@@ -456,43 +434,43 @@
           <sv:value>test1</sv:value>
         </sv:property>
         <sv:property sv:name="bronze" sv:type="Double">
-          <sv:value>10.0</sv:value>
+          <sv:value>0.0</sv:value>
         </sv:property>
         <sv:property sv:name="bronze-level" sv:type="Double">
           <sv:value>10.0</sv:value>
         </sv:property>
         <sv:property sv:name="clay" sv:type="Double">
-          <sv:value>10.0</sv:value>
+          <sv:value>0.0</sv:value>
         </sv:property>
         <sv:property sv:name="clay-level" sv:type="Double">
           <sv:value>10.0</sv:value>
         </sv:property>
         <sv:property sv:name="gold" sv:type="Double">
-          <sv:value>10.0</sv:value>
+          <sv:value>0.0</sv:value>
         </sv:property>
         <sv:property sv:name="gold-level" sv:type="Double">
           <sv:value>10.0</sv:value>
         </sv:property>
         <sv:property sv:name="iron" sv:type="Double">
-          <sv:value>10.0</sv:value>
+          <sv:value>0.0</sv:value>
         </sv:property>
         <sv:property sv:name="iron-level" sv:type="Double">
           <sv:value>10.0</sv:value>
         </sv:property>
         <sv:property sv:name="silver" sv:type="Double">
-          <sv:value>10.0</sv:value>
+          <sv:value>0.0</sv:value>
         </sv:property>
         <sv:property sv:name="silver-level" sv:type="Double">
           <sv:value>10.0</sv:value>
         </sv:property>
         <sv:property sv:name="stone" sv:type="Double">
-          <sv:value>6.0</sv:value>
+          <sv:value>0.0</sv:value>
         </sv:property>
         <sv:property sv:name="stone-level" sv:type="Double">
           <sv:value>10.0</sv:value>
         </sv:property>
         <sv:property sv:name="wood" sv:type="Double">
-          <sv:value>10.0</sv:value>
+          <sv:value>0.0</sv:value>
         </sv:property>
         <sv:property sv:name="wood-level" sv:type="Double">
           <sv:value>10.0</sv:value>
@@ -519,56 +497,56 @@
           <sv:value>test1</sv:value>
         </sv:property>
         <sv:property sv:name="barley" sv:type="Double">
-          <sv:value>10.0</sv:value>
+          <sv:value>0.0</sv:value>
         </sv:property>
         <sv:property sv:name="barley-level" sv:type="Double">
           <sv:value>10.0</sv:value>
         </sv:property>
         <sv:property sv:name="cattle" sv:type="Double">
-          <sv:value>10.0</sv:value>
+          <sv:value>0.0</sv:value>
         </sv:property>
         <sv:property sv:name="cattle-level" sv:type="Double">
           <sv:value>10.0</sv:value>
         </sv:property>
         <sv:property sv:name="chicken" sv:type="Double">
-          <sv:value>10.0</sv:value>
+          <sv:value>0.0</sv:value>
         </sv:property>
         <sv:property sv:name="chicken-level" sv:type="Double">
           <sv:value>10.0</sv:value>
         </sv:property>
         <sv:property sv:name="cotton" sv:type="Double">
-          <sv:value>10.0</sv:value>
+          <sv:value>0.0</sv:value>
         </sv:property>
         <sv:property sv:name="cotton-level" sv:type="Double">
           <sv:value>10.0</sv:value>
         </sv:property>
         <sv:property sv:name="goats" sv:type="Double">
-          <sv:value>10.0</sv:value>
+          <sv:value>0.0</sv:value>
         </sv:property>
         <sv:property sv:name="goats-level" sv:type="Double">
           <sv:value>10.0</sv:value>
         </sv:property>
         <sv:property sv:name="pigs" sv:type="Double">
-          <sv:value>10.0</sv:value>
+          <sv:value>0.0</sv:value>
         </sv:property>
         <sv:property sv:name="pigs-level" sv:type="Double">
           <sv:value>10.0</sv:value>
         </sv:property>
         <sv:property sv:name="sheep" sv:type="Double">
-          <sv:value>10.0</sv:value>
+          <sv:value>0.0</sv:value>
         </sv:property>
         <sv:property sv:name="sheep-level" sv:type="Double">
           <sv:value>10.0</sv:value>
         </sv:property>
         <sv:property sv:name="wheat" sv:type="Double">
-          <sv:value>10.0</sv:value>
+          <sv:value>0.0</sv:value>
         </sv:property>
         <sv:property sv:name="wheat-level" sv:type="Double">
           <sv:value>10.0</sv:value>
         </sv:property>
       </sv:node>
     </sv:node>
-    <sv:node sv:name="Mtarriġ Desert-desert">
+    <sv:node sv:name="Megga Desert-desert">
       <sv:property sv:name="jcr:primaryType" sv:type="Name">
         <sv:value>atlast:land</sv:value>
       </sv:property>
@@ -582,229 +560,169 @@
         <sv:value>68ad48c3-5382-4afa-915c-f14bb12482d5</sv:value>
       </sv:property>
       <sv:property sv:name="atlast:name" sv:type="String">
-        <sv:value>Mtarriġ Desert</sv:value>
+        <sv:value>Megga Desert</sv:value>
       </sv:property>
       <sv:property sv:name="atlast:player" sv:type="String">
         <sv:value>test1</sv:value>
       </sv:property>
       <sv:property sv:name="atlast:recipedescriptor" sv:type="String">
-        <sv:value>17a8cf04-fd06-4d98-b048-2755ea91905f</sv:value>
+        <sv:value>8a87a423-cc72-4aa1-b520-dabab5cea60e</sv:value>
       </sv:property>
       <sv:property sv:name="atlast:wages" sv:type="Double">
         <sv:value>100.0</sv:value>
       </sv:property>
-      <sv:node sv:name="Riċruluk Nukkamelu">
+      <sv:node sv:name="Preedu Uvafràking">
         <sv:property sv:name="jcr:primaryType" sv:type="Name">
           <sv:value>atlast:pop</sv:value>
         </sv:property>
         <sv:property sv:name="atlast:cash" sv:type="Double">
-          <sv:value>5.538078553299268</sv:value>
+          <sv:value>1000.0</sv:value>
         </sv:property>
         <sv:property sv:name="atlast:class" sv:type="String">
           <sv:value>working</sv:value>
         </sv:property>
         <sv:property sv:name="atlast:food" sv:type="Double">
-          <sv:value>50.0</sv:value>
+          <sv:value>100.0</sv:value>
         </sv:property>
         <sv:property sv:name="atlast:goods" sv:type="Double">
-          <sv:value>29.0</sv:value>
+          <sv:value>10.0</sv:value>
         </sv:property>
         <sv:property sv:name="atlast:identity" sv:type="String">
-          <sv:value>cbff9099-0ba0-4096-82d3-b9bfa5606854</sv:value>
+          <sv:value>f042274a-055a-495f-b440-0b1606556ad7</sv:value>
         </sv:property>
         <sv:property sv:name="atlast:luxuries" sv:type="Double">
-          <sv:value>12.0</sv:value>
+          <sv:value>10.0</sv:value>
         </sv:property>
         <sv:property sv:name="atlast:name" sv:type="String">
-          <sv:value>Riċruluk Nukkamelu</sv:value>
+          <sv:value>Preedu Uvafràking</sv:value>
         </sv:property>
         <sv:property sv:name="atlast:player" sv:type="String">
           <sv:value>test1</sv:value>
         </sv:property>
         <sv:property sv:name="atlast:races" sv:type="String" sv:multiple="true">
-          <sv:value>cbff9099-0ba0-4096-82d3-b9bfa5606854</sv:value>
+          <sv:value>f042274a-055a-495f-b440-0b1606556ad7</sv:value>
         </sv:property>
         <sv:property sv:name="atlast:religions" sv:type="String" sv:multiple="true">
           <sv:value>none</sv:value>
         </sv:property>
         <sv:property sv:name="atlast:skills" sv:type="String" sv:multiple="true">
-          <sv:value>mason</sv:value>
+          <sv:value>labourer</sv:value>
         </sv:property>
         <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
           <sv:value>live</sv:value>
         </sv:property>
-        <sv:property sv:name="race-cbff9099-0ba0-4096-82d3-b9bfa5606854" sv:type="Double">
+        <sv:property sv:name="race-f042274a-055a-495f-b440-0b1606556ad7" sv:type="Double">
           <sv:value>100.0</sv:value>
         </sv:property>
         <sv:property sv:name="religion-none" sv:type="Double">
           <sv:value>100.0</sv:value>
         </sv:property>
-        <sv:property sv:name="skill-mason" sv:type="Double">
-          <sv:value>76.24365478348014</sv:value>
+        <sv:property sv:name="skill-labourer" sv:type="Double">
+          <sv:value>50.0</sv:value>
         </sv:property>
-        <sv:node sv:name="child">
-          <sv:property sv:name="jcr:primaryType" sv:type="Name">
-            <sv:value>atlast:child</sv:value>
-          </sv:property>
-          <sv:property sv:name="atlast:cash" sv:type="Double">
-            <sv:value>0.0</sv:value>
-          </sv:property>
-          <sv:property sv:name="atlast:food" sv:type="Double">
-            <sv:value>56.0</sv:value>
-          </sv:property>
-          <sv:property sv:name="atlast:identity" sv:type="String">
-            <sv:value>cbff9099-0ba0-4096-82d3-b9bfa5606854</sv:value>
-          </sv:property>
-          <sv:property sv:name="atlast:name" sv:type="String">
-            <sv:value>Iżgeġ Riċrulukelu</sv:value>
-          </sv:property>
-          <sv:property sv:name="atlast:player" sv:type="String">
-            <sv:value>test1</sv:value>
-          </sv:property>
-        </sv:node>
       </sv:node>
-      <sv:node sv:name="Ċussuw Moċralugelu">
+      <sv:node sv:name="Crana Tasmeking">
         <sv:property sv:name="jcr:primaryType" sv:type="Name">
           <sv:value>atlast:pop</sv:value>
         </sv:property>
         <sv:property sv:name="atlast:cash" sv:type="Double">
-          <sv:value>5.754677681343111</sv:value>
+          <sv:value>1000.0</sv:value>
         </sv:property>
         <sv:property sv:name="atlast:class" sv:type="String">
           <sv:value>working</sv:value>
         </sv:property>
         <sv:property sv:name="atlast:food" sv:type="Double">
-          <sv:value>50.0</sv:value>
+          <sv:value>100.0</sv:value>
         </sv:property>
         <sv:property sv:name="atlast:goods" sv:type="Double">
-          <sv:value>19.0</sv:value>
+          <sv:value>10.0</sv:value>
         </sv:property>
         <sv:property sv:name="atlast:identity" sv:type="String">
-          <sv:value>cbff9099-0ba0-4096-82d3-b9bfa5606854</sv:value>
+          <sv:value>f042274a-055a-495f-b440-0b1606556ad7</sv:value>
         </sv:property>
         <sv:property sv:name="atlast:luxuries" sv:type="Double">
-          <sv:value>30.0</sv:value>
+          <sv:value>10.0</sv:value>
         </sv:property>
         <sv:property sv:name="atlast:name" sv:type="String">
-          <sv:value>Ċussuw Moċralugelu</sv:value>
+          <sv:value>Crana Tasmeking</sv:value>
         </sv:property>
         <sv:property sv:name="atlast:player" sv:type="String">
           <sv:value>test1</sv:value>
         </sv:property>
         <sv:property sv:name="atlast:races" sv:type="String" sv:multiple="true">
-          <sv:value>cbff9099-0ba0-4096-82d3-b9bfa5606854</sv:value>
+          <sv:value>f042274a-055a-495f-b440-0b1606556ad7</sv:value>
         </sv:property>
         <sv:property sv:name="atlast:religions" sv:type="String" sv:multiple="true">
           <sv:value>none</sv:value>
         </sv:property>
         <sv:property sv:name="atlast:skills" sv:type="String" sv:multiple="true">
-          <sv:value>mason</sv:value>
+          <sv:value>labourer</sv:value>
         </sv:property>
         <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
           <sv:value>live</sv:value>
         </sv:property>
-        <sv:property sv:name="race-cbff9099-0ba0-4096-82d3-b9bfa5606854" sv:type="Double">
+        <sv:property sv:name="race-f042274a-055a-495f-b440-0b1606556ad7" sv:type="Double">
           <sv:value>100.0</sv:value>
         </sv:property>
         <sv:property sv:name="religion-none" sv:type="Double">
           <sv:value>100.0</sv:value>
         </sv:property>
-        <sv:property sv:name="skill-mason" sv:type="Double">
-          <sv:value>76.24365478348014</sv:value>
+        <sv:property sv:name="skill-labourer" sv:type="Double">
+          <sv:value>50.0</sv:value>
         </sv:property>
-        <sv:node sv:name="child">
-          <sv:property sv:name="jcr:primaryType" sv:type="Name">
-            <sv:value>atlast:child</sv:value>
-          </sv:property>
-          <sv:property sv:name="atlast:cash" sv:type="Double">
-            <sv:value>0.0</sv:value>
-          </sv:property>
-          <sv:property sv:name="atlast:food" sv:type="Double">
-            <sv:value>52.0</sv:value>
-          </sv:property>
-          <sv:property sv:name="atlast:identity" sv:type="String">
-            <sv:value>cbff9099-0ba0-4096-82d3-b9bfa5606854</sv:value>
-          </sv:property>
-          <sv:property sv:name="atlast:name" sv:type="String">
-            <sv:value>Wifwusub Ċussuwelu</sv:value>
-          </sv:property>
-          <sv:property sv:name="atlast:player" sv:type="String">
-            <sv:value>test1</sv:value>
-          </sv:property>
-        </sv:node>
       </sv:node>
-      <sv:node sv:name="Giżżaġ Mitrumelu">
+      <sv:node sv:name="Poujut Tattuking">
         <sv:property sv:name="jcr:primaryType" sv:type="Name">
           <sv:value>atlast:pop</sv:value>
         </sv:property>
         <sv:property sv:name="atlast:cash" sv:type="Double">
-          <sv:value>62.78470343778764</sv:value>
+          <sv:value>1000.0</sv:value>
         </sv:property>
         <sv:property sv:name="atlast:class" sv:type="String">
           <sv:value>working</sv:value>
         </sv:property>
         <sv:property sv:name="atlast:food" sv:type="Double">
-          <sv:value>50.0</sv:value>
+          <sv:value>100.0</sv:value>
         </sv:property>
         <sv:property sv:name="atlast:goods" sv:type="Double">
-          <sv:value>28.0</sv:value>
+          <sv:value>10.0</sv:value>
         </sv:property>
         <sv:property sv:name="atlast:identity" sv:type="String">
-          <sv:value>cbff9099-0ba0-4096-82d3-b9bfa5606854</sv:value>
+          <sv:value>f042274a-055a-495f-b440-0b1606556ad7</sv:value>
         </sv:property>
         <sv:property sv:name="atlast:luxuries" sv:type="Double">
-          <sv:value>15.0</sv:value>
+          <sv:value>10.0</sv:value>
         </sv:property>
         <sv:property sv:name="atlast:name" sv:type="String">
-          <sv:value>Giżżaġ Mitrumelu</sv:value>
+          <sv:value>Poujut Tattuking</sv:value>
         </sv:property>
         <sv:property sv:name="atlast:player" sv:type="String">
           <sv:value>test1</sv:value>
         </sv:property>
         <sv:property sv:name="atlast:races" sv:type="String" sv:multiple="true">
-          <sv:value>cbff9099-0ba0-4096-82d3-b9bfa5606854</sv:value>
+          <sv:value>f042274a-055a-495f-b440-0b1606556ad7</sv:value>
         </sv:property>
         <sv:property sv:name="atlast:religions" sv:type="String" sv:multiple="true">
           <sv:value>none</sv:value>
         </sv:property>
         <sv:property sv:name="atlast:skills" sv:type="String" sv:multiple="true">
-          <sv:value>mason</sv:value>
+          <sv:value>labourer</sv:value>
         </sv:property>
         <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
           <sv:value>live</sv:value>
         </sv:property>
-        <sv:property sv:name="race-cbff9099-0ba0-4096-82d3-b9bfa5606854" sv:type="Double">
+        <sv:property sv:name="race-f042274a-055a-495f-b440-0b1606556ad7" sv:type="Double">
           <sv:value>100.0</sv:value>
         </sv:property>
         <sv:property sv:name="religion-none" sv:type="Double">
           <sv:value>100.0</sv:value>
         </sv:property>
-        <sv:property sv:name="skill-mason" sv:type="Double">
-          <sv:value>76.24365478348014</sv:value>
+        <sv:property sv:name="skill-labourer" sv:type="Double">
+          <sv:value>50.0</sv:value>
         </sv:property>
-        <sv:node sv:name="child">
-          <sv:property sv:name="jcr:primaryType" sv:type="Name">
-            <sv:value>atlast:child</sv:value>
-          </sv:property>
-          <sv:property sv:name="atlast:cash" sv:type="Double">
-            <sv:value>0.0</sv:value>
-          </sv:property>
-          <sv:property sv:name="atlast:food" sv:type="Double">
-            <sv:value>55.0</sv:value>
-          </sv:property>
-          <sv:property sv:name="atlast:identity" sv:type="String">
-            <sv:value>cbff9099-0ba0-4096-82d3-b9bfa5606854</sv:value>
-          </sv:property>
-          <sv:property sv:name="atlast:name" sv:type="String">
-            <sv:value>Fuqżub Giżżaġelu</sv:value>
-          </sv:property>
-          <sv:property sv:name="atlast:player" sv:type="String">
-            <sv:value>test1</sv:value>
-          </sv:property>
-        </sv:node>
       </sv:node>
     </sv:node>
-    <sv:node sv:name="Tuqrożuċ Desert-desert">
+    <sv:node sv:name="Crorri Wastelands-desert">
       <sv:property sv:name="jcr:primaryType" sv:type="Name">
         <sv:value>atlast:land</sv:value>
       </sv:property>
@@ -812,13 +730,13 @@
         <sv:value>68ad48c3-5382-4afa-915c-f14bb12482d5</sv:value>
       </sv:property>
       <sv:property sv:name="atlast:name" sv:type="String">
-        <sv:value>Tuqrożuċ Desert</sv:value>
+        <sv:value>Crorri Wastelands</sv:value>
       </sv:property>
       <sv:property sv:name="atlast:player" sv:type="String">
         <sv:value>test1</sv:value>
       </sv:property>
     </sv:node>
-    <sv:node sv:name="Fwommim Desert-desert">
+    <sv:node sv:name="Beasa Wastelands-desert">
       <sv:property sv:name="jcr:primaryType" sv:type="Name">
         <sv:value>atlast:land</sv:value>
       </sv:property>
@@ -826,13 +744,13 @@
         <sv:value>68ad48c3-5382-4afa-915c-f14bb12482d5</sv:value>
       </sv:property>
       <sv:property sv:name="atlast:name" sv:type="String">
-        <sv:value>Fwommim Desert</sv:value>
+        <sv:value>Beasa Wastelands</sv:value>
       </sv:property>
       <sv:property sv:name="atlast:player" sv:type="String">
         <sv:value>test1</sv:value>
       </sv:property>
     </sv:node>
-    <sv:node sv:name="The Fekguk Strand-coast">
+    <sv:node sv:name="Cape Peajov-coast">
       <sv:property sv:name="jcr:primaryType" sv:type="Name">
         <sv:value>atlast:land</sv:value>
       </sv:property>
@@ -846,7 +764,7 @@
         <sv:value>b22f2b8a-2cc9-4dd9-8b54-52e17aead369</sv:value>
       </sv:property>
       <sv:property sv:name="atlast:name" sv:type="String">
-        <sv:value>The Fekguk Strand</sv:value>
+        <sv:value>Cape Peajov</sv:value>
       </sv:property>
       <sv:property sv:name="atlast:player" sv:type="String">
         <sv:value>test1</sv:value>
@@ -857,36 +775,36 @@
       <sv:property sv:name="atlast:wages" sv:type="Double">
         <sv:value>100.0</sv:value>
       </sv:property>
-      <sv:node sv:name="Kusut Defwokkoġelu">
+      <sv:node sv:name="Preebu Ecroking">
         <sv:property sv:name="jcr:primaryType" sv:type="Name">
           <sv:value>atlast:pop</sv:value>
         </sv:property>
         <sv:property sv:name="atlast:cash" sv:type="Double">
-          <sv:value>45.39368712315935</sv:value>
+          <sv:value>1000.0</sv:value>
         </sv:property>
         <sv:property sv:name="atlast:class" sv:type="String">
           <sv:value>working</sv:value>
         </sv:property>
         <sv:property sv:name="atlast:food" sv:type="Double">
-          <sv:value>50.0</sv:value>
+          <sv:value>100.0</sv:value>
         </sv:property>
         <sv:property sv:name="atlast:goods" sv:type="Double">
-          <sv:value>11.0</sv:value>
+          <sv:value>10.0</sv:value>
         </sv:property>
         <sv:property sv:name="atlast:identity" sv:type="String">
-          <sv:value>cbff9099-0ba0-4096-82d3-b9bfa5606854</sv:value>
+          <sv:value>f042274a-055a-495f-b440-0b1606556ad7</sv:value>
         </sv:property>
         <sv:property sv:name="atlast:luxuries" sv:type="Double">
-          <sv:value>17.0</sv:value>
+          <sv:value>10.0</sv:value>
         </sv:property>
         <sv:property sv:name="atlast:name" sv:type="String">
-          <sv:value>Kusut Defwokkoġelu</sv:value>
+          <sv:value>Preebu Ecroking</sv:value>
         </sv:property>
         <sv:property sv:name="atlast:player" sv:type="String">
           <sv:value>test1</sv:value>
         </sv:property>
         <sv:property sv:name="atlast:races" sv:type="String" sv:multiple="true">
-          <sv:value>cbff9099-0ba0-4096-82d3-b9bfa5606854</sv:value>
+          <sv:value>f042274a-055a-495f-b440-0b1606556ad7</sv:value>
         </sv:property>
         <sv:property sv:name="atlast:religions" sv:type="String" sv:multiple="true">
           <sv:value>none</sv:value>
@@ -897,66 +815,46 @@
         <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
           <sv:value>live</sv:value>
         </sv:property>
-        <sv:property sv:name="race-cbff9099-0ba0-4096-82d3-b9bfa5606854" sv:type="Double">
+        <sv:property sv:name="race-f042274a-055a-495f-b440-0b1606556ad7" sv:type="Double">
           <sv:value>100.0</sv:value>
         </sv:property>
         <sv:property sv:name="religion-none" sv:type="Double">
           <sv:value>100.0</sv:value>
         </sv:property>
         <sv:property sv:name="skill-hunter" sv:type="Double">
-          <sv:value>76.24365478348014</sv:value>
+          <sv:value>50.0</sv:value>
         </sv:property>
-        <sv:node sv:name="child">
-          <sv:property sv:name="jcr:primaryType" sv:type="Name">
-            <sv:value>atlast:child</sv:value>
-          </sv:property>
-          <sv:property sv:name="atlast:cash" sv:type="Double">
-            <sv:value>0.0</sv:value>
-          </sv:property>
-          <sv:property sv:name="atlast:food" sv:type="Double">
-            <sv:value>60.0</sv:value>
-          </sv:property>
-          <sv:property sv:name="atlast:identity" sv:type="String">
-            <sv:value>cbff9099-0ba0-4096-82d3-b9bfa5606854</sv:value>
-          </sv:property>
-          <sv:property sv:name="atlast:name" sv:type="String">
-            <sv:value>Duqaq Kusutelu</sv:value>
-          </sv:property>
-          <sv:property sv:name="atlast:player" sv:type="String">
-            <sv:value>test1</sv:value>
-          </sv:property>
-        </sv:node>
       </sv:node>
-      <sv:node sv:name="Waġġug Ħeżgunelu">
+      <sv:node sv:name="Fasse Opismàking">
         <sv:property sv:name="jcr:primaryType" sv:type="Name">
           <sv:value>atlast:pop</sv:value>
         </sv:property>
         <sv:property sv:name="atlast:cash" sv:type="Double">
-          <sv:value>53.149225940205184</sv:value>
+          <sv:value>1000.0</sv:value>
         </sv:property>
         <sv:property sv:name="atlast:class" sv:type="String">
           <sv:value>working</sv:value>
         </sv:property>
         <sv:property sv:name="atlast:food" sv:type="Double">
-          <sv:value>50.0</sv:value>
+          <sv:value>100.0</sv:value>
         </sv:property>
         <sv:property sv:name="atlast:goods" sv:type="Double">
-          <sv:value>25.0</sv:value>
+          <sv:value>10.0</sv:value>
         </sv:property>
         <sv:property sv:name="atlast:identity" sv:type="String">
-          <sv:value>cbff9099-0ba0-4096-82d3-b9bfa5606854</sv:value>
+          <sv:value>f042274a-055a-495f-b440-0b1606556ad7</sv:value>
         </sv:property>
         <sv:property sv:name="atlast:luxuries" sv:type="Double">
-          <sv:value>17.0</sv:value>
+          <sv:value>10.0</sv:value>
         </sv:property>
         <sv:property sv:name="atlast:name" sv:type="String">
-          <sv:value>Waġġug Ħeżgunelu</sv:value>
+          <sv:value>Fasse Opismàking</sv:value>
         </sv:property>
         <sv:property sv:name="atlast:player" sv:type="String">
           <sv:value>test1</sv:value>
         </sv:property>
         <sv:property sv:name="atlast:races" sv:type="String" sv:multiple="true">
-          <sv:value>cbff9099-0ba0-4096-82d3-b9bfa5606854</sv:value>
+          <sv:value>f042274a-055a-495f-b440-0b1606556ad7</sv:value>
         </sv:property>
         <sv:property sv:name="atlast:religions" sv:type="String" sv:multiple="true">
           <sv:value>none</sv:value>
@@ -967,66 +865,46 @@
         <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
           <sv:value>live</sv:value>
         </sv:property>
-        <sv:property sv:name="race-cbff9099-0ba0-4096-82d3-b9bfa5606854" sv:type="Double">
+        <sv:property sv:name="race-f042274a-055a-495f-b440-0b1606556ad7" sv:type="Double">
           <sv:value>100.0</sv:value>
         </sv:property>
         <sv:property sv:name="religion-none" sv:type="Double">
           <sv:value>100.0</sv:value>
         </sv:property>
         <sv:property sv:name="skill-hunter" sv:type="Double">
-          <sv:value>76.24365478348014</sv:value>
+          <sv:value>50.0</sv:value>
         </sv:property>
-        <sv:node sv:name="child">
-          <sv:property sv:name="jcr:primaryType" sv:type="Name">
-            <sv:value>atlast:child</sv:value>
-          </sv:property>
-          <sv:property sv:name="atlast:cash" sv:type="Double">
-            <sv:value>0.0</sv:value>
-          </sv:property>
-          <sv:property sv:name="atlast:food" sv:type="Double">
-            <sv:value>53.0</sv:value>
-          </sv:property>
-          <sv:property sv:name="atlast:identity" sv:type="String">
-            <sv:value>cbff9099-0ba0-4096-82d3-b9bfa5606854</sv:value>
-          </sv:property>
-          <sv:property sv:name="atlast:name" sv:type="String">
-            <sv:value>Qruggoħ Waġġugelu</sv:value>
-          </sv:property>
-          <sv:property sv:name="atlast:player" sv:type="String">
-            <sv:value>test1</sv:value>
-          </sv:property>
-        </sv:node>
       </sv:node>
-      <sv:node sv:name="Ċufuħ Mniġenelu">
+      <sv:node sv:name="Slalà Veaggulking">
         <sv:property sv:name="jcr:primaryType" sv:type="Name">
           <sv:value>atlast:pop</sv:value>
         </sv:property>
         <sv:property sv:name="atlast:cash" sv:type="Double">
-          <sv:value>31.482980041037578</sv:value>
+          <sv:value>1000.0</sv:value>
         </sv:property>
         <sv:property sv:name="atlast:class" sv:type="String">
           <sv:value>working</sv:value>
         </sv:property>
         <sv:property sv:name="atlast:food" sv:type="Double">
-          <sv:value>50.0</sv:value>
+          <sv:value>100.0</sv:value>
         </sv:property>
         <sv:property sv:name="atlast:goods" sv:type="Double">
-          <sv:value>29.0</sv:value>
+          <sv:value>10.0</sv:value>
         </sv:property>
         <sv:property sv:name="atlast:identity" sv:type="String">
-          <sv:value>cbff9099-0ba0-4096-82d3-b9bfa5606854</sv:value>
+          <sv:value>f042274a-055a-495f-b440-0b1606556ad7</sv:value>
         </sv:property>
         <sv:property sv:name="atlast:luxuries" sv:type="Double">
-          <sv:value>13.0</sv:value>
+          <sv:value>10.0</sv:value>
         </sv:property>
         <sv:property sv:name="atlast:name" sv:type="String">
-          <sv:value>Ċufuħ Mniġenelu</sv:value>
+          <sv:value>Slalà Veaggulking</sv:value>
         </sv:property>
         <sv:property sv:name="atlast:player" sv:type="String">
           <sv:value>test1</sv:value>
         </sv:property>
         <sv:property sv:name="atlast:races" sv:type="String" sv:multiple="true">
-          <sv:value>cbff9099-0ba0-4096-82d3-b9bfa5606854</sv:value>
+          <sv:value>f042274a-055a-495f-b440-0b1606556ad7</sv:value>
         </sv:property>
         <sv:property sv:name="atlast:religions" sv:type="String" sv:multiple="true">
           <sv:value>none</sv:value>
@@ -1037,38 +915,18 @@
         <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
           <sv:value>live</sv:value>
         </sv:property>
-        <sv:property sv:name="race-cbff9099-0ba0-4096-82d3-b9bfa5606854" sv:type="Double">
+        <sv:property sv:name="race-f042274a-055a-495f-b440-0b1606556ad7" sv:type="Double">
           <sv:value>100.0</sv:value>
         </sv:property>
         <sv:property sv:name="religion-none" sv:type="Double">
           <sv:value>100.0</sv:value>
         </sv:property>
         <sv:property sv:name="skill-hunter" sv:type="Double">
-          <sv:value>76.24365478348014</sv:value>
+          <sv:value>50.0</sv:value>
         </sv:property>
-        <sv:node sv:name="child">
-          <sv:property sv:name="jcr:primaryType" sv:type="Name">
-            <sv:value>atlast:child</sv:value>
-          </sv:property>
-          <sv:property sv:name="atlast:cash" sv:type="Double">
-            <sv:value>0.0</sv:value>
-          </sv:property>
-          <sv:property sv:name="atlast:food" sv:type="Double">
-            <sv:value>56.0</sv:value>
-          </sv:property>
-          <sv:property sv:name="atlast:identity" sv:type="String">
-            <sv:value>cbff9099-0ba0-4096-82d3-b9bfa5606854</sv:value>
-          </sv:property>
-          <sv:property sv:name="atlast:name" sv:type="String">
-            <sv:value>Żimnuzub Ċufuħelu</sv:value>
-          </sv:property>
-          <sv:property sv:name="atlast:player" sv:type="String">
-            <sv:value>test1</sv:value>
-          </sv:property>
-        </sv:node>
       </sv:node>
     </sv:node>
-    <sv:node sv:name="The Sumteguz Shore-coast">
+    <sv:node sv:name="The Upru Shore-coast">
       <sv:property sv:name="jcr:primaryType" sv:type="Name">
         <sv:value>atlast:land</sv:value>
       </sv:property>
@@ -1082,229 +940,169 @@
         <sv:value>b22f2b8a-2cc9-4dd9-8b54-52e17aead369</sv:value>
       </sv:property>
       <sv:property sv:name="atlast:name" sv:type="String">
-        <sv:value>The Sumteguz Shore</sv:value>
+        <sv:value>The Upru Shore</sv:value>
       </sv:property>
       <sv:property sv:name="atlast:player" sv:type="String">
         <sv:value>test1</sv:value>
       </sv:property>
       <sv:property sv:name="atlast:recipedescriptor" sv:type="String">
-        <sv:value>38f725ca-531b-4568-881c-7f1f6e81aa27</sv:value>
+        <sv:value>4573efae-63cc-49b5-a146-4f0a3550c9d5</sv:value>
       </sv:property>
       <sv:property sv:name="atlast:wages" sv:type="Double">
         <sv:value>100.0</sv:value>
       </sv:property>
-      <sv:node sv:name="Riżur Zuzzoġuselu">
+      <sv:node sv:name="Ecro Fraduking">
         <sv:property sv:name="jcr:primaryType" sv:type="Name">
           <sv:value>atlast:pop</sv:value>
         </sv:property>
         <sv:property sv:name="atlast:cash" sv:type="Double">
-          <sv:value>45.42038583723844</sv:value>
+          <sv:value>1000.0</sv:value>
         </sv:property>
         <sv:property sv:name="atlast:class" sv:type="String">
           <sv:value>middle</sv:value>
         </sv:property>
         <sv:property sv:name="atlast:food" sv:type="Double">
-          <sv:value>50.0</sv:value>
+          <sv:value>100.0</sv:value>
         </sv:property>
         <sv:property sv:name="atlast:goods" sv:type="Double">
-          <sv:value>0.0</sv:value>
+          <sv:value>10.0</sv:value>
         </sv:property>
         <sv:property sv:name="atlast:identity" sv:type="String">
-          <sv:value>cbff9099-0ba0-4096-82d3-b9bfa5606854</sv:value>
+          <sv:value>f042274a-055a-495f-b440-0b1606556ad7</sv:value>
         </sv:property>
         <sv:property sv:name="atlast:luxuries" sv:type="Double">
-          <sv:value>0.0</sv:value>
+          <sv:value>10.0</sv:value>
         </sv:property>
         <sv:property sv:name="atlast:name" sv:type="String">
-          <sv:value>Riżur Zuzzoġuselu</sv:value>
+          <sv:value>Ecro Fraduking</sv:value>
         </sv:property>
         <sv:property sv:name="atlast:player" sv:type="String">
           <sv:value>test1</sv:value>
         </sv:property>
         <sv:property sv:name="atlast:races" sv:type="String" sv:multiple="true">
-          <sv:value>cbff9099-0ba0-4096-82d3-b9bfa5606854</sv:value>
+          <sv:value>f042274a-055a-495f-b440-0b1606556ad7</sv:value>
         </sv:property>
         <sv:property sv:name="atlast:religions" sv:type="String" sv:multiple="true">
           <sv:value>none</sv:value>
         </sv:property>
         <sv:property sv:name="atlast:skills" sv:type="String" sv:multiple="true">
-          <sv:value>tailor</sv:value>
+          <sv:value>weaver</sv:value>
         </sv:property>
         <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
           <sv:value>live</sv:value>
         </sv:property>
-        <sv:property sv:name="race-cbff9099-0ba0-4096-82d3-b9bfa5606854" sv:type="Double">
+        <sv:property sv:name="race-f042274a-055a-495f-b440-0b1606556ad7" sv:type="Double">
           <sv:value>100.0</sv:value>
         </sv:property>
         <sv:property sv:name="religion-none" sv:type="Double">
           <sv:value>100.0</sv:value>
         </sv:property>
-        <sv:property sv:name="skill-tailor" sv:type="Double">
-          <sv:value>76.24365478348014</sv:value>
+        <sv:property sv:name="skill-weaver" sv:type="Double">
+          <sv:value>50.0</sv:value>
         </sv:property>
-        <sv:node sv:name="child">
-          <sv:property sv:name="jcr:primaryType" sv:type="Name">
-            <sv:value>atlast:child</sv:value>
-          </sv:property>
-          <sv:property sv:name="atlast:cash" sv:type="Double">
-            <sv:value>0.0</sv:value>
-          </sv:property>
-          <sv:property sv:name="atlast:food" sv:type="Double">
-            <sv:value>60.0</sv:value>
-          </sv:property>
-          <sv:property sv:name="atlast:identity" sv:type="String">
-            <sv:value>cbff9099-0ba0-4096-82d3-b9bfa5606854</sv:value>
-          </sv:property>
-          <sv:property sv:name="atlast:name" sv:type="String">
-            <sv:value>Bużgagguċ Riżurelu</sv:value>
-          </sv:property>
-          <sv:property sv:name="atlast:player" sv:type="String">
-            <sv:value>test1</sv:value>
-          </sv:property>
-        </sv:node>
       </sv:node>
-      <sv:node sv:name="Womin Koċrikelu">
+      <sv:node sv:name="Creeri Cearrugking">
         <sv:property sv:name="jcr:primaryType" sv:type="Name">
           <sv:value>atlast:pop</sv:value>
         </sv:property>
         <sv:property sv:name="atlast:cash" sv:type="Double">
-          <sv:value>27.448484437320587</sv:value>
+          <sv:value>1000.0</sv:value>
         </sv:property>
         <sv:property sv:name="atlast:class" sv:type="String">
           <sv:value>middle</sv:value>
         </sv:property>
         <sv:property sv:name="atlast:food" sv:type="Double">
-          <sv:value>50.0</sv:value>
+          <sv:value>100.0</sv:value>
         </sv:property>
         <sv:property sv:name="atlast:goods" sv:type="Double">
-          <sv:value>0.0</sv:value>
+          <sv:value>10.0</sv:value>
         </sv:property>
         <sv:property sv:name="atlast:identity" sv:type="String">
-          <sv:value>cbff9099-0ba0-4096-82d3-b9bfa5606854</sv:value>
+          <sv:value>f042274a-055a-495f-b440-0b1606556ad7</sv:value>
         </sv:property>
         <sv:property sv:name="atlast:luxuries" sv:type="Double">
-          <sv:value>0.0</sv:value>
+          <sv:value>10.0</sv:value>
         </sv:property>
         <sv:property sv:name="atlast:name" sv:type="String">
-          <sv:value>Womin Koċrikelu</sv:value>
+          <sv:value>Creeri Cearrugking</sv:value>
         </sv:property>
         <sv:property sv:name="atlast:player" sv:type="String">
           <sv:value>test1</sv:value>
         </sv:property>
         <sv:property sv:name="atlast:races" sv:type="String" sv:multiple="true">
-          <sv:value>cbff9099-0ba0-4096-82d3-b9bfa5606854</sv:value>
+          <sv:value>f042274a-055a-495f-b440-0b1606556ad7</sv:value>
         </sv:property>
         <sv:property sv:name="atlast:religions" sv:type="String" sv:multiple="true">
           <sv:value>none</sv:value>
         </sv:property>
         <sv:property sv:name="atlast:skills" sv:type="String" sv:multiple="true">
-          <sv:value>tailor</sv:value>
+          <sv:value>weaver</sv:value>
         </sv:property>
         <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
           <sv:value>live</sv:value>
         </sv:property>
-        <sv:property sv:name="race-cbff9099-0ba0-4096-82d3-b9bfa5606854" sv:type="Double">
+        <sv:property sv:name="race-f042274a-055a-495f-b440-0b1606556ad7" sv:type="Double">
           <sv:value>100.0</sv:value>
         </sv:property>
         <sv:property sv:name="religion-none" sv:type="Double">
           <sv:value>100.0</sv:value>
         </sv:property>
-        <sv:property sv:name="skill-tailor" sv:type="Double">
-          <sv:value>76.24365478348014</sv:value>
+        <sv:property sv:name="skill-weaver" sv:type="Double">
+          <sv:value>50.0</sv:value>
         </sv:property>
-        <sv:node sv:name="child">
-          <sv:property sv:name="jcr:primaryType" sv:type="Name">
-            <sv:value>atlast:child</sv:value>
-          </sv:property>
-          <sv:property sv:name="atlast:cash" sv:type="Double">
-            <sv:value>0.0</sv:value>
-          </sv:property>
-          <sv:property sv:name="atlast:food" sv:type="Double">
-            <sv:value>59.0</sv:value>
-          </sv:property>
-          <sv:property sv:name="atlast:identity" sv:type="String">
-            <sv:value>cbff9099-0ba0-4096-82d3-b9bfa5606854</sv:value>
-          </sv:property>
-          <sv:property sv:name="atlast:name" sv:type="String">
-            <sv:value>Ħweżżat Wominelu</sv:value>
-          </sv:property>
-          <sv:property sv:name="atlast:player" sv:type="String">
-            <sv:value>test1</sv:value>
-          </sv:property>
-        </sv:node>
       </sv:node>
-      <sv:node sv:name="Mtewaz Dożgaqqażelu">
+      <sv:node sv:name="Seadi Searragking">
         <sv:property sv:name="jcr:primaryType" sv:type="Name">
           <sv:value>atlast:pop</sv:value>
         </sv:property>
         <sv:property sv:name="atlast:cash" sv:type="Double">
-          <sv:value>8.713625002255066</sv:value>
+          <sv:value>1000.0</sv:value>
         </sv:property>
         <sv:property sv:name="atlast:class" sv:type="String">
           <sv:value>middle</sv:value>
         </sv:property>
         <sv:property sv:name="atlast:food" sv:type="Double">
-          <sv:value>50.0</sv:value>
+          <sv:value>100.0</sv:value>
         </sv:property>
         <sv:property sv:name="atlast:goods" sv:type="Double">
-          <sv:value>0.0</sv:value>
+          <sv:value>10.0</sv:value>
         </sv:property>
         <sv:property sv:name="atlast:identity" sv:type="String">
-          <sv:value>cbff9099-0ba0-4096-82d3-b9bfa5606854</sv:value>
+          <sv:value>f042274a-055a-495f-b440-0b1606556ad7</sv:value>
         </sv:property>
         <sv:property sv:name="atlast:luxuries" sv:type="Double">
-          <sv:value>5.0</sv:value>
+          <sv:value>10.0</sv:value>
         </sv:property>
         <sv:property sv:name="atlast:name" sv:type="String">
-          <sv:value>Mtewaz Dożgaqqażelu</sv:value>
+          <sv:value>Seadi Searragking</sv:value>
         </sv:property>
         <sv:property sv:name="atlast:player" sv:type="String">
           <sv:value>test1</sv:value>
         </sv:property>
         <sv:property sv:name="atlast:races" sv:type="String" sv:multiple="true">
-          <sv:value>cbff9099-0ba0-4096-82d3-b9bfa5606854</sv:value>
+          <sv:value>f042274a-055a-495f-b440-0b1606556ad7</sv:value>
         </sv:property>
         <sv:property sv:name="atlast:religions" sv:type="String" sv:multiple="true">
           <sv:value>none</sv:value>
         </sv:property>
         <sv:property sv:name="atlast:skills" sv:type="String" sv:multiple="true">
-          <sv:value>tailor</sv:value>
+          <sv:value>weaver</sv:value>
         </sv:property>
         <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
           <sv:value>live</sv:value>
         </sv:property>
-        <sv:property sv:name="race-cbff9099-0ba0-4096-82d3-b9bfa5606854" sv:type="Double">
+        <sv:property sv:name="race-f042274a-055a-495f-b440-0b1606556ad7" sv:type="Double">
           <sv:value>100.0</sv:value>
         </sv:property>
         <sv:property sv:name="religion-none" sv:type="Double">
           <sv:value>100.0</sv:value>
         </sv:property>
-        <sv:property sv:name="skill-tailor" sv:type="Double">
-          <sv:value>76.24365478348014</sv:value>
+        <sv:property sv:name="skill-weaver" sv:type="Double">
+          <sv:value>50.0</sv:value>
         </sv:property>
-        <sv:node sv:name="child">
-          <sv:property sv:name="jcr:primaryType" sv:type="Name">
-            <sv:value>atlast:child</sv:value>
-          </sv:property>
-          <sv:property sv:name="atlast:cash" sv:type="Double">
-            <sv:value>0.0</sv:value>
-          </sv:property>
-          <sv:property sv:name="atlast:food" sv:type="Double">
-            <sv:value>57.0</sv:value>
-          </sv:property>
-          <sv:property sv:name="atlast:identity" sv:type="String">
-            <sv:value>cbff9099-0ba0-4096-82d3-b9bfa5606854</sv:value>
-          </sv:property>
-          <sv:property sv:name="atlast:name" sv:type="String">
-            <sv:value>Iżged Mtewazelu</sv:value>
-          </sv:property>
-          <sv:property sv:name="atlast:player" sv:type="String">
-            <sv:value>test1</sv:value>
-          </sv:property>
-        </sv:node>
       </sv:node>
     </sv:node>
-    <sv:node sv:name="The Ruġuċ Shore-coast">
+    <sv:node sv:name="The Ulestu Shore-coast">
       <sv:property sv:name="jcr:primaryType" sv:type="Name">
         <sv:value>atlast:land</sv:value>
       </sv:property>
@@ -1312,13 +1110,13 @@
         <sv:value>b22f2b8a-2cc9-4dd9-8b54-52e17aead369</sv:value>
       </sv:property>
       <sv:property sv:name="atlast:name" sv:type="String">
-        <sv:value>The Ruġuċ Shore</sv:value>
+        <sv:value>The Ulestu Shore</sv:value>
       </sv:property>
       <sv:property sv:name="atlast:player" sv:type="String">
         <sv:value>test1</sv:value>
       </sv:property>
     </sv:node>
-    <sv:node sv:name="Cape Ħifwuħ-coast">
+    <sv:node sv:name="Speeco Island-coast">
       <sv:property sv:name="jcr:primaryType" sv:type="Name">
         <sv:value>atlast:land</sv:value>
       </sv:property>
@@ -1326,13 +1124,13 @@
         <sv:value>b22f2b8a-2cc9-4dd9-8b54-52e17aead369</sv:value>
       </sv:property>
       <sv:property sv:name="atlast:name" sv:type="String">
-        <sv:value>Cape Ħifwuħ</sv:value>
+        <sv:value>Speeco Island</sv:value>
       </sv:property>
       <sv:property sv:name="atlast:player" sv:type="String">
         <sv:value>test1</sv:value>
       </sv:property>
     </sv:node>
-    <sv:node sv:name="Ċissuż Island-coast">
+    <sv:node sv:name="The Smeetu Coast-coast">
       <sv:property sv:name="jcr:primaryType" sv:type="Name">
         <sv:value>atlast:land</sv:value>
       </sv:property>
@@ -1340,13 +1138,13 @@
         <sv:value>b22f2b8a-2cc9-4dd9-8b54-52e17aead369</sv:value>
       </sv:property>
       <sv:property sv:name="atlast:name" sv:type="String">
-        <sv:value>Ċissuż Island</sv:value>
+        <sv:value>The Smeetu Coast</sv:value>
       </sv:property>
       <sv:property sv:name="atlast:player" sv:type="String">
         <sv:value>test1</sv:value>
       </sv:property>
     </sv:node>
-    <sv:node sv:name="The Ħiqqusuħ Coast-coast">
+    <sv:node sv:name="The Ressu Coast-coast">
       <sv:property sv:name="jcr:primaryType" sv:type="Name">
         <sv:value>atlast:land</sv:value>
       </sv:property>
@@ -1354,13 +1152,13 @@
         <sv:value>b22f2b8a-2cc9-4dd9-8b54-52e17aead369</sv:value>
       </sv:property>
       <sv:property sv:name="atlast:name" sv:type="String">
-        <sv:value>The Ħiqqusuħ Coast</sv:value>
+        <sv:value>The Ressu Coast</sv:value>
       </sv:property>
       <sv:property sv:name="atlast:player" sv:type="String">
         <sv:value>test1</sv:value>
       </sv:property>
     </sv:node>
-    <sv:node sv:name="Qifsud Island-coast">
+    <sv:node sv:name="The Ruslu Shore-coast">
       <sv:property sv:name="jcr:primaryType" sv:type="Name">
         <sv:value>atlast:land</sv:value>
       </sv:property>
@@ -1368,7 +1166,7 @@
         <sv:value>b22f2b8a-2cc9-4dd9-8b54-52e17aead369</sv:value>
       </sv:property>
       <sv:property sv:name="atlast:name" sv:type="String">
-        <sv:value>Qifsud Island</sv:value>
+        <sv:value>The Ruslu Shore</sv:value>
       </sv:property>
       <sv:property sv:name="atlast:player" sv:type="String">
         <sv:value>test1</sv:value>

@@ -60,6 +60,8 @@ public class Development extends AtlastObject {
 
         skill = skill / pops.size();
 
+        double techLevel = player.getLibrary().getTechLevel(recipe) * 10;
+
         if (pops.size() >= labour && labour != 0) {
             for (int i = 0; i < pops.size(); i += labour) {
 
@@ -70,6 +72,7 @@ public class Development extends AtlastObject {
                         Double amount = outputs.get(output) / outputs.size();
 
                         amount += 2 * skill / 100;
+                        amount += 2 * techLevel / 100;
                         outputs.put(output, amount);
                     }
 

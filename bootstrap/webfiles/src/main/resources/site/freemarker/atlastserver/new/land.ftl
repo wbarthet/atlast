@@ -47,7 +47,7 @@
               <option value="none">Do nothing</option>
             </#if>
 
-            <#list land.developmentDescriptor.allowedRecipes as recipe>
+            <#list land.developmentDescriptor.getAllowedRecipes(player) as recipe>
                 <#if land.recipeDescriptor?? && land.recipeDescriptor.uuid == recipe.uuid>
                   <option value="${recipe.uuid}" selected>${recipe.name}</option>
                 <#else >
@@ -65,7 +65,7 @@
         <#if land.pops?has_content>
 
           <p>
-            Skill level ${land.getSkillLevel(land.recipeDescriptor.skill)}% | Tech level: 43% | Land exhaustion: 67%
+            Skill level ${land.getSkillLevel(land.recipeDescriptor.skill)}% | Tech level: ${player.getLibrary().getTechLevel(land.recipeDescriptor)*10}% | Land exhaustion: 67%
           </p>
           <p>
               <#assign pnl=0.00/>
