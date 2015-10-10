@@ -6,6 +6,9 @@
        <bean id="landsService" class="org.atlast.services.LandsService">
        </bean>
 
+       <bean id="councilService" class="org.atlast.services.CouncilService">
+       </bean>
+
        <bean id="signupService" class="org.atlast.services.SignupService">
        </bean>
 

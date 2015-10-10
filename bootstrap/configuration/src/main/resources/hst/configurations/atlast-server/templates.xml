@@ -82,4 +82,20 @@
       <sv:value>webfile:/freemarker/atlastserver/new/land.ftl</sv:value>
     </sv:property>
   </sv:node>
+  <sv:node sv:name="council">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hst:template</sv:value>
+    </sv:property>
+    <sv:property sv:name="hst:renderpath" sv:type="String">
+      <sv:value>webfile:/freemarker/atlastserver/new/council.ftl</sv:value>
+    </sv:property>
+  </sv:node>
+  <sv:node sv:name="library">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hst:template</sv:value>
+    </sv:property>
+    <sv:property sv:name="hst:renderpath" sv:type="String">
+      <sv:value>webfile:/freemarker/atlastserver/new/library.ftl</sv:value>
+    </sv:property>
+  </sv:node>
 </sv:node>

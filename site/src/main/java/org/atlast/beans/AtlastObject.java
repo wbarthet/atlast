@@ -1,5 +1,7 @@
 package org.atlast.beans;
 
+import java.util.List;
+
 import javax.jcr.RepositoryException;
 
 import org.hippoecm.hst.content.beans.Node;
@@ -29,6 +31,25 @@ public class AtlastObject extends HippoItem {
             }
         }
         return null;
+    }
+
+    public List<Pop> getPops() {
+        return getChildBeans(Pop.class);
+    }
+
+    public double getSkillLevel(String skillName) throws RepositoryException {
+        Double skillLevel = 0.0;
+
+        List<Pop> pops = getPops();
+
+        if (pops.size()>0) {
+            for (Pop pop : pops) {
+                skillLevel += pop.getSkill(skillName);
+            }
+
+            skillLevel /= pops.size();
+        }
+        return skillLevel;
     }
 
 

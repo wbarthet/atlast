@@ -96,7 +96,7 @@ public class Library extends AtlastObject {
 
     public double getTechLevel(final Recipe recipe) throws RepositoryException {
 
-        Node techNode = getNode().getNode(recipe.node.getIdentifier());
+        Node techNode = getNode().getNode(recipe.node.getParent().getIdentifier());
 
         if (techNode != null) {
             return techNode.getProperty("atlast:level").getDouble();

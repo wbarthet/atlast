@@ -359,6 +359,8 @@ public class SignupService {
             techNode.setProperty("atlast:level", START_TECH_LEVEL);
         }
 
+        libraryNode.setProperty("atlast:wages", 150.00);
+
     }
 
     private void createPlayerPops(final HstRequestContext requestContext, final Node userPlayerDataNode, final String userName, final Node landNode, String popClass, int count, String skill, String race, String religion) throws RepositoryException {

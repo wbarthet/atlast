@@ -46,26 +46,12 @@ public class Land extends AtlastObject {
         return getDescriptor("atlast:recipedescriptor", RecipeDescriptor.class);
     }
 
-    public List<Pop> getPops() {
-        return getChildBeans(Pop.class);
-    }
 
     public double getWages() {
         return getProperty("atlast:wages");
     }
 
-    public double getSkillLevel(String skillName) throws RepositoryException {
-        Double skillLevel = 0.0;
 
-        List<Pop> pops = getPops();
-        for (Pop pop : pops) {
-            skillLevel += pop.getSkill(skillName);
-        }
-
-        skillLevel /= pops.size();
-
-        return skillLevel;
-    }
 
     public Map<String, Double> getOutputs() throws RepositoryException {
         Map<String, Double> outputs = new HashMap<>();

@@ -38,4 +38,41 @@ public class Library extends AtlastObject {
 
         return 0.0;
     }
+
+    public List<Pop> getPops() {
+        return getChildBeans(Pop.class);
+    }
+
+    public String getFocus() {
+        String focus = getProperty("atlast:focus");
+
+        focus = "ascending".equals(focus) ? "Innovation" : "Improvement";
+
+        return focus;
+    }
+
+    public double getWages() {
+        return getProperty("atlast:wages");
+    }
+
+
+    public double getOutput() throws RepositoryException {
+        double amount = 0.0;
+
+        List<Pop> pops = getPops();
+
+        double skill = getSkillLevel("scientist");
+
+        amount +=  2 + pops.size() * (2 + 2 * skill / 100);
+
+        return amount;
+    }
+
+    public Player getPlayer() {
+        return (Player) getParentBean();
+    }
+
+    public List<Technology> getTechnology() {
+        return getChildBeans(Technology.class);
+    }
 }
