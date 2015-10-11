@@ -1,7 +1,11 @@
 package org.atlast.beans;
 
 
+import javax.jcr.RepositoryException;
+
+import org.atlast.beans.descriptors.LanguageDescriptor;
 import org.hippoecm.hst.content.beans.Node;
+import org.hippoecm.hst.content.beans.ObjectBeanManagerException;
 
 /**
  * Created by wbarthet on 7/13/15.
@@ -21,4 +25,9 @@ public class Identity extends AtlastObject {
     }
 
 
+    public LanguageDescriptor getLanguageDescriptor() throws RepositoryException, ObjectBeanManagerException {
+        String uuid = getProperty("atlast:languagedescriptor");
+
+        return (LanguageDescriptor) getObjectConverter().getObject(uuid, getNode().getSession());
+    }
 }

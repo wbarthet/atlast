@@ -15,5 +15,7 @@
        <bean id="storesService" class="org.atlast.services.StoresService">
        </bean>
 
+       <bean id="messageService" class="org.atlast.services.MessageService">
+       </bean>
 
 </beans>

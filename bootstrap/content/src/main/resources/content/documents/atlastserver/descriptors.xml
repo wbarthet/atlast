@@ -1754,7 +1754,7 @@
           <sv:value>33727f83-a641-4283-bd86-18491edc397b</sv:value>
         </sv:property>
         <sv:property sv:name="atlast:count" sv:type="Long">
-          <sv:value>2</sv:value>
+          <sv:value>3</sv:value>
         </sv:property>
         <sv:property sv:name="atlast:name" sv:type="String">
           <sv:value>Rings of the Faithful</sv:value>
@@ -1833,7 +1833,7 @@
           <sv:value>2f4c70a5-9d7f-45f5-a945-97b79cab4527</sv:value>
         </sv:property>
         <sv:property sv:name="atlast:count" sv:type="Long">
-          <sv:value>2</sv:value>
+          <sv:value>3</sv:value>
         </sv:property>
         <sv:property sv:name="atlast:name" sv:type="String">
           <sv:value>Rings of the Faithful</sv:value>
@@ -1902,7 +1902,7 @@
           <sv:value>dde95965-0d9c-4c95-93a8-69b4fb6ab95b</sv:value>
         </sv:property>
         <sv:property sv:name="atlast:count" sv:type="Long">
-          <sv:value>2</sv:value>
+          <sv:value>3</sv:value>
         </sv:property>
         <sv:property sv:name="atlast:name" sv:type="String">
           <sv:value>Rings of the Faithful</sv:value>
@@ -1986,7 +1986,7 @@
           <sv:value>4120cb16-c153-41de-8162-a3b5817aceed</sv:value>
         </sv:property>
         <sv:property sv:name="atlast:count" sv:type="Long">
-          <sv:value>2</sv:value>
+          <sv:value>3</sv:value>
         </sv:property>
         <sv:property sv:name="atlast:name" sv:type="String">
           <sv:value>Sobriety</sv:value>
@@ -2081,7 +2081,7 @@
           <sv:value>dbd29ee6-eadb-4bb2-941c-0f2db7c93599</sv:value>
         </sv:property>
         <sv:property sv:name="atlast:count" sv:type="Long">
-          <sv:value>2</sv:value>
+          <sv:value>3</sv:value>
         </sv:property>
         <sv:property sv:name="atlast:name" sv:type="String">
           <sv:value>Sobriety</sv:value>
@@ -2166,7 +2166,7 @@
           <sv:value>42413875-27fb-468e-99c3-0e0008946e09</sv:value>
         </sv:property>
         <sv:property sv:name="atlast:count" sv:type="Long">
-          <sv:value>2</sv:value>
+          <sv:value>3</sv:value>
         </sv:property>
         <sv:property sv:name="atlast:name" sv:type="String">
           <sv:value>Sobriety</sv:value>
@@ -2546,7 +2546,7 @@
           <sv:value>aaa3c286-f5ef-4299-9b34-d37ef0efda5f</sv:value>
         </sv:property>
         <sv:property sv:name="atlast:count" sv:type="Long">
-          <sv:value>2</sv:value>
+          <sv:value>3</sv:value>
         </sv:property>
         <sv:property sv:name="atlast:name" sv:type="String">
           <sv:value>Cremators</sv:value>
@@ -2625,7 +2625,7 @@
           <sv:value>f969c675-81ec-461b-a665-57771518407f</sv:value>
         </sv:property>
         <sv:property sv:name="atlast:count" sv:type="Long">
-          <sv:value>2</sv:value>
+          <sv:value>3</sv:value>
         </sv:property>
         <sv:property sv:name="atlast:name" sv:type="String">
           <sv:value>Cremators</sv:value>
@@ -2694,7 +2694,7 @@
           <sv:value>95519bf0-80f2-4ce9-bddc-780b0eeb93a2</sv:value>
         </sv:property>
         <sv:property sv:name="atlast:count" sv:type="Long">
-          <sv:value>2</sv:value>
+          <sv:value>3</sv:value>
         </sv:property>
         <sv:property sv:name="atlast:name" sv:type="String">
           <sv:value>Cremators</sv:value>
@@ -3570,7 +3570,7 @@
           <sv:value>406b3363-244c-4f94-b820-5f4b9465dccb</sv:value>
         </sv:property>
         <sv:property sv:name="atlast:count" sv:type="Long">
-          <sv:value>2</sv:value>
+          <sv:value>3</sv:value>
         </sv:property>
         <sv:property sv:name="atlast:name" sv:type="String">
           <sv:value>Easter</sv:value>
@@ -3649,7 +3649,7 @@
           <sv:value>0257b5f5-f143-4ef3-b10a-766df21ada75</sv:value>
         </sv:property>
         <sv:property sv:name="atlast:count" sv:type="Long">
-          <sv:value>2</sv:value>
+          <sv:value>3</sv:value>
         </sv:property>
         <sv:property sv:name="atlast:name" sv:type="String">
           <sv:value>Easter</sv:value>
@@ -3718,7 +3718,7 @@
           <sv:value>08fdffe1-c9dc-46ed-a356-1fbc723137e3</sv:value>
         </sv:property>
         <sv:property sv:name="atlast:count" sv:type="Long">
-          <sv:value>2</sv:value>
+          <sv:value>3</sv:value>
         </sv:property>
         <sv:property sv:name="atlast:name" sv:type="String">
           <sv:value>Easter</sv:value>
@@ -3802,7 +3802,7 @@
           <sv:value>acaf10f6-a674-4dac-abd9-098702f13a30</sv:value>
         </sv:property>
         <sv:property sv:name="atlast:count" sv:type="Long">
-          <sv:value>2</sv:value>
+          <sv:value>3</sv:value>
         </sv:property>
         <sv:property sv:name="atlast:name" sv:type="String">
           <sv:value>Men of the Cloth</sv:value>
@@ -3881,7 +3881,7 @@
           <sv:value>191e2439-fdaf-4a9b-bf37-8da721d999b7</sv:value>
         </sv:property>
         <sv:property sv:name="atlast:count" sv:type="Long">
-          <sv:value>2</sv:value>
+          <sv:value>3</sv:value>
         </sv:property>
         <sv:property sv:name="atlast:name" sv:type="String">
           <sv:value>Men of the Cloth</sv:value>
@@ -3950,7 +3950,7 @@
           <sv:value>5a24d74a-0482-4144-b6d5-342e074fe9c8</sv:value>
         </sv:property>
         <sv:property sv:name="atlast:count" sv:type="Long">
-          <sv:value>2</sv:value>
+          <sv:value>3</sv:value>
         </sv:property>
         <sv:property sv:name="atlast:name" sv:type="String">
           <sv:value>Men of the Cloth</sv:value>
@@ -4034,7 +4034,7 @@
           <sv:value>cf8584ae-4d6a-42f0-8031-9dd3c31ee3a5</sv:value>
         </sv:property>
         <sv:property sv:name="atlast:count" sv:type="Long">
-          <sv:value>2</sv:value>
+          <sv:value>3</sv:value>
         </sv:property>
         <sv:property sv:name="atlast:name" sv:type="String">
           <sv:value>Marble Shrines</sv:value>
@@ -4129,7 +4129,7 @@
           <sv:value>afac72bd-5ea4-47d5-8797-53d7dc4bede0</sv:value>
         </sv:property>
         <sv:property sv:name="atlast:count" sv:type="Long">
-          <sv:value>2</sv:value>
+          <sv:value>3</sv:value>
         </sv:property>
         <sv:property sv:name="atlast:name" sv:type="String">
           <sv:value>Marble Shrines</sv:value>
@@ -4214,7 +4214,7 @@
           <sv:value>6ab6b84a-d8e1-4798-9c1f-3245bbe3ecfe</sv:value>
         </sv:property>
         <sv:property sv:name="atlast:count" sv:type="Long">
-          <sv:value>2</sv:value>
+          <sv:value>3</sv:value>
         </sv:property>
         <sv:property sv:name="atlast:name" sv:type="String">
           <sv:value>Marble Shrines</sv:value>
@@ -4826,7 +4826,7 @@
           <sv:value>4142314c-619e-4fa2-9bda-d0236d2e1824</sv:value>
         </sv:property>
         <sv:property sv:name="atlast:count" sv:type="Long">
-          <sv:value>1</sv:value>
+          <sv:value>2</sv:value>
         </sv:property>
         <sv:property sv:name="atlast:name" sv:type="String">
           <sv:value>Do-it-yourselfers</sv:value>
@@ -4921,7 +4921,7 @@
           <sv:value>e1621634-d1fc-4410-843c-2caf5ab3846c</sv:value>
         </sv:property>
         <sv:property sv:name="atlast:count" sv:type="Long">
-          <sv:value>1</sv:value>
+          <sv:value>2</sv:value>
         </sv:property>
         <sv:property sv:name="atlast:name" sv:type="String">
           <sv:value>Do-it-yourselfers</sv:value>
@@ -5006,7 +5006,7 @@
           <sv:value>183ec1d3-3a88-48d3-a41c-cdb712479200</sv:value>
         </sv:property>
         <sv:property sv:name="atlast:count" sv:type="Long">
-          <sv:value>1</sv:value>
+          <sv:value>2</sv:value>
         </sv:property>
         <sv:property sv:name="atlast:name" sv:type="String">
           <sv:value>Do-it-yourselfers</sv:value>
@@ -5106,7 +5106,7 @@
           <sv:value>df3d6637-9a25-4ef7-825f-8fcd8f20b515</sv:value>
         </sv:property>
         <sv:property sv:name="atlast:count" sv:type="Long">
-          <sv:value>1</sv:value>
+          <sv:value>2</sv:value>
         </sv:property>
         <sv:property sv:name="atlast:name" sv:type="String">
           <sv:value>Bread and Cheese</sv:value>
@@ -5201,7 +5201,7 @@
           <sv:value>d566d746-f995-4319-8c86-09534212012a</sv:value>
         </sv:property>
         <sv:property sv:name="atlast:count" sv:type="Long">
-          <sv:value>1</sv:value>
+          <sv:value>2</sv:value>
         </sv:property>
         <sv:property sv:name="atlast:name" sv:type="String">
           <sv:value>Bread and Cheese</sv:value>
@@ -5286,7 +5286,7 @@
           <sv:value>7e260694-a092-4be1-8ff6-a07e8059bf02</sv:value>
         </sv:property>
         <sv:property sv:name="atlast:count" sv:type="Long">
-          <sv:value>1</sv:value>
+          <sv:value>2</sv:value>
         </sv:property>
         <sv:property sv:name="atlast:name" sv:type="String">
           <sv:value>Bread and Cheese</sv:value>
@@ -5386,7 +5386,7 @@
           <sv:value>a4c970e1-2896-47ce-9905-68b4ebc076ea</sv:value>
         </sv:property>
         <sv:property sv:name="atlast:count" sv:type="Long">
-          <sv:value>1</sv:value>
+          <sv:value>2</sv:value>
         </sv:property>
         <sv:property sv:name="atlast:name" sv:type="String">
           <sv:value>Bland Food</sv:value>
@@ -5481,7 +5481,7 @@
           <sv:value>a0e04f14-600a-4a23-ae31-26d889351a23</sv:value>
         </sv:property>
         <sv:property sv:name="atlast:count" sv:type="Long">
-          <sv:value>1</sv:value>
+          <sv:value>2</sv:value>
         </sv:property>
         <sv:property sv:name="atlast:name" sv:type="String">
           <sv:value>Bland Food</sv:value>
@@ -5566,7 +5566,7 @@
           <sv:value>d94c72ef-88ad-40fd-8554-708deae823ec</sv:value>
         </sv:property>
         <sv:property sv:name="atlast:count" sv:type="Long">
-          <sv:value>1</sv:value>
+          <sv:value>2</sv:value>
         </sv:property>
         <sv:property sv:name="atlast:name" sv:type="String">
           <sv:value>Bland Food</sv:value>
@@ -5946,7 +5946,7 @@
           <sv:value>4db93965-0411-4ff4-8449-81e891cb1b59</sv:value>
         </sv:property>
         <sv:property sv:name="atlast:count" sv:type="Long">
-          <sv:value>1</sv:value>
+          <sv:value>2</sv:value>
         </sv:property>
         <sv:property sv:name="atlast:name" sv:type="String">
           <sv:value>Curry</sv:value>
@@ -6041,7 +6041,7 @@
           <sv:value>3014571e-582a-46a6-9cb8-fe09d8000827</sv:value>
         </sv:property>
         <sv:property sv:name="atlast:count" sv:type="Long">
-          <sv:value>1</sv:value>
+          <sv:value>2</sv:value>
         </sv:property>
         <sv:property sv:name="atlast:name" sv:type="String">
           <sv:value>Curry</sv:value>
@@ -6126,7 +6126,7 @@
           <sv:value>229f8de3-9f19-40c7-bc7d-717dcc2efed5</sv:value>
         </sv:property>
         <sv:property sv:name="atlast:count" sv:type="Long">
-          <sv:value>1</sv:value>
+          <sv:value>2</sv:value>
         </sv:property>
         <sv:property sv:name="atlast:name" sv:type="String">
           <sv:value>Curry</sv:value>
@@ -6458,7 +6458,7 @@
           <sv:value>8591c76d-64d5-4357-92f5-a5ed07df0720</sv:value>
         </sv:property>
         <sv:property sv:name="atlast:count" sv:type="Long">
-          <sv:value>1</sv:value>
+          <sv:value>2</sv:value>
         </sv:property>
         <sv:property sv:name="atlast:name" sv:type="String">
           <sv:value>Humility</sv:value>
@@ -6553,7 +6553,7 @@
           <sv:value>f6b20e3d-e9e6-4bd3-802a-7b88de2435ab</sv:value>
         </sv:property>
         <sv:property sv:name="atlast:count" sv:type="Long">
-          <sv:value>1</sv:value>
+          <sv:value>2</sv:value>
         </sv:property>
         <sv:property sv:name="atlast:name" sv:type="String">
           <sv:value>Humility</sv:value>
@@ -6638,7 +6638,7 @@
           <sv:value>5762b2d9-214b-400c-ab48-74d6f80a9858</sv:value>
         </sv:property>
         <sv:property sv:name="atlast:count" sv:type="Long">
-          <sv:value>1</sv:value>
+          <sv:value>2</sv:value>
         </sv:property>
         <sv:property sv:name="atlast:name" sv:type="String">
           <sv:value>Humility</sv:value>
@@ -6738,7 +6738,7 @@
           <sv:value>c31e3280-2a37-4f57-8a8d-e4f42026e553</sv:value>
         </sv:property>
         <sv:property sv:name="atlast:count" sv:type="Long">
-          <sv:value>1</sv:value>
+          <sv:value>2</sv:value>
         </sv:property>
         <sv:property sv:name="atlast:name" sv:type="String">
           <sv:value>Animal Lovers</sv:value>
@@ -6833,7 +6833,7 @@
           <sv:value>899de204-feab-4367-9423-a250684a30bc</sv:value>
         </sv:property>
         <sv:property sv:name="atlast:count" sv:type="Long">
-          <sv:value>1</sv:value>
+          <sv:value>2</sv:value>
         </sv:property>
         <sv:property sv:name="atlast:name" sv:type="String">
           <sv:value>Animal Lovers</sv:value>
@@ -6918,7 +6918,7 @@
           <sv:value>cb491632-f6f3-49f5-b123-9dd5c96c7c52</sv:value>
         </sv:property>
         <sv:property sv:name="atlast:count" sv:type="Long">
-          <sv:value>1</sv:value>
+          <sv:value>2</sv:value>
         </sv:property>
         <sv:property sv:name="atlast:name" sv:type="String">
           <sv:value>Animal Lovers</sv:value>
@@ -7530,7 +7530,7 @@
           <sv:value>32668ccc-ffba-482a-bbe3-ac4057cc7f49</sv:value>
         </sv:property>
         <sv:property sv:name="atlast:count" sv:type="Long">
-          <sv:value>2</sv:value>
+          <sv:value>3</sv:value>
         </sv:property>
         <sv:property sv:name="atlast:name" sv:type="String">
           <sv:value>Traditional Clothes</sv:value>
@@ -7609,7 +7609,7 @@
           <sv:value>ce48aae1-7362-44bf-adb1-72608b6efa3a</sv:value>
         </sv:property>
         <sv:property sv:name="atlast:count" sv:type="Long">
-          <sv:value>2</sv:value>
+          <sv:value>3</sv:value>
         </sv:property>
         <sv:property sv:name="atlast:name" sv:type="String">
           <sv:value>Traditional Clothes</sv:value>
@@ -7678,7 +7678,7 @@
           <sv:value>f788d45e-4b80-4545-a6a5-2fc983d95fc6</sv:value>
         </sv:property>
         <sv:property sv:name="atlast:count" sv:type="Long">
-          <sv:value>2</sv:value>
+          <sv:value>3</sv:value>
         </sv:property>
         <sv:property sv:name="atlast:name" sv:type="String">
           <sv:value>Traditional Clothes</sv:value>
@@ -8322,7 +8322,7 @@
           <sv:value>2768235c-9ca3-4c1c-a2cc-0d2f1143b846</sv:value>
         </sv:property>
         <sv:property sv:name="atlast:count" sv:type="Long">
-          <sv:value>2</sv:value>
+          <sv:value>3</sv:value>
         </sv:property>
         <sv:property sv:name="atlast:name" sv:type="String">
           <sv:value>Bling</sv:value>
@@ -8417,7 +8417,7 @@
           <sv:value>aff22a1f-d5cc-478d-8a59-752107641434</sv:value>
         </sv:property>
         <sv:property sv:name="atlast:count" sv:type="Long">
-          <sv:value>2</sv:value>
+          <sv:value>3</sv:value>
         </sv:property>
         <sv:property sv:name="atlast:name" sv:type="String">
           <sv:value>Bling</sv:value>
@@ -8502,7 +8502,7 @@
           <sv:value>8e16527e-a557-48bc-8a4e-272872f25e19</sv:value>
         </sv:property>
         <sv:property sv:name="atlast:count" sv:type="Long">
-          <sv:value>2</sv:value>
+          <sv:value>3</sv:value>
         </sv:property>
         <sv:property sv:name="atlast:name" sv:type="String">
           <sv:value>Bling</sv:value>
@@ -8602,7 +8602,7 @@
           <sv:value>70c9dd84-522d-4305-b406-79e8c81b4d21</sv:value>
         </sv:property>
         <sv:property sv:name="atlast:count" sv:type="Long">
-          <sv:value>2</sv:value>
+          <sv:value>3</sv:value>
         </sv:property>
         <sv:property sv:name="atlast:name" sv:type="String">
           <sv:value>Nudists</sv:value>
@@ -8697,7 +8697,7 @@
           <sv:value>a5fbe7d9-8c3e-446e-a1dc-60f68b8e15d4</sv:value>
         </sv:property>
         <sv:property sv:name="atlast:count" sv:type="Long">
-          <sv:value>2</sv:value>
+          <sv:value>3</sv:value>
         </sv:property>
         <sv:property sv:name="atlast:name" sv:type="String">
           <sv:value>Nudists</sv:value>
@@ -8782,7 +8782,7 @@
           <sv:value>58995015-a362-433a-85d2-567f056596cd</sv:value>
         </sv:property>
         <sv:property sv:name="atlast:count" sv:type="Long">
-          <sv:value>2</sv:value>
+          <sv:value>3</sv:value>
         </sv:property>
         <sv:property sv:name="atlast:name" sv:type="String">
           <sv:value>Nudists</sv:value>
@@ -8882,7 +8882,7 @@
           <sv:value>683defb3-e62b-4fba-9685-709ae1eb4929</sv:value>
         </sv:property>
         <sv:property sv:name="atlast:count" sv:type="Long">
-          <sv:value>1</sv:value>
+          <sv:value>2</sv:value>
         </sv:property>
         <sv:property sv:name="atlast:name" sv:type="String">
           <sv:value>No Grains</sv:value>
@@ -8977,7 +8977,7 @@
           <sv:value>d78a229d-1558-44de-b686-305a49aa4862</sv:value>
         </sv:property>
         <sv:property sv:name="atlast:count" sv:type="Long">
-          <sv:value>1</sv:value>
+          <sv:value>2</sv:value>
         </sv:property>
         <sv:property sv:name="atlast:name" sv:type="String">
           <sv:value>No Grains</sv:value>
@@ -9062,7 +9062,7 @@
           <sv:value>c23d37a5-8cdb-44b0-a0e2-54957b837cc4</sv:value>
         </sv:property>
         <sv:property sv:name="atlast:count" sv:type="Long">
-          <sv:value>1</sv:value>
+          <sv:value>2</sv:value>
         </sv:property>
         <sv:property sv:name="atlast:name" sv:type="String">
           <sv:value>No Grains</sv:value>
@@ -9162,7 +9162,7 @@
           <sv:value>444a5593-0c7e-479b-acfa-c41de2721419</sv:value>
         </sv:property>
         <sv:property sv:name="atlast:count" sv:type="Long">
-          <sv:value>2</sv:value>
+          <sv:value>3</sv:value>
         </sv:property>
         <sv:property sv:name="atlast:name" sv:type="String">
           <sv:value>Oral Traditions</sv:value>
@@ -9241,7 +9241,7 @@
           <sv:value>48717453-394b-485e-bf0f-89e377198638</sv:value>
         </sv:property>
         <sv:property sv:name="atlast:count" sv:type="Long">
-          <sv:value>2</sv:value>
+          <sv:value>3</sv:value>
         </sv:property>
         <sv:property sv:name="atlast:name" sv:type="String">
           <sv:value>Oral Traditions</sv:value>
@@ -9310,7 +9310,7 @@
           <sv:value>9711d2ff-e0d4-43f1-810f-accac53feac8</sv:value>
         </sv:property>
         <sv:property sv:name="atlast:count" sv:type="Long">
-          <sv:value>2</sv:value>
+          <sv:value>3</sv:value>
         </sv:property>
         <sv:property sv:name="atlast:name" sv:type="String">
           <sv:value>Oral Traditions</sv:value>
@@ -9626,7 +9626,7 @@
           <sv:value>447e6ef6-ddc7-496d-b099-c3eefb83ce3b</sv:value>
         </sv:property>
         <sv:property sv:name="atlast:count" sv:type="Long">
-          <sv:value>1</sv:value>
+          <sv:value>2</sv:value>
         </sv:property>
         <sv:property sv:name="atlast:name" sv:type="String">
           <sv:value>Carnivores</sv:value>
@@ -9721,7 +9721,7 @@
           <sv:value>a73cfb11-7103-42fc-9015-870d0d35684c</sv:value>
         </sv:property>
         <sv:property sv:name="atlast:count" sv:type="Long">
-          <sv:value>1</sv:value>
+          <sv:value>2</sv:value>
         </sv:property>
         <sv:property sv:name="atlast:name" sv:type="String">
           <sv:value>Carnivores</sv:value>
@@ -9806,7 +9806,7 @@
           <sv:value>de6640bf-5411-41c4-887f-39388ba71b95</sv:value>
         </sv:property>
         <sv:property sv:name="atlast:count" sv:type="Long">
-          <sv:value>1</sv:value>
+          <sv:value>2</sv:value>
         </sv:property>
         <sv:property sv:name="atlast:name" sv:type="String">
           <sv:value>Carnivores</sv:value>
@@ -9906,7 +9906,7 @@
           <sv:value>fffff273-1cac-494d-b88e-d7229d5b8586</sv:value>
         </sv:property>
         <sv:property sv:name="atlast:count" sv:type="Long">
-          <sv:value>2</sv:value>
+          <sv:value>3</sv:value>
         </sv:property>
         <sv:property sv:name="atlast:name" sv:type="String">
           <sv:value>Evil Creatures</sv:value>
@@ -10001,7 +10001,7 @@
           <sv:value>b8e0fdeb-c03c-44b9-8744-c25b28476bea</sv:value>
         </sv:property>
         <sv:property sv:name="atlast:count" sv:type="Long">
-          <sv:value>2</sv:value>
+          <sv:value>3</sv:value>
         </sv:property>
         <sv:property sv:name="atlast:name" sv:type="String">
           <sv:value>Evil Creatures</sv:value>
@@ -10086,7 +10086,7 @@
           <sv:value>444baa3c-4162-4fbe-a298-445d2fc6a700</sv:value>
         </sv:property>
         <sv:property sv:name="atlast:count" sv:type="Long">
-          <sv:value>2</sv:value>
+          <sv:value>3</sv:value>
         </sv:property>
         <sv:property sv:name="atlast:name" sv:type="String">
           <sv:value>Evil Creatures</sv:value>
@@ -10466,7 +10466,7 @@
           <sv:value>ae66eea1-70a5-4a50-aca2-00e7a7329d15</sv:value>
         </sv:property>
         <sv:property sv:name="atlast:count" sv:type="Long">
-          <sv:value>2</sv:value>
+          <sv:value>3</sv:value>
         </sv:property>
         <sv:property sv:name="atlast:name" sv:type="String">
           <sv:value>No Slime</sv:value>
@@ -10561,7 +10561,7 @@
           <sv:value>8e003043-1f05-428a-8811-dd4aaeba8213</sv:value>
         </sv:property>
         <sv:property sv:name="atlast:count" sv:type="Long">
-          <sv:value>2</sv:value>
+          <sv:value>3</sv:value>
         </sv:property>
         <sv:property sv:name="atlast:name" sv:type="String">
           <sv:value>No Slime</sv:value>
@@ -10646,7 +10646,7 @@
           <sv:value>b3ec784b-cdfb-4167-b0ef-96d037aa92d1</sv:value>
         </sv:property>
         <sv:property sv:name="atlast:count" sv:type="Long">
-          <sv:value>2</sv:value>
+          <sv:value>3</sv:value>
         </sv:property>
         <sv:property sv:name="atlast:name" sv:type="String">
           <sv:value>No Slime</sv:value>
@@ -11026,7 +11026,7 @@
           <sv:value>ec7b0188-745c-4178-b2b2-ea1b6612a61a</sv:value>
         </sv:property>
         <sv:property sv:name="atlast:count" sv:type="Long">
-          <sv:value>2</sv:value>
+          <sv:value>3</sv:value>
         </sv:property>
         <sv:property sv:name="atlast:name" sv:type="String">
           <sv:value>Holy Potato</sv:value>
@@ -11121,7 +11121,7 @@
           <sv:value>f2c53797-7b06-4873-8d1f-57d2026ec898</sv:value>
         </sv:property>
         <sv:property sv:name="atlast:count" sv:type="Long">
-          <sv:value>2</sv:value>
+          <sv:value>3</sv:value>
         </sv:property>
         <sv:property sv:name="atlast:name" sv:type="String">
           <sv:value>Holy Potato</sv:value>
@@ -11206,7 +11206,7 @@
           <sv:value>5f846632-6cec-4eba-90b8-27fbd067f256</sv:value>
         </sv:property>
         <sv:property sv:name="atlast:count" sv:type="Long">
-          <sv:value>2</sv:value>
+          <sv:value>3</sv:value>
         </sv:property>
         <sv:property sv:name="atlast:name" sv:type="String">
           <sv:value>Holy Potato</sv:value>
@@ -11281,554 +11281,6 @@
               <sv:value>f042ca29-514d-4ccd-ae6b-5d6970f1cfcf</sv:value>
             </sv:property>
           </sv:node>
-        </sv:node>
-      </sv:node>
-    </sv:node>
-  </sv:node>
-  <sv:node sv:name="info">
-    <sv:property sv:name="jcr:primaryType" sv:type="Name">
-      <sv:value>hippostd:folder</sv:value>
-    </sv:property>
-    <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
-      <sv:value>hippotranslation:translated</sv:value>
-      <sv:value>mix:versionable</sv:value>
-    </sv:property>
-    <sv:property sv:name="jcr:uuid" sv:type="String">
-      <sv:value>3e7a0cb8-5dff-4004-aa87-30b39801b90d</sv:value>
-    </sv:property>
-    <sv:property sv:name="hippostd:foldertype" sv:type="String" sv:multiple="true">
-      <sv:value>new-translated-folder</sv:value>
-      <sv:value>new-document</sv:value>
-    </sv:property>
-    <sv:property sv:name="hippotranslation:id" sv:type="String">
-      <sv:value>dae24c0d-3b91-4aa8-8849-8df6ad0cc451</sv:value>
-    </sv:property>
-    <sv:property sv:name="hippotranslation:locale" sv:type="String">
-      <sv:value>en</sv:value>
-    </sv:property>
-    <sv:node sv:name="game-texts">
-      <sv:property sv:name="jcr:primaryType" sv:type="Name">
-        <sv:value>hippostd:folder</sv:value>
-      </sv:property>
-      <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
-        <sv:value>hippotranslation:translated</sv:value>
-        <sv:value>mix:versionable</sv:value>
-        <sv:value>hippo:translated</sv:value>
-      </sv:property>
-      <sv:property sv:name="jcr:uuid" sv:type="String">
-        <sv:value>64862746-8bd2-4ff6-b242-530211c86bd6</sv:value>
-      </sv:property>
-      <sv:property sv:name="hippostd:foldertype" sv:type="String" sv:multiple="true">
-        <sv:value>new-translated-folder</sv:value>
-        <sv:value>new-document</sv:value>
-      </sv:property>
-      <sv:property sv:name="hippotranslation:id" sv:type="String">
-        <sv:value>f980a526-7de7-4ff1-a20a-593c800a0cba</sv:value>
-      </sv:property>
-      <sv:property sv:name="hippotranslation:locale" sv:type="String">
-        <sv:value>en</sv:value>
-      </sv:property>
-      <sv:node sv:name="hippo:translation">
-        <sv:property sv:name="jcr:primaryType" sv:type="Name">
-          <sv:value>hippo:translation</sv:value>
-        </sv:property>
-        <sv:property sv:name="hippo:language" sv:type="String">
-          <sv:value/>
-        </sv:property>
-        <sv:property sv:name="hippo:message" sv:type="String">
-          <sv:value>game text</sv:value>
-        </sv:property>
-      </sv:node>
-      <sv:node sv:name="dashboard">
-        <sv:property sv:name="jcr:primaryType" sv:type="Name">
-          <sv:value>hippo:handle</sv:value>
-        </sv:property>
-        <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
-          <sv:value>mix:referenceable</sv:value>
-          <sv:value>hippo:translated</sv:value>
-        </sv:property>
-        <sv:property sv:name="jcr:uuid" sv:type="String">
-          <sv:value>84a1a540-8c56-47e3-960b-f05670026b76</sv:value>
-        </sv:property>
-        <sv:node sv:name="dashboard">
-          <sv:property sv:name="jcr:primaryType" sv:type="Name">
-            <sv:value>atlast:contentdocument</sv:value>
-          </sv:property>
-          <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
-            <sv:value>mix:referenceable</sv:value>
-          </sv:property>
-          <sv:property sv:name="jcr:uuid" sv:type="String">
-            <sv:value>065f461a-2578-4ffd-bbad-35c9c47d8be2</sv:value>
-          </sv:property>
-          <sv:property sv:name="atlast:title" sv:type="String">
-            <sv:value>Welcome, Atalaster. ${LEADER-NAME} of the ${IDENTITY}.</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true"/>
-          <sv:property sv:name="hippo:related___pathreference" sv:type="String">
-            <sv:value>descriptors/info/game-texts/dashboard/dashboard[2]</sv:value>
-            <sv:value>descriptors/info/game-texts/dashboard</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippostd:state" sv:type="String">
-            <sv:value>draft</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippostd:stateSummary" sv:type="String">
-            <sv:value>new</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
-            <sv:value>admin</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
-            <sv:value>2015-10-04T21:12:31.260-04:00</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
-            <sv:value>2015-10-04T21:44:46.673-04:00</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
-            <sv:value>admin</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippotranslation:id" sv:type="String">
-            <sv:value>86a92715-484c-4bca-99b4-def7c2100fb5</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippotranslation:locale" sv:type="String">
-            <sv:value>en</sv:value>
-          </sv:property>
-          <sv:node sv:name="atlast:content">
-            <sv:property sv:name="jcr:primaryType" sv:type="Name">
-              <sv:value>hippostd:html</sv:value>
-            </sv:property>
-            <sv:property sv:name="hippostd:content" sv:type="String">
-              <sv:value>&lt;p&gt;${ELECTION}&lt;/p&gt;
-
-&lt;p&gt;&amp;nbsp;&lt;/p&gt;
-
-&lt;p&gt;${TRAIT1}&lt;/p&gt;
-
-&lt;p&gt;&amp;nbsp;&lt;/p&gt;
-
-&lt;p&gt;${TRAIT2}&lt;/p&gt;
-
-&lt;p&gt;&amp;nbsp;&lt;/p&gt;
-
-&lt;p&gt;Guide your people to prosperity. Go forth into the world.&lt;/p&gt;</sv:value>
-            </sv:property>
-          </sv:node>
-        </sv:node>
-        <sv:node sv:name="hippo:translation">
-          <sv:property sv:name="jcr:primaryType" sv:type="Name">
-            <sv:value>hippo:translation</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippo:language" sv:type="String">
-            <sv:value/>
-          </sv:property>
-          <sv:property sv:name="hippo:message" sv:type="String">
-            <sv:value>Dashboard</sv:value>
-          </sv:property>
-        </sv:node>
-        <sv:node sv:name="dashboard">
-          <sv:property sv:name="jcr:primaryType" sv:type="Name">
-            <sv:value>atlast:contentdocument</sv:value>
-          </sv:property>
-          <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
-            <sv:value>mix:versionable</sv:value>
-          </sv:property>
-          <sv:property sv:name="jcr:uuid" sv:type="String">
-            <sv:value>6eeb46fa-3ef0-4dfb-8c09-99fb766f70a1</sv:value>
-          </sv:property>
-          <sv:property sv:name="atlast:title" sv:type="String">
-            <sv:value>Welcome, Atalaster. ${LEADER-NAME} of the ${IDENTITY}.</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
-            <sv:value>preview</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippo:related___pathreference" sv:type="String">
-            <sv:value>descriptors/info/game-texts/dashboard</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippostd:state" sv:type="String">
-            <sv:value>unpublished</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippostd:stateSummary" sv:type="String">
-            <sv:value>new</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
-            <sv:value>admin</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
-            <sv:value>2015-10-04T21:12:31.260-04:00</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
-            <sv:value>2015-10-04T21:44:52.621-04:00</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
-            <sv:value>admin</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippotranslation:id" sv:type="String">
-            <sv:value>86a92715-484c-4bca-99b4-def7c2100fb5</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippotranslation:locale" sv:type="String">
-            <sv:value>en</sv:value>
-          </sv:property>
-          <sv:node sv:name="atlast:content">
-            <sv:property sv:name="jcr:primaryType" sv:type="Name">
-              <sv:value>hippostd:html</sv:value>
-            </sv:property>
-            <sv:property sv:name="hippostd:content" sv:type="String">
-              <sv:value>&lt;p&gt;${ELECTION}&lt;/p&gt;
-
-&lt;p&gt;&amp;nbsp;&lt;/p&gt;
-
-&lt;p&gt;${TRAIT1}&lt;/p&gt;
-
-&lt;p&gt;&amp;nbsp;&lt;/p&gt;
-
-&lt;p&gt;${TRAIT2}&lt;/p&gt;
-
-&lt;p&gt;&amp;nbsp;&lt;/p&gt;
-
-&lt;p&gt;Guide your people to prosperity. Go forth into the world.&lt;/p&gt;</sv:value>
-            </sv:property>
-          </sv:node>
-        </sv:node>
-      </sv:node>
-      <sv:node sv:name="leader-name-religion">
-        <sv:property sv:name="jcr:primaryType" sv:type="Name">
-          <sv:value>hippo:handle</sv:value>
-        </sv:property>
-        <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
-          <sv:value>mix:referenceable</sv:value>
-          <sv:value>hippo:translated</sv:value>
-        </sv:property>
-        <sv:property sv:name="jcr:uuid" sv:type="String">
-          <sv:value>e2f2f001-b17b-4732-a325-272f7c4bb477</sv:value>
-        </sv:property>
-        <sv:node sv:name="leader-name-religion">
-          <sv:property sv:name="jcr:primaryType" sv:type="Name">
-            <sv:value>atlast:textlist</sv:value>
-          </sv:property>
-          <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
-            <sv:value>mix:referenceable</sv:value>
-          </sv:property>
-          <sv:property sv:name="jcr:uuid" sv:type="String">
-            <sv:value>3aff348c-6b06-4dff-b7b1-6d01c36f3ee0</sv:value>
-          </sv:property>
-          <sv:property sv:name="atlast:entries" sv:type="String" sv:multiple="true">
-            <sv:value>Pope</sv:value>
-            <sv:value>Highest Priest</sv:value>
-            <sv:value>Head Shaman</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true"/>
-          <sv:property sv:name="hippo:related___pathreference" sv:type="String">
-            <sv:value>descriptors/info/game-texts/leader-name-religion/leader-name-religion[2]</sv:value>
-            <sv:value>descriptors/info/game-texts/leader-name-religion</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippostd:state" sv:type="String">
-            <sv:value>draft</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippostd:stateSummary" sv:type="String">
-            <sv:value>new</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
-            <sv:value>admin</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
-            <sv:value>2015-10-04T21:20:44.598-04:00</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
-            <sv:value>2015-10-04T21:20:44.709-04:00</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
-            <sv:value>admin</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippotranslation:id" sv:type="String">
-            <sv:value>f5d84284-7c22-4e5a-98b3-6be49aa806ab</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippotranslation:locale" sv:type="String">
-            <sv:value>en</sv:value>
-          </sv:property>
-        </sv:node>
-        <sv:node sv:name="hippo:translation">
-          <sv:property sv:name="jcr:primaryType" sv:type="Name">
-            <sv:value>hippo:translation</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippo:language" sv:type="String">
-            <sv:value/>
-          </sv:property>
-          <sv:property sv:name="hippo:message" sv:type="String">
-            <sv:value>LEADER-NAME-RELIGION</sv:value>
-          </sv:property>
-        </sv:node>
-        <sv:node sv:name="leader-name-religion">
-          <sv:property sv:name="jcr:primaryType" sv:type="Name">
-            <sv:value>atlast:textlist</sv:value>
-          </sv:property>
-          <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
-            <sv:value>mix:versionable</sv:value>
-          </sv:property>
-          <sv:property sv:name="jcr:uuid" sv:type="String">
-            <sv:value>5263f199-1494-47cd-999d-7142ad9fe1ea</sv:value>
-          </sv:property>
-          <sv:property sv:name="atlast:entries" sv:type="String" sv:multiple="true">
-            <sv:value>Pope</sv:value>
-            <sv:value>Highest Priest</sv:value>
-            <sv:value>Head Shaman</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
-            <sv:value>preview</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippo:related___pathreference" sv:type="String">
-            <sv:value>descriptors/info/game-texts/leader-name-religion</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippostd:state" sv:type="String">
-            <sv:value>unpublished</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippostd:stateSummary" sv:type="String">
-            <sv:value>new</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
-            <sv:value>admin</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
-            <sv:value>2015-10-04T21:20:44.598-04:00</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
-            <sv:value>2015-10-04T21:21:48.237-04:00</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
-            <sv:value>admin</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippotranslation:id" sv:type="String">
-            <sv:value>f5d84284-7c22-4e5a-98b3-6be49aa806ab</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippotranslation:locale" sv:type="String">
-            <sv:value>en</sv:value>
-          </sv:property>
-        </sv:node>
-      </sv:node>
-      <sv:node sv:name="leader-name-race">
-        <sv:property sv:name="jcr:primaryType" sv:type="Name">
-          <sv:value>hippo:handle</sv:value>
-        </sv:property>
-        <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
-          <sv:value>mix:referenceable</sv:value>
-          <sv:value>hippo:translated</sv:value>
-        </sv:property>
-        <sv:property sv:name="jcr:uuid" sv:type="String">
-          <sv:value>8c76f7ed-e055-4f2c-ab70-1a1077e89f46</sv:value>
-        </sv:property>
-        <sv:node sv:name="leader-name-race">
-          <sv:property sv:name="jcr:primaryType" sv:type="Name">
-            <sv:value>atlast:textlist</sv:value>
-          </sv:property>
-          <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
-            <sv:value>mix:referenceable</sv:value>
-          </sv:property>
-          <sv:property sv:name="jcr:uuid" sv:type="String">
-            <sv:value>817e4346-bec2-4076-a2d3-a179ae493f74</sv:value>
-          </sv:property>
-          <sv:property sv:name="atlast:entries" sv:type="String" sv:multiple="true">
-            <sv:value>Chieftain</sv:value>
-            <sv:value>King</sv:value>
-            <sv:value>Grand Vizier</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true"/>
-          <sv:property sv:name="hippo:related___pathreference" sv:type="String">
-            <sv:value>descriptors/info/game-texts/leader-name-race</sv:value>
-            <sv:value>descriptors/info/game-texts/leader-name-race/leader-name-race[2]</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippostd:state" sv:type="String">
-            <sv:value>draft</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippostd:stateSummary" sv:type="String">
-            <sv:value>new</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
-            <sv:value>admin</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
-            <sv:value>2015-10-04T21:22:25.560-04:00</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
-            <sv:value>2015-10-04T21:22:25.628-04:00</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
-            <sv:value>admin</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippotranslation:id" sv:type="String">
-            <sv:value>899846c7-0a70-4d20-bd27-01513b801f18</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippotranslation:locale" sv:type="String">
-            <sv:value>en</sv:value>
-          </sv:property>
-        </sv:node>
-        <sv:node sv:name="hippo:translation">
-          <sv:property sv:name="jcr:primaryType" sv:type="Name">
-            <sv:value>hippo:translation</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippo:language" sv:type="String">
-            <sv:value/>
-          </sv:property>
-          <sv:property sv:name="hippo:message" sv:type="String">
-            <sv:value>LEADER-NAME-RACE</sv:value>
-          </sv:property>
-        </sv:node>
-        <sv:node sv:name="leader-name-race">
-          <sv:property sv:name="jcr:primaryType" sv:type="Name">
-            <sv:value>atlast:textlist</sv:value>
-          </sv:property>
-          <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
-            <sv:value>mix:versionable</sv:value>
-          </sv:property>
-          <sv:property sv:name="jcr:uuid" sv:type="String">
-            <sv:value>ba15a3b9-01ab-4ac9-bdcc-b8b2b2389898</sv:value>
-          </sv:property>
-          <sv:property sv:name="atlast:entries" sv:type="String" sv:multiple="true">
-            <sv:value>Chieftain</sv:value>
-            <sv:value>King</sv:value>
-            <sv:value>Grand Vizier</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
-            <sv:value>preview</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippo:related___pathreference" sv:type="String">
-            <sv:value>descriptors/info/game-texts/leader-name-race</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippostd:state" sv:type="String">
-            <sv:value>unpublished</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippostd:stateSummary" sv:type="String">
-            <sv:value>new</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
-            <sv:value>admin</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
-            <sv:value>2015-10-04T21:22:25.560-04:00</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
-            <sv:value>2015-10-04T21:23:06.311-04:00</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
-            <sv:value>admin</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippotranslation:id" sv:type="String">
-            <sv:value>899846c7-0a70-4d20-bd27-01513b801f18</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippotranslation:locale" sv:type="String">
-            <sv:value>en</sv:value>
-          </sv:property>
-        </sv:node>
-      </sv:node>
-      <sv:node sv:name="election-religion">
-        <sv:property sv:name="jcr:primaryType" sv:type="Name">
-          <sv:value>hippo:handle</sv:value>
-        </sv:property>
-        <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
-          <sv:value>mix:referenceable</sv:value>
-          <sv:value>hippo:translated</sv:value>
-        </sv:property>
-        <sv:property sv:name="jcr:uuid" sv:type="String">
-          <sv:value>b9d599c5-f5d2-4d81-ba43-c60dc5353ace</sv:value>
-        </sv:property>
-        <sv:node sv:name="election-religion">
-          <sv:property sv:name="jcr:primaryType" sv:type="Name">
-            <sv:value>atlast:textlist</sv:value>
-          </sv:property>
-          <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
-            <sv:value>mix:referenceable</sv:value>
-          </sv:property>
-          <sv:property sv:name="jcr:uuid" sv:type="String">
-            <sv:value>e40771c4-9933-4bc9-a333-49e61f66a6c3</sv:value>
-          </sv:property>
-          <sv:property sv:name="atlast:entries" sv:type="String" sv:multiple="true">
-            <sv:value>The cardinals of the ${NAME2} tower have emerged from  their seclusion. As ${COLOUR} smoke leaves the top of the tower, a crowd start to gather outside. The announcement is made, the cardinals have chosen YOU to be their new ${LEADER-NAME} of the ${IDENTITY}.</sv:value>
-            <sv:value>Acolytes stand around the body of ${LEADER-NAME} ${NAME2} as prayers are said. A gong sounds as the crowd stands up in unison to face YOU, the designated successor to be the next ${LEADER-NAME} of the ${IDENTITY}.</sv:value>
-            <sv:value>As the faithful dance faster and faster around the great fire, ${NAME2} the elder urns to face you. Chants fill theair as he smears ${COLOUR} paint onto your face to mark YOU as the ${LEADER-NAME} of the ${IDENTITY}.</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true"/>
-          <sv:property sv:name="hippo:related___pathreference" sv:type="String">
-            <sv:value>descriptors/info/game-texts/election-religion/election-religion[2]</sv:value>
-            <sv:value>descriptors/info/game-texts/election-religion</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippostd:state" sv:type="String">
-            <sv:value>draft</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippostd:stateSummary" sv:type="String">
-            <sv:value>new</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
-            <sv:value>admin</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
-            <sv:value>2015-10-04T21:33:28.388-04:00</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
-            <sv:value>2015-10-04T21:44:55.948-04:00</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
-            <sv:value>admin</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippotranslation:id" sv:type="String">
-            <sv:value>d2ed0d60-cdba-4a09-80cc-13470e9f09e7</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippotranslation:locale" sv:type="String">
-            <sv:value>en</sv:value>
-          </sv:property>
-        </sv:node>
-        <sv:node sv:name="hippo:translation">
-          <sv:property sv:name="jcr:primaryType" sv:type="Name">
-            <sv:value>hippo:translation</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippo:language" sv:type="String">
-            <sv:value/>
-          </sv:property>
-          <sv:property sv:name="hippo:message" sv:type="String">
-            <sv:value>ELECTION-RELIGION</sv:value>
-          </sv:property>
-        </sv:node>
-        <sv:node sv:name="election-religion">
-          <sv:property sv:name="jcr:primaryType" sv:type="Name">
-            <sv:value>atlast:textlist</sv:value>
-          </sv:property>
-          <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
-            <sv:value>mix:versionable</sv:value>
-          </sv:property>
-          <sv:property sv:name="jcr:uuid" sv:type="String">
-            <sv:value>4950d9eb-6a90-4ab2-bbe4-c801be4eac56</sv:value>
-          </sv:property>
-          <sv:property sv:name="atlast:entries" sv:type="String" sv:multiple="true">
-            <sv:value>The cardinals of the ${NAME2} tower have emerged from  their seclusion. As ${COLOUR} smoke leaves the top of the tower, a crowd start to gather outside. The announcement is made, the cardinals have chosen YOU to be their new ${LEADER-NAME} of the ${IDENTITY}.</sv:value>
-            <sv:value>Acolytes stand around the body of ${LEADER-NAME} ${NAME2} as prayers are said. A gong sounds as the crowd stands up in unison to face YOU, the designated successor to be the next ${LEADER-NAME} of the ${IDENTITY}.</sv:value>
-            <sv:value>As the faithful dance faster and faster around the great fire, ${NAME2} the elder urns to face you. Chants fill theair as he smears ${COLOUR} paint onto your face to mark YOU as the ${LEADER-NAME} of the ${IDENTITY}.</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
-            <sv:value>preview</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippo:related___pathreference" sv:type="String">
-            <sv:value>descriptors/info/game-texts/election-religion</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippostd:state" sv:type="String">
-            <sv:value>unpublished</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippostd:stateSummary" sv:type="String">
-            <sv:value>new</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
-            <sv:value>admin</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
-            <sv:value>2015-10-04T21:33:28.388-04:00</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
-            <sv:value>2015-10-04T21:48:36.548-04:00</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
-            <sv:value>admin</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippotranslation:id" sv:type="String">
-            <sv:value>d2ed0d60-cdba-4a09-80cc-13470e9f09e7</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippotranslation:locale" sv:type="String">
-            <sv:value>en</sv:value>
-          </sv:property>
         </sv:node>
       </sv:node>
     </sv:node>

@@ -30,6 +30,11 @@
 
 [atlast:identity] > atlast:object
 
+[atlast:inbox] > atlast:object
+  orderable
+
+[atlast:message] > atlast:object
+
 [atlast:land] > atlast:object
   orderable
 

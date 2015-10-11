@@ -40,4 +40,7 @@ public class Player extends AtlastObject {
         return getBean("library");
     }
 
+    public Inbox getInbox() {
+        return getBean("inbox", Inbox.class);
+    }
 }

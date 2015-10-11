@@ -12,6 +12,9 @@ import javax.jcr.Session;
 import javax.jcr.Value;
 
 
+import org.atlast.beans.ContentDocument;
+import org.atlast.beans.Message;
+import org.atlast.beans.Player;
 import org.atlast.beans.descriptors.DevelopmentDescriptor;
 import org.atlast.beans.descriptors.LandDescriptor;
 import org.atlast.beans.descriptors.LanguageDescriptor;
@@ -20,12 +23,14 @@ import org.atlast.beans.descriptors.ResourceDescriptor;
 import org.atlast.beans.descriptors.TraitDescriptor;
 import org.atlast.util.languages.ColourGenerator;
 import org.atlast.util.languages.NameGenerator;
+import org.hippoecm.hst.content.beans.ObjectBeanManagerException;
 import org.hippoecm.hst.content.beans.query.HstQuery;
 import org.hippoecm.hst.content.beans.query.HstQueryResult;
 import org.hippoecm.hst.content.beans.query.exceptions.QueryException;
 import org.hippoecm.hst.content.beans.query.filter.Filter;
 import org.hippoecm.hst.content.beans.standard.HippoBeanIterator;
 import org.hippoecm.hst.core.request.HstRequestContext;
+import org.hippoecm.hst.site.HstServices;
 import org.hippoecm.repository.api.NodeNameCodec;
 
 /**
@@ -44,7 +49,7 @@ public class SignupService {
     public static final double POP_START_FOOD = 100.0;
     public static final double START_TECH_LEVEL = 5.0d;
 
-    public String signup(HstRequestContext requestContext, String userName, String password) throws RepositoryException, QueryException {
+    public String signup(HstRequestContext requestContext, String userName, String password) throws RepositoryException, QueryException, ObjectBeanManagerException {
         Session session = requestContext.getSession();
 
 
@@ -79,6 +84,15 @@ public class SignupService {
             createPlayerLands(requestContext, userPlayerDataNode, userName, race, religion);
 
 
+            ContentDocument welcomeMessage = (ContentDocument) requestContext.getObjectBeanManager().getObject("/content/documents/atlastserver/info/game-texts/welcome-message");
+
+            Player player = (Player) requestContext.getObjectBeanManager().getObjectByUuid(userPlayerDataNode.getIdentifier());
+
+            createPlayerInbox(userPlayerDataNode, userName, requestContext);
+
+            MessageService messageService = HstServices.getComponentManager().getComponent(MessageService.class);
+
+            messageService.sendMessage(requestContext, welcomeMessage, player);
 
             //create notification
 
@@ -87,6 +101,12 @@ public class SignupService {
 
 
         return "User created";
+    }
+
+    private void createPlayerInbox(final Node userPlayerDataNode, final String userName, HstRequestContext requestContext) throws RepositoryException, ObjectBeanManagerException {
+        Node inboxNode = userPlayerDataNode.addNode("inbox", "atlast:inbox");
+
+        inboxNode.setProperty("atlast:player", userName);
     }
 
     private void createPlayerTech(final Node userPlayerDataNode, final String userName) throws RepositoryException {

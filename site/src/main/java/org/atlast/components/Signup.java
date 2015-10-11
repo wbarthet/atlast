@@ -17,6 +17,7 @@ import org.hippoecm.hst.component.support.bean.BaseHstComponent;
 import org.hippoecm.hst.component.support.forms.FormMap;
 import org.hippoecm.hst.component.support.forms.FormUtils;
 import org.hippoecm.hst.content.annotations.Persistable;
+import org.hippoecm.hst.content.beans.ObjectBeanManagerException;
 import org.hippoecm.hst.content.beans.query.exceptions.QueryException;
 import org.hippoecm.hst.content.beans.standard.HippoBean;
 import org.hippoecm.hst.core.component.HstComponentException;
@@ -111,6 +112,9 @@ public class Signup extends BaseHstComponent {
                 map.addMessage("userName", "Error creating user account");
                 log.error("Error creating user account", e);
             } catch (QueryException e) {
+                map.addMessage("userName", "Error creating user account");
+                log.error("Error creating user account", e);
+            } catch (ObjectBeanManagerException e) {
                 map.addMessage("userName", "Error creating user account");
                 log.error("Error creating user account", e);
             }

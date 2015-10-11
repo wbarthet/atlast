@@ -7,6 +7,7 @@ import java.util.Random;
  */
 public class ColourGenerator {
 
+    public static String[] COLOURS = new String[] {"red", "blue", "green", "yellow", "purple", "black", "white", "grey"};
 
     public static String generateColour() {
         String[] letters = "0123456789ABCDEF".split("");
@@ -19,5 +20,13 @@ public class ColourGenerator {
             code += letters[index];
         }
         return code;
+    }
+
+    public static String generateColourName() {
+        Random r = new Random();
+
+        int index = r.nextInt(COLOURS.length);
+
+        return COLOURS[index];
     }
 }
