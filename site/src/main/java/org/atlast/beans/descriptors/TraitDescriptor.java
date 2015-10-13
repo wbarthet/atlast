@@ -17,9 +17,12 @@ package org.atlast.beans.descriptors;
 
 import java.util.List;
 
+import javax.activation.DataContentHandler;
+
 import org.atlast.beans.Atlastimageset;
 import org.atlast.beans.BaseDocument;
 import org.hippoecm.hst.content.beans.Node;
+import org.hippoecm.hst.content.beans.standard.HippoHtml;
 
 
 @Node(jcrType="atlast:traitdescriptor")
@@ -40,6 +43,10 @@ public class TraitDescriptor extends BaseDocument {
     }
     public boolean isReligion() {
         return getProperty("atlast:religion");
+    }
+
+    public HippoHtml getDescription() {
+        return getHippoHtml("atlast:description");
     }
 }
 

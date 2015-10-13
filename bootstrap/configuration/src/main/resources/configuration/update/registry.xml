@@ -1,4 +1,57 @@
 <?xml version="1.0" encoding="UTF-8"?><sv:node xmlns:sv="http://www.jcp.org/jcr/sv/1.0" xmlns:esv="http://www.onehippo.org/jcr/xmlimport" sv:name="hippo:registry" esv:merge="combine">
+  <?xml version="1.0" encoding="UTF-8"?>
+  <sv:node sv:name="Reset Prices">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hipposys:updaterinfo</sv:value>
+    </sv:property>
+    <sv:property sv:name="hipposys:batchsize" sv:type="Long">
+      <sv:value>10</sv:value>
+    </sv:property>
+    <sv:property sv:name="hipposys:description" sv:type="String">
+      <sv:value/>
+    </sv:property>
+    <sv:property sv:name="hipposys:dryrun" sv:type="Boolean">
+      <sv:value>false</sv:value>
+    </sv:property>
+    <sv:property sv:name="hipposys:parameters" sv:type="String">
+      <sv:value/>
+    </sv:property>
+    <sv:property sv:name="hipposys:query" sv:type="String">
+      <sv:value>content/documents/atlastserver/worlddata/market//element(*,atlast:store)</sv:value>
+    </sv:property>
+    <sv:property sv:name="hipposys:script" sv:type="String">
+      <sv:value>package org.hippoecm.frontend.plugins.cms.admin.updater&#xd;
+        &#xd;
+        import org.onehippo.repository.update.BaseNodeUpdateVisitor&#xd;
+        import javax.jcr.Node&#xd;
+        &#xd;
+        class UpdaterTemplate extends BaseNodeUpdateVisitor {&#xd;
+        &#xd;
+        boolean doUpdate(Node node) {&#xd;
+        log.debug "Updating node ${node.path}"&#xd;
+        &#xd;
+        Value[] items = node.getProperty("atlast:items").getValues();&#xd;
+        &#xd;
+        for (Value item : items) {&#xd;
+        log.debug("resetting price for " + item.getString());&#xd;
+        node.setProperty(item.getString() + "-level", 50.0);&#xd;
+        &#xd;
+        }&#xd;
+        &#xd;
+        return true&#xd;
+        }&#xd;
+        &#xd;
+        boolean undoUpdate(Node node) {&#xd;
+        throw new UnsupportedOperationException('Updater does not implement undoUpdate method')&#xd;
+        }&#xd;
+        &#xd;
+        }</sv:value>
+    </sv:property>
+    <sv:property sv:name="hipposys:throttle" sv:type="Long">
+      <sv:value>100</sv:value>
+    </sv:property>
+  </sv:node>
+
   <sv:node sv:name="set property">
     <sv:property sv:name="jcr:primaryType" sv:type="Name">
       <sv:value>hipposys:updaterinfo</sv:value>

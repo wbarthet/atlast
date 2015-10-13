@@ -15,6 +15,7 @@ import org.atlast.beans.TextList;
 import org.atlast.beans.descriptors.Amount;
 import org.atlast.beans.descriptors.RecipeDescriptor;
 import org.atlast.beans.descriptors.ResourceDescriptor;
+import org.atlast.beans.descriptors.TraitDescriptor;
 import org.atlast.util.languages.ColourGenerator;
 import org.atlast.util.languages.NameGenerator;
 import org.hippoecm.hst.content.beans.ObjectBeanManagerException;
@@ -43,17 +44,22 @@ public class MessageService {
     }
 
     private String processMessage(final HstRequestContext requestContext, String messageContent, final Player player) throws RepositoryException, ObjectBeanManagerException {
-        
+
         String processed = messageContent;
 
         while (processed.contains("${")) {
-            processed = processed.replaceAll("\\$\\{IDENTITY\\}", player.getIdentity().getName());
-            processed = processed.replaceAll("\\$\\{NAME1\\}", NameGenerator.generateName(player.getIdentity().getLanguageDescriptor().getNode()));
-            processed = processed.replaceAll("\\$\\{NAME2\\}", NameGenerator.generateName(player.getIdentity().getLanguageDescriptor().getNode()));
-            processed = processed.replaceAll("\\$\\{TRAIT1\\}", NameGenerator.generateName(player.getIdentity().getLanguageDescriptor().getNode()));
-            processed = processed.replaceAll("\\$\\{TRAIT2\\}", NameGenerator.generateName(player.getIdentity().getLanguageDescriptor().getNode()));
-            processed = processed.replaceAll("\\$\\{TRAIT3\\}", NameGenerator.generateName(player.getIdentity().getLanguageDescriptor().getNode()));
-            processed = processed.replaceAll("\\$\\{COLOUR\\}", ColourGenerator.generateColourName());
+            processed = processed.replace("${IDENTITY}", player.getIdentity().getName());
+            processed = processed.replace("${NAME1}", NameGenerator.generateName(player.getIdentity().getLanguageDescriptor().getNode()));
+            processed = processed.replace("${NAME2}", NameGenerator.generateName(player.getIdentity().getLanguageDescriptor().getNode()));
+
+            List<TraitDescriptor> traits = player.getIdentity().getTraits();
+
+            for (int i = 0; i < traits.size(); i++) {
+                TraitDescriptor trait = traits.get(i);
+                processed = processed.replace("${TRAIT"+(i+1)+"}", trait.getDescription().getContent() + " " + getTraitSummary(trait));
+            }
+
+            processed = processed.replace("${COLOUR}", ColourGenerator.generateColourName());
 
             if (processed.contains("${")) {
                 String word = processed.substring(processed.indexOf('{') + 1, processed.indexOf('}'));
@@ -63,6 +69,17 @@ public class MessageService {
 
 
         return processed;
+    }
+
+    private String getTraitSummary(final TraitDescriptor trait) {
+        String summary = "";
+
+        for (Amount effect : trait.getEffects()) {
+            summary += " " + effect.getQuantity() + "% ";
+            summary += effect.getResourceDescriptor().getName();
+        }
+
+        return summary;
     }
 
     private String getRandomMessageElement(final String word, HstRequestContext requestContext, Player player) throws ObjectBeanManagerException {
@@ -82,7 +99,7 @@ public class MessageService {
 
             return entries[index];
         }
-        
+
         return word;
     }
 

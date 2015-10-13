@@ -1,5 +1,6 @@
 package org.atlast.beans;
 
+import java.util.ArrayList;
 import java.util.List;
 
 import javax.jcr.RepositoryException;
@@ -7,6 +8,7 @@ import javax.jcr.RepositoryException;
 import org.atlast.beans.descriptors.DevelopmentDescriptor;
 import org.atlast.beans.descriptors.LandDescriptor;
 import org.atlast.beans.descriptors.RecipeDescriptor;
+import org.atlast.beans.descriptors.TraitDescriptor;
 import org.hippoecm.hst.content.beans.Node;
 
 /**
@@ -14,7 +16,6 @@ import org.hippoecm.hst.content.beans.Node;
  */
 @Node(jcrType = "atlast:player")
 public class Player extends AtlastObject {
-
 
     public List<Land> getLands() {
         return getChildBeans(Land.class);
@@ -43,4 +44,6 @@ public class Player extends AtlastObject {
     public Inbox getInbox() {
         return getBean("inbox", Inbox.class);
     }
+
+
 }
