@@ -48,7 +48,7 @@ public class CouncilService {
         session.save();
     }
 
-    public void save(final HstRequestContext requestContext, String libId, Double wages, String focus) throws RepositoryException, ObjectBeanManagerException {
+    public void saveLibrary(final HstRequestContext requestContext, String libId, Double wages, String focus) throws RepositoryException, ObjectBeanManagerException {
 
             Session session = requestContext.getSession();
 
@@ -62,7 +62,19 @@ public class CouncilService {
             session.save();
     }
 
+    public void saveStorehouse(final HstRequestContext requestContext, String storehouseId, Double wages, String recipe) throws RepositoryException, ObjectBeanManagerException {
 
+        Session session = requestContext.getSession();
+
+        final Node storehouseNode = session.getNodeByIdentifier(storehouseId);
+
+        storehouseNode.setProperty("atlast:wages", wages);
+
+        storehouseNode.setProperty("atlast:recipedescriptor", recipe);
+
+
+        session.save();
+    }
 
 
 

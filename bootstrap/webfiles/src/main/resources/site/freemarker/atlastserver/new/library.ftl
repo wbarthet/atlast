@@ -125,6 +125,6 @@
 
 <div class="section-bg-color2">
   <div class="row-centered">
-    <h4><a href="../lands">Back to council</a></h4>
+    <h4><a href="../council">Back to council</a></h4>
   </div>
 </div>

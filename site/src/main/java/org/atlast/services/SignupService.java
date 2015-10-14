@@ -48,6 +48,7 @@ public class SignupService {
     public static final double POP_START_CASH = 1000.0;
     public static final double POP_START_FOOD = 100.0;
     public static final double START_TECH_LEVEL = 5.0d;
+    public static final String[] TRADE_RECIPES = new String[] {"wagon-trains", "caravans", "trade-ships"};
 
     public String signup(HstRequestContext requestContext, String userName, String password) throws RepositoryException, QueryException, ObjectBeanManagerException {
         Session session = requestContext.getSession();
@@ -74,6 +75,8 @@ public class SignupService {
             createPlayerTech(userPlayerDataNode, userName);
 
             createPlayerStores(userPlayerDataNode, requestContext, userName);
+
+            createPlayerStorehouse(userPlayerDataNode, userName, session);
 
             Node identityNode = userPlayerDataNode.getNode("identity");
 
@@ -121,6 +124,24 @@ public class SignupService {
         innovationNode.setProperty("atlast:level", 0.0d);
     }
 
+    private void createPlayerStorehouse(final Node userPlayerDataNode, final String userName, Session session) throws RepositoryException {
+        Node storehouseNode = userPlayerDataNode.addNode("storehouse", "atlast:storehouse");
+
+        storehouseNode.setProperty("atlast:player", userName);
+
+        Random r = new Random();
+
+        int index = r.nextInt(3);
+
+        Node recipeNode = session.getNode("/content/documents/atlastserver/descriptors/recipes/services/"+TRADE_RECIPES[index]);
+
+        storehouseNode.setProperty("atlast:recipedescriptor", recipeNode.getIdentifier());
+
+        storehouseNode.setProperty("atlast:wages", 200.0d);
+        storehouseNode.setProperty("atlast:trade", 20.0d);
+
+    }
+
     private Node createPlayerStores(final Node userPlayerDataNode, final HstRequestContext requestContext, final String userName) throws RepositoryException, QueryException {
 
         Node marketNode = userPlayerDataNode.addNode("market", "atlast:market");
@@ -151,8 +172,9 @@ public class SignupService {
             }
 
             String resourceName = resourceDescriptor.getName().toLowerCase();
-            storeNode.setProperty(resourceName, 0.0d);
+            storeNode.setProperty(resourceName, 10.0d);
             storeNode.setProperty(resourceName + "-level", 10.0d);
+
 
             addValue(storeNode, "atlast:items", resourceName);
         }
@@ -355,10 +377,18 @@ public class SignupService {
 
         List<RecipeDescriptor> allowedRecipes = development.getAllAllowedRecipes();
         int recipeIndex = random.nextInt(allowedRecipes.size());
+        int alternateRecipeIndex = recipeIndex;
+        while (alternateRecipeIndex == recipeIndex) {
+            alternateRecipeIndex = random.nextInt(allowedRecipes.size());
+        }
 
         RecipeDescriptor recipe = allowedRecipes.get(recipeIndex);
 
         createTech(recipe, userPlayerDataNode);
+
+        RecipeDescriptor alternateRecipe = allowedRecipes.get(alternateRecipeIndex);
+
+        createTech(alternateRecipe, userPlayerDataNode);
 
         String popClass = primary ? "working" : "middle";
 

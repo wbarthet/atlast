@@ -42,7 +42,7 @@
       </sv:property>
       <sv:property sv:name="atlast:an" sv:type="String" sv:multiple="true"/>
       <sv:property sv:name="atlast:count" sv:type="Long">
-        <sv:value>20</sv:value>
+        <sv:value>24</sv:value>
       </sv:property>
       <sv:property sv:name="atlast:ee" sv:type="String" sv:multiple="true">
         <sv:value>ee</sv:value>
@@ -86,7 +86,7 @@
         <sv:value>${NAME}</sv:value>
       </sv:property>
       <sv:property sv:name="atlast:religions" sv:type="String" sv:multiple="true">
-        <sv:value>${NAME}tist</sv:value>
+        <sv:value>${NAME}tists</sv:value>
         <sv:value>${NAME} Faithful</sv:value>
         <sv:value>${NAME} Worshipers</sv:value>
       </sv:property>
@@ -136,7 +136,7 @@
         <sv:value>2015-07-20T12:19:07.079-04:00</sv:value>
       </sv:property>
       <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
-        <sv:value>2015-09-23T22:59:00.951-04:00</sv:value>
+        <sv:value>2015-10-13T21:47:34.681-04:00</sv:value>
       </sv:property>
       <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
         <sv:value>admin</sv:value>
@@ -171,7 +171,7 @@
       </sv:property>
       <sv:property sv:name="atlast:an" sv:type="String" sv:multiple="true"/>
       <sv:property sv:name="atlast:count" sv:type="Long">
-        <sv:value>20</sv:value>
+        <sv:value>24</sv:value>
       </sv:property>
       <sv:property sv:name="atlast:ee" sv:type="String" sv:multiple="true">
         <sv:value>ee</sv:value>
@@ -215,7 +215,7 @@
         <sv:value>${NAME}</sv:value>
       </sv:property>
       <sv:property sv:name="atlast:religions" sv:type="String" sv:multiple="true">
-        <sv:value>${NAME}tist</sv:value>
+        <sv:value>${NAME}tists</sv:value>
         <sv:value>${NAME} Faithful</sv:value>
         <sv:value>${NAME} Worshipers</sv:value>
       </sv:property>
@@ -266,7 +266,7 @@
         <sv:value>2015-07-20T12:19:07.079-04:00</sv:value>
       </sv:property>
       <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
-        <sv:value>2015-09-23T23:00:40.810-04:00</sv:value>
+        <sv:value>2015-10-13T21:47:38.717-04:00</sv:value>
       </sv:property>
       <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
         <sv:value>admin</sv:value>
@@ -290,7 +290,7 @@
       </sv:property>
       <sv:property sv:name="atlast:an" sv:type="String" sv:multiple="true"/>
       <sv:property sv:name="atlast:count" sv:type="Long">
-        <sv:value>20</sv:value>
+        <sv:value>24</sv:value>
       </sv:property>
       <sv:property sv:name="atlast:ee" sv:type="String" sv:multiple="true">
         <sv:value>ee</sv:value>
@@ -334,7 +334,7 @@
         <sv:value>${NAME}</sv:value>
       </sv:property>
       <sv:property sv:name="atlast:religions" sv:type="String" sv:multiple="true">
-        <sv:value>${NAME}tist</sv:value>
+        <sv:value>${NAME}tists</sv:value>
         <sv:value>${NAME} Faithful</sv:value>
         <sv:value>${NAME} Worshipers</sv:value>
       </sv:property>
@@ -385,13 +385,13 @@
         <sv:value>2015-07-20T12:19:07.079-04:00</sv:value>
       </sv:property>
       <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
-        <sv:value>2015-09-23T23:00:40.810-04:00</sv:value>
+        <sv:value>2015-10-13T21:47:38.717-04:00</sv:value>
       </sv:property>
       <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
         <sv:value>admin</sv:value>
       </sv:property>
       <sv:property sv:name="hippostdpubwf:publicationDate" sv:type="Date">
-        <sv:value>2015-09-23T23:03:13.933-04:00</sv:value>
+        <sv:value>2015-10-13T21:47:40.577-04:00</sv:value>
       </sv:property>
       <sv:property sv:name="hippotranslation:id" sv:type="String">
         <sv:value>cbaff22c-e2c2-4977-8e28-8b88c45e4224</sv:value>
@@ -428,7 +428,7 @@
         <sv:value>ous</sv:value>
       </sv:property>
       <sv:property sv:name="atlast:count" sv:type="Long">
-        <sv:value>20</sv:value>
+        <sv:value>23</sv:value>
       </sv:property>
       <sv:property sv:name="atlast:ee" sv:type="String" sv:multiple="true"/>
       <sv:property sv:name="atlast:k" sv:type="String" sv:multiple="true">
@@ -551,7 +551,7 @@
         <sv:value>ous</sv:value>
       </sv:property>
       <sv:property sv:name="atlast:count" sv:type="Long">
-        <sv:value>20</sv:value>
+        <sv:value>23</sv:value>
       </sv:property>
       <sv:property sv:name="atlast:ee" sv:type="String" sv:multiple="true"/>
       <sv:property sv:name="atlast:k" sv:type="String" sv:multiple="true">
@@ -664,7 +664,7 @@
         <sv:value>ous</sv:value>
       </sv:property>
       <sv:property sv:name="atlast:count" sv:type="Long">
-        <sv:value>20</sv:value>
+        <sv:value>23</sv:value>
       </sv:property>
       <sv:property sv:name="atlast:ee" sv:type="String" sv:multiple="true"/>
       <sv:property sv:name="atlast:k" sv:type="String" sv:multiple="true">
@@ -788,7 +788,7 @@
       </sv:property>
       <sv:property sv:name="atlast:an" sv:type="String" sv:multiple="true"/>
       <sv:property sv:name="atlast:count" sv:type="Long">
-        <sv:value>19</sv:value>
+        <sv:value>24</sv:value>
       </sv:property>
       <sv:property sv:name="atlast:ee" sv:type="Double" sv:multiple="true"/>
       <sv:property sv:name="atlast:k" sv:type="String" sv:multiple="true">
@@ -928,7 +928,7 @@
       </sv:property>
       <sv:property sv:name="atlast:an" sv:type="String" sv:multiple="true"/>
       <sv:property sv:name="atlast:count" sv:type="Long">
-        <sv:value>19</sv:value>
+        <sv:value>24</sv:value>
       </sv:property>
       <sv:property sv:name="atlast:ee" sv:type="Double" sv:multiple="true"/>
       <sv:property sv:name="atlast:k" sv:type="String" sv:multiple="true">
@@ -1058,7 +1058,7 @@
       </sv:property>
       <sv:property sv:name="atlast:an" sv:type="String" sv:multiple="true"/>
       <sv:property sv:name="atlast:count" sv:type="Long">
-        <sv:value>19</sv:value>
+        <sv:value>24</sv:value>
       </sv:property>
       <sv:property sv:name="atlast:ee" sv:type="Double" sv:multiple="true"/>
       <sv:property sv:name="atlast:k" sv:type="String" sv:multiple="true">

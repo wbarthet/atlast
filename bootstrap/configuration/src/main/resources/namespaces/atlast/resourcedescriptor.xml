@@ -29,7 +29,7 @@
         <sv:value>hipposysedit:remodel</sv:value>
       </sv:property>
       <sv:property sv:name="jcr:uuid" sv:type="String">
-        <sv:value>06763f49-6364-4f5e-81bf-9071a80027e7</sv:value>
+        <sv:value>eec8be67-5558-4d55-ba76-08f5c629cac9</sv:value>
       </sv:property>
       <sv:property sv:name="hipposysedit:node" sv:type="Boolean">
         <sv:value>true</sv:value>
@@ -69,29 +69,6 @@
           <sv:value>required</sv:value>
         </sv:property>
       </sv:node>
-      <sv:node sv:name="type">
-        <sv:property sv:name="jcr:primaryType" sv:type="Name">
-          <sv:value>hipposysedit:field</sv:value>
-        </sv:property>
-        <sv:property sv:name="hipposysedit:mandatory" sv:type="Boolean">
-          <sv:value>false</sv:value>
-        </sv:property>
-        <sv:property sv:name="hipposysedit:multiple" sv:type="Boolean">
-          <sv:value>false</sv:value>
-        </sv:property>
-        <sv:property sv:name="hipposysedit:ordered" sv:type="Boolean">
-          <sv:value>false</sv:value>
-        </sv:property>
-        <sv:property sv:name="hipposysedit:path" sv:type="String">
-          <sv:value>atlast:type</sv:value>
-        </sv:property>
-        <sv:property sv:name="hipposysedit:primary" sv:type="Boolean">
-          <sv:value>false</sv:value>
-        </sv:property>
-        <sv:property sv:name="hipposysedit:type" sv:type="String">
-          <sv:value>StaticDropdown</sv:value>
-        </sv:property>
-      </sv:node>
       <sv:node sv:name="icon">
         <sv:property sv:name="jcr:primaryType" sv:type="Name">
           <sv:value>hipposysedit:field</sv:value>
@@ -129,7 +106,7 @@
         <sv:value>mix:referenceable</sv:value>
       </sv:property>
       <sv:property sv:name="jcr:uuid" sv:type="String">
-        <sv:value>11dc3b19-6ea0-401f-8c85-ae1b0a7367af</sv:value>
+        <sv:value>53cd606f-7632-412e-86d3-cf7f0b18749d</sv:value>
       </sv:property>
       <sv:property sv:name="atlast:name" sv:type="String">
         <sv:value/>
@@ -261,43 +238,6 @@
         <sv:node sv:name="cluster.options">
           <sv:property sv:name="jcr:primaryType" sv:type="Name">
             <sv:value>frontend:pluginconfig</sv:value>
-          </sv:property>
-        </sv:node>
-      </sv:node>
-      <sv:node sv:name="type">
-        <sv:property sv:name="jcr:primaryType" sv:type="Name">
-          <sv:value>frontend:plugin</sv:value>
-        </sv:property>
-        <sv:property sv:name="caption" sv:type="String">
-          <sv:value>Type</sv:value>
-        </sv:property>
-        <sv:property sv:name="field" sv:type="String">
-          <sv:value>type</sv:value>
-        </sv:property>
-        <sv:property sv:name="hint" sv:type="String">
-          <sv:value/>
-        </sv:property>
-        <sv:property sv:name="plugin.class" sv:type="String">
-          <sv:value>org.hippoecm.frontend.editor.plugins.field.PropertyFieldPlugin</sv:value>
-        </sv:property>
-        <sv:property sv:name="wicket.id" sv:type="String">
-          <sv:value>${cluster.id}.left.item</sv:value>
-        </sv:property>
-        <sv:node sv:name="cluster.options">
-          <sv:property sv:name="jcr:primaryType" sv:type="Name">
-            <sv:value>frontend:pluginconfig</sv:value>
-          </sv:property>
-          <sv:property sv:name="org.hippoecm.frontend.plugin.config.PropertyDescriptor@1ff9cc9" sv:type="String">
-            <sv:value>food, good, luxury</sv:value>
-          </sv:property>
-          <sv:property sv:name="org.hippoecm.frontend.plugin.config.PropertyDescriptor@28786" sv:type="String">
-            <sv:value>sef</sv:value>
-          </sv:property>
-          <sv:property sv:name="org.hippoecm.frontend.plugin.config.PropertyDescriptor@d1b665" sv:type="String">
-            <sv:value>food,good,luxury</sv:value>
-          </sv:property>
-          <sv:property sv:name="org.hippoecm.frontend.plugin.config.PropertyDescriptor@e0411d" sv:type="String">
-            <sv:value>food, good, luxury</sv:value>
           </sv:property>
         </sv:node>
       </sv:node>

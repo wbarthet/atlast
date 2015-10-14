@@ -19,4 +19,8 @@ public class Market extends AtlastObject {
         return getChildBeans(Store.class);
     }
 
+    public Player getPlayer() {
+        return (Player) getParentBean();
+    }
+
 }

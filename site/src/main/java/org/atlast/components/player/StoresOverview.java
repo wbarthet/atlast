@@ -10,6 +10,7 @@ import javax.jcr.Session;
 import javax.jcr.Value;
 
 import org.atlast.beans.Market;
+import org.atlast.beans.Player;
 import org.atlast.components.world.BaseSecuredComponent;
 import org.atlast.services.StoresService;
 import org.hippoecm.hst.component.support.bean.BaseHstComponent;
@@ -47,6 +48,11 @@ public class StoresOverview extends BaseSecuredComponent {
         Market worldMarket = requestContext.getSiteContentBaseBean().getBean("worlddata/market");
 
         request.setAttribute("worldMarket", worldMarket);
+
+        Player player = market.getPlayer();
+
+        request.setAttribute("player", player);
+
     }
 
 
@@ -78,6 +84,9 @@ public class StoresOverview extends BaseSecuredComponent {
 
                         for (Value item : items) {
                             Double level = Double.parseDouble(getPublicRequestParameter(request, item.getString() + "range"));
+
+                            double trade = storesNode.getParent().getNode("storehouse").getProperty("atlast:trade").getDouble();
+                            level = level > trade ? trade : level;
 
                             levels.put(item.getString(), level);
                         }

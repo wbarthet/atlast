@@ -47,6 +47,9 @@
 [atlast:library] > atlast:object
   orderable
 
+[atlast:storehouse] > atlast:object
+  orderable
+
 [atlast:market] > atlast:object
 
 [atlast:player] > atlast:object

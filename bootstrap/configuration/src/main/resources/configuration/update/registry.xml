@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?><sv:node xmlns:sv="http://www.jcp.org/jcr/sv/1.0" xmlns:esv="http://www.onehippo.org/jcr/xmlimport" sv:name="hippo:registry" esv:merge="combine">
-  <?xml version="1.0" encoding="UTF-8"?>
   <sv:node sv:name="Reset Prices">
     <sv:property sv:name="jcr:primaryType" sv:type="Name">
       <sv:value>hipposys:updaterinfo</sv:value>
@@ -20,38 +19,37 @@
       <sv:value>content/documents/atlastserver/worlddata/market//element(*,atlast:store)</sv:value>
     </sv:property>
     <sv:property sv:name="hipposys:script" sv:type="String">
-      <sv:value>package org.hippoecm.frontend.plugins.cms.admin.updater&#xd;
-        &#xd;
-        import org.onehippo.repository.update.BaseNodeUpdateVisitor&#xd;
-        import javax.jcr.Node&#xd;
-        &#xd;
-        class UpdaterTemplate extends BaseNodeUpdateVisitor {&#xd;
-        &#xd;
-        boolean doUpdate(Node node) {&#xd;
-        log.debug "Updating node ${node.path}"&#xd;
-        &#xd;
-        Value[] items = node.getProperty("atlast:items").getValues();&#xd;
-        &#xd;
-        for (Value item : items) {&#xd;
-        log.debug("resetting price for " + item.getString());&#xd;
-        node.setProperty(item.getString() + "-level", 50.0);&#xd;
-        &#xd;
-        }&#xd;
-        &#xd;
-        return true&#xd;
-        }&#xd;
-        &#xd;
-        boolean undoUpdate(Node node) {&#xd;
-        throw new UnsupportedOperationException('Updater does not implement undoUpdate method')&#xd;
-        }&#xd;
-        &#xd;
+      <sv:value>package org.hippoecm.frontend.plugins.cms.admin.updater&#13;
+        &#13;
+        import org.onehippo.repository.update.BaseNodeUpdateVisitor&#13;
+        import javax.jcr.Node&#13;
+        &#13;
+        class UpdaterTemplate extends BaseNodeUpdateVisitor {&#13;
+        &#13;
+        boolean doUpdate(Node node) {&#13;
+        log.debug "Updating node ${node.path}"&#13;
+        &#13;
+        Value[] items = node.getProperty("atlast:items").getValues();&#13;
+        &#13;
+        for (Value item : items) {&#13;
+        log.debug("resetting price for " + item.getString());&#13;
+        node.setProperty(item.getString() + "-level", 50.0);&#13;
+        &#13;
+        }&#13;
+        &#13;
+        return true&#13;
+        }&#13;
+        &#13;
+        boolean undoUpdate(Node node) {&#13;
+        throw new UnsupportedOperationException('Updater does not implement undoUpdate method')&#13;
+        }&#13;
+        &#13;
         }</sv:value>
     </sv:property>
     <sv:property sv:name="hipposys:throttle" sv:type="Long">
       <sv:value>100</sv:value>
     </sv:property>
   </sv:node>
-
   <sv:node sv:name="set property">
     <sv:property sv:name="jcr:primaryType" sv:type="Name">
       <sv:value>hipposys:updaterinfo</sv:value>

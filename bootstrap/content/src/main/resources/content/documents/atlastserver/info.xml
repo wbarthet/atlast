@@ -1,0 +1,937 @@
+<?xml version="1.0" encoding="UTF-8"?><sv:node xmlns:sv="http://www.jcp.org/jcr/sv/1.0" sv:name="info">
+  <sv:property sv:name="jcr:primaryType" sv:type="Name">
+    <sv:value>hippostd:folder</sv:value>
+  </sv:property>
+  <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+    <sv:value>hippotranslation:translated</sv:value>
+    <sv:value>mix:versionable</sv:value>
+  </sv:property>
+  <sv:property sv:name="jcr:uuid" sv:type="String">
+    <sv:value>3e7a0cb8-5dff-4004-aa87-30b39801b90d</sv:value>
+  </sv:property>
+  <sv:property sv:name="hippostd:foldertype" sv:type="String" sv:multiple="true">
+    <sv:value>new-translated-folder</sv:value>
+    <sv:value>new-document</sv:value>
+  </sv:property>
+  <sv:property sv:name="hippotranslation:id" sv:type="String">
+    <sv:value>dae24c0d-3b91-4aa8-8849-8df6ad0cc451</sv:value>
+  </sv:property>
+  <sv:property sv:name="hippotranslation:locale" sv:type="String">
+    <sv:value>en</sv:value>
+  </sv:property>
+  <sv:node sv:name="game-texts">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hippostd:folder</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+      <sv:value>hippotranslation:translated</sv:value>
+      <sv:value>mix:versionable</sv:value>
+      <sv:value>hippo:translated</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:uuid" sv:type="String">
+      <sv:value>64862746-8bd2-4ff6-b242-530211c86bd6</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippostd:foldertype" sv:type="String" sv:multiple="true">
+      <sv:value>new-translated-folder</sv:value>
+      <sv:value>new-document</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippotranslation:id" sv:type="String">
+      <sv:value>f980a526-7de7-4ff1-a20a-593c800a0cba</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippotranslation:locale" sv:type="String">
+      <sv:value>en</sv:value>
+    </sv:property>
+    <sv:node sv:name="hippo:translation">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>hippo:translation</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:language" sv:type="String">
+        <sv:value/>
+      </sv:property>
+      <sv:property sv:name="hippo:message" sv:type="String">
+        <sv:value>game text</sv:value>
+      </sv:property>
+    </sv:node>
+    <sv:node sv:name="welcome-message">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>hippo:handle</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+        <sv:value>mix:referenceable</sv:value>
+        <sv:value>hippo:translated</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:uuid" sv:type="String">
+        <sv:value>84a1a540-8c56-47e3-960b-f05670026b76</sv:value>
+      </sv:property>
+      <sv:node sv:name="hippo:translation">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippo:translation</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:language" sv:type="String">
+          <sv:value/>
+        </sv:property>
+        <sv:property sv:name="hippo:message" sv:type="String">
+          <sv:value>WELCOME-MESSAGE</sv:value>
+        </sv:property>
+      </sv:node>
+      <sv:node sv:name="welcome-message">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>atlast:contentdocument</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+          <sv:value>mix:referenceable</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:uuid" sv:type="String">
+          <sv:value>065f461a-2578-4ffd-bbad-35c9c47d8be2</sv:value>
+        </sv:property>
+        <sv:property sv:name="atlast:title" sv:type="String">
+          <sv:value>Welcome, Atalaster. Leader of the ${IDENTITY}.</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true"/>
+        <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+          <sv:value>info/game-texts/welcome-message/welcome-message[2]</sv:value>
+          <sv:value>info/game-texts/welcome-message/welcome-message[3]</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:state" sv:type="String">
+          <sv:value>draft</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+          <sv:value>live</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+          <sv:value>admin</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+          <sv:value>2015-10-04T21:12:31.260-04:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+          <sv:value>2015-10-11T19:28:22.168-04:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+          <sv:value>admin</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippotranslation:id" sv:type="String">
+          <sv:value>86a92715-484c-4bca-99b4-def7c2100fb5</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippotranslation:locale" sv:type="String">
+          <sv:value>en</sv:value>
+        </sv:property>
+        <sv:node sv:name="atlast:content">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hippostd:html</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostd:content" sv:type="String">
+            <sv:value>&lt;p&gt;${ELECTION}&lt;/p&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+
+&lt;p&gt;${TRAIT1}&lt;/p&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+
+&lt;p&gt;${TRAIT2}&lt;/p&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+
+&lt;p&gt;${TRAIT3}&lt;/p&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+
+&lt;p&gt;Guide your people to prosperity. Go forth into the world.&lt;/p&gt;</sv:value>
+          </sv:property>
+        </sv:node>
+      </sv:node>
+      <sv:node sv:name="welcome-message">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>atlast:contentdocument</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+          <sv:value>mix:versionable</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:uuid" sv:type="String">
+          <sv:value>6eeb46fa-3ef0-4dfb-8c09-99fb766f70a1</sv:value>
+        </sv:property>
+        <sv:property sv:name="atlast:title" sv:type="String">
+          <sv:value>Welcome, Atalaster. Leader of the ${IDENTITY}.</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
+          <sv:value>preview</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+          <sv:value>info/game-texts/welcome-message/welcome-message[3]</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:state" sv:type="String">
+          <sv:value>unpublished</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+          <sv:value>live</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+          <sv:value>admin</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+          <sv:value>2015-10-04T21:12:31.260-04:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+          <sv:value>2015-10-11T19:28:30.919-04:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+          <sv:value>admin</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippotranslation:id" sv:type="String">
+          <sv:value>86a92715-484c-4bca-99b4-def7c2100fb5</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippotranslation:locale" sv:type="String">
+          <sv:value>en</sv:value>
+        </sv:property>
+        <sv:node sv:name="atlast:content">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hippostd:html</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostd:content" sv:type="String">
+            <sv:value>&lt;p&gt;${ELECTION}&lt;/p&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+
+&lt;p&gt;${TRAIT1}&lt;/p&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+
+&lt;p&gt;${TRAIT2}&lt;/p&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+
+&lt;p&gt;${TRAIT3}&lt;/p&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+
+&lt;p&gt;Guide your people to prosperity. Go forth into the world.&lt;/p&gt;</sv:value>
+          </sv:property>
+        </sv:node>
+      </sv:node>
+      <sv:node sv:name="welcome-message">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>atlast:contentdocument</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+          <sv:value>mix:referenceable</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:uuid" sv:type="String">
+          <sv:value>8682494a-10d9-4888-9baf-eb39e1248c9e</sv:value>
+        </sv:property>
+        <sv:property sv:name="atlast:title" sv:type="String">
+          <sv:value>Welcome, Atalaster. Leader of the ${IDENTITY}.</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
+          <sv:value>live</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+          <sv:value>info/game-texts/welcome-message/welcome-message[2]</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:state" sv:type="String">
+          <sv:value>published</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+          <sv:value>live</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+          <sv:value>admin</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+          <sv:value>2015-10-04T21:12:31.260-04:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+          <sv:value>2015-10-11T19:28:30.919-04:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+          <sv:value>admin</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:publicationDate" sv:type="Date">
+          <sv:value>2015-10-11T19:28:32.932-04:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippotranslation:id" sv:type="String">
+          <sv:value>86a92715-484c-4bca-99b4-def7c2100fb5</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippotranslation:locale" sv:type="String">
+          <sv:value>en</sv:value>
+        </sv:property>
+        <sv:node sv:name="atlast:content">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hippostd:html</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostd:content" sv:type="String">
+            <sv:value>&lt;p&gt;${ELECTION}&lt;/p&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+
+&lt;p&gt;${TRAIT1}&lt;/p&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+
+&lt;p&gt;${TRAIT2}&lt;/p&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+
+&lt;p&gt;${TRAIT3}&lt;/p&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+
+&lt;p&gt;Guide your people to prosperity. Go forth into the world.&lt;/p&gt;</sv:value>
+          </sv:property>
+        </sv:node>
+      </sv:node>
+    </sv:node>
+    <sv:node sv:name="leader-name-religion">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>hippo:handle</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+        <sv:value>mix:referenceable</sv:value>
+        <sv:value>hippo:translated</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:uuid" sv:type="String">
+        <sv:value>e2f2f001-b17b-4732-a325-272f7c4bb477</sv:value>
+      </sv:property>
+      <sv:node sv:name="leader-name-religion">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>atlast:textlist</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+          <sv:value>mix:referenceable</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:uuid" sv:type="String">
+          <sv:value>3aff348c-6b06-4dff-b7b1-6d01c36f3ee0</sv:value>
+        </sv:property>
+        <sv:property sv:name="atlast:entries" sv:type="String" sv:multiple="true">
+          <sv:value>Pope</sv:value>
+          <sv:value>Highest Priest</sv:value>
+          <sv:value>Head Shaman</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true"/>
+        <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+          <sv:value>info/game-texts/leader-name-religion/leader-name-religion[3]</sv:value>
+          <sv:value>info/game-texts/leader-name-religion/leader-name-religion[2]</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:state" sv:type="String">
+          <sv:value>draft</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+          <sv:value>live</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+          <sv:value>admin</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+          <sv:value>2015-10-04T21:20:44.598-04:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+          <sv:value>2015-10-04T21:20:44.709-04:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+          <sv:value>admin</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippotranslation:id" sv:type="String">
+          <sv:value>f5d84284-7c22-4e5a-98b3-6be49aa806ab</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippotranslation:locale" sv:type="String">
+          <sv:value>en</sv:value>
+        </sv:property>
+      </sv:node>
+      <sv:node sv:name="hippo:translation">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippo:translation</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:language" sv:type="String">
+          <sv:value/>
+        </sv:property>
+        <sv:property sv:name="hippo:message" sv:type="String">
+          <sv:value>LEADER-NAME-RELIGION</sv:value>
+        </sv:property>
+      </sv:node>
+      <sv:node sv:name="leader-name-religion">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>atlast:textlist</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+          <sv:value>mix:versionable</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:uuid" sv:type="String">
+          <sv:value>5263f199-1494-47cd-999d-7142ad9fe1ea</sv:value>
+        </sv:property>
+        <sv:property sv:name="atlast:entries" sv:type="String" sv:multiple="true">
+          <sv:value>Pope</sv:value>
+          <sv:value>Highest Priest</sv:value>
+          <sv:value>Head Shaman</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
+          <sv:value>preview</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+          <sv:value>info/game-texts/leader-name-religion/leader-name-religion[3]</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:state" sv:type="String">
+          <sv:value>unpublished</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+          <sv:value>live</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+          <sv:value>admin</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+          <sv:value>2015-10-04T21:20:44.598-04:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+          <sv:value>2015-10-04T21:21:48.237-04:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+          <sv:value>admin</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippotranslation:id" sv:type="String">
+          <sv:value>f5d84284-7c22-4e5a-98b3-6be49aa806ab</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippotranslation:locale" sv:type="String">
+          <sv:value>en</sv:value>
+        </sv:property>
+      </sv:node>
+      <sv:node sv:name="leader-name-religion">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>atlast:textlist</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+          <sv:value>mix:referenceable</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:uuid" sv:type="String">
+          <sv:value>1b482f1e-02a8-4d27-a5a7-e4a3a9a0b67c</sv:value>
+        </sv:property>
+        <sv:property sv:name="atlast:entries" sv:type="String" sv:multiple="true">
+          <sv:value>Pope</sv:value>
+          <sv:value>Highest Priest</sv:value>
+          <sv:value>Head Shaman</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
+          <sv:value>live</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+          <sv:value>info/game-texts/leader-name-religion/leader-name-religion[2]</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:state" sv:type="String">
+          <sv:value>published</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+          <sv:value>live</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+          <sv:value>admin</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+          <sv:value>2015-10-04T21:20:44.598-04:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+          <sv:value>2015-10-04T21:21:48.237-04:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+          <sv:value>admin</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:publicationDate" sv:type="Date">
+          <sv:value>2015-10-10T18:52:03.863-04:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippotranslation:id" sv:type="String">
+          <sv:value>f5d84284-7c22-4e5a-98b3-6be49aa806ab</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippotranslation:locale" sv:type="String">
+          <sv:value>en</sv:value>
+        </sv:property>
+      </sv:node>
+    </sv:node>
+    <sv:node sv:name="leader-name-race">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>hippo:handle</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+        <sv:value>mix:referenceable</sv:value>
+        <sv:value>hippo:translated</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:uuid" sv:type="String">
+        <sv:value>8c76f7ed-e055-4f2c-ab70-1a1077e89f46</sv:value>
+      </sv:property>
+      <sv:node sv:name="leader-name-race">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>atlast:textlist</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+          <sv:value>mix:referenceable</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:uuid" sv:type="String">
+          <sv:value>817e4346-bec2-4076-a2d3-a179ae493f74</sv:value>
+        </sv:property>
+        <sv:property sv:name="atlast:entries" sv:type="String" sv:multiple="true">
+          <sv:value>Chieftain</sv:value>
+          <sv:value>King</sv:value>
+          <sv:value>Grand Vizier</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true"/>
+        <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+          <sv:value>info/game-texts/leader-name-race/leader-name-race[3]</sv:value>
+          <sv:value>info/game-texts/leader-name-race/leader-name-race[2]</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:state" sv:type="String">
+          <sv:value>draft</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+          <sv:value>live</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+          <sv:value>admin</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+          <sv:value>2015-10-04T21:22:25.560-04:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+          <sv:value>2015-10-04T21:22:25.628-04:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+          <sv:value>admin</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippotranslation:id" sv:type="String">
+          <sv:value>899846c7-0a70-4d20-bd27-01513b801f18</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippotranslation:locale" sv:type="String">
+          <sv:value>en</sv:value>
+        </sv:property>
+      </sv:node>
+      <sv:node sv:name="hippo:translation">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippo:translation</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:language" sv:type="String">
+          <sv:value/>
+        </sv:property>
+        <sv:property sv:name="hippo:message" sv:type="String">
+          <sv:value>LEADER-NAME-RACE</sv:value>
+        </sv:property>
+      </sv:node>
+      <sv:node sv:name="leader-name-race">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>atlast:textlist</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+          <sv:value>mix:versionable</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:uuid" sv:type="String">
+          <sv:value>ba15a3b9-01ab-4ac9-bdcc-b8b2b2389898</sv:value>
+        </sv:property>
+        <sv:property sv:name="atlast:entries" sv:type="String" sv:multiple="true">
+          <sv:value>Chieftain</sv:value>
+          <sv:value>King</sv:value>
+          <sv:value>Grand Vizier</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
+          <sv:value>preview</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+          <sv:value>info/game-texts/leader-name-race/leader-name-race[3]</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:state" sv:type="String">
+          <sv:value>unpublished</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+          <sv:value>live</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+          <sv:value>admin</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+          <sv:value>2015-10-04T21:22:25.560-04:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+          <sv:value>2015-10-04T21:23:06.311-04:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+          <sv:value>admin</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippotranslation:id" sv:type="String">
+          <sv:value>899846c7-0a70-4d20-bd27-01513b801f18</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippotranslation:locale" sv:type="String">
+          <sv:value>en</sv:value>
+        </sv:property>
+      </sv:node>
+      <sv:node sv:name="leader-name-race">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>atlast:textlist</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+          <sv:value>mix:referenceable</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:uuid" sv:type="String">
+          <sv:value>82005985-6efc-42cb-af4a-65d5ba7ed644</sv:value>
+        </sv:property>
+        <sv:property sv:name="atlast:entries" sv:type="String" sv:multiple="true">
+          <sv:value>Chieftain</sv:value>
+          <sv:value>King</sv:value>
+          <sv:value>Grand Vizier</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
+          <sv:value>live</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+          <sv:value>info/game-texts/leader-name-race/leader-name-race[2]</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:state" sv:type="String">
+          <sv:value>published</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+          <sv:value>live</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+          <sv:value>admin</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+          <sv:value>2015-10-04T21:22:25.560-04:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+          <sv:value>2015-10-04T21:23:06.311-04:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+          <sv:value>admin</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:publicationDate" sv:type="Date">
+          <sv:value>2015-10-10T18:52:04.286-04:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippotranslation:id" sv:type="String">
+          <sv:value>899846c7-0a70-4d20-bd27-01513b801f18</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippotranslation:locale" sv:type="String">
+          <sv:value>en</sv:value>
+        </sv:property>
+      </sv:node>
+    </sv:node>
+    <sv:node sv:name="election-religion">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>hippo:handle</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+        <sv:value>mix:referenceable</sv:value>
+        <sv:value>hippo:translated</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:uuid" sv:type="String">
+        <sv:value>b9d599c5-f5d2-4d81-ba43-c60dc5353ace</sv:value>
+      </sv:property>
+      <sv:node sv:name="election-religion">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>atlast:textlist</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+          <sv:value>mix:referenceable</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:uuid" sv:type="String">
+          <sv:value>e40771c4-9933-4bc9-a333-49e61f66a6c3</sv:value>
+        </sv:property>
+        <sv:property sv:name="atlast:entries" sv:type="String" sv:multiple="true">
+          <sv:value>The cardinals of the ${NAME2} tower have emerged from  their seclusion. As ${COLOUR} smoke leaves the top of the tower, a crowd start to gather outside. The announcement is made, the cardinals have chosen YOU to be the new ${LEADER-NAME} of the ${IDENTITY}.</sv:value>
+          <sv:value>Acolytes stand around the body of ${LEADER-NAME} ${NAME2} as prayers are said. A gong sounds as the crowd stands up in unison to face YOU, the designated successor to be the next ${LEADER-NAME} of the ${IDENTITY}.</sv:value>
+          <sv:value>As the faithful dance faster and faster around the great fire, ${NAME2} the elder turns to face you. Chants fill the air as he smears ${COLOUR} paint onto your face to mark YOU as the ${LEADER-NAME} of the ${IDENTITY}.</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true"/>
+        <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+          <sv:value>info/game-texts/election-religion/election-religion[2]</sv:value>
+          <sv:value>info/game-texts/election-religion/election-religion[3]</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:state" sv:type="String">
+          <sv:value>draft</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+          <sv:value>live</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+          <sv:value>admin</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+          <sv:value>2015-10-04T21:33:28.388-04:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+          <sv:value>2015-10-13T20:04:40.092-04:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+          <sv:value>admin</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippotranslation:id" sv:type="String">
+          <sv:value>d2ed0d60-cdba-4a09-80cc-13470e9f09e7</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippotranslation:locale" sv:type="String">
+          <sv:value>en</sv:value>
+        </sv:property>
+      </sv:node>
+      <sv:node sv:name="hippo:translation">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippo:translation</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:language" sv:type="String">
+          <sv:value/>
+        </sv:property>
+        <sv:property sv:name="hippo:message" sv:type="String">
+          <sv:value>ELECTION-RELIGION</sv:value>
+        </sv:property>
+      </sv:node>
+      <sv:node sv:name="election-religion">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>atlast:textlist</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+          <sv:value>mix:versionable</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:uuid" sv:type="String">
+          <sv:value>4950d9eb-6a90-4ab2-bbe4-c801be4eac56</sv:value>
+        </sv:property>
+        <sv:property sv:name="atlast:entries" sv:type="String" sv:multiple="true">
+          <sv:value>The cardinals of the ${NAME2} tower have emerged from  their seclusion. As ${COLOUR} smoke leaves the top of the tower, a crowd start to gather outside. The announcement is made, the cardinals have chosen YOU to be the new ${LEADER-NAME} of the ${IDENTITY}.</sv:value>
+          <sv:value>Acolytes stand around the body of ${LEADER-NAME} ${NAME2} as prayers are said. A gong sounds as the crowd stands up in unison to face YOU, the designated successor to be the next ${LEADER-NAME} of the ${IDENTITY}.</sv:value>
+          <sv:value>As the faithful dance faster and faster around the great fire, ${NAME2} the elder turns to face you. Chants fill the air as he smears ${COLOUR} paint onto your face to mark YOU as the ${LEADER-NAME} of the ${IDENTITY}.</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
+          <sv:value>preview</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+          <sv:value>info/game-texts/election-religion/election-religion[3]</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:state" sv:type="String">
+          <sv:value>unpublished</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+          <sv:value>live</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+          <sv:value>admin</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+          <sv:value>2015-10-04T21:33:28.388-04:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+          <sv:value>2015-10-13T20:04:50.114-04:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+          <sv:value>admin</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippotranslation:id" sv:type="String">
+          <sv:value>d2ed0d60-cdba-4a09-80cc-13470e9f09e7</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippotranslation:locale" sv:type="String">
+          <sv:value>en</sv:value>
+        </sv:property>
+      </sv:node>
+      <sv:node sv:name="election-religion">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>atlast:textlist</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+          <sv:value>mix:referenceable</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:uuid" sv:type="String">
+          <sv:value>aab9de54-5039-4ce8-82bf-71c0ec8165d7</sv:value>
+        </sv:property>
+        <sv:property sv:name="atlast:entries" sv:type="String" sv:multiple="true">
+          <sv:value>The cardinals of the ${NAME2} tower have emerged from  their seclusion. As ${COLOUR} smoke leaves the top of the tower, a crowd start to gather outside. The announcement is made, the cardinals have chosen YOU to be the new ${LEADER-NAME} of the ${IDENTITY}.</sv:value>
+          <sv:value>Acolytes stand around the body of ${LEADER-NAME} ${NAME2} as prayers are said. A gong sounds as the crowd stands up in unison to face YOU, the designated successor to be the next ${LEADER-NAME} of the ${IDENTITY}.</sv:value>
+          <sv:value>As the faithful dance faster and faster around the great fire, ${NAME2} the elder turns to face you. Chants fill the air as he smears ${COLOUR} paint onto your face to mark YOU as the ${LEADER-NAME} of the ${IDENTITY}.</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
+          <sv:value>live</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+          <sv:value>info/game-texts/election-religion/election-religion[2]</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:state" sv:type="String">
+          <sv:value>published</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+          <sv:value>live</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+          <sv:value>admin</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+          <sv:value>2015-10-04T21:33:28.388-04:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+          <sv:value>2015-10-13T20:04:50.114-04:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+          <sv:value>admin</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:publicationDate" sv:type="Date">
+          <sv:value>2015-10-13T20:04:52.892-04:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippotranslation:id" sv:type="String">
+          <sv:value>d2ed0d60-cdba-4a09-80cc-13470e9f09e7</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippotranslation:locale" sv:type="String">
+          <sv:value>en</sv:value>
+        </sv:property>
+      </sv:node>
+    </sv:node>
+    <sv:node sv:name="election-race">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>hippo:handle</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+        <sv:value>mix:referenceable</sv:value>
+        <sv:value>hippo:translated</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:uuid" sv:type="String">
+        <sv:value>946ab6d7-5b09-4245-8821-324be77081d3</sv:value>
+      </sv:property>
+      <sv:node sv:name="election-race">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>atlast:textlist</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+          <sv:value>mix:versionable</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:uuid" sv:type="String">
+          <sv:value>1a18ca01-6333-44a6-99e4-d0cc970374a9</sv:value>
+        </sv:property>
+        <sv:property sv:name="atlast:entries" sv:type="String" sv:multiple="true">
+          <sv:value>The master counters, safely locked inside ${NAME2} Hall have finished counting all the votes. People anxiously try to anticipate the result by reading the expressions on the master counters' faces as they stream out onto the balcony to proclaim that YOU have won the election and are now the  next ${LEADER-NAME} of the ${IDENTITY}.</sv:value>
+          <sv:value>Umpires run across the field trying to keep up with you. Your fingers frantically dig into the soil as you climb the ${NAME2} hill to the base of the square ${COLOUR} stone that holds the Sword. An umpire sounds a horn as you lift the Sword clear above your head. The crowd applauds wildly as your challengers collapse on the ground, exhausted. YOU are the ${LEADER-NAME} of the ${IDENTITY}.</sv:value>
+          <sv:value>A timid knock sounds on your door, it opens as ${NAME2} pokes his head in. It is the news you have been expecting. Your father, the ${LEADER-NAME} is dead. You raise your head and hold your breath. ${NAME2} opens the ${COLOUR} door wide open and bows his head. YOU must carry on you father's legacy, LONG LIVE THE ${LEADER-NAME} of the ${IDENTITY}!</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
+          <sv:value>preview</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+          <sv:value>info/game-texts/election-race/election-race[3]</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:state" sv:type="String">
+          <sv:value>unpublished</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+          <sv:value>live</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+          <sv:value>admin</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+          <sv:value>2015-10-04T21:33:28.388-04:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+          <sv:value>2015-10-10T18:51:56.818-04:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+          <sv:value>admin</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippotranslation:id" sv:type="String">
+          <sv:value>a8c60c5d-16ec-4c21-b5bf-667ef31a3d6c</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippotranslation:locale" sv:type="String">
+          <sv:value>en</sv:value>
+        </sv:property>
+      </sv:node>
+      <sv:node sv:name="hippo:translation">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippo:translation</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:language" sv:type="String">
+          <sv:value/>
+        </sv:property>
+        <sv:property sv:name="hippo:message" sv:type="String">
+          <sv:value>ELECTION-RACE</sv:value>
+        </sv:property>
+      </sv:node>
+      <sv:node sv:name="election-race">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>atlast:textlist</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+          <sv:value>mix:referenceable</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:uuid" sv:type="String">
+          <sv:value>1690831c-15af-47d3-917c-83eb0d7ac429</sv:value>
+        </sv:property>
+        <sv:property sv:name="atlast:entries" sv:type="String" sv:multiple="true">
+          <sv:value>The master counters, safely locked inside ${NAME2} Hall have finished counting all the votes. People anxiously try to anticipate the result by reading the expressions on the master counters' faces as they stream out onto the balcony to proclaim that YOU have won the election and are now the  next ${LEADER-NAME} of the ${IDENTITY}.</sv:value>
+          <sv:value>Umpires run across the field trying to keep up with you. Your fingers frantically dig into the soil as you climb the ${NAME2} hill to the base of the square ${COLOUR} stone that holds the Sword. An umpire sounds a horn as you lift the Sword clear above your head. The crowd applauds wildly as your challengers collapse on the ground, exhausted. YOU are the ${LEADER-NAME} of the ${IDENTITY}.</sv:value>
+          <sv:value>A timid knock sounds on your door, it opens as ${NAME2} pokes his head in. It is the news you have been expecting. Your father, late ${LEADER-NAME} is dead. You raise your head and hold your breath. ${NAME2} opens the ${COLOUR} door wide open and bows his head. YOU must carry on you father's legacy, LONG LIVE THE ${LEADER-NAME} of the ${IDENTITY}!</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true"/>
+        <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+          <sv:value>info/game-texts/election-race/election-race</sv:value>
+          <sv:value>info/game-texts/election-race/election-race[3]</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:state" sv:type="String">
+          <sv:value>draft</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+          <sv:value>live</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+          <sv:value>admin</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+          <sv:value>2015-10-04T21:33:28.388-04:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+          <sv:value>2015-10-10T18:32:49.945-04:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+          <sv:value>admin</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippotranslation:id" sv:type="String">
+          <sv:value>a8c60c5d-16ec-4c21-b5bf-667ef31a3d6c</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippotranslation:locale" sv:type="String">
+          <sv:value>en</sv:value>
+        </sv:property>
+      </sv:node>
+      <sv:node sv:name="election-race">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>atlast:textlist</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+          <sv:value>mix:referenceable</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:uuid" sv:type="String">
+          <sv:value>cc4db904-c203-4145-bcac-530bb1276c7f</sv:value>
+        </sv:property>
+        <sv:property sv:name="atlast:entries" sv:type="String" sv:multiple="true">
+          <sv:value>The master counters, safely locked inside ${NAME2} Hall have finished counting all the votes. People anxiously try to anticipate the result by reading the expressions on the master counters' faces as they stream out onto the balcony to proclaim that YOU have won the election and are now the  next ${LEADER-NAME} of the ${IDENTITY}.</sv:value>
+          <sv:value>Umpires run across the field trying to keep up with you. Your fingers frantically dig into the soil as you climb the ${NAME2} hill to the base of the square ${COLOUR} stone that holds the Sword. An umpire sounds a horn as you lift the Sword clear above your head. The crowd applauds wildly as your challengers collapse on the ground, exhausted. YOU are the ${LEADER-NAME} of the ${IDENTITY}.</sv:value>
+          <sv:value>A timid knock sounds on your door, it opens as ${NAME2} pokes his head in. It is the news you have been expecting. Your father, the ${LEADER-NAME} is dead. You raise your head and hold your breath. ${NAME2} opens the ${COLOUR} door wide open and bows his head. YOU must carry on you father's legacy, LONG LIVE THE ${LEADER-NAME} of the ${IDENTITY}!</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
+          <sv:value>live</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+          <sv:value>info/game-texts/election-race/election-race</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:state" sv:type="String">
+          <sv:value>published</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+          <sv:value>live</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+          <sv:value>admin</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+          <sv:value>2015-10-04T21:33:28.388-04:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+          <sv:value>2015-10-10T18:51:56.818-04:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+          <sv:value>admin</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:publicationDate" sv:type="Date">
+          <sv:value>2015-10-10T18:52:03.970-04:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippotranslation:id" sv:type="String">
+          <sv:value>a8c60c5d-16ec-4c21-b5bf-667ef31a3d6c</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippotranslation:locale" sv:type="String">
+          <sv:value>en</sv:value>
+        </sv:property>
+      </sv:node>
+    </sv:node>
+  </sv:node>
+</sv:node>

@@ -11,6 +11,7 @@ import org.atlast.world.model.Development;
 import org.atlast.world.model.Library;
 import org.atlast.world.model.Market;
 import org.atlast.world.model.Pop;
+import org.atlast.world.model.Storehouse;
 import org.onehippo.repository.scheduling.RepositoryJob;
 import org.onehippo.repository.scheduling.RepositoryJobExecutionContext;
 import org.slf4j.Logger;
@@ -46,6 +47,7 @@ public class RotateWorldJob implements RepositoryJob {
 
             learn(context, queryManager);
 
+            trade(context, queryManager);
 
             consume(context, worldMarket, queryManager);
 
@@ -126,6 +128,18 @@ public class RotateWorldJob implements RepositoryJob {
             Library library = new Library(queryResult.nextNode());
 
             library.learn(queryManager);
+        }
+    }
+
+    private void trade(final RepositoryJobExecutionContext context, final QueryManager queryManager) throws RepositoryException {
+        Query query = queryManager.createQuery(context.getAttribute("playerdatalocation") + "//element(*, atlast:storehouse)", Query.XPATH);
+        //TODO: batch processing
+        NodeIterator queryResult = query.execute().getNodes();
+
+        while (queryResult.hasNext()) {
+            Storehouse storehouse = new Storehouse(queryResult.nextNode());
+
+            storehouse.trade();
         }
     }
 

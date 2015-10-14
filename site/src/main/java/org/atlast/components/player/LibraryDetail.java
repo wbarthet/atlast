@@ -101,7 +101,7 @@ public class LibraryDetail extends BaseSecuredComponent {
 
                     String focus = getPublicRequestParameter(request, "focus");
 
-                    councilService.save(requestContext, uuid, wages, focus);
+                    councilService.saveLibrary(requestContext, uuid, wages, focus);
 
                 } catch (RepositoryException e) {
                     log.error("Error updating land", e);
