@@ -42,7 +42,7 @@
       </sv:property>
       <sv:property sv:name="atlast:an" sv:type="String" sv:multiple="true"/>
       <sv:property sv:name="atlast:count" sv:type="Long">
-        <sv:value>24</sv:value>
+        <sv:value>31</sv:value>
       </sv:property>
       <sv:property sv:name="atlast:ee" sv:type="String" sv:multiple="true">
         <sv:value>ee</sv:value>
@@ -81,14 +81,14 @@
         <sv:value>F1king</sv:value>
       </sv:property>
       <sv:property sv:name="atlast:races" sv:type="String" sv:multiple="true">
-        <sv:value>${NAME} People</sv:value>
-        <sv:value>${NAME}s</sv:value>
-        <sv:value>${NAME}</sv:value>
+        <sv:value>~NAME` People</sv:value>
+        <sv:value>~NAME`s</sv:value>
+        <sv:value>~NAME`</sv:value>
       </sv:property>
       <sv:property sv:name="atlast:religions" sv:type="String" sv:multiple="true">
-        <sv:value>${NAME}tists</sv:value>
-        <sv:value>${NAME} Faithful</sv:value>
-        <sv:value>${NAME} Worshipers</sv:value>
+        <sv:value>~NAME`tists</sv:value>
+        <sv:value>~NAME` Faithful</sv:value>
+        <sv:value>~NAME` Worshipers</sv:value>
       </sv:property>
       <sv:property sv:name="atlast:ri" sv:type="String" sv:multiple="true"/>
       <sv:property sv:name="atlast:sp" sv:type="String" sv:multiple="true">
@@ -171,7 +171,7 @@
       </sv:property>
       <sv:property sv:name="atlast:an" sv:type="String" sv:multiple="true"/>
       <sv:property sv:name="atlast:count" sv:type="Long">
-        <sv:value>24</sv:value>
+        <sv:value>31</sv:value>
       </sv:property>
       <sv:property sv:name="atlast:ee" sv:type="String" sv:multiple="true">
         <sv:value>ee</sv:value>
@@ -210,14 +210,14 @@
         <sv:value>F1king</sv:value>
       </sv:property>
       <sv:property sv:name="atlast:races" sv:type="String" sv:multiple="true">
-        <sv:value>${NAME} People</sv:value>
-        <sv:value>${NAME}s</sv:value>
-        <sv:value>${NAME}</sv:value>
+        <sv:value>~NAME` People</sv:value>
+        <sv:value>~NAME`s</sv:value>
+        <sv:value>~NAME`</sv:value>
       </sv:property>
       <sv:property sv:name="atlast:religions" sv:type="String" sv:multiple="true">
-        <sv:value>${NAME}tists</sv:value>
-        <sv:value>${NAME} Faithful</sv:value>
-        <sv:value>${NAME} Worshipers</sv:value>
+        <sv:value>~NAME`tists</sv:value>
+        <sv:value>~NAME` Faithful</sv:value>
+        <sv:value>~NAME` Worshipers</sv:value>
       </sv:property>
       <sv:property sv:name="atlast:ri" sv:type="String" sv:multiple="true"/>
       <sv:property sv:name="atlast:sp" sv:type="String" sv:multiple="true">
@@ -290,7 +290,7 @@
       </sv:property>
       <sv:property sv:name="atlast:an" sv:type="String" sv:multiple="true"/>
       <sv:property sv:name="atlast:count" sv:type="Long">
-        <sv:value>24</sv:value>
+        <sv:value>31</sv:value>
       </sv:property>
       <sv:property sv:name="atlast:ee" sv:type="String" sv:multiple="true">
         <sv:value>ee</sv:value>
@@ -329,14 +329,14 @@
         <sv:value>F1king</sv:value>
       </sv:property>
       <sv:property sv:name="atlast:races" sv:type="String" sv:multiple="true">
-        <sv:value>${NAME} People</sv:value>
-        <sv:value>${NAME}s</sv:value>
-        <sv:value>${NAME}</sv:value>
+        <sv:value>~NAME` People</sv:value>
+        <sv:value>~NAME`s</sv:value>
+        <sv:value>~NAME`</sv:value>
       </sv:property>
       <sv:property sv:name="atlast:religions" sv:type="String" sv:multiple="true">
-        <sv:value>${NAME}tists</sv:value>
-        <sv:value>${NAME} Faithful</sv:value>
-        <sv:value>${NAME} Worshipers</sv:value>
+        <sv:value>~NAME`tists</sv:value>
+        <sv:value>~NAME` Faithful</sv:value>
+        <sv:value>~NAME` Worshipers</sv:value>
       </sv:property>
       <sv:property sv:name="atlast:ri" sv:type="String" sv:multiple="true"/>
       <sv:property sv:name="atlast:sp" sv:type="String" sv:multiple="true">
@@ -428,7 +428,7 @@
         <sv:value>ous</sv:value>
       </sv:property>
       <sv:property sv:name="atlast:count" sv:type="Long">
-        <sv:value>23</sv:value>
+        <sv:value>31</sv:value>
       </sv:property>
       <sv:property sv:name="atlast:ee" sv:type="String" sv:multiple="true"/>
       <sv:property sv:name="atlast:k" sv:type="String" sv:multiple="true">
@@ -468,14 +468,14 @@
         <sv:value>F1</sv:value>
       </sv:property>
       <sv:property sv:name="atlast:races" sv:type="String" sv:multiple="true">
-        <sv:value>${NAME}os</sv:value>
-        <sv:value>${NAME}</sv:value>
-        <sv:value>Descendants of ${NAME}</sv:value>
+        <sv:value>~NAME`os</sv:value>
+        <sv:value>~NAME`</sv:value>
+        <sv:value>Descendants of ~NAME`</sv:value>
       </sv:property>
       <sv:property sv:name="atlast:religions" sv:type="String" sv:multiple="true">
-        <sv:value>${NAME}i</sv:value>
-        <sv:value>${NAME}ians</sv:value>
-        <sv:value>${NAME} Truthers</sv:value>
+        <sv:value>~NAME`i</sv:value>
+        <sv:value>~NAME`ians</sv:value>
+        <sv:value>~NAME` Truthers</sv:value>
       </sv:property>
       <sv:property sv:name="atlast:ri" sv:type="String" sv:multiple="true"/>
       <sv:property sv:name="atlast:sp" sv:type="String" sv:multiple="true">
@@ -551,7 +551,7 @@
         <sv:value>ous</sv:value>
       </sv:property>
       <sv:property sv:name="atlast:count" sv:type="Long">
-        <sv:value>23</sv:value>
+        <sv:value>31</sv:value>
       </sv:property>
       <sv:property sv:name="atlast:ee" sv:type="String" sv:multiple="true"/>
       <sv:property sv:name="atlast:k" sv:type="String" sv:multiple="true">
@@ -591,14 +591,14 @@
         <sv:value>F1</sv:value>
       </sv:property>
       <sv:property sv:name="atlast:races" sv:type="String" sv:multiple="true">
-        <sv:value>${NAME}os</sv:value>
-        <sv:value>${NAME}</sv:value>
-        <sv:value>Descendants of ${NAME}</sv:value>
+        <sv:value>~NAME`os</sv:value>
+        <sv:value>~NAME`</sv:value>
+        <sv:value>Descendants of ~NAME`</sv:value>
       </sv:property>
       <sv:property sv:name="atlast:religions" sv:type="String" sv:multiple="true">
-        <sv:value>${NAME}i</sv:value>
-        <sv:value>${NAME}ians</sv:value>
-        <sv:value>${NAME} Truthers</sv:value>
+        <sv:value>~NAME`i</sv:value>
+        <sv:value>~NAME`ians</sv:value>
+        <sv:value>~NAME` Truthers</sv:value>
       </sv:property>
       <sv:property sv:name="atlast:ri" sv:type="String" sv:multiple="true"/>
       <sv:property sv:name="atlast:sp" sv:type="String" sv:multiple="true">
@@ -664,7 +664,7 @@
         <sv:value>ous</sv:value>
       </sv:property>
       <sv:property sv:name="atlast:count" sv:type="Long">
-        <sv:value>23</sv:value>
+        <sv:value>31</sv:value>
       </sv:property>
       <sv:property sv:name="atlast:ee" sv:type="String" sv:multiple="true"/>
       <sv:property sv:name="atlast:k" sv:type="String" sv:multiple="true">
@@ -704,14 +704,14 @@
         <sv:value>F1</sv:value>
       </sv:property>
       <sv:property sv:name="atlast:races" sv:type="String" sv:multiple="true">
-        <sv:value>${NAME}os</sv:value>
-        <sv:value>${NAME}</sv:value>
-        <sv:value>Descendants of ${NAME}</sv:value>
+        <sv:value>~NAME`os</sv:value>
+        <sv:value>~NAME`</sv:value>
+        <sv:value>Descendants of ~NAME`</sv:value>
       </sv:property>
       <sv:property sv:name="atlast:religions" sv:type="String" sv:multiple="true">
-        <sv:value>${NAME}i</sv:value>
-        <sv:value>${NAME}ians</sv:value>
-        <sv:value>${NAME} Truthers</sv:value>
+        <sv:value>~NAME`i</sv:value>
+        <sv:value>~NAME`ians</sv:value>
+        <sv:value>~NAME` Truthers</sv:value>
       </sv:property>
       <sv:property sv:name="atlast:ri" sv:type="String" sv:multiple="true"/>
       <sv:property sv:name="atlast:sp" sv:type="String" sv:multiple="true">
@@ -788,7 +788,7 @@
       </sv:property>
       <sv:property sv:name="atlast:an" sv:type="String" sv:multiple="true"/>
       <sv:property sv:name="atlast:count" sv:type="Long">
-        <sv:value>24</sv:value>
+        <sv:value>31</sv:value>
       </sv:property>
       <sv:property sv:name="atlast:ee" sv:type="Double" sv:multiple="true"/>
       <sv:property sv:name="atlast:k" sv:type="String" sv:multiple="true">
@@ -827,14 +827,14 @@
         <sv:value>F1elu</sv:value>
       </sv:property>
       <sv:property sv:name="atlast:races" sv:type="String" sv:multiple="true">
-        <sv:value>${NAME}in</sv:value>
-        <sv:value>${NAME}i</sv:value>
-        <sv:value>${NAME}jin</sv:value>
+        <sv:value>~NAME`in</sv:value>
+        <sv:value>~NAME`i</sv:value>
+        <sv:value>~NAME`jin</sv:value>
       </sv:property>
       <sv:property sv:name="atlast:religions" sv:type="String" sv:multiple="true">
-        <sv:value>${NAME}ani</sv:value>
-        <sv:value>${NAME}isti</sv:value>
-        <sv:value>${NAME}in</sv:value>
+        <sv:value>~NAME`ani</sv:value>
+        <sv:value>~NAME`isti</sv:value>
+        <sv:value>~NAME`in</sv:value>
       </sv:property>
       <sv:property sv:name="atlast:ri" sv:type="String" sv:multiple="true">
         <sv:value>lu</sv:value>
@@ -928,7 +928,7 @@
       </sv:property>
       <sv:property sv:name="atlast:an" sv:type="String" sv:multiple="true"/>
       <sv:property sv:name="atlast:count" sv:type="Long">
-        <sv:value>24</sv:value>
+        <sv:value>31</sv:value>
       </sv:property>
       <sv:property sv:name="atlast:ee" sv:type="Double" sv:multiple="true"/>
       <sv:property sv:name="atlast:k" sv:type="String" sv:multiple="true">
@@ -967,14 +967,14 @@
         <sv:value>F1elu</sv:value>
       </sv:property>
       <sv:property sv:name="atlast:races" sv:type="String" sv:multiple="true">
-        <sv:value>${NAME}in</sv:value>
-        <sv:value>${NAME}i</sv:value>
-        <sv:value>${NAME}jin</sv:value>
+        <sv:value>~NAME`in</sv:value>
+        <sv:value>~NAME`i</sv:value>
+        <sv:value>~NAME`jin</sv:value>
       </sv:property>
       <sv:property sv:name="atlast:religions" sv:type="String" sv:multiple="true">
-        <sv:value>${NAME}ani</sv:value>
-        <sv:value>${NAME}isti</sv:value>
-        <sv:value>${NAME}in</sv:value>
+        <sv:value>~NAME`ani</sv:value>
+        <sv:value>~NAME`isti</sv:value>
+        <sv:value>~NAME`in</sv:value>
       </sv:property>
       <sv:property sv:name="atlast:ri" sv:type="String" sv:multiple="true">
         <sv:value>lu</sv:value>
@@ -1058,7 +1058,7 @@
       </sv:property>
       <sv:property sv:name="atlast:an" sv:type="String" sv:multiple="true"/>
       <sv:property sv:name="atlast:count" sv:type="Long">
-        <sv:value>24</sv:value>
+        <sv:value>31</sv:value>
       </sv:property>
       <sv:property sv:name="atlast:ee" sv:type="Double" sv:multiple="true"/>
       <sv:property sv:name="atlast:k" sv:type="String" sv:multiple="true">
@@ -1097,14 +1097,14 @@
         <sv:value>F1elu</sv:value>
       </sv:property>
       <sv:property sv:name="atlast:races" sv:type="String" sv:multiple="true">
-        <sv:value>${NAME}in</sv:value>
-        <sv:value>${NAME}i</sv:value>
-        <sv:value>${NAME}jin</sv:value>
+        <sv:value>~NAME`in</sv:value>
+        <sv:value>~NAME`i</sv:value>
+        <sv:value>~NAME`jin</sv:value>
       </sv:property>
       <sv:property sv:name="atlast:religions" sv:type="String" sv:multiple="true">
-        <sv:value>${NAME}ani</sv:value>
-        <sv:value>${NAME}isti</sv:value>
-        <sv:value>${NAME}in</sv:value>
+        <sv:value>~NAME`ani</sv:value>
+        <sv:value>~NAME`isti</sv:value>
+        <sv:value>~NAME`in</sv:value>
       </sv:property>
       <sv:property sv:name="atlast:ri" sv:type="String" sv:multiple="true">
         <sv:value>lu</sv:value>

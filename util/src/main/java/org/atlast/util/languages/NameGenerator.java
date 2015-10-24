@@ -133,7 +133,7 @@ public class NameGenerator {
 
         String name = namePatterns[index].getString();
 
-        name = name.replace("${NAME}", generateName(languageDescriptorNode));
+        name = name.replace("~NAME`", generateName(languageDescriptorNode));
 
         return name;
     }
@@ -152,7 +152,7 @@ public class NameGenerator {
 
         String name = namePatterns[index].getString();
 
-        name = name.replace("${NAME}", generateName(languageDescriptorNode));
+        name = name.replace("~NAME`", generateName(languageDescriptorNode));
 
         return name;
     }

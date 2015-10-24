@@ -15,6 +15,7 @@ import javax.jcr.Value;
 import org.atlast.beans.ContentDocument;
 import org.atlast.beans.Message;
 import org.atlast.beans.Player;
+import org.atlast.beans.descriptors.Amount;
 import org.atlast.beans.descriptors.DevelopmentDescriptor;
 import org.atlast.beans.descriptors.LandDescriptor;
 import org.atlast.beans.descriptors.LanguageDescriptor;
@@ -48,7 +49,7 @@ public class SignupService {
     public static final double POP_START_CASH = 1000.0;
     public static final double POP_START_FOOD = 100.0;
     public static final double START_TECH_LEVEL = 5.0d;
-    public static final String[] TRADE_RECIPES = new String[] {"wagon-trains", "caravans", "trade-ships"};
+    public static final String[] TRADE_RECIPES = new String[]{"wagon-trains", "caravans", "trade-ships"};
 
     public String signup(HstRequestContext requestContext, String userName, String password) throws RepositoryException, QueryException, ObjectBeanManagerException {
         Session session = requestContext.getSession();
@@ -80,8 +81,8 @@ public class SignupService {
 
             Node identityNode = userPlayerDataNode.getNode("identity");
 
-            String race = identityNode.getProperty("atlast:race").getBoolean()?identityNode.getIdentifier():"none";
-            String religion = !identityNode.getProperty("atlast:race").getBoolean()?identityNode.getIdentifier():"none";
+            String race = identityNode.getProperty("atlast:race").getBoolean() ? identityNode.getIdentifier() : "none";
+            String religion = !identityNode.getProperty("atlast:race").getBoolean() ? identityNode.getIdentifier() : "none";
 
             //create lands
             createPlayerLands(requestContext, userPlayerDataNode, userName, race, religion);
@@ -133,7 +134,7 @@ public class SignupService {
 
         int index = r.nextInt(3);
 
-        Node recipeNode = session.getNode("/content/documents/atlastserver/descriptors/recipes/services/"+TRADE_RECIPES[index]);
+        Node recipeNode = session.getNode("/content/documents/atlastserver/descriptors/recipes/services/" + TRADE_RECIPES[index]);
 
         storehouseNode.setProperty("atlast:recipedescriptor", recipeNode.getIdentifier());
 
@@ -220,7 +221,7 @@ public class SignupService {
 
         HstQuery query = requestContext.getQueryManager().createQuery(requestContext.getSession().getRootNode(), TraitDescriptor.class);
 
-        query.setLimit(3);
+//        query.setLimit(3);
 
         query.addOrderByAscending("atlast:count");
 
@@ -236,17 +237,47 @@ public class SignupService {
 
         Node handle = null;
 
-        while (beanIterator.hasNext()) {
-            handle = beanIterator.nextHippoBean().getNode().getParent();
-            incrementCount(handle);
+        List<String> modifiers = new ArrayList<>();
 
-            traits.add(handle.getIdentifier());
+        int count = 0;
+
+        while (beanIterator.hasNext() && count < 3) {
+
+            TraitDescriptor traitDescriptor = (TraitDescriptor) beanIterator.nextHippoBean();
+
+            if (!hasModifier(traitDescriptor, modifiers)) {
+                handle = traitDescriptor.getNode().getParent();
+                incrementCount(handle);
+
+                traits.add(handle.getIdentifier());
+                addModifiers(traitDescriptor, modifiers);
+                count++;
+            }
+
         }
 
         identityNode.setProperty("atlast:traits", traits.toArray(new String[]{}));
-        
+
 
         return playerdataNode;
+    }
+
+    private void addModifiers(final TraitDescriptor traitDescriptor, List<String> modifiers) {
+        for (Amount effect : traitDescriptor.getEffects()) {
+            modifiers.add(effect.getResourceDescriptor().getName());
+        }
+
+    }
+
+    private boolean hasModifier(final TraitDescriptor traitDescriptor, final List<String> modifiers) {
+
+        boolean found = false;
+
+        for (Amount effect : traitDescriptor.getEffects()) {
+            found |= modifiers.contains(effect.getResourceDescriptor().getName());
+        }
+
+        return found;
     }
 
     private Node pickLanguage(HstRequestContext requestContext) throws RepositoryException, QueryException {
@@ -437,7 +468,7 @@ public class SignupService {
             popNode.setProperty("religion-" + religion, 100.0d);
             popNode.setProperty("hippo:availability", new String[]{"live"});
 
-            String identity = "none".equals(race)?religion:race;
+            String identity = "none".equals(race) ? religion : race;
             popNode.setProperty("atlast:identity", identity);
         }
 

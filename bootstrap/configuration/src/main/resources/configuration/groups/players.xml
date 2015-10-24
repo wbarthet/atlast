@@ -4,6 +4,7 @@
   </sv:property>
   <sv:property sv:name="hipposys:members" sv:type="String" sv:multiple="true">
     <sv:value>test1</sv:value>
+    <sv:value>test2</sv:value>
   </sv:property>
   <sv:property sv:name="hipposys:securityprovider" sv:type="String">
     <sv:value>internal</sv:value>

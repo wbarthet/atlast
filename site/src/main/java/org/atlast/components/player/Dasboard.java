@@ -1,5 +1,7 @@
 package org.atlast.components.player;
 
+import java.io.IOException;
+
 import org.atlast.beans.Player;
 import org.atlast.components.world.BaseSecuredComponent;
 import org.hippoecm.hst.component.support.bean.BaseHstComponent;
@@ -23,6 +25,16 @@ public class Dasboard extends BaseHstComponent {
         super.doBeforeRender(request, response);
 
         HippoBean hippoBean = request.getRequestContext().getContentBean();
+
+        if (hippoBean == null) {
+            response.setStatus(404);
+            try {
+                response.forward("/pagenotfound");
+            } catch (IOException e) {
+                log.error("Error redirecting to 404 page", e);
+            }
+            return;
+        }
 
         if (!(hippoBean instanceof Player)) {
             hippoBean = hippoBean.getBean(getComponentParameter("userName"));
