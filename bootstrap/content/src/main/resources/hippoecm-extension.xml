@@ -80,8 +80,8 @@
       <sv:value>/content/documents/administration</sv:value>
     </sv:property>
   </sv:node>
-  
-<sv:node sv:name="atlast-server-content-documents-atlastserver-descriptors">
+
+  <sv:node sv:name="atlast-server-content-documents-atlastserver-descriptors">
     <sv:property sv:name="jcr:primaryType" sv:type="Name">
       <sv:value>hippo:initializeitem</sv:value>
     </sv:property>
@@ -94,8 +94,15 @@
     <sv:property sv:name="hippo:contentroot" sv:type="String">
       <sv:value>/content/documents/atlastserver</sv:value>
     </sv:property>
+
+    <sv:property sv:name="hippo:reloadonstartup" sv:type="Boolean">
+      <sv:value>true</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippo:version" sv:type="String">
+      <sv:value>1.01.03</sv:value>
+    </sv:property>
   </sv:node>
-<sv:node sv:name="atlast-server-content-documents-atlastserver-playerdata">
+  <sv:node sv:name="atlast-server-content-documents-atlastserver-playerdata">
     <sv:property sv:name="jcr:primaryType" sv:type="Name">
       <sv:value>hippo:initializeitem</sv:value>
     </sv:property>
@@ -123,7 +130,7 @@
       <sv:value>/content/documents/atlastserver</sv:value>
     </sv:property>
   </sv:node>
-<sv:node sv:name="atlast-server-content-documents-atlastserver-website">
+  <sv:node sv:name="atlast-server-content-documents-atlastserver-website">
     <sv:property sv:name="jcr:primaryType" sv:type="Name">
       <sv:value>hippo:initializeitem</sv:value>
     </sv:property>
@@ -164,6 +171,13 @@
     <sv:property sv:name="hippo:contentroot" sv:type="String">
       <sv:value>/content/documents/atlastserver/descriptors</sv:value>
     </sv:property>
+
+    <sv:property sv:name="hippo:reloadonstartup" sv:type="Boolean">
+      <sv:value>true</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippo:version" sv:type="String">
+      <sv:value>1.01.03</sv:value>
+    </sv:property>
   </sv:node>
   <sv:node sv:name="atlast-server-content-documents-atlastserver-descriptors-languages">
     <sv:property sv:name="jcr:primaryType" sv:type="Name">
@@ -177,6 +191,13 @@
     </sv:property>
     <sv:property sv:name="hippo:contentroot" sv:type="String">
       <sv:value>/content/documents/atlastserver/descriptors</sv:value>
+    </sv:property>
+
+    <sv:property sv:name="hippo:reloadonstartup" sv:type="Boolean">
+      <sv:value>true</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippo:version" sv:type="String">
+      <sv:value>1.01.03</sv:value>
     </sv:property>
   </sv:node>
   <sv:node sv:name="atlast-server-content-documents-atlastserver-descriptors-recipes">
@@ -206,9 +227,16 @@
     <sv:property sv:name="hippo:contentroot" sv:type="String">
       <sv:value>/content/documents/atlastserver/descriptors</sv:value>
     </sv:property>
+
+    <sv:property sv:name="hippo:reloadonstartup" sv:type="Boolean">
+      <sv:value>true</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippo:version" sv:type="String">
+      <sv:value>1.01.03</sv:value>
+    </sv:property>
   </sv:node>
 
-<sv:node sv:name="atlast-server-content-gallery-atlastserver-img">
+  <sv:node sv:name="atlast-server-content-gallery-atlastserver-img">
     <sv:property sv:name="jcr:primaryType" sv:type="Name">
       <sv:value>hippo:initializeitem</sv:value>
     </sv:property>
@@ -221,8 +249,15 @@
     <sv:property sv:name="hippo:contentroot" sv:type="String">
       <sv:value>/content/gallery/atlastserver</sv:value>
     </sv:property>
+
+    <sv:property sv:name="hippo:reloadonstartup" sv:type="Boolean">
+      <sv:value>true</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippo:version" sv:type="String">
+      <sv:value>1.01.03</sv:value>
+    </sv:property>
   </sv:node>
-<sv:node sv:name="atlast-server-content-gallery-atlastserver-icons">
+  <sv:node sv:name="atlast-server-content-gallery-atlastserver-icons">
     <sv:property sv:name="jcr:primaryType" sv:type="Name">
       <sv:value>hippo:initializeitem</sv:value>
     </sv:property>
@@ -235,8 +270,15 @@
     <sv:property sv:name="hippo:contentroot" sv:type="String">
       <sv:value>/content/gallery/atlastserver</sv:value>
     </sv:property>
+
+    <sv:property sv:name="hippo:reloadonstartup" sv:type="Boolean">
+      <sv:value>true</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippo:version" sv:type="String">
+      <sv:value>1.01.03</sv:value>
+    </sv:property>
   </sv:node>
-<sv:node sv:name="atlast-server-content-documents-administration-valuelists">
+  <sv:node sv:name="atlast-server-content-documents-administration-valuelists">
     <sv:property sv:name="jcr:primaryType" sv:type="Name">
       <sv:value>hippo:initializeitem</sv:value>
     </sv:property>
@@ -250,7 +292,7 @@
       <sv:value>/content/documents/administration</sv:value>
     </sv:property>
   </sv:node>
-<sv:node sv:name="atlast-server-content-documents-atlastserver-info">
+  <sv:node sv:name="atlast-server-content-documents-atlastserver-info">
     <sv:property sv:name="jcr:primaryType" sv:type="Name">
       <sv:value>hippo:initializeitem</sv:value>
     </sv:property>
@@ -262,6 +304,12 @@
     </sv:property>
     <sv:property sv:name="hippo:contentroot" sv:type="String">
       <sv:value>/content/documents/atlastserver</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippo:reloadonstartup" sv:type="Boolean">
+      <sv:value>true</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippo:version" sv:type="String">
+      <sv:value>1.01.03</sv:value>
     </sv:property>
   </sv:node>
 </sv:node>

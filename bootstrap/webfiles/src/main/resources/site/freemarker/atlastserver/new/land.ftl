@@ -126,7 +126,7 @@
                   <form action="<@hst.actionURL/>" method="post">
                     <input type="hidden" value="${pop.uuid}" name="uuid">
                     <input type="hidden" value="fire" name="action">
-                    <img align="left" style="margin-right: 1em; background-color: ${pop.identity.colour};" class="pop-icon" src="<@hst.link path="binaries/content/gallery/atlastserver/img/lower2.png"/>">
+                    <img align="left" style="margin-right: 1em; background-color: ${pop.identity.colour};" class="pop-icon" src="<@hst.link path="binaries/content/gallery/atlastserver/img/"+pop.popClass+"2.png"/>">
                   ${pop.name} | ${land.recipeDescriptor.skill?cap_first}: ${pop.getSkill(land.recipeDescriptor.skill)?floor}% | ${player.identity.name} ${pop.getIdentityLevel(player.identity.getUuid())?floor}%
                     <input align="right" class="button round button-small" type="submit" value=">">
                   </form>
@@ -146,7 +146,7 @@
                 <input type="hidden" value="hire" name="action">
                 <input align="left" style="margin-left: 1em;" class="button round button-small" type="submit" value="<">
               ${pop.name} | ${land.recipeDescriptor.skill?cap_first}: ${pop.getSkill(land.recipeDescriptor.skill)?floor}% | ${player.identity.name} ${pop.getIdentityLevel(player.identity.getUuid())?floor}%
-                <img align="right" style="background-color: ${pop.identity.colour};" class="pop-icon" src="<@hst.link path="binaries/content/gallery/atlastserver/img/lower2.png"/>">
+                <img align="right" style="background-color: ${pop.identity.colour};" class="pop-icon" src="<@hst.link path="binaries/content/gallery/atlastserver/img/"+pop.popClass+"2.png"/>">
               </form>
             </div>
           </div>

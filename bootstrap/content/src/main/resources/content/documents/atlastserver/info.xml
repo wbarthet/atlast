@@ -977,7 +977,7 @@
           <sv:value>a617df87-242a-4ac7-8ab6-1f364ca63c4c</sv:value>
         </sv:property>
         <sv:property sv:name="atlast:title" sv:type="String">
-          <sv:value>Start page</sv:value>
+          <sv:value>The Burden of Leadership</sv:value>
         </sv:property>
         <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true"/>
         <sv:property sv:name="hippo:related___pathreference" sv:type="String">
@@ -997,7 +997,7 @@
           <sv:value>2015-10-14T18:59:43.048-04:00</sv:value>
         </sv:property>
         <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
-          <sv:value>2015-10-23T16:17:18.514-04:00</sv:value>
+          <sv:value>2015-10-24T15:07:41.813-04:00</sv:value>
         </sv:property>
         <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
           <sv:value>admin</sv:value>
@@ -1013,8 +1013,52 @@
             <sv:value>hippostd:html</sv:value>
           </sv:property>
           <sv:property sv:name="hippostd:content" sv:type="String">
-            <sv:value>&lt;p&gt;This is the start page&amp;nbsp;This is the start page&amp;nbsp;This is the start page&amp;nbsp;This is the start page&amp;nbsp;This is the start page&amp;nbsp;This is the start page&amp;nbsp;This is the start page&amp;nbsp;This is the start page&amp;nbsp;This is the start page&amp;nbsp;This is the start page&amp;nbsp;This is the start page&amp;nbsp;This is the start page&amp;nbsp;This is the start page&amp;nbsp;This is the start page&amp;nbsp;This is the start page&amp;nbsp;&lt;/p&gt;</sv:value>
+            <sv:value>&lt;p&gt;Welcome, Atalaster. You have found yourself in charge of a group of your &lt;a href="population"&gt;people&lt;/a&gt;, banded together by a common heritage or belief system. You must guide their activities in a wild and unforgiving world. Develop your &lt;a href="lands"&gt;land&lt;/a&gt; and set your people to work producing&amp;nbsp;&lt;a href="resources"&gt;goods&lt;/a&gt; for sale in the &lt;a href="the-world-market"&gt;world market&lt;/a&gt;. With the help of foreigners and your wise council, you can increase your numbers and expand into new lands.&lt;/p&gt;</sv:value>
           </sv:property>
+          <sv:node sv:name="population">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippo:facetselect</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:docbase" sv:type="String">
+              <sv:value>6f3f4a00-0530-4d9b-bf4c-585a59eaaa2a</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+            <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+            <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+          </sv:node>
+          <sv:node sv:name="lands">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippo:facetselect</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:docbase" sv:type="String">
+              <sv:value>542e6939-2804-48a7-ab85-26352201e0c0</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+            <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+            <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+          </sv:node>
+          <sv:node sv:name="resources">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippo:facetselect</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:docbase" sv:type="String">
+              <sv:value>c518dfaa-6172-4d07-827f-a37af9dfbf54</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+            <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+            <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+          </sv:node>
+          <sv:node sv:name="the-world-market">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippo:facetselect</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:docbase" sv:type="String">
+              <sv:value>22604139-f87b-47eb-a3cf-ed17df61b8ea</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+            <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+            <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+          </sv:node>
         </sv:node>
       </sv:node>
       <sv:node sv:name="guide">
@@ -1028,7 +1072,7 @@
           <sv:value>0820bb00-9690-42b4-99d0-29b90488e478</sv:value>
         </sv:property>
         <sv:property sv:name="atlast:title" sv:type="String">
-          <sv:value>Start page</sv:value>
+          <sv:value>The Burden of Leadership</sv:value>
         </sv:property>
         <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
           <sv:value>preview</sv:value>
@@ -1049,7 +1093,7 @@
           <sv:value>2015-10-14T18:59:43.048-04:00</sv:value>
         </sv:property>
         <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
-          <sv:value>2015-10-23T16:17:22.035-04:00</sv:value>
+          <sv:value>2015-10-24T15:08:25.809-04:00</sv:value>
         </sv:property>
         <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
           <sv:value>admin</sv:value>
@@ -1065,8 +1109,52 @@
             <sv:value>hippostd:html</sv:value>
           </sv:property>
           <sv:property sv:name="hippostd:content" sv:type="String">
-            <sv:value>&lt;p&gt;This is the start page&amp;nbsp;This is the start page&amp;nbsp;This is the start page&amp;nbsp;This is the start page&amp;nbsp;This is the start page&amp;nbsp;This is the start page&amp;nbsp;This is the start page&amp;nbsp;This is the start page&amp;nbsp;This is the start page&amp;nbsp;This is the start page&amp;nbsp;This is the start page&amp;nbsp;This is the start page&amp;nbsp;This is the start page&amp;nbsp;This is the start page&amp;nbsp;This is the start page&amp;nbsp;&lt;/p&gt;</sv:value>
+            <sv:value>&lt;p&gt;Welcome, Atalaster. You have found yourself in charge of a group of your &lt;a href="population"&gt;people&lt;/a&gt;, banded together by a common heritage or belief system. You must guide their activities in a wild and unforgiving world. Develop your &lt;a href="lands"&gt;land&lt;/a&gt; and set your people to work producing&amp;nbsp;&lt;a href="resources"&gt;goods&lt;/a&gt; for sale in the &lt;a href="the-world-market"&gt;world market&lt;/a&gt;. With the help of foreigners and your wise council, you can increase your numbers and expand into new lands.&lt;/p&gt;</sv:value>
           </sv:property>
+          <sv:node sv:name="population">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippo:facetselect</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:docbase" sv:type="String">
+              <sv:value>6f3f4a00-0530-4d9b-bf4c-585a59eaaa2a</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+            <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+            <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+          </sv:node>
+          <sv:node sv:name="lands">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippo:facetselect</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:docbase" sv:type="String">
+              <sv:value>542e6939-2804-48a7-ab85-26352201e0c0</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+            <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+            <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+          </sv:node>
+          <sv:node sv:name="resources">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippo:facetselect</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:docbase" sv:type="String">
+              <sv:value>c518dfaa-6172-4d07-827f-a37af9dfbf54</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+            <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+            <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+          </sv:node>
+          <sv:node sv:name="the-world-market">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippo:facetselect</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:docbase" sv:type="String">
+              <sv:value>22604139-f87b-47eb-a3cf-ed17df61b8ea</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+            <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+            <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+          </sv:node>
         </sv:node>
       </sv:node>
       <sv:node sv:name="guide">
@@ -1080,7 +1168,7 @@
           <sv:value>1547c514-0247-42f5-a4a5-16649f16b9c5</sv:value>
         </sv:property>
         <sv:property sv:name="atlast:title" sv:type="String">
-          <sv:value>Start page</sv:value>
+          <sv:value>The Burden of Leadership</sv:value>
         </sv:property>
         <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
           <sv:value>live</sv:value>
@@ -1101,13 +1189,13 @@
           <sv:value>2015-10-14T18:59:43.048-04:00</sv:value>
         </sv:property>
         <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
-          <sv:value>2015-10-23T16:17:22.035-04:00</sv:value>
+          <sv:value>2015-10-24T15:08:25.809-04:00</sv:value>
         </sv:property>
         <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
           <sv:value>admin</sv:value>
         </sv:property>
         <sv:property sv:name="hippostdpubwf:publicationDate" sv:type="Date">
-          <sv:value>2015-10-23T16:17:24.125-04:00</sv:value>
+          <sv:value>2015-10-24T15:12:07.446-04:00</sv:value>
         </sv:property>
         <sv:property sv:name="hippotranslation:id" sv:type="String">
           <sv:value>12e3ff28-6b91-44f1-98df-80f0e56fcb92</sv:value>
@@ -1120,189 +1208,52 @@
             <sv:value>hippostd:html</sv:value>
           </sv:property>
           <sv:property sv:name="hippostd:content" sv:type="String">
-            <sv:value>&lt;p&gt;This is the start page&amp;nbsp;This is the start page&amp;nbsp;This is the start page&amp;nbsp;This is the start page&amp;nbsp;This is the start page&amp;nbsp;This is the start page&amp;nbsp;This is the start page&amp;nbsp;This is the start page&amp;nbsp;This is the start page&amp;nbsp;This is the start page&amp;nbsp;This is the start page&amp;nbsp;This is the start page&amp;nbsp;This is the start page&amp;nbsp;This is the start page&amp;nbsp;This is the start page&amp;nbsp;&lt;/p&gt;</sv:value>
+            <sv:value>&lt;p&gt;Welcome, Atalaster. You have found yourself in charge of a group of your &lt;a href="population"&gt;people&lt;/a&gt;, banded together by a common heritage or belief system. You must guide their activities in a wild and unforgiving world. Develop your &lt;a href="lands"&gt;land&lt;/a&gt; and set your people to work producing&amp;nbsp;&lt;a href="resources"&gt;goods&lt;/a&gt; for sale in the &lt;a href="the-world-market"&gt;world market&lt;/a&gt;. With the help of foreigners and your wise council, you can increase your numbers and expand into new lands.&lt;/p&gt;</sv:value>
           </sv:property>
-        </sv:node>
-      </sv:node>
-    </sv:node>
-    <sv:node sv:name="population">
-      <sv:property sv:name="jcr:primaryType" sv:type="Name">
-        <sv:value>hippo:handle</sv:value>
-      </sv:property>
-      <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
-        <sv:value>mix:referenceable</sv:value>
-        <sv:value>hippo:translated</sv:value>
-      </sv:property>
-      <sv:property sv:name="jcr:uuid" sv:type="String">
-        <sv:value>6f3f4a00-0530-4d9b-bf4c-585a59eaaa2a</sv:value>
-      </sv:property>
-      <sv:node sv:name="population">
-        <sv:property sv:name="jcr:primaryType" sv:type="Name">
-          <sv:value>atlast:contentdocument</sv:value>
-        </sv:property>
-        <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
-          <sv:value>mix:referenceable</sv:value>
-        </sv:property>
-        <sv:property sv:name="jcr:uuid" sv:type="String">
-          <sv:value>dbf47bbf-8929-4f4d-93c4-fcc97ed9bb3e</sv:value>
-        </sv:property>
-        <sv:property sv:name="atlast:title" sv:type="String">
-          <sv:value>Population</sv:value>
-        </sv:property>
-        <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true"/>
-        <sv:property sv:name="hippo:related___pathreference" sv:type="String">
-          <sv:value>info/guide/population/population[3]</sv:value>
-          <sv:value>info/guide/population/population[2]</sv:value>
-        </sv:property>
-        <sv:property sv:name="hippostd:state" sv:type="String">
-          <sv:value>draft</sv:value>
-        </sv:property>
-        <sv:property sv:name="hippostd:stateSummary" sv:type="String">
-          <sv:value>live</sv:value>
-        </sv:property>
-        <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
-          <sv:value>admin</sv:value>
-        </sv:property>
-        <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
-          <sv:value>2015-10-14T19:00:37.841-04:00</sv:value>
-        </sv:property>
-        <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
-          <sv:value>2015-10-14T19:00:37.922-04:00</sv:value>
-        </sv:property>
-        <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
-          <sv:value>admin</sv:value>
-        </sv:property>
-        <sv:property sv:name="hippotranslation:id" sv:type="String">
-          <sv:value>bfb6e71d-9e89-4bab-9a2b-9d83d3fb90dc</sv:value>
-        </sv:property>
-        <sv:property sv:name="hippotranslation:locale" sv:type="String">
-          <sv:value>en</sv:value>
-        </sv:property>
-        <sv:node sv:name="atlast:content">
-          <sv:property sv:name="jcr:primaryType" sv:type="Name">
-            <sv:value>hippostd:html</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippostd:content" sv:type="String">
-            <sv:value>&lt;p&gt;this is about population&amp;nbsp;this is about population&amp;nbsp;this is about population&amp;nbsp;this is about population&amp;nbsp;this is about population&amp;nbsp;this is about population&amp;nbsp;this is about population&amp;nbsp;this is about population&amp;nbsp;this is about population&amp;nbsp;this is about population&amp;nbsp;this is about population&amp;nbsp;this is about population&amp;nbsp;this is about population&amp;nbsp;this is about population&amp;nbsp;this is about population&amp;nbsp;this is about population&amp;nbsp;this is about population&amp;nbsp;this is about population&amp;nbsp;this is about population&amp;nbsp;&lt;/p&gt;</sv:value>
-          </sv:property>
-        </sv:node>
-      </sv:node>
-      <sv:node sv:name="hippo:translation">
-        <sv:property sv:name="jcr:primaryType" sv:type="Name">
-          <sv:value>hippo:translation</sv:value>
-        </sv:property>
-        <sv:property sv:name="hippo:language" sv:type="String">
-          <sv:value/>
-        </sv:property>
-        <sv:property sv:name="hippo:message" sv:type="String">
-          <sv:value>Population</sv:value>
-        </sv:property>
-      </sv:node>
-      <sv:node sv:name="population">
-        <sv:property sv:name="jcr:primaryType" sv:type="Name">
-          <sv:value>atlast:contentdocument</sv:value>
-        </sv:property>
-        <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
-          <sv:value>mix:versionable</sv:value>
-        </sv:property>
-        <sv:property sv:name="jcr:uuid" sv:type="String">
-          <sv:value>97ae0796-591c-44d0-8bc6-11de7cad7811</sv:value>
-        </sv:property>
-        <sv:property sv:name="atlast:title" sv:type="String">
-          <sv:value>Population</sv:value>
-        </sv:property>
-        <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
-          <sv:value>preview</sv:value>
-        </sv:property>
-        <sv:property sv:name="hippo:related___pathreference" sv:type="String">
-          <sv:value>info/guide/population/population[3]</sv:value>
-        </sv:property>
-        <sv:property sv:name="hippostd:state" sv:type="String">
-          <sv:value>unpublished</sv:value>
-        </sv:property>
-        <sv:property sv:name="hippostd:stateSummary" sv:type="String">
-          <sv:value>live</sv:value>
-        </sv:property>
-        <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
-          <sv:value>admin</sv:value>
-        </sv:property>
-        <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
-          <sv:value>2015-10-14T19:00:37.841-04:00</sv:value>
-        </sv:property>
-        <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
-          <sv:value>2015-10-14T19:00:53.035-04:00</sv:value>
-        </sv:property>
-        <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
-          <sv:value>admin</sv:value>
-        </sv:property>
-        <sv:property sv:name="hippotranslation:id" sv:type="String">
-          <sv:value>bfb6e71d-9e89-4bab-9a2b-9d83d3fb90dc</sv:value>
-        </sv:property>
-        <sv:property sv:name="hippotranslation:locale" sv:type="String">
-          <sv:value>en</sv:value>
-        </sv:property>
-        <sv:node sv:name="atlast:content">
-          <sv:property sv:name="jcr:primaryType" sv:type="Name">
-            <sv:value>hippostd:html</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippostd:content" sv:type="String">
-            <sv:value>&lt;p&gt;this is about population&amp;nbsp;this is about population&amp;nbsp;this is about population&amp;nbsp;this is about population&amp;nbsp;this is about population&amp;nbsp;this is about population&amp;nbsp;this is about population&amp;nbsp;this is about population&amp;nbsp;this is about population&amp;nbsp;this is about population&amp;nbsp;this is about population&amp;nbsp;this is about population&amp;nbsp;this is about population&amp;nbsp;this is about population&amp;nbsp;this is about population&amp;nbsp;this is about population&amp;nbsp;this is about population&amp;nbsp;this is about population&amp;nbsp;this is about population&amp;nbsp;&lt;/p&gt;</sv:value>
-          </sv:property>
-        </sv:node>
-      </sv:node>
-      <sv:node sv:name="population">
-        <sv:property sv:name="jcr:primaryType" sv:type="Name">
-          <sv:value>atlast:contentdocument</sv:value>
-        </sv:property>
-        <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
-          <sv:value>mix:referenceable</sv:value>
-        </sv:property>
-        <sv:property sv:name="jcr:uuid" sv:type="String">
-          <sv:value>04cf6e95-be98-4733-b682-4500cce18183</sv:value>
-        </sv:property>
-        <sv:property sv:name="atlast:title" sv:type="String">
-          <sv:value>Population</sv:value>
-        </sv:property>
-        <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
-          <sv:value>live</sv:value>
-        </sv:property>
-        <sv:property sv:name="hippo:related___pathreference" sv:type="String">
-          <sv:value>info/guide/population/population[2]</sv:value>
-        </sv:property>
-        <sv:property sv:name="hippostd:state" sv:type="String">
-          <sv:value>published</sv:value>
-        </sv:property>
-        <sv:property sv:name="hippostd:stateSummary" sv:type="String">
-          <sv:value>live</sv:value>
-        </sv:property>
-        <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
-          <sv:value>admin</sv:value>
-        </sv:property>
-        <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
-          <sv:value>2015-10-14T19:00:37.841-04:00</sv:value>
-        </sv:property>
-        <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
-          <sv:value>2015-10-14T19:00:53.035-04:00</sv:value>
-        </sv:property>
-        <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
-          <sv:value>admin</sv:value>
-        </sv:property>
-        <sv:property sv:name="hippostdpubwf:publicationDate" sv:type="Date">
-          <sv:value>2015-10-14T19:00:54.409-04:00</sv:value>
-        </sv:property>
-        <sv:property sv:name="hippotranslation:id" sv:type="String">
-          <sv:value>bfb6e71d-9e89-4bab-9a2b-9d83d3fb90dc</sv:value>
-        </sv:property>
-        <sv:property sv:name="hippotranslation:locale" sv:type="String">
-          <sv:value>en</sv:value>
-        </sv:property>
-        <sv:node sv:name="atlast:content">
-          <sv:property sv:name="jcr:primaryType" sv:type="Name">
-            <sv:value>hippostd:html</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippostd:content" sv:type="String">
-            <sv:value>&lt;p&gt;this is about population&amp;nbsp;this is about population&amp;nbsp;this is about population&amp;nbsp;this is about population&amp;nbsp;this is about population&amp;nbsp;this is about population&amp;nbsp;this is about population&amp;nbsp;this is about population&amp;nbsp;this is about population&amp;nbsp;this is about population&amp;nbsp;this is about population&amp;nbsp;this is about population&amp;nbsp;this is about population&amp;nbsp;this is about population&amp;nbsp;this is about population&amp;nbsp;this is about population&amp;nbsp;this is about population&amp;nbsp;this is about population&amp;nbsp;this is about population&amp;nbsp;&lt;/p&gt;</sv:value>
-          </sv:property>
+          <sv:node sv:name="population">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippo:facetselect</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:docbase" sv:type="String">
+              <sv:value>6f3f4a00-0530-4d9b-bf4c-585a59eaaa2a</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+            <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+            <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+          </sv:node>
+          <sv:node sv:name="lands">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippo:facetselect</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:docbase" sv:type="String">
+              <sv:value>542e6939-2804-48a7-ab85-26352201e0c0</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+            <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+            <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+          </sv:node>
+          <sv:node sv:name="resources">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippo:facetselect</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:docbase" sv:type="String">
+              <sv:value>c518dfaa-6172-4d07-827f-a37af9dfbf54</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+            <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+            <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+          </sv:node>
+          <sv:node sv:name="the-world-market">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippo:facetselect</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:docbase" sv:type="String">
+              <sv:value>22604139-f87b-47eb-a3cf-ed17df61b8ea</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+            <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+            <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+          </sv:node>
         </sv:node>
       </sv:node>
     </sv:node>
@@ -1359,7 +1310,7 @@
             <sv:value>draft</sv:value>
           </sv:property>
           <sv:property sv:name="hippostd:stateSummary" sv:type="String">
-            <sv:value>live</sv:value>
+            <sv:value>changed</sv:value>
           </sv:property>
           <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
             <sv:value>admin</sv:value>
@@ -1368,7 +1319,7 @@
             <sv:value>2015-10-14T19:03:58.995-04:00</sv:value>
           </sv:property>
           <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
-            <sv:value>2015-10-14T19:03:59.053-04:00</sv:value>
+            <sv:value>2015-10-24T16:07:37.599-04:00</sv:value>
           </sv:property>
           <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
             <sv:value>admin</sv:value>
@@ -1384,8 +1335,45 @@
               <sv:value>hippostd:html</sv:value>
             </sv:property>
             <sv:property sv:name="hippostd:content" sv:type="String">
-              <sv:value>&lt;p&gt;This is about resources&amp;nbsp;This is about resources&amp;nbsp;This is about resources&amp;nbsp;This is about resources&amp;nbsp;This is about resources&amp;nbsp;This is about resources&amp;nbsp;This is about resources&amp;nbsp;This is about resources&amp;nbsp;This is about resources&amp;nbsp;This is about resources&amp;nbsp;&lt;/p&gt;</sv:value>
+              <sv:value>&lt;p&gt;There are many goods to trade in Atalaster. There are six main categories of goods for sale in the &lt;a href="the-world-market"&gt;world market&lt;/a&gt; and kept in your &lt;a href="the-store"&gt;store&lt;/a&gt;. Food is eaten by people around the world, it is essential for &lt;a href="population"&gt;population&lt;/a&gt; growth. Upper and middle classes also need goods, everyday essentials for use in the home. Luxuries are consumed by the upper echelons of society.&lt;/p&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+
+&lt;p&gt;Primary resources generally have no direct use, but are used to create other resources. Secondary resources are also used in the creation of other resources, or for other purposes like trade, war and construction. Agricultural resources include crops and animals that are used to produce other goods. The price of each resource is determined by is availability. Resources&amp;nbsp;produced in excess of their use will cheapen over time and those that are used up faster than they can be produced will tend to get more expensive.&amp;nbsp;&lt;/p&gt;</sv:value>
             </sv:property>
+            <sv:node sv:name="the-world-market">
+              <sv:property sv:name="jcr:primaryType" sv:type="Name">
+                <sv:value>hippo:facetselect</sv:value>
+              </sv:property>
+              <sv:property sv:name="hippo:docbase" sv:type="String">
+                <sv:value>22604139-f87b-47eb-a3cf-ed17df61b8ea</sv:value>
+              </sv:property>
+              <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+              <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+              <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+            </sv:node>
+            <sv:node sv:name="the-store">
+              <sv:property sv:name="jcr:primaryType" sv:type="Name">
+                <sv:value>hippo:facetselect</sv:value>
+              </sv:property>
+              <sv:property sv:name="hippo:docbase" sv:type="String">
+                <sv:value>462e7331-f151-4d20-9e94-5dc64d94551f</sv:value>
+              </sv:property>
+              <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+              <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+              <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+            </sv:node>
+            <sv:node sv:name="population">
+              <sv:property sv:name="jcr:primaryType" sv:type="Name">
+                <sv:value>hippo:facetselect</sv:value>
+              </sv:property>
+              <sv:property sv:name="hippo:docbase" sv:type="String">
+                <sv:value>6f3f4a00-0530-4d9b-bf4c-585a59eaaa2a</sv:value>
+              </sv:property>
+              <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+              <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+              <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+            </sv:node>
           </sv:node>
         </sv:node>
         <sv:node sv:name="resources">
@@ -1411,7 +1399,7 @@
             <sv:value>unpublished</sv:value>
           </sv:property>
           <sv:property sv:name="hippostd:stateSummary" sv:type="String">
-            <sv:value>live</sv:value>
+            <sv:value>changed</sv:value>
           </sv:property>
           <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
             <sv:value>admin</sv:value>
@@ -1420,7 +1408,7 @@
             <sv:value>2015-10-14T19:03:58.995-04:00</sv:value>
           </sv:property>
           <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
-            <sv:value>2015-10-14T19:04:12.151-04:00</sv:value>
+            <sv:value>2015-10-24T16:19:12.371-04:00</sv:value>
           </sv:property>
           <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
             <sv:value>admin</sv:value>
@@ -1436,8 +1424,45 @@
               <sv:value>hippostd:html</sv:value>
             </sv:property>
             <sv:property sv:name="hippostd:content" sv:type="String">
-              <sv:value>&lt;p&gt;This is about resources&amp;nbsp;This is about resources&amp;nbsp;This is about resources&amp;nbsp;This is about resources&amp;nbsp;This is about resources&amp;nbsp;This is about resources&amp;nbsp;This is about resources&amp;nbsp;This is about resources&amp;nbsp;This is about resources&amp;nbsp;This is about resources&amp;nbsp;&lt;/p&gt;</sv:value>
+              <sv:value>&lt;p&gt;There are many goods to trade in Atalaster. There are six main categories of goods for sale in the &lt;a href="the-world-market"&gt;world market&lt;/a&gt; and kept in your &lt;a href="the-store"&gt;store&lt;/a&gt;. Food is eaten by people around the world, it is essential for &lt;a href="population"&gt;population&lt;/a&gt; growth. Upper and middle classes also need goods, everyday essentials for use in the home. Luxuries are consumed by the upper echelons of society.&lt;/p&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+
+&lt;p&gt;Primary resources generally have no direct use, but are used to create other resources. Secondary resources are also used in the creation of other resources, or for other purposes like trade, war and construction. Agricultural resources include crops and animals that are used to produce other goods. The price of each resource is determined by is availability. Resources&amp;nbsp;produced in excess of their use will cheapen over time and those that are used up faster than they can be produced will tend to get more expensive.&amp;nbsp;&lt;/p&gt;</sv:value>
             </sv:property>
+            <sv:node sv:name="the-world-market">
+              <sv:property sv:name="jcr:primaryType" sv:type="Name">
+                <sv:value>hippo:facetselect</sv:value>
+              </sv:property>
+              <sv:property sv:name="hippo:docbase" sv:type="String">
+                <sv:value>22604139-f87b-47eb-a3cf-ed17df61b8ea</sv:value>
+              </sv:property>
+              <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+              <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+              <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+            </sv:node>
+            <sv:node sv:name="the-store">
+              <sv:property sv:name="jcr:primaryType" sv:type="Name">
+                <sv:value>hippo:facetselect</sv:value>
+              </sv:property>
+              <sv:property sv:name="hippo:docbase" sv:type="String">
+                <sv:value>462e7331-f151-4d20-9e94-5dc64d94551f</sv:value>
+              </sv:property>
+              <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+              <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+              <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+            </sv:node>
+            <sv:node sv:name="population">
+              <sv:property sv:name="jcr:primaryType" sv:type="Name">
+                <sv:value>hippo:facetselect</sv:value>
+              </sv:property>
+              <sv:property sv:name="hippo:docbase" sv:type="String">
+                <sv:value>6f3f4a00-0530-4d9b-bf4c-585a59eaaa2a</sv:value>
+              </sv:property>
+              <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+              <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+              <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+            </sv:node>
           </sv:node>
         </sv:node>
         <sv:node sv:name="resources">
@@ -1463,7 +1488,7 @@
             <sv:value>published</sv:value>
           </sv:property>
           <sv:property sv:name="hippostd:stateSummary" sv:type="String">
-            <sv:value>live</sv:value>
+            <sv:value>changed</sv:value>
           </sv:property>
           <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
             <sv:value>admin</sv:value>
@@ -1496,18 +1521,1092 @@
           </sv:node>
         </sv:node>
       </sv:node>
-      <sv:node sv:name="fish">
+      <sv:node sv:name="food">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippostd:folder</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+          <sv:value>hippotranslation:translated</sv:value>
+          <sv:value>mix:versionable</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:uuid" sv:type="String">
+          <sv:value>281ea5e2-936b-462a-9c68-5fe9d57ac9d6</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:foldertype" sv:type="String" sv:multiple="true">
+          <sv:value>new-translated-folder</sv:value>
+          <sv:value>new-document</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippotranslation:id" sv:type="String">
+          <sv:value>1f8f5e9c-56b4-4b86-8bab-51994b93f61a</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippotranslation:locale" sv:type="String">
+          <sv:value>en</sv:value>
+        </sv:property>
+        <sv:node sv:name="food">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hippo:handle</sv:value>
+          </sv:property>
+          <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+            <sv:value>mix:referenceable</sv:value>
+          </sv:property>
+          <sv:property sv:name="jcr:uuid" sv:type="String">
+            <sv:value>79bc1fc1-7d66-42e9-8ec4-f66ddbdd2375</sv:value>
+          </sv:property>
+          <sv:node sv:name="food">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>atlast:contentdocument</sv:value>
+            </sv:property>
+            <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+              <sv:value>mix:referenceable</sv:value>
+            </sv:property>
+            <sv:property sv:name="jcr:uuid" sv:type="String">
+              <sv:value>0f6b7f53-2424-4a88-a126-cfe07e98631f</sv:value>
+            </sv:property>
+            <sv:property sv:name="atlast:title" sv:type="String">
+              <sv:value>Food</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true"/>
+            <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+              <sv:value>info/guide/resources/food/food/food[3]</sv:value>
+              <sv:value>info/guide/resources/food/food/food[2]</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippostd:state" sv:type="String">
+              <sv:value>draft</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+              <sv:value>live</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+              <sv:value>admin</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+              <sv:value>2015-10-24T16:19:30.136-04:00</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+              <sv:value>2015-10-24T16:19:30.154-04:00</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+              <sv:value>admin</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippotranslation:id" sv:type="String">
+              <sv:value>34594606-bdaa-47af-be85-fef14736abb2</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippotranslation:locale" sv:type="String">
+              <sv:value>en</sv:value>
+            </sv:property>
+            <sv:node sv:name="atlast:content">
+              <sv:property sv:name="jcr:primaryType" sv:type="Name">
+                <sv:value>hippostd:html</sv:value>
+              </sv:property>
+              <sv:property sv:name="hippostd:content" sv:type="String">
+                <sv:value>&lt;p&gt;Are you hungry, Atalaster? There are ten major foods eaten in the world. Every person in the world must eat one unit of food every day to survive. People will consume up to five units a day to feed their children and will stockpile food in their kitchens.&lt;/p&gt;</sv:value>
+              </sv:property>
+            </sv:node>
+          </sv:node>
+          <sv:node sv:name="food">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>atlast:contentdocument</sv:value>
+            </sv:property>
+            <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+              <sv:value>mix:versionable</sv:value>
+              <sv:value>mix:referenceable</sv:value>
+            </sv:property>
+            <sv:property sv:name="jcr:uuid" sv:type="String">
+              <sv:value>d5deb671-f439-4fea-995d-09a5411b1b76</sv:value>
+            </sv:property>
+            <sv:property sv:name="atlast:title" sv:type="String">
+              <sv:value>Food</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
+              <sv:value>preview</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+              <sv:value>info/guide/resources/food/food/food[3]</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippostd:state" sv:type="String">
+              <sv:value>unpublished</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+              <sv:value>live</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+              <sv:value>admin</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+              <sv:value>2015-10-24T16:19:30.136-04:00</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+              <sv:value>2015-10-24T16:24:40.894-04:00</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+              <sv:value>admin</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippotranslation:id" sv:type="String">
+              <sv:value>34594606-bdaa-47af-be85-fef14736abb2</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippotranslation:locale" sv:type="String">
+              <sv:value>en</sv:value>
+            </sv:property>
+            <sv:node sv:name="atlast:content">
+              <sv:property sv:name="jcr:primaryType" sv:type="Name">
+                <sv:value>hippostd:html</sv:value>
+              </sv:property>
+              <sv:property sv:name="hippostd:content" sv:type="String">
+                <sv:value>&lt;p&gt;Are you hungry, Atalaster? There are ten major foods eaten in the world. Every person in the world must eat one unit of food every day to survive. People will consume up to five units a day to feed their children and will stockpile food in their kitchens.&lt;/p&gt;</sv:value>
+              </sv:property>
+            </sv:node>
+          </sv:node>
+          <sv:node sv:name="food">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>atlast:contentdocument</sv:value>
+            </sv:property>
+            <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+              <sv:value>mix:referenceable</sv:value>
+            </sv:property>
+            <sv:property sv:name="jcr:uuid" sv:type="String">
+              <sv:value>324d6cc8-2137-4785-a72a-0230745f788b</sv:value>
+            </sv:property>
+            <sv:property sv:name="atlast:title" sv:type="String">
+              <sv:value>Food</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
+              <sv:value>live</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+              <sv:value>info/guide/resources/food/food/food[2]</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippostd:state" sv:type="String">
+              <sv:value>published</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+              <sv:value>live</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+              <sv:value>admin</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+              <sv:value>2015-10-24T16:19:30.136-04:00</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+              <sv:value>2015-10-24T16:24:40.894-04:00</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+              <sv:value>admin</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippostdpubwf:publicationDate" sv:type="Date">
+              <sv:value>2015-10-24T16:24:42.788-04:00</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippotranslation:id" sv:type="String">
+              <sv:value>34594606-bdaa-47af-be85-fef14736abb2</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippotranslation:locale" sv:type="String">
+              <sv:value>en</sv:value>
+            </sv:property>
+            <sv:node sv:name="atlast:content">
+              <sv:property sv:name="jcr:primaryType" sv:type="Name">
+                <sv:value>hippostd:html</sv:value>
+              </sv:property>
+              <sv:property sv:name="hippostd:content" sv:type="String">
+                <sv:value>&lt;p&gt;Are you hungry, Atalaster? There are ten major foods eaten in the world. Every person in the world must eat one unit of food every day to survive. People will consume up to five units a day to feed their children and will stockpile food in their kitchens.&lt;/p&gt;</sv:value>
+              </sv:property>
+            </sv:node>
+          </sv:node>
+        </sv:node>
+        <sv:node sv:name="rice">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hippo:handle</sv:value>
+          </sv:property>
+          <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+            <sv:value>mix:referenceable</sv:value>
+          </sv:property>
+          <sv:property sv:name="jcr:uuid" sv:type="String">
+            <sv:value>56258b30-4f39-426f-aa50-995b5e8e6910</sv:value>
+          </sv:property>
+          <sv:node sv:name="rice">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>atlast:contentdocument</sv:value>
+            </sv:property>
+            <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+              <sv:value>mix:referenceable</sv:value>
+            </sv:property>
+            <sv:property sv:name="jcr:uuid" sv:type="String">
+              <sv:value>aa69f46d-aff0-45e1-a5f9-6cd04f0f6489</sv:value>
+            </sv:property>
+            <sv:property sv:name="atlast:title" sv:type="String">
+              <sv:value>Rice</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true"/>
+            <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+              <sv:value>info/guide/resources/food/rice/rice[2]</sv:value>
+              <sv:value>info/guide/resources/food/rice/rice[3]</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippostd:state" sv:type="String">
+              <sv:value>draft</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+              <sv:value>changed</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+              <sv:value>admin</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+              <sv:value>2015-10-24T16:24:49.261-04:00</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+              <sv:value>2015-10-24T16:30:20.905-04:00</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+              <sv:value>admin</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippotranslation:id" sv:type="String">
+              <sv:value>5cd2ae1b-1d6c-4704-b6c5-798290b806b0</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippotranslation:locale" sv:type="String">
+              <sv:value>en</sv:value>
+            </sv:property>
+            <sv:node sv:name="atlast:content">
+              <sv:property sv:name="jcr:primaryType" sv:type="Name">
+                <sv:value>hippostd:html</sv:value>
+              </sv:property>
+              <sv:property sv:name="hippostd:content" sv:type="String">
+                <sv:value>&lt;p&gt;&lt;img src="rice.png/{_document}/atlast:mediumicon" /&gt;&amp;nbsp;&lt;/p&gt;
+
+&lt;p&gt;Rice is an essential staple for many cultures. A cereal grain that is grown in a variety of climates, but particularly in flooded plantations where pests like animals and other plants cannot thrive. Rice is best&amp;nbsp;grown on&amp;nbsp;wetlands, it does well in jungles and can een be grown in limited amounts in forests.&lt;/p&gt;</sv:value>
+              </sv:property>
+              <sv:node sv:name="rice.png">
+                <sv:property sv:name="jcr:primaryType" sv:type="Name">
+                  <sv:value>hippo:facetselect</sv:value>
+                </sv:property>
+                <sv:property sv:name="hippo:docbase" sv:type="String">
+                  <sv:value>3787dc3f-18a4-4c75-b7d0-8b82ea45211d</sv:value>
+                </sv:property>
+                <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+                <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+                <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+              </sv:node>
+            </sv:node>
+          </sv:node>
+          <sv:node sv:name="rice">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>atlast:contentdocument</sv:value>
+            </sv:property>
+            <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+              <sv:value>mix:versionable</sv:value>
+              <sv:value>mix:referenceable</sv:value>
+            </sv:property>
+            <sv:property sv:name="jcr:uuid" sv:type="String">
+              <sv:value>b293d969-97fb-43ea-a060-c72bfe01ef1c</sv:value>
+            </sv:property>
+            <sv:property sv:name="atlast:title" sv:type="String">
+              <sv:value>Rice</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
+              <sv:value>preview</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+              <sv:value>info/guide/resources/food/rice/rice[3]</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippostd:state" sv:type="String">
+              <sv:value>unpublished</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+              <sv:value>changed</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+              <sv:value>admin</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+              <sv:value>2015-10-24T16:24:49.261-04:00</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+              <sv:value>2015-10-24T16:32:55.240-04:00</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+              <sv:value>admin</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippotranslation:id" sv:type="String">
+              <sv:value>5cd2ae1b-1d6c-4704-b6c5-798290b806b0</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippotranslation:locale" sv:type="String">
+              <sv:value>en</sv:value>
+            </sv:property>
+            <sv:node sv:name="atlast:content">
+              <sv:property sv:name="jcr:primaryType" sv:type="Name">
+                <sv:value>hippostd:html</sv:value>
+              </sv:property>
+              <sv:property sv:name="hippostd:content" sv:type="String">
+                <sv:value>&lt;p&gt;&lt;img src="rice.png/{_document}/atlast:mediumicon" /&gt;&amp;nbsp;&lt;/p&gt;
+
+&lt;p&gt;Rice is an essential staple for many cultures. A cereal grain that is grown in a variety of climates, but particularly in flooded plantations where pests like animals and other plants cannot thrive. Rice is best&amp;nbsp;grown on&amp;nbsp;wetlands, it does well in jungles and can een be grown in limited amounts in forests.&lt;/p&gt;</sv:value>
+              </sv:property>
+              <sv:node sv:name="rice.png">
+                <sv:property sv:name="jcr:primaryType" sv:type="Name">
+                  <sv:value>hippo:facetselect</sv:value>
+                </sv:property>
+                <sv:property sv:name="hippo:docbase" sv:type="String">
+                  <sv:value>3787dc3f-18a4-4c75-b7d0-8b82ea45211d</sv:value>
+                </sv:property>
+                <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+                <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+                <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+              </sv:node>
+            </sv:node>
+          </sv:node>
+          <sv:node sv:name="rice">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>atlast:contentdocument</sv:value>
+            </sv:property>
+            <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+              <sv:value>mix:referenceable</sv:value>
+            </sv:property>
+            <sv:property sv:name="jcr:uuid" sv:type="String">
+              <sv:value>e1235148-02bf-4ae9-9151-78404392769a</sv:value>
+            </sv:property>
+            <sv:property sv:name="atlast:title" sv:type="String">
+              <sv:value>Rice</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
+              <sv:value>live</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+              <sv:value>info/guide/resources/food/rice/rice[2]</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippostd:state" sv:type="String">
+              <sv:value>published</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+              <sv:value>changed</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+              <sv:value>admin</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+              <sv:value>2015-10-24T16:24:49.261-04:00</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+              <sv:value>2015-10-24T16:29:31.714-04:00</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+              <sv:value>admin</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippostdpubwf:publicationDate" sv:type="Date">
+              <sv:value>2015-10-24T16:29:33.133-04:00</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippotranslation:id" sv:type="String">
+              <sv:value>5cd2ae1b-1d6c-4704-b6c5-798290b806b0</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippotranslation:locale" sv:type="String">
+              <sv:value>en</sv:value>
+            </sv:property>
+            <sv:node sv:name="atlast:content">
+              <sv:property sv:name="jcr:primaryType" sv:type="Name">
+                <sv:value>hippostd:html</sv:value>
+              </sv:property>
+              <sv:property sv:name="hippostd:content" sv:type="String">
+                <sv:value>&lt;p&gt;&lt;img src="rice.png/{_document}/atlast:mediumicon" /&gt;&amp;nbsp;&lt;/p&gt;
+
+&lt;p&gt;Rice is an essential staple for many cultures. A cereal grain that is grown in a variety of climates, but particularly in flooded fields where pests like animals and other plants cannot thrive.&amp;nbsp;&lt;/p&gt;</sv:value>
+              </sv:property>
+              <sv:node sv:name="rice.png">
+                <sv:property sv:name="jcr:primaryType" sv:type="Name">
+                  <sv:value>hippo:facetselect</sv:value>
+                </sv:property>
+                <sv:property sv:name="hippo:docbase" sv:type="String">
+                  <sv:value>3787dc3f-18a4-4c75-b7d0-8b82ea45211d</sv:value>
+                </sv:property>
+                <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+                <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+                <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+              </sv:node>
+            </sv:node>
+          </sv:node>
+        </sv:node>
+      </sv:node>
+    </sv:node>
+    <sv:node sv:name="the-store">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>hippo:handle</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+        <sv:value>mix:referenceable</sv:value>
+        <sv:value>hippo:translated</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:uuid" sv:type="String">
+        <sv:value>462e7331-f151-4d20-9e94-5dc64d94551f</sv:value>
+      </sv:property>
+      <sv:node sv:name="the-store">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>atlast:contentdocument</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+          <sv:value>mix:referenceable</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:uuid" sv:type="String">
+          <sv:value>562fbdb2-1327-471c-a97e-f1d0c7b78bdf</sv:value>
+        </sv:property>
+        <sv:property sv:name="atlast:title" sv:type="String">
+          <sv:value>The Store</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true"/>
+        <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+          <sv:value>info/guide/the-store/the-store[2]</sv:value>
+          <sv:value>info/guide/the-store/the-store[3]</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:state" sv:type="String">
+          <sv:value>draft</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+          <sv:value>live</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+          <sv:value>admin</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+          <sv:value>2015-10-24T14:42:18.345-04:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+          <sv:value>2015-10-24T15:09:52.021-04:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+          <sv:value>admin</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippotranslation:id" sv:type="String">
+          <sv:value>b60bd152-5197-42e1-ade7-c257a73dfacf</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippotranslation:locale" sv:type="String">
+          <sv:value>en</sv:value>
+        </sv:property>
+        <sv:node sv:name="atlast:content">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hippostd:html</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostd:content" sv:type="String">
+            <sv:value>&lt;p&gt;Yes, Atalaster, every venture such as yours has a store. Here you keep the &lt;a href="resources"&gt;goods&lt;/a&gt; you buy from abroad and things that are produced within your &lt;a href="lands"&gt;lands&lt;/a&gt;. There are six groups of goods, the consumables; food, goods and luxuries and other goods used for various purposes like&amp;nbsp;trade, war, construction and the production of other goods.&lt;/p&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+
+&lt;p&gt;At the store you can set the level of each good. Every game day, your traders will buy goods to reach the level you hae set for each type of good. Any goods that are&amp;nbsp;in excess of the limit, after your &lt;a href="population"&gt;people&lt;/a&gt; have produced them, will be sold on the &lt;a href="the-world-market"&gt;world market&lt;/a&gt;. The maximum level of each good is determined by&amp;nbsp;the efforts of your merchants in your council.&lt;/p&gt;</sv:value>
+          </sv:property>
+          <sv:node sv:name="resources">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippo:facetselect</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:docbase" sv:type="String">
+              <sv:value>c518dfaa-6172-4d07-827f-a37af9dfbf54</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+            <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+            <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+          </sv:node>
+          <sv:node sv:name="lands">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippo:facetselect</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:docbase" sv:type="String">
+              <sv:value>542e6939-2804-48a7-ab85-26352201e0c0</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+            <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+            <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+          </sv:node>
+          <sv:node sv:name="population">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippo:facetselect</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:docbase" sv:type="String">
+              <sv:value>6f3f4a00-0530-4d9b-bf4c-585a59eaaa2a</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+            <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+            <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+          </sv:node>
+          <sv:node sv:name="the-world-market">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippo:facetselect</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:docbase" sv:type="String">
+              <sv:value>22604139-f87b-47eb-a3cf-ed17df61b8ea</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+            <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+            <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+          </sv:node>
+        </sv:node>
+      </sv:node>
+      <sv:node sv:name="hippo:translation">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippo:translation</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:language" sv:type="String">
+          <sv:value/>
+        </sv:property>
+        <sv:property sv:name="hippo:message" sv:type="String">
+          <sv:value>The Store</sv:value>
+        </sv:property>
+      </sv:node>
+      <sv:node sv:name="the-store">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>atlast:contentdocument</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+          <sv:value>mix:versionable</sv:value>
+          <sv:value>mix:referenceable</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:uuid" sv:type="String">
+          <sv:value>292af8c4-9d47-4244-ae4d-e7fa8a7d702c</sv:value>
+        </sv:property>
+        <sv:property sv:name="atlast:title" sv:type="String">
+          <sv:value>The Store</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
+          <sv:value>preview</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+          <sv:value>info/guide/the-store/the-store[3]</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:state" sv:type="String">
+          <sv:value>unpublished</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+          <sv:value>live</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+          <sv:value>admin</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+          <sv:value>2015-10-24T14:42:18.345-04:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+          <sv:value>2015-10-24T15:10:44.368-04:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+          <sv:value>admin</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippotranslation:id" sv:type="String">
+          <sv:value>b60bd152-5197-42e1-ade7-c257a73dfacf</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippotranslation:locale" sv:type="String">
+          <sv:value>en</sv:value>
+        </sv:property>
+        <sv:node sv:name="atlast:content">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hippostd:html</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostd:content" sv:type="String">
+            <sv:value>&lt;p&gt;Yes, Atalaster, every venture such as yours has a store. Here you keep the &lt;a href="resources"&gt;goods&lt;/a&gt; you buy from abroad and things that are produced within your &lt;a href="lands"&gt;lands&lt;/a&gt;. There are six groups of goods, the consumables; food, goods and luxuries and other goods used for various purposes like&amp;nbsp;trade, war, construction and the production of other goods.&lt;/p&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+
+&lt;p&gt;At the store you can set the level of each good. Every game day, your traders will buy goods to reach the level you hae set for each type of good. Any goods that are&amp;nbsp;in excess of the limit, after your &lt;a href="population"&gt;people&lt;/a&gt; have produced them, will be sold on the &lt;a href="the-world-market"&gt;world market&lt;/a&gt;. The maximum level of each good is determined by&amp;nbsp;the efforts of your merchants in your council.&lt;/p&gt;</sv:value>
+          </sv:property>
+          <sv:node sv:name="resources">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippo:facetselect</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:docbase" sv:type="String">
+              <sv:value>c518dfaa-6172-4d07-827f-a37af9dfbf54</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+            <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+            <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+          </sv:node>
+          <sv:node sv:name="lands">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippo:facetselect</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:docbase" sv:type="String">
+              <sv:value>542e6939-2804-48a7-ab85-26352201e0c0</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+            <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+            <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+          </sv:node>
+          <sv:node sv:name="population">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippo:facetselect</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:docbase" sv:type="String">
+              <sv:value>6f3f4a00-0530-4d9b-bf4c-585a59eaaa2a</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+            <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+            <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+          </sv:node>
+          <sv:node sv:name="the-world-market">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippo:facetselect</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:docbase" sv:type="String">
+              <sv:value>22604139-f87b-47eb-a3cf-ed17df61b8ea</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+            <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+            <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+          </sv:node>
+        </sv:node>
+      </sv:node>
+      <sv:node sv:name="the-store">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>atlast:contentdocument</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+          <sv:value>mix:referenceable</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:uuid" sv:type="String">
+          <sv:value>c0993b2c-8a40-4117-9b92-27b1a3755e3a</sv:value>
+        </sv:property>
+        <sv:property sv:name="atlast:title" sv:type="String">
+          <sv:value>The Store</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
+          <sv:value>live</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+          <sv:value>info/guide/the-store/the-store[2]</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:state" sv:type="String">
+          <sv:value>published</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+          <sv:value>live</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+          <sv:value>admin</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+          <sv:value>2015-10-24T14:42:18.345-04:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+          <sv:value>2015-10-24T15:10:44.368-04:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+          <sv:value>admin</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:publicationDate" sv:type="Date">
+          <sv:value>2015-10-24T15:12:07.622-04:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippotranslation:id" sv:type="String">
+          <sv:value>b60bd152-5197-42e1-ade7-c257a73dfacf</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippotranslation:locale" sv:type="String">
+          <sv:value>en</sv:value>
+        </sv:property>
+        <sv:node sv:name="atlast:content">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hippostd:html</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostd:content" sv:type="String">
+            <sv:value>&lt;p&gt;Yes, Atalaster, every venture such as yours has a store. Here you keep the &lt;a href="resources"&gt;goods&lt;/a&gt; you buy from abroad and things that are produced within your &lt;a href="lands"&gt;lands&lt;/a&gt;. There are six groups of goods, the consumables; food, goods and luxuries and other goods used for various purposes like&amp;nbsp;trade, war, construction and the production of other goods.&lt;/p&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+
+&lt;p&gt;At the store you can set the level of each good. Every game day, your traders will buy goods to reach the level you hae set for each type of good. Any goods that are&amp;nbsp;in excess of the limit, after your &lt;a href="population"&gt;people&lt;/a&gt; have produced them, will be sold on the &lt;a href="the-world-market"&gt;world market&lt;/a&gt;. The maximum level of each good is determined by&amp;nbsp;the efforts of your merchants in your council.&lt;/p&gt;</sv:value>
+          </sv:property>
+          <sv:node sv:name="resources">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippo:facetselect</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:docbase" sv:type="String">
+              <sv:value>c518dfaa-6172-4d07-827f-a37af9dfbf54</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+            <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+            <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+          </sv:node>
+          <sv:node sv:name="lands">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippo:facetselect</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:docbase" sv:type="String">
+              <sv:value>542e6939-2804-48a7-ab85-26352201e0c0</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+            <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+            <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+          </sv:node>
+          <sv:node sv:name="population">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippo:facetselect</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:docbase" sv:type="String">
+              <sv:value>6f3f4a00-0530-4d9b-bf4c-585a59eaaa2a</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+            <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+            <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+          </sv:node>
+          <sv:node sv:name="the-world-market">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippo:facetselect</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:docbase" sv:type="String">
+              <sv:value>22604139-f87b-47eb-a3cf-ed17df61b8ea</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+            <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+            <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+          </sv:node>
+        </sv:node>
+      </sv:node>
+    </sv:node>
+    <sv:node sv:name="the-world-market">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>hippo:handle</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+        <sv:value>mix:referenceable</sv:value>
+        <sv:value>hippo:translated</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:uuid" sv:type="String">
+        <sv:value>22604139-f87b-47eb-a3cf-ed17df61b8ea</sv:value>
+      </sv:property>
+      <sv:node sv:name="the-world-market">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>atlast:contentdocument</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+          <sv:value>mix:referenceable</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:uuid" sv:type="String">
+          <sv:value>16fc3c1f-3930-420c-b254-1d0205819a4d</sv:value>
+        </sv:property>
+        <sv:property sv:name="atlast:title" sv:type="String">
+          <sv:value>The World Market</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true"/>
+        <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+          <sv:value>info/guide/the-world-market/the-world-market[3]</sv:value>
+          <sv:value>info/guide/the-world-market/the-world-market[2]</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:state" sv:type="String">
+          <sv:value>draft</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+          <sv:value>live</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+          <sv:value>admin</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+          <sv:value>2015-10-24T14:54:21.379-04:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+          <sv:value>2015-10-24T15:10:46.438-04:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+          <sv:value>admin</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippotranslation:id" sv:type="String">
+          <sv:value>298dc9ee-da2c-4633-999c-0ec5996510d7</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippotranslation:locale" sv:type="String">
+          <sv:value>en</sv:value>
+        </sv:property>
+        <sv:node sv:name="atlast:content">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hippostd:html</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostd:content" sv:type="String">
+            <sv:value>&lt;p&gt;It is a small world, Atalaster. All of the &lt;a href="population"&gt;peoples&lt;/a&gt; in the world are connected and guided in their activities by the price system. &lt;a href="resources"&gt;Goods&lt;/a&gt; produced in excess will eventually become&amp;nbsp;cheaper just as if the demand for a good is higher than its produciton, its price will rise with time. Keep a close eye on prices as the profitability of your &lt;a href="lands"&gt;lands&lt;/a&gt; depends on the prices paid for the goods they produce.&lt;/p&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+
+&lt;p&gt;As the price for a good collapses, leaders around the world will direct their people away from the unprofitable venture and use their resources to product other goods. Savvy leaders can stockpile cheap goods in their &lt;a href="the-store"&gt;stores&lt;/a&gt; and sell them for a profit once the price recovers at a later date. Make sure your people are producing the most valuable goods that their skills, technology and lands allow.&lt;/p&gt;</sv:value>
+          </sv:property>
+          <sv:node sv:name="population">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippo:facetselect</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:docbase" sv:type="String">
+              <sv:value>6f3f4a00-0530-4d9b-bf4c-585a59eaaa2a</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+            <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+            <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+          </sv:node>
+          <sv:node sv:name="resources">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippo:facetselect</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:docbase" sv:type="String">
+              <sv:value>c518dfaa-6172-4d07-827f-a37af9dfbf54</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+            <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+            <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+          </sv:node>
+          <sv:node sv:name="lands">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippo:facetselect</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:docbase" sv:type="String">
+              <sv:value>542e6939-2804-48a7-ab85-26352201e0c0</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+            <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+            <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+          </sv:node>
+          <sv:node sv:name="the-store">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippo:facetselect</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:docbase" sv:type="String">
+              <sv:value>462e7331-f151-4d20-9e94-5dc64d94551f</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+            <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+            <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+          </sv:node>
+        </sv:node>
+      </sv:node>
+      <sv:node sv:name="hippo:translation">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippo:translation</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:language" sv:type="String">
+          <sv:value/>
+        </sv:property>
+        <sv:property sv:name="hippo:message" sv:type="String">
+          <sv:value>The World Market</sv:value>
+        </sv:property>
+      </sv:node>
+      <sv:node sv:name="the-world-market">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>atlast:contentdocument</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+          <sv:value>mix:versionable</sv:value>
+          <sv:value>mix:referenceable</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:uuid" sv:type="String">
+          <sv:value>baaedca7-206d-4acb-8f24-55e2fb713945</sv:value>
+        </sv:property>
+        <sv:property sv:name="atlast:title" sv:type="String">
+          <sv:value>The World Market</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
+          <sv:value>preview</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+          <sv:value>info/guide/the-world-market/the-world-market[3]</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:state" sv:type="String">
+          <sv:value>unpublished</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+          <sv:value>live</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+          <sv:value>admin</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+          <sv:value>2015-10-24T14:54:21.379-04:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+          <sv:value>2015-10-24T15:11:30.882-04:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+          <sv:value>admin</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippotranslation:id" sv:type="String">
+          <sv:value>298dc9ee-da2c-4633-999c-0ec5996510d7</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippotranslation:locale" sv:type="String">
+          <sv:value>en</sv:value>
+        </sv:property>
+        <sv:node sv:name="atlast:content">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hippostd:html</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostd:content" sv:type="String">
+            <sv:value>&lt;p&gt;It is a small world, Atalaster. All of the &lt;a href="population"&gt;peoples&lt;/a&gt; in the world are connected and guided in their activities by the price system. &lt;a href="resources"&gt;Goods&lt;/a&gt; produced in excess will eventually become&amp;nbsp;cheaper just as if the demand for a good is higher than its produciton, its price will rise with time. Keep a close eye on prices as the profitability of your &lt;a href="lands"&gt;lands&lt;/a&gt; depends on the prices paid for the goods they produce.&lt;/p&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+
+&lt;p&gt;As the price for a good collapses, leaders around the world will direct their people away from the unprofitable venture and use their resources to product other goods. Savvy leaders can stockpile cheap goods in their &lt;a href="the-store"&gt;stores&lt;/a&gt; and sell them for a profit once the price recovers at a later date. Make sure your people are producing the most valuable goods that their skills, technology and lands allow.&lt;/p&gt;</sv:value>
+          </sv:property>
+          <sv:node sv:name="population">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippo:facetselect</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:docbase" sv:type="String">
+              <sv:value>6f3f4a00-0530-4d9b-bf4c-585a59eaaa2a</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+            <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+            <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+          </sv:node>
+          <sv:node sv:name="resources">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippo:facetselect</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:docbase" sv:type="String">
+              <sv:value>c518dfaa-6172-4d07-827f-a37af9dfbf54</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+            <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+            <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+          </sv:node>
+          <sv:node sv:name="lands">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippo:facetselect</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:docbase" sv:type="String">
+              <sv:value>542e6939-2804-48a7-ab85-26352201e0c0</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+            <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+            <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+          </sv:node>
+          <sv:node sv:name="the-store">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippo:facetselect</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:docbase" sv:type="String">
+              <sv:value>462e7331-f151-4d20-9e94-5dc64d94551f</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+            <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+            <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+          </sv:node>
+        </sv:node>
+      </sv:node>
+      <sv:node sv:name="the-world-market">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>atlast:contentdocument</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+          <sv:value>mix:referenceable</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:uuid" sv:type="String">
+          <sv:value>14a0ad40-5276-4194-a067-25e3bbf5c8dc</sv:value>
+        </sv:property>
+        <sv:property sv:name="atlast:title" sv:type="String">
+          <sv:value>The World Market</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
+          <sv:value>live</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+          <sv:value>info/guide/the-world-market/the-world-market[2]</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:state" sv:type="String">
+          <sv:value>published</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+          <sv:value>live</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+          <sv:value>admin</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+          <sv:value>2015-10-24T14:54:21.379-04:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+          <sv:value>2015-10-24T15:11:30.882-04:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+          <sv:value>admin</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:publicationDate" sv:type="Date">
+          <sv:value>2015-10-24T15:12:07.496-04:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippotranslation:id" sv:type="String">
+          <sv:value>298dc9ee-da2c-4633-999c-0ec5996510d7</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippotranslation:locale" sv:type="String">
+          <sv:value>en</sv:value>
+        </sv:property>
+        <sv:node sv:name="atlast:content">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hippostd:html</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostd:content" sv:type="String">
+            <sv:value>&lt;p&gt;It is a small world, Atalaster. All of the &lt;a href="population"&gt;peoples&lt;/a&gt; in the world are connected and guided in their activities by the price system. &lt;a href="resources"&gt;Goods&lt;/a&gt; produced in excess will eventually become&amp;nbsp;cheaper just as if the demand for a good is higher than its produciton, its price will rise with time. Keep a close eye on prices as the profitability of your &lt;a href="lands"&gt;lands&lt;/a&gt; depends on the prices paid for the goods they produce.&lt;/p&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+
+&lt;p&gt;As the price for a good collapses, leaders around the world will direct their people away from the unprofitable venture and use their resources to product other goods. Savvy leaders can stockpile cheap goods in their &lt;a href="the-store"&gt;stores&lt;/a&gt; and sell them for a profit once the price recovers at a later date. Make sure your people are producing the most valuable goods that their skills, technology and lands allow.&lt;/p&gt;</sv:value>
+          </sv:property>
+          <sv:node sv:name="population">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippo:facetselect</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:docbase" sv:type="String">
+              <sv:value>6f3f4a00-0530-4d9b-bf4c-585a59eaaa2a</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+            <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+            <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+          </sv:node>
+          <sv:node sv:name="resources">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippo:facetselect</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:docbase" sv:type="String">
+              <sv:value>c518dfaa-6172-4d07-827f-a37af9dfbf54</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+            <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+            <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+          </sv:node>
+          <sv:node sv:name="lands">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippo:facetselect</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:docbase" sv:type="String">
+              <sv:value>542e6939-2804-48a7-ab85-26352201e0c0</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+            <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+            <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+          </sv:node>
+          <sv:node sv:name="the-store">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippo:facetselect</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:docbase" sv:type="String">
+              <sv:value>462e7331-f151-4d20-9e94-5dc64d94551f</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+            <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+            <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+          </sv:node>
+        </sv:node>
+      </sv:node>
+    </sv:node>
+    <sv:node sv:name="lands">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>hippostd:folder</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+        <sv:value>hippotranslation:translated</sv:value>
+        <sv:value>mix:versionable</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:uuid" sv:type="String">
+        <sv:value>72d99162-90ff-4098-b585-ad75328ae1ee</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostd:foldertype" sv:type="String" sv:multiple="true">
+        <sv:value>new-translated-folder</sv:value>
+        <sv:value>new-document</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippotranslation:id" sv:type="String">
+        <sv:value>cf04e263-2fe7-4d51-8713-6b33aa8fd610</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippotranslation:locale" sv:type="String">
+        <sv:value>en</sv:value>
+      </sv:property>
+      <sv:node sv:name="lands">
         <sv:property sv:name="jcr:primaryType" sv:type="Name">
           <sv:value>hippo:handle</sv:value>
         </sv:property>
         <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
           <sv:value>mix:referenceable</sv:value>
-          <sv:value>hippo:translated</sv:value>
         </sv:property>
         <sv:property sv:name="jcr:uuid" sv:type="String">
-          <sv:value>344f77b3-9d3f-4f57-ba80-f95ea7224084</sv:value>
+          <sv:value>542e6939-2804-48a7-ab85-26352201e0c0</sv:value>
         </sv:property>
-        <sv:node sv:name="fish">
+        <sv:node sv:name="lands">
           <sv:property sv:name="jcr:primaryType" sv:type="Name">
             <sv:value>atlast:contentdocument</sv:value>
           </sv:property>
@@ -1515,15 +2614,15 @@
             <sv:value>mix:referenceable</sv:value>
           </sv:property>
           <sv:property sv:name="jcr:uuid" sv:type="String">
-            <sv:value>d191c48e-2732-49b3-9777-5bdf942a1c9b</sv:value>
+            <sv:value>493d03f3-10b3-4148-a7fb-59e605e91aa9</sv:value>
           </sv:property>
           <sv:property sv:name="atlast:title" sv:type="String">
-            <sv:value>Fish</sv:value>
+            <sv:value>Lands</sv:value>
           </sv:property>
           <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true"/>
           <sv:property sv:name="hippo:related___pathreference" sv:type="String">
-            <sv:value>info/guide/resources/fish/fish[3]</sv:value>
-            <sv:value>info/guide/resources/fish/fish[2]</sv:value>
+            <sv:value>info/guide/lands/lands/lands[2]</sv:value>
+            <sv:value>info/guide/lands/lands/lands[3]</sv:value>
           </sv:property>
           <sv:property sv:name="hippostd:state" sv:type="String">
             <sv:value>draft</sv:value>
@@ -1535,16 +2634,16 @@
             <sv:value>admin</sv:value>
           </sv:property>
           <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
-            <sv:value>2015-10-14T19:04:20.079-04:00</sv:value>
+            <sv:value>2015-10-24T15:02:21.722-04:00</sv:value>
           </sv:property>
           <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
-            <sv:value>2015-10-14T19:04:20.121-04:00</sv:value>
+            <sv:value>2015-10-24T15:11:38.309-04:00</sv:value>
           </sv:property>
           <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
             <sv:value>admin</sv:value>
           </sv:property>
           <sv:property sv:name="hippotranslation:id" sv:type="String">
-            <sv:value>4ff5fdd9-924d-4c0b-9ad9-1205bcf14fa9</sv:value>
+            <sv:value>c955b1d2-b4c2-4b70-be0b-7332c6dc7769</sv:value>
           </sv:property>
           <sv:property sv:name="hippotranslation:locale" sv:type="String">
             <sv:value>en</sv:value>
@@ -1554,39 +2653,40 @@
               <sv:value>hippostd:html</sv:value>
             </sv:property>
             <sv:property sv:name="hippostd:content" sv:type="String">
-              <sv:value>&lt;p&gt;This is about fish&amp;nbsp;This is about fish&amp;nbsp;This is about fish&amp;nbsp;This is about fish&amp;nbsp;This is about fish&amp;nbsp;This is about fish&amp;nbsp;This is about fish&amp;nbsp;This is about fish&amp;nbsp;This is about fish&amp;nbsp;This is about fish&amp;nbsp;This is about fish&amp;nbsp;&lt;/p&gt;</sv:value>
+              <sv:value>&lt;p&gt;Scan the horizon and look upon your lands, Atalaster. These lands can be developed by constructing &lt;a href="resources"&gt;goods&lt;/a&gt; producing buildings on them. Each developed land can put a production recipe into practice. Different lands allow for different developments to be constructed and certain recipes are much more effective on some lands than others.&lt;/p&gt;</sv:value>
             </sv:property>
+            <sv:node sv:name="resources">
+              <sv:property sv:name="jcr:primaryType" sv:type="Name">
+                <sv:value>hippo:facetselect</sv:value>
+              </sv:property>
+              <sv:property sv:name="hippo:docbase" sv:type="String">
+                <sv:value>c518dfaa-6172-4d07-827f-a37af9dfbf54</sv:value>
+              </sv:property>
+              <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+              <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+              <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+            </sv:node>
           </sv:node>
         </sv:node>
-        <sv:node sv:name="hippo:translation">
-          <sv:property sv:name="jcr:primaryType" sv:type="Name">
-            <sv:value>hippo:translation</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippo:language" sv:type="String">
-            <sv:value/>
-          </sv:property>
-          <sv:property sv:name="hippo:message" sv:type="String">
-            <sv:value>Fish</sv:value>
-          </sv:property>
-        </sv:node>
-        <sv:node sv:name="fish">
+        <sv:node sv:name="lands">
           <sv:property sv:name="jcr:primaryType" sv:type="Name">
             <sv:value>atlast:contentdocument</sv:value>
           </sv:property>
           <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
             <sv:value>mix:versionable</sv:value>
+            <sv:value>mix:referenceable</sv:value>
           </sv:property>
           <sv:property sv:name="jcr:uuid" sv:type="String">
-            <sv:value>fc64408b-ac16-4177-81c6-ed191f198bfd</sv:value>
+            <sv:value>93160931-68c3-47fe-9135-a2cbb94caf71</sv:value>
           </sv:property>
           <sv:property sv:name="atlast:title" sv:type="String">
-            <sv:value>Fish</sv:value>
+            <sv:value>Lands</sv:value>
           </sv:property>
           <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
             <sv:value>preview</sv:value>
           </sv:property>
           <sv:property sv:name="hippo:related___pathreference" sv:type="String">
-            <sv:value>info/guide/resources/fish/fish[3]</sv:value>
+            <sv:value>info/guide/lands/lands/lands[3]</sv:value>
           </sv:property>
           <sv:property sv:name="hippostd:state" sv:type="String">
             <sv:value>unpublished</sv:value>
@@ -1598,16 +2698,16 @@
             <sv:value>admin</sv:value>
           </sv:property>
           <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
-            <sv:value>2015-10-14T19:04:20.079-04:00</sv:value>
+            <sv:value>2015-10-24T15:02:21.722-04:00</sv:value>
           </sv:property>
           <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
-            <sv:value>2015-10-14T19:04:29.899-04:00</sv:value>
+            <sv:value>2015-10-24T15:11:50.616-04:00</sv:value>
           </sv:property>
           <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
             <sv:value>admin</sv:value>
           </sv:property>
           <sv:property sv:name="hippotranslation:id" sv:type="String">
-            <sv:value>4ff5fdd9-924d-4c0b-9ad9-1205bcf14fa9</sv:value>
+            <sv:value>c955b1d2-b4c2-4b70-be0b-7332c6dc7769</sv:value>
           </sv:property>
           <sv:property sv:name="hippotranslation:locale" sv:type="String">
             <sv:value>en</sv:value>
@@ -1617,11 +2717,22 @@
               <sv:value>hippostd:html</sv:value>
             </sv:property>
             <sv:property sv:name="hippostd:content" sv:type="String">
-              <sv:value>&lt;p&gt;This is about fish&amp;nbsp;This is about fish&amp;nbsp;This is about fish&amp;nbsp;This is about fish&amp;nbsp;This is about fish&amp;nbsp;This is about fish&amp;nbsp;This is about fish&amp;nbsp;This is about fish&amp;nbsp;This is about fish&amp;nbsp;This is about fish&amp;nbsp;This is about fish&amp;nbsp;&lt;/p&gt;</sv:value>
+              <sv:value>&lt;p&gt;Scan the horizon and look upon your lands, Atalaster. These lands can be developed by constructing &lt;a href="resources"&gt;goods&lt;/a&gt; producing buildings on them. Each developed land can put a production recipe into practice. Different lands allow for different developments to be constructed and certain recipes are much more effective on some lands than others.&lt;/p&gt;</sv:value>
             </sv:property>
+            <sv:node sv:name="resources">
+              <sv:property sv:name="jcr:primaryType" sv:type="Name">
+                <sv:value>hippo:facetselect</sv:value>
+              </sv:property>
+              <sv:property sv:name="hippo:docbase" sv:type="String">
+                <sv:value>c518dfaa-6172-4d07-827f-a37af9dfbf54</sv:value>
+              </sv:property>
+              <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+              <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+              <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+            </sv:node>
           </sv:node>
         </sv:node>
-        <sv:node sv:name="fish">
+        <sv:node sv:name="lands">
           <sv:property sv:name="jcr:primaryType" sv:type="Name">
             <sv:value>atlast:contentdocument</sv:value>
           </sv:property>
@@ -1629,16 +2740,16 @@
             <sv:value>mix:referenceable</sv:value>
           </sv:property>
           <sv:property sv:name="jcr:uuid" sv:type="String">
-            <sv:value>87b85473-939e-4e67-a7f3-e5446196aaa2</sv:value>
+            <sv:value>a0731e61-98f7-4825-8b00-1c7a3b3e010a</sv:value>
           </sv:property>
           <sv:property sv:name="atlast:title" sv:type="String">
-            <sv:value>Fish</sv:value>
+            <sv:value>Lands</sv:value>
           </sv:property>
           <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
             <sv:value>live</sv:value>
           </sv:property>
           <sv:property sv:name="hippo:related___pathreference" sv:type="String">
-            <sv:value>info/guide/resources/fish/fish[2]</sv:value>
+            <sv:value>info/guide/lands/lands/lands[2]</sv:value>
           </sv:property>
           <sv:property sv:name="hippostd:state" sv:type="String">
             <sv:value>published</sv:value>
@@ -1650,19 +2761,19 @@
             <sv:value>admin</sv:value>
           </sv:property>
           <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
-            <sv:value>2015-10-14T19:04:20.079-04:00</sv:value>
+            <sv:value>2015-10-24T15:02:21.722-04:00</sv:value>
           </sv:property>
           <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
-            <sv:value>2015-10-14T19:04:29.899-04:00</sv:value>
+            <sv:value>2015-10-24T15:11:50.616-04:00</sv:value>
           </sv:property>
           <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
             <sv:value>admin</sv:value>
           </sv:property>
           <sv:property sv:name="hippostdpubwf:publicationDate" sv:type="Date">
-            <sv:value>2015-10-14T19:04:33.756-04:00</sv:value>
+            <sv:value>2015-10-24T15:12:07.563-04:00</sv:value>
           </sv:property>
           <sv:property sv:name="hippotranslation:id" sv:type="String">
-            <sv:value>4ff5fdd9-924d-4c0b-9ad9-1205bcf14fa9</sv:value>
+            <sv:value>c955b1d2-b4c2-4b70-be0b-7332c6dc7769</sv:value>
           </sv:property>
           <sv:property sv:name="hippotranslation:locale" sv:type="String">
             <sv:value>en</sv:value>
@@ -1672,12 +2783,844 @@
               <sv:value>hippostd:html</sv:value>
             </sv:property>
             <sv:property sv:name="hippostd:content" sv:type="String">
-              <sv:value>&lt;p&gt;This is about fish&amp;nbsp;This is about fish&amp;nbsp;This is about fish&amp;nbsp;This is about fish&amp;nbsp;This is about fish&amp;nbsp;This is about fish&amp;nbsp;This is about fish&amp;nbsp;This is about fish&amp;nbsp;This is about fish&amp;nbsp;This is about fish&amp;nbsp;This is about fish&amp;nbsp;&lt;/p&gt;</sv:value>
+              <sv:value>&lt;p&gt;Scan the horizon and look upon your lands, Atalaster. These lands can be developed by constructing &lt;a href="resources"&gt;goods&lt;/a&gt; producing buildings on them. Each developed land can put a production recipe into practice. Different lands allow for different developments to be constructed and certain recipes are much more effective on some lands than others.&lt;/p&gt;</sv:value>
+            </sv:property>
+            <sv:node sv:name="resources">
+              <sv:property sv:name="jcr:primaryType" sv:type="Name">
+                <sv:value>hippo:facetselect</sv:value>
+              </sv:property>
+              <sv:property sv:name="hippo:docbase" sv:type="String">
+                <sv:value>c518dfaa-6172-4d07-827f-a37af9dfbf54</sv:value>
+              </sv:property>
+              <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+              <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+              <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+            </sv:node>
+          </sv:node>
+        </sv:node>
+      </sv:node>
+      <sv:node sv:name="forests">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippo:handle</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+          <sv:value>mix:referenceable</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:uuid" sv:type="String">
+          <sv:value>d920a050-4d04-445f-be2c-e4f7fd6f5112</sv:value>
+        </sv:property>
+        <sv:node sv:name="forests">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>atlast:contentdocument</sv:value>
+          </sv:property>
+          <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+            <sv:value>mix:referenceable</sv:value>
+          </sv:property>
+          <sv:property sv:name="jcr:uuid" sv:type="String">
+            <sv:value>2f58be66-5e4b-4a9e-b941-7bb7d7fce7b0</sv:value>
+          </sv:property>
+          <sv:property sv:name="atlast:title" sv:type="String">
+            <sv:value>Forests</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true"/>
+          <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+            <sv:value>info/guide/lands/forests/forests[3]</sv:value>
+            <sv:value>info/guide/lands/forests/forests[2]</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostd:state" sv:type="String">
+            <sv:value>draft</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+            <sv:value>live</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+            <sv:value>admin</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+            <sv:value>2015-10-24T16:33:34.229-04:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+            <sv:value>2015-10-24T16:33:34.265-04:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+            <sv:value>admin</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippotranslation:id" sv:type="String">
+            <sv:value>020a2b39-2f45-4b21-bf8e-091c938d8808</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippotranslation:locale" sv:type="String">
+            <sv:value>en</sv:value>
+          </sv:property>
+          <sv:node sv:name="atlast:content">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippostd:html</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippostd:content" sv:type="String">
+              <sv:value>&lt;p&gt;&lt;img src="forest.png/{_document}/atlast:mediumicon" /&gt;&lt;/p&gt;
+
+&lt;p&gt;From thick dark forests to lighter rolling woodlands, forests provide a varied environment that can provide plenty of fuel and construction material. Wild animals can be found and&amp;nbsp;hunted in forests and they can even be used for some limited cultivation. A forest can be developed by building a furnace, which takes advantage of the plentiful fuel. Camps provide a base for hunters who hunt the various forest game and plantations can take advantage of the good climate and rich soils. Mills are often located in forests which can be situated near to the lumberjacks&amp;apos; camps. Closed off structures like barns can also be built, making forests some of the most versatile land types around.&lt;/p&gt;</sv:value>
+            </sv:property>
+            <sv:node sv:name="forest.png">
+              <sv:property sv:name="jcr:primaryType" sv:type="Name">
+                <sv:value>hippo:facetselect</sv:value>
+              </sv:property>
+              <sv:property sv:name="hippo:docbase" sv:type="String">
+                <sv:value>b15ca608-14a3-45b2-a559-7458b7e76a05</sv:value>
+              </sv:property>
+              <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+              <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+              <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+            </sv:node>
+          </sv:node>
+        </sv:node>
+        <sv:node sv:name="forests">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>atlast:contentdocument</sv:value>
+          </sv:property>
+          <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+            <sv:value>mix:versionable</sv:value>
+            <sv:value>mix:referenceable</sv:value>
+          </sv:property>
+          <sv:property sv:name="jcr:uuid" sv:type="String">
+            <sv:value>be6ccfbb-e343-4950-bc63-6c22ed2bc115</sv:value>
+          </sv:property>
+          <sv:property sv:name="atlast:title" sv:type="String">
+            <sv:value>Forests</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
+            <sv:value>preview</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+            <sv:value>info/guide/lands/forests/forests[3]</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostd:state" sv:type="String">
+            <sv:value>unpublished</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+            <sv:value>live</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+            <sv:value>admin</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+            <sv:value>2015-10-24T16:33:34.229-04:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+            <sv:value>2015-10-24T16:42:49.449-04:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+            <sv:value>admin</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippotranslation:id" sv:type="String">
+            <sv:value>020a2b39-2f45-4b21-bf8e-091c938d8808</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippotranslation:locale" sv:type="String">
+            <sv:value>en</sv:value>
+          </sv:property>
+          <sv:node sv:name="atlast:content">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippostd:html</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippostd:content" sv:type="String">
+              <sv:value>&lt;p&gt;&lt;img src="forest.png/{_document}/atlast:mediumicon" /&gt;&lt;/p&gt;
+
+&lt;p&gt;From thick dark forests to lighter rolling woodlands, forests provide a varied environment that can provide plenty of fuel and construction material. Wild animals can be found and&amp;nbsp;hunted in forests and they can even be used for some limited cultivation. A forest can be developed by building a furnace, which takes advantage of the plentiful fuel. Camps provide a base for hunters who hunt the various forest game and plantations can take advantage of the good climate and rich soils. Mills are often located in forests which can be situated near to the lumberjacks&amp;apos; camps. Closed off structures like barns can also be built, making forests some of the most versatile land types around.&lt;/p&gt;</sv:value>
+            </sv:property>
+            <sv:node sv:name="forest.png">
+              <sv:property sv:name="jcr:primaryType" sv:type="Name">
+                <sv:value>hippo:facetselect</sv:value>
+              </sv:property>
+              <sv:property sv:name="hippo:docbase" sv:type="String">
+                <sv:value>b15ca608-14a3-45b2-a559-7458b7e76a05</sv:value>
+              </sv:property>
+              <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+              <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+              <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+            </sv:node>
+          </sv:node>
+        </sv:node>
+        <sv:node sv:name="forests">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>atlast:contentdocument</sv:value>
+          </sv:property>
+          <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+            <sv:value>mix:referenceable</sv:value>
+          </sv:property>
+          <sv:property sv:name="jcr:uuid" sv:type="String">
+            <sv:value>80f8fc1d-01ca-4876-ac96-b995f13282e8</sv:value>
+          </sv:property>
+          <sv:property sv:name="atlast:title" sv:type="String">
+            <sv:value>Forests</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
+            <sv:value>live</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+            <sv:value>info/guide/lands/forests/forests[2]</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostd:state" sv:type="String">
+            <sv:value>published</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+            <sv:value>live</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+            <sv:value>admin</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+            <sv:value>2015-10-24T16:33:34.229-04:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+            <sv:value>2015-10-24T16:42:49.449-04:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+            <sv:value>admin</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:publicationDate" sv:type="Date">
+            <sv:value>2015-10-24T16:42:58.791-04:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippotranslation:id" sv:type="String">
+            <sv:value>020a2b39-2f45-4b21-bf8e-091c938d8808</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippotranslation:locale" sv:type="String">
+            <sv:value>en</sv:value>
+          </sv:property>
+          <sv:node sv:name="atlast:content">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippostd:html</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippostd:content" sv:type="String">
+              <sv:value>&lt;p&gt;&lt;img src="forest.png/{_document}/atlast:mediumicon" /&gt;&lt;/p&gt;
+
+&lt;p&gt;From thick dark forests to lighter rolling woodlands, forests provide a varied environment that can provide plenty of fuel and construction material. Wild animals can be found and&amp;nbsp;hunted in forests and they can even be used for some limited cultivation. A forest can be developed by building a furnace, which takes advantage of the plentiful fuel. Camps provide a base for hunters who hunt the various forest game and plantations can take advantage of the good climate and rich soils. Mills are often located in forests which can be situated near to the lumberjacks&amp;apos; camps. Closed off structures like barns can also be built, making forests some of the most versatile land types around.&lt;/p&gt;</sv:value>
+            </sv:property>
+            <sv:node sv:name="forest.png">
+              <sv:property sv:name="jcr:primaryType" sv:type="Name">
+                <sv:value>hippo:facetselect</sv:value>
+              </sv:property>
+              <sv:property sv:name="hippo:docbase" sv:type="String">
+                <sv:value>b15ca608-14a3-45b2-a559-7458b7e76a05</sv:value>
+              </sv:property>
+              <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+              <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+              <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+            </sv:node>
+          </sv:node>
+        </sv:node>
+      </sv:node>
+      <sv:node sv:name="developments">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippostd:folder</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+          <sv:value>hippotranslation:translated</sv:value>
+          <sv:value>mix:versionable</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:uuid" sv:type="String">
+          <sv:value>d75cb521-acfe-4479-9c7f-505955058e5a</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:foldertype" sv:type="String" sv:multiple="true">
+          <sv:value>new-translated-folder</sv:value>
+          <sv:value>new-document</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippotranslation:id" sv:type="String">
+          <sv:value>fabfdf8e-8719-414d-aa40-83a01299b745</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippotranslation:locale" sv:type="String">
+          <sv:value>en</sv:value>
+        </sv:property>
+        <sv:node sv:name="developments">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hippo:handle</sv:value>
+          </sv:property>
+          <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+            <sv:value>mix:referenceable</sv:value>
+          </sv:property>
+          <sv:property sv:name="jcr:uuid" sv:type="String">
+            <sv:value>498cc492-4fbc-4f9b-bd6c-e19f4c82033d</sv:value>
+          </sv:property>
+          <sv:node sv:name="developments">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>atlast:contentdocument</sv:value>
+            </sv:property>
+            <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+              <sv:value>mix:referenceable</sv:value>
+            </sv:property>
+            <sv:property sv:name="jcr:uuid" sv:type="String">
+              <sv:value>e8489b84-ca8c-4944-8941-fc2752b62b30</sv:value>
+            </sv:property>
+            <sv:property sv:name="atlast:title" sv:type="String">
+              <sv:value>Developments</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true"/>
+            <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+              <sv:value>info/guide/lands/developments/developments</sv:value>
+              <sv:value>info/guide/lands/developments/developments/developments[2]</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippostd:state" sv:type="String">
+              <sv:value>draft</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+              <sv:value>new</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+              <sv:value>admin</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+              <sv:value>2015-10-24T16:43:16.142-04:00</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+              <sv:value>2015-10-24T16:43:16.169-04:00</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+              <sv:value>admin</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippotranslation:id" sv:type="String">
+              <sv:value>2be2d53a-1268-4e8b-bae7-9b18023217cb</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippotranslation:locale" sv:type="String">
+              <sv:value>en</sv:value>
+            </sv:property>
+            <sv:node sv:name="atlast:content">
+              <sv:property sv:name="jcr:primaryType" sv:type="Name">
+                <sv:value>hippostd:html</sv:value>
+              </sv:property>
+              <sv:property sv:name="hippostd:content" sv:type="String">
+                <sv:value>&lt;p&gt;Lands can be improved by constructing one development. There are eleven types of developements, farms, mills, furnaces, workshops, camps, barns, plantations, mines, quarries, pastures and slaughterhouses. Once developed, people can be hired form the labour pool to work the land using one of the available recipes that is in your library.&lt;/p&gt;</sv:value>
+              </sv:property>
+            </sv:node>
+          </sv:node>
+          <sv:node sv:name="developments">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>atlast:contentdocument</sv:value>
+            </sv:property>
+            <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+              <sv:value>mix:versionable</sv:value>
+              <sv:value>mix:referenceable</sv:value>
+            </sv:property>
+            <sv:property sv:name="jcr:uuid" sv:type="String">
+              <sv:value>f69e687d-4081-4c2a-b413-f0f1a1c28c64</sv:value>
+            </sv:property>
+            <sv:property sv:name="atlast:title" sv:type="String">
+              <sv:value>Developments</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
+              <sv:value>preview</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+              <sv:value>info/guide/lands/developments/developments</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippostd:state" sv:type="String">
+              <sv:value>unpublished</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+              <sv:value>new</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+              <sv:value>admin</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+              <sv:value>2015-10-24T16:43:16.142-04:00</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+              <sv:value>2015-10-24T16:45:25.816-04:00</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+              <sv:value>admin</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippotranslation:id" sv:type="String">
+              <sv:value>2be2d53a-1268-4e8b-bae7-9b18023217cb</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippotranslation:locale" sv:type="String">
+              <sv:value>en</sv:value>
+            </sv:property>
+            <sv:node sv:name="atlast:content">
+              <sv:property sv:name="jcr:primaryType" sv:type="Name">
+                <sv:value>hippostd:html</sv:value>
+              </sv:property>
+              <sv:property sv:name="hippostd:content" sv:type="String">
+                <sv:value>&lt;p&gt;Lands can be improved by constructing one development. There are eleven types of developements, farms, mills, furnaces, workshops, camps, barns, plantations, mines, quarries, pastures and slaughterhouses. Once developed, people can be hired form the labour pool to work the land using one of the available recipes that is in your library.&lt;/p&gt;</sv:value>
+              </sv:property>
+            </sv:node>
+          </sv:node>
+        </sv:node>
+      </sv:node>
+    </sv:node>
+    <sv:node sv:name="council">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>hippostd:folder</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+        <sv:value>hippotranslation:translated</sv:value>
+        <sv:value>mix:versionable</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:uuid" sv:type="String">
+        <sv:value>c9e15c39-7ee5-4e26-a3b1-a0e3e7668aec</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostd:foldertype" sv:type="String" sv:multiple="true">
+        <sv:value>new-translated-folder</sv:value>
+        <sv:value>new-document</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippotranslation:id" sv:type="String">
+        <sv:value>3cfa0a8d-4429-42e2-97fa-3d0d8a979617</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippotranslation:locale" sv:type="String">
+        <sv:value>en</sv:value>
+      </sv:property>
+    </sv:node>
+    <sv:node sv:name="population">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>hippostd:folder</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+        <sv:value>hippotranslation:translated</sv:value>
+        <sv:value>mix:versionable</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:uuid" sv:type="String">
+        <sv:value>8a25c18a-f737-46d5-a736-f8afdf8669f2</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostd:foldertype" sv:type="String" sv:multiple="true">
+        <sv:value>new-translated-folder</sv:value>
+        <sv:value>new-document</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippotranslation:id" sv:type="String">
+        <sv:value>e065297f-0ff2-4132-b451-5be3921f14dd</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippotranslation:locale" sv:type="String">
+        <sv:value>en</sv:value>
+      </sv:property>
+      <sv:node sv:name="population">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippo:handle</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+          <sv:value>mix:referenceable</sv:value>
+          <sv:value>hippo:translated</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:uuid" sv:type="String">
+          <sv:value>6f3f4a00-0530-4d9b-bf4c-585a59eaaa2a</sv:value>
+        </sv:property>
+        <sv:node sv:name="hippo:translation">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hippo:translation</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:language" sv:type="String">
+            <sv:value/>
+          </sv:property>
+          <sv:property sv:name="hippo:message" sv:type="String">
+            <sv:value>population</sv:value>
+          </sv:property>
+        </sv:node>
+        <sv:node sv:name="population">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>atlast:contentdocument</sv:value>
+          </sv:property>
+          <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+            <sv:value>mix:referenceable</sv:value>
+          </sv:property>
+          <sv:property sv:name="jcr:uuid" sv:type="String">
+            <sv:value>dbf47bbf-8929-4f4d-93c4-fcc97ed9bb3e</sv:value>
+          </sv:property>
+          <sv:property sv:name="atlast:title" sv:type="String">
+            <sv:value>Your People</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true"/>
+          <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+            <sv:value>info/guide/population/population/population[3]</sv:value>
+            <sv:value>info/guide/population/population/population[2]</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostd:state" sv:type="String">
+            <sv:value>draft</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+            <sv:value>live</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+            <sv:value>admin</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+            <sv:value>2015-10-14T19:00:37.841-04:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+            <sv:value>2015-10-24T15:08:28.395-04:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+            <sv:value>admin</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippotranslation:id" sv:type="String">
+            <sv:value>bfb6e71d-9e89-4bab-9a2b-9d83d3fb90dc</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippotranslation:locale" sv:type="String">
+            <sv:value>en</sv:value>
+          </sv:property>
+          <sv:node sv:name="atlast:content">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippostd:html</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippostd:content" sv:type="String">
+              <sv:value>&lt;p&gt;Atalaster, at the center of your concern is your people. Starting out with limited skills and knowhow, pay them to create goods for sale in the &lt;a href="the-world-market"&gt;world market&lt;/a&gt;. They will spend the money that they earn to purchase goods from your &lt;a href="the-store"&gt;store&lt;/a&gt;. With enough money for food they will not only survive, but reproduce and multiply. Their offspring, purely bred or mixed with foreign blood will enter the labour force looking for work in your &lt;a href="lands"&gt;lands&lt;/a&gt; and abroad.&lt;/p&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+
+&lt;p&gt;If after they have eaten, they have enough money, they will also buy basic goods and luxuries from your &lt;a href="the-store"&gt;store&lt;/a&gt; and maybe their children will grow up to be of a higher social standing than themselves. Pay your people generously, but make sure that collectively your finances are on a strong footing. Find the right trade-off between finding useful work for your people and finding skillful foreigners that will help fill your treasury.&lt;/p&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+
+&lt;p&gt;Your people have various traits that makes them unique. This will make them more inclined to consume more of some goods and less of others. Although an individual&amp;apos;s heritage might be composed of several diluted racial traits and religious beliefs, he will identify himself only with one group at a time. Several generations down the line, even only a 10% affilliation with your people might be&amp;nbsp;an individual&amp;apos;s most dominant identity.&amp;nbsp;&lt;/p&gt;</sv:value>
+            </sv:property>
+            <sv:node sv:name="the-world-market">
+              <sv:property sv:name="jcr:primaryType" sv:type="Name">
+                <sv:value>hippo:facetselect</sv:value>
+              </sv:property>
+              <sv:property sv:name="hippo:docbase" sv:type="String">
+                <sv:value>22604139-f87b-47eb-a3cf-ed17df61b8ea</sv:value>
+              </sv:property>
+              <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+              <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+              <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+            </sv:node>
+            <sv:node sv:name="the-store">
+              <sv:property sv:name="jcr:primaryType" sv:type="Name">
+                <sv:value>hippo:facetselect</sv:value>
+              </sv:property>
+              <sv:property sv:name="hippo:docbase" sv:type="String">
+                <sv:value>462e7331-f151-4d20-9e94-5dc64d94551f</sv:value>
+              </sv:property>
+              <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+              <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+              <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+            </sv:node>
+            <sv:node sv:name="lands">
+              <sv:property sv:name="jcr:primaryType" sv:type="Name">
+                <sv:value>hippo:facetselect</sv:value>
+              </sv:property>
+              <sv:property sv:name="hippo:docbase" sv:type="String">
+                <sv:value>542e6939-2804-48a7-ab85-26352201e0c0</sv:value>
+              </sv:property>
+              <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+              <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+              <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+            </sv:node>
+          </sv:node>
+        </sv:node>
+        <sv:node sv:name="population">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>atlast:contentdocument</sv:value>
+          </sv:property>
+          <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+            <sv:value>mix:versionable</sv:value>
+          </sv:property>
+          <sv:property sv:name="jcr:uuid" sv:type="String">
+            <sv:value>97ae0796-591c-44d0-8bc6-11de7cad7811</sv:value>
+          </sv:property>
+          <sv:property sv:name="atlast:title" sv:type="String">
+            <sv:value>Your People</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
+            <sv:value>preview</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+            <sv:value>info/guide/population/population/population[3]</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostd:state" sv:type="String">
+            <sv:value>unpublished</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+            <sv:value>live</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+            <sv:value>admin</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+            <sv:value>2015-10-14T19:00:37.841-04:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+            <sv:value>2015-10-24T15:09:48.921-04:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+            <sv:value>admin</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippotranslation:id" sv:type="String">
+            <sv:value>bfb6e71d-9e89-4bab-9a2b-9d83d3fb90dc</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippotranslation:locale" sv:type="String">
+            <sv:value>en</sv:value>
+          </sv:property>
+          <sv:node sv:name="atlast:content">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippostd:html</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippostd:content" sv:type="String">
+              <sv:value>&lt;p&gt;Atalaster, at the center of your concern is your people. Starting out with limited skills and knowhow, pay them to create goods for sale in the &lt;a href="the-world-market"&gt;world market&lt;/a&gt;. They will spend the money that they earn to purchase goods from your &lt;a href="the-store"&gt;store&lt;/a&gt;. With enough money for food they will not only survive, but reproduce and multiply. Their offspring, purely bred or mixed with foreign blood will enter the labour force looking for work in your &lt;a href="lands"&gt;lands&lt;/a&gt; and abroad.&lt;/p&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+
+&lt;p&gt;If after they have eaten, they have enough money, they will also buy basic goods and luxuries from your &lt;a href="the-store"&gt;store&lt;/a&gt; and maybe their children will grow up to be of a higher social standing than themselves. Pay your people generously, but make sure that collectively your finances are on a strong footing. Find the right trade-off between finding useful work for your people and finding skillful foreigners that will help fill your treasury.&lt;/p&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+
+&lt;p&gt;Your people have various traits that makes them unique. This will make them more inclined to consume more of some goods and less of others. Although an individual&amp;apos;s heritage might be composed of several diluted racial traits and religious beliefs, he will identify himself only with one group at a time. Several generations down the line, even only a 10% affilliation with your people might be&amp;nbsp;an individual&amp;apos;s most dominant identity.&amp;nbsp;&lt;/p&gt;</sv:value>
+            </sv:property>
+            <sv:node sv:name="the-world-market">
+              <sv:property sv:name="jcr:primaryType" sv:type="Name">
+                <sv:value>hippo:facetselect</sv:value>
+              </sv:property>
+              <sv:property sv:name="hippo:docbase" sv:type="String">
+                <sv:value>22604139-f87b-47eb-a3cf-ed17df61b8ea</sv:value>
+              </sv:property>
+              <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+              <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+              <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+            </sv:node>
+            <sv:node sv:name="the-store">
+              <sv:property sv:name="jcr:primaryType" sv:type="Name">
+                <sv:value>hippo:facetselect</sv:value>
+              </sv:property>
+              <sv:property sv:name="hippo:docbase" sv:type="String">
+                <sv:value>462e7331-f151-4d20-9e94-5dc64d94551f</sv:value>
+              </sv:property>
+              <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+              <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+              <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+            </sv:node>
+            <sv:node sv:name="lands">
+              <sv:property sv:name="jcr:primaryType" sv:type="Name">
+                <sv:value>hippo:facetselect</sv:value>
+              </sv:property>
+              <sv:property sv:name="hippo:docbase" sv:type="String">
+                <sv:value>542e6939-2804-48a7-ab85-26352201e0c0</sv:value>
+              </sv:property>
+              <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+              <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+              <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+            </sv:node>
+          </sv:node>
+        </sv:node>
+        <sv:node sv:name="population">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>atlast:contentdocument</sv:value>
+          </sv:property>
+          <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+            <sv:value>mix:referenceable</sv:value>
+          </sv:property>
+          <sv:property sv:name="jcr:uuid" sv:type="String">
+            <sv:value>04cf6e95-be98-4733-b682-4500cce18183</sv:value>
+          </sv:property>
+          <sv:property sv:name="atlast:title" sv:type="String">
+            <sv:value>Your People</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
+            <sv:value>live</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+            <sv:value>info/guide/population/population/population[2]</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostd:state" sv:type="String">
+            <sv:value>published</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+            <sv:value>live</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+            <sv:value>admin</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+            <sv:value>2015-10-14T19:00:37.841-04:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+            <sv:value>2015-10-24T15:09:48.921-04:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+            <sv:value>admin</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:publicationDate" sv:type="Date">
+            <sv:value>2015-10-24T16:46:32.628-04:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippotranslation:id" sv:type="String">
+            <sv:value>bfb6e71d-9e89-4bab-9a2b-9d83d3fb90dc</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippotranslation:locale" sv:type="String">
+            <sv:value>en</sv:value>
+          </sv:property>
+          <sv:node sv:name="atlast:content">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippostd:html</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippostd:content" sv:type="String">
+              <sv:value>&lt;p&gt;Atalaster, at the center of your concern is your people. Starting out with limited skills and knowhow, pay them to create goods for sale in the &lt;a href="the-world-market"&gt;world market&lt;/a&gt;. They will spend the money that they earn to purchase goods from your &lt;a href="the-store"&gt;store&lt;/a&gt;. With enough money for food they will not only survive, but reproduce and multiply. Their offspring, purely bred or mixed with foreign blood will enter the labour force looking for work in your &lt;a href="lands"&gt;lands&lt;/a&gt; and abroad.&lt;/p&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+
+&lt;p&gt;If after they have eaten, they have enough money, they will also buy basic goods and luxuries from your &lt;a href="the-store"&gt;store&lt;/a&gt; and maybe their children will grow up to be of a higher social standing than themselves. Pay your people generously, but make sure that collectively your finances are on a strong footing. Find the right trade-off between finding useful work for your people and finding skillful foreigners that will help fill your treasury.&lt;/p&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+
+&lt;p&gt;Your people have various traits that makes them unique. This will make them more inclined to consume more of some goods and less of others. Although an individual&amp;apos;s heritage might be composed of several diluted racial traits and religious beliefs, he will identify himself only with one group at a time. Several generations down the line, even only a 10% affilliation with your people might be&amp;nbsp;an individual&amp;apos;s most dominant identity.&amp;nbsp;&lt;/p&gt;</sv:value>
+            </sv:property>
+            <sv:node sv:name="the-world-market">
+              <sv:property sv:name="jcr:primaryType" sv:type="Name">
+                <sv:value>hippo:facetselect</sv:value>
+              </sv:property>
+              <sv:property sv:name="hippo:docbase" sv:type="String">
+                <sv:value>22604139-f87b-47eb-a3cf-ed17df61b8ea</sv:value>
+              </sv:property>
+              <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+              <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+              <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+            </sv:node>
+            <sv:node sv:name="the-store">
+              <sv:property sv:name="jcr:primaryType" sv:type="Name">
+                <sv:value>hippo:facetselect</sv:value>
+              </sv:property>
+              <sv:property sv:name="hippo:docbase" sv:type="String">
+                <sv:value>462e7331-f151-4d20-9e94-5dc64d94551f</sv:value>
+              </sv:property>
+              <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+              <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+              <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+            </sv:node>
+            <sv:node sv:name="lands">
+              <sv:property sv:name="jcr:primaryType" sv:type="Name">
+                <sv:value>hippo:facetselect</sv:value>
+              </sv:property>
+              <sv:property sv:name="hippo:docbase" sv:type="String">
+                <sv:value>542e6939-2804-48a7-ab85-26352201e0c0</sv:value>
+              </sv:property>
+              <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+              <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+              <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+            </sv:node>
+          </sv:node>
+        </sv:node>
+      </sv:node>
+      <sv:node sv:name="labour-pool">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippo:handle</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+          <sv:value>mix:referenceable</sv:value>
+          <sv:value>hippo:translated</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:uuid" sv:type="String">
+          <sv:value>f888af28-246e-4f29-a0a7-f9b99bf08fd8</sv:value>
+        </sv:property>
+        <sv:node sv:name="labour-pool">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>atlast:contentdocument</sv:value>
+          </sv:property>
+          <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+            <sv:value>mix:referenceable</sv:value>
+          </sv:property>
+          <sv:property sv:name="jcr:uuid" sv:type="String">
+            <sv:value>972f9e57-0e6c-4314-b52e-f4cfbad31a2f</sv:value>
+          </sv:property>
+          <sv:property sv:name="atlast:title" sv:type="String">
+            <sv:value/>
+          </sv:property>
+          <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true"/>
+          <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+            <sv:value>info/guide/population/labour-pool/labour-pool[2]</sv:value>
+            <sv:value>info/guide/population/labour-pool</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostd:state" sv:type="String">
+            <sv:value>draft</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+            <sv:value>new</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+            <sv:value>admin</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+            <sv:value>2015-10-24T16:47:03.137-04:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+            <sv:value>2015-10-24T16:47:03.167-04:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+            <sv:value>admin</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippotranslation:id" sv:type="String">
+            <sv:value>9caa6b82-aca1-4cb8-9bfa-2b34ccb1f184</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippotranslation:locale" sv:type="String">
+            <sv:value>en</sv:value>
+          </sv:property>
+          <sv:node sv:name="atlast:content">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippostd:html</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippostd:content" sv:type="String">
+              <sv:value/>
+            </sv:property>
+          </sv:node>
+        </sv:node>
+        <sv:node sv:name="hippo:translation">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hippo:translation</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:language" sv:type="String">
+            <sv:value/>
+          </sv:property>
+          <sv:property sv:name="hippo:message" sv:type="String">
+            <sv:value>Labour Pool</sv:value>
+          </sv:property>
+        </sv:node>
+        <sv:node sv:name="labour-pool">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>atlast:contentdocument</sv:value>
+          </sv:property>
+          <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+            <sv:value>mix:versionable</sv:value>
+            <sv:value>mix:referenceable</sv:value>
+          </sv:property>
+          <sv:property sv:name="jcr:uuid" sv:type="String">
+            <sv:value>4eaf2625-ae15-413a-95a6-9580f92a037b</sv:value>
+          </sv:property>
+          <sv:property sv:name="atlast:title" sv:type="String">
+            <sv:value/>
+          </sv:property>
+          <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
+            <sv:value>preview</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+            <sv:value>info/guide/population/labour-pool</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostd:state" sv:type="String">
+            <sv:value>unpublished</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+            <sv:value>new</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+            <sv:value>admin</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+            <sv:value>2015-10-24T16:47:03.137-04:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+            <sv:value>2015-10-24T16:47:06.266-04:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+            <sv:value>admin</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippotranslation:id" sv:type="String">
+            <sv:value>9caa6b82-aca1-4cb8-9bfa-2b34ccb1f184</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippotranslation:locale" sv:type="String">
+            <sv:value>en</sv:value>
+          </sv:property>
+          <sv:node sv:name="atlast:content">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippostd:html</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippostd:content" sv:type="String">
+              <sv:value/>
             </sv:property>
           </sv:node>
         </sv:node>
       </sv:node>
-      <sv:node sv:name="meat">
+      <sv:node sv:name="classes">
         <sv:property sv:name="jcr:primaryType" sv:type="Name">
           <sv:value>hippo:handle</sv:value>
         </sv:property>
@@ -1686,9 +3629,9 @@
           <sv:value>hippo:translated</sv:value>
         </sv:property>
         <sv:property sv:name="jcr:uuid" sv:type="String">
-          <sv:value>121bc7b5-f813-4309-a78a-5dae2f0171dc</sv:value>
+          <sv:value>e90c3917-1a18-4932-8387-a1cec49b152f</sv:value>
         </sv:property>
-        <sv:node sv:name="meat">
+        <sv:node sv:name="classes">
           <sv:property sv:name="jcr:primaryType" sv:type="Name">
             <sv:value>atlast:contentdocument</sv:value>
           </sv:property>
@@ -1696,36 +3639,36 @@
             <sv:value>mix:referenceable</sv:value>
           </sv:property>
           <sv:property sv:name="jcr:uuid" sv:type="String">
-            <sv:value>52586ea7-28ba-4d5c-9a00-52e75c1a1192</sv:value>
+            <sv:value>cb7f1430-1b30-40fe-a8ab-466935489573</sv:value>
           </sv:property>
           <sv:property sv:name="atlast:title" sv:type="String">
-            <sv:value>Meat</sv:value>
+            <sv:value/>
           </sv:property>
           <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true"/>
           <sv:property sv:name="hippo:related___pathreference" sv:type="String">
-            <sv:value>info/guide/resources/meat/meat[2]</sv:value>
-            <sv:value>info/guide/resources/meat/meat[3]</sv:value>
+            <sv:value>info/guide/population/classes/classes[2]</sv:value>
+            <sv:value>info/guide/population/classes</sv:value>
           </sv:property>
           <sv:property sv:name="hippostd:state" sv:type="String">
             <sv:value>draft</sv:value>
           </sv:property>
           <sv:property sv:name="hippostd:stateSummary" sv:type="String">
-            <sv:value>live</sv:value>
+            <sv:value>new</sv:value>
           </sv:property>
           <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
             <sv:value>admin</sv:value>
           </sv:property>
           <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
-            <sv:value>2015-10-14T19:05:05.766-04:00</sv:value>
+            <sv:value>2015-10-24T16:47:15.047-04:00</sv:value>
           </sv:property>
           <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
-            <sv:value>2015-10-14T19:05:05.805-04:00</sv:value>
+            <sv:value>2015-10-24T16:47:15.088-04:00</sv:value>
           </sv:property>
           <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
             <sv:value>admin</sv:value>
           </sv:property>
           <sv:property sv:name="hippotranslation:id" sv:type="String">
-            <sv:value>fd241d9f-87b9-4ea6-b4d8-99c313744fa0</sv:value>
+            <sv:value>bb0a566f-53b4-4357-ac93-88d98a15fdc4</sv:value>
           </sv:property>
           <sv:property sv:name="hippotranslation:locale" sv:type="String">
             <sv:value>en</sv:value>
@@ -1735,7 +3678,7 @@
               <sv:value>hippostd:html</sv:value>
             </sv:property>
             <sv:property sv:name="hippostd:content" sv:type="String">
-              <sv:value>&lt;p&gt;This is about meat&amp;nbsp;This is about meat&amp;nbsp;This is about meat&amp;nbsp;This is about meat&amp;nbsp;This is about meat&amp;nbsp;This is about meat&amp;nbsp;This is about meat&amp;nbsp;This is about meat&amp;nbsp;This is about meat&amp;nbsp;This is about meat&amp;nbsp;This is about meat&amp;nbsp;This is about meat&amp;nbsp;&lt;/p&gt;</sv:value>
+              <sv:value/>
             </sv:property>
           </sv:node>
         </sv:node>
@@ -1747,27 +3690,193 @@
             <sv:value/>
           </sv:property>
           <sv:property sv:name="hippo:message" sv:type="String">
-            <sv:value>Meat</sv:value>
+            <sv:value>Classes</sv:value>
           </sv:property>
         </sv:node>
-        <sv:node sv:name="meat">
+        <sv:node sv:name="classes">
           <sv:property sv:name="jcr:primaryType" sv:type="Name">
             <sv:value>atlast:contentdocument</sv:value>
           </sv:property>
           <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
             <sv:value>mix:versionable</sv:value>
+            <sv:value>mix:referenceable</sv:value>
           </sv:property>
           <sv:property sv:name="jcr:uuid" sv:type="String">
-            <sv:value>852ad8cc-88d1-4805-9d66-51d9bfc766e8</sv:value>
+            <sv:value>7381c431-9afc-4067-bbba-ea574dc02855</sv:value>
           </sv:property>
           <sv:property sv:name="atlast:title" sv:type="String">
-            <sv:value>Meat</sv:value>
+            <sv:value/>
           </sv:property>
           <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
             <sv:value>preview</sv:value>
           </sv:property>
           <sv:property sv:name="hippo:related___pathreference" sv:type="String">
-            <sv:value>info/guide/resources/meat/meat[3]</sv:value>
+            <sv:value>info/guide/population/classes</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostd:state" sv:type="String">
+            <sv:value>unpublished</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+            <sv:value>new</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+            <sv:value>admin</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+            <sv:value>2015-10-24T16:47:15.047-04:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+            <sv:value>2015-10-24T16:47:16.772-04:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+            <sv:value>admin</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippotranslation:id" sv:type="String">
+            <sv:value>bb0a566f-53b4-4357-ac93-88d98a15fdc4</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippotranslation:locale" sv:type="String">
+            <sv:value>en</sv:value>
+          </sv:property>
+          <sv:node sv:name="atlast:content">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippostd:html</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippostd:content" sv:type="String">
+              <sv:value/>
+            </sv:property>
+          </sv:node>
+        </sv:node>
+      </sv:node>
+    </sv:node>
+    <sv:node sv:name="credits">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>hippostd:folder</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+        <sv:value>hippotranslation:translated</sv:value>
+        <sv:value>mix:versionable</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:uuid" sv:type="String">
+        <sv:value>cf39423f-1b3e-42c2-8df5-64e41a14ca1a</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostd:foldertype" sv:type="String" sv:multiple="true">
+        <sv:value>new-translated-folder</sv:value>
+        <sv:value>new-document</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippotranslation:id" sv:type="String">
+        <sv:value>b9880577-df37-422d-9cb8-8ae9257f459b</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippotranslation:locale" sv:type="String">
+        <sv:value>en</sv:value>
+      </sv:property>
+      <sv:node sv:name="credits">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippo:handle</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+          <sv:value>mix:referenceable</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:uuid" sv:type="String">
+          <sv:value>bec90557-b855-4a7f-81a8-62ebd44f5cfa</sv:value>
+        </sv:property>
+        <sv:node sv:name="credits">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>atlast:contentdocument</sv:value>
+          </sv:property>
+          <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+            <sv:value>mix:referenceable</sv:value>
+          </sv:property>
+          <sv:property sv:name="jcr:uuid" sv:type="String">
+            <sv:value>4f8e7530-cb57-41f2-9acc-f6280eacc607</sv:value>
+          </sv:property>
+          <sv:property sv:name="atlast:title" sv:type="String">
+            <sv:value>Credits</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true"/>
+          <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+            <sv:value>info/guide/credits/credits/credits[2]</sv:value>
+            <sv:value>info/guide/credits/credits/credits[3]</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostd:state" sv:type="String">
+            <sv:value>draft</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+            <sv:value>live</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+            <sv:value>admin</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+            <sv:value>2015-10-24T15:29:36.859-04:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+            <sv:value>2015-10-24T15:45:22.863-04:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+            <sv:value>admin</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippotranslation:id" sv:type="String">
+            <sv:value>f5087ed1-35e6-45c1-bafe-bfc580505ae1</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippotranslation:locale" sv:type="String">
+            <sv:value>en</sv:value>
+          </sv:property>
+          <sv:node sv:name="atlast:content">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippostd:html</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippostd:content" sv:type="String">
+              <sv:value>&lt;p&gt;The game was developed by William Borg Barthet. A software engineer with a passion for games and free markets. Having enjoyed browser-based games that involve a persistent world that moves in slow real time, I found myself inspired&amp;nbsp;to create a gaming experience that was a little different. Most browser-based games bog down the pace of play and condition players through micro-rewards and ever increasing wait times&amp;nbsp;to spend real money on buying premium&amp;nbsp;shortcuts. These games are also focused around war and empire.&lt;/p&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+
+&lt;p&gt;What I wanted in this game is to focus on trade, and have a real live price-mechanism determine what industries will be most profitable. Other games that involve trade have arbitrarily set prices or only a very rudimentary market system. Could a real, living price system find stability with hundreds of players trying to maximise their profits? If you want a real market simulator and a browser-based game with a simple interface, no ads and no grinding, you&amp;apos;ve found the right project.&lt;/p&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+
+&lt;p&gt;The project is open source and can be found on &lt;a href="https://github.com/wbarthet/atlast"&gt;GitHub&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+
+&lt;p&gt;The game engine is powered by &lt;a href="http://www.onehippo.org"&gt;Hippo CMS&lt;/a&gt;. An extremely versatile java open-source content management system.&lt;/p&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+
+&lt;p&gt;The design was adapted from the Wilmette&amp;nbsp;template produced by &lt;a href="http://www.typeandgrids.com/"&gt;Type &amp;amp; Grids&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+
+&lt;p&gt;Several icons were downloaded from the Noun Project, including&lt;/p&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+
+&lt;ul&gt;
+ &lt;li&gt;rice by Marco Galtarossa from the Noun Project&lt;/li&gt;
+ &lt;li&gt;Apple by Creative Stall from the Noun Project&lt;/li&gt;
+ &lt;li&gt;Meat by Henry Gatard from the Noun Project&amp;nbsp;&lt;/li&gt;
+&lt;/ul&gt;</sv:value>
+            </sv:property>
+          </sv:node>
+        </sv:node>
+        <sv:node sv:name="credits">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>atlast:contentdocument</sv:value>
+          </sv:property>
+          <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+            <sv:value>mix:versionable</sv:value>
+            <sv:value>mix:referenceable</sv:value>
+          </sv:property>
+          <sv:property sv:name="jcr:uuid" sv:type="String">
+            <sv:value>88a2b719-1380-44dd-94b3-1ece52afac36</sv:value>
+          </sv:property>
+          <sv:property sv:name="atlast:title" sv:type="String">
+            <sv:value>Credits</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
+            <sv:value>preview</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+            <sv:value>info/guide/credits/credits/credits[3]</sv:value>
           </sv:property>
           <sv:property sv:name="hippostd:state" sv:type="String">
             <sv:value>unpublished</sv:value>
@@ -1779,16 +3888,16 @@
             <sv:value>admin</sv:value>
           </sv:property>
           <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
-            <sv:value>2015-10-14T19:05:05.766-04:00</sv:value>
+            <sv:value>2015-10-24T15:29:36.859-04:00</sv:value>
           </sv:property>
           <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
-            <sv:value>2015-10-14T19:05:23.674-04:00</sv:value>
+            <sv:value>2015-10-24T15:59:19.488-04:00</sv:value>
           </sv:property>
           <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
             <sv:value>admin</sv:value>
           </sv:property>
           <sv:property sv:name="hippotranslation:id" sv:type="String">
-            <sv:value>fd241d9f-87b9-4ea6-b4d8-99c313744fa0</sv:value>
+            <sv:value>f5087ed1-35e6-45c1-bafe-bfc580505ae1</sv:value>
           </sv:property>
           <sv:property sv:name="hippotranslation:locale" sv:type="String">
             <sv:value>en</sv:value>
@@ -1798,11 +3907,39 @@
               <sv:value>hippostd:html</sv:value>
             </sv:property>
             <sv:property sv:name="hippostd:content" sv:type="String">
-              <sv:value>&lt;p&gt;This is about meat&amp;nbsp;This is about meat&amp;nbsp;This is about meat&amp;nbsp;This is about meat&amp;nbsp;This is about meat&amp;nbsp;This is about meat&amp;nbsp;This is about meat&amp;nbsp;This is about meat&amp;nbsp;This is about meat&amp;nbsp;This is about meat&amp;nbsp;This is about meat&amp;nbsp;This is about meat&amp;nbsp;&lt;/p&gt;</sv:value>
+              <sv:value>&lt;p&gt;The game was developed by William Borg Barthet. A software engineer with a passion for games and free markets. Having enjoyed browser-based games that involve a persistent world that moves in slow real time, I found myself inspired&amp;nbsp;to create a gaming experience that was a little different. Most browser-based games bog down the pace of play and condition players through micro-rewards and ever increasing wait times&amp;nbsp;to spend real money on buying premium&amp;nbsp;shortcuts. These games are also focused around war and empire.&lt;/p&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+
+&lt;p&gt;What I wanted in this game is to focus on trade, and have a real live price-mechanism determine what industries will be most profitable. Other games that involve trade have arbitrarily set prices or only a very rudimentary market system. Could a real, living price system find stability with hundreds of players trying to maximise their profits? If you want a real market simulator and a browser-based game with a simple interface, no ads and no grinding, you&amp;apos;ve found the right project.&lt;/p&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+
+&lt;p&gt;The project is open source and can be found on &lt;a href="https://github.com/wbarthet/atlast"&gt;GitHub&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+
+&lt;p&gt;The game engine is powered by &lt;a href="http://www.onehippo.org"&gt;Hippo CMS&lt;/a&gt;. An extremely versatile java open-source content management system.&lt;/p&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+
+&lt;p&gt;The design was adapted from the Wilmette&amp;nbsp;template produced by &lt;a href="http://www.typeandgrids.com/"&gt;Type &amp;amp; Grids&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+
+&lt;p&gt;Several icons were downloaded from the Noun Project, including&lt;/p&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+
+&lt;ul&gt;
+ &lt;li&gt;rice by Marco Galtarossa from the Noun Project&lt;/li&gt;
+ &lt;li&gt;Apple by Creative Stall from the Noun Project&lt;/li&gt;
+ &lt;li&gt;Meat by Henry Gatard from the Noun Project&amp;nbsp;&lt;/li&gt;
+&lt;/ul&gt;</sv:value>
             </sv:property>
           </sv:node>
         </sv:node>
-        <sv:node sv:name="meat">
+        <sv:node sv:name="credits">
           <sv:property sv:name="jcr:primaryType" sv:type="Name">
             <sv:value>atlast:contentdocument</sv:value>
           </sv:property>
@@ -1810,16 +3947,16 @@
             <sv:value>mix:referenceable</sv:value>
           </sv:property>
           <sv:property sv:name="jcr:uuid" sv:type="String">
-            <sv:value>a0960c70-4632-49d1-af60-58e667f86753</sv:value>
+            <sv:value>fd283ad3-af27-4d93-85a5-46b08e992d3a</sv:value>
           </sv:property>
           <sv:property sv:name="atlast:title" sv:type="String">
-            <sv:value>Meat</sv:value>
+            <sv:value>Credits</sv:value>
           </sv:property>
           <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
             <sv:value>live</sv:value>
           </sv:property>
           <sv:property sv:name="hippo:related___pathreference" sv:type="String">
-            <sv:value>info/guide/resources/meat/meat[2]</sv:value>
+            <sv:value>info/guide/credits/credits/credits[2]</sv:value>
           </sv:property>
           <sv:property sv:name="hippostd:state" sv:type="String">
             <sv:value>published</sv:value>
@@ -1831,19 +3968,19 @@
             <sv:value>admin</sv:value>
           </sv:property>
           <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
-            <sv:value>2015-10-14T19:05:05.766-04:00</sv:value>
+            <sv:value>2015-10-24T15:29:36.859-04:00</sv:value>
           </sv:property>
           <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
-            <sv:value>2015-10-14T19:05:23.674-04:00</sv:value>
+            <sv:value>2015-10-24T15:59:19.488-04:00</sv:value>
           </sv:property>
           <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
             <sv:value>admin</sv:value>
           </sv:property>
           <sv:property sv:name="hippostdpubwf:publicationDate" sv:type="Date">
-            <sv:value>2015-10-14T19:05:24.882-04:00</sv:value>
+            <sv:value>2015-10-24T15:59:26.679-04:00</sv:value>
           </sv:property>
           <sv:property sv:name="hippotranslation:id" sv:type="String">
-            <sv:value>fd241d9f-87b9-4ea6-b4d8-99c313744fa0</sv:value>
+            <sv:value>f5087ed1-35e6-45c1-bafe-bfc580505ae1</sv:value>
           </sv:property>
           <sv:property sv:name="hippotranslation:locale" sv:type="String">
             <sv:value>en</sv:value>
@@ -1853,7 +3990,35 @@
               <sv:value>hippostd:html</sv:value>
             </sv:property>
             <sv:property sv:name="hippostd:content" sv:type="String">
-              <sv:value>&lt;p&gt;This is about meat&amp;nbsp;This is about meat&amp;nbsp;This is about meat&amp;nbsp;This is about meat&amp;nbsp;This is about meat&amp;nbsp;This is about meat&amp;nbsp;This is about meat&amp;nbsp;This is about meat&amp;nbsp;This is about meat&amp;nbsp;This is about meat&amp;nbsp;This is about meat&amp;nbsp;This is about meat&amp;nbsp;&lt;/p&gt;</sv:value>
+              <sv:value>&lt;p&gt;The game was developed by William Borg Barthet. A software engineer with a passion for games and free markets. Having enjoyed browser-based games that involve a persistent world that moves in slow real time, I found myself inspired&amp;nbsp;to create a gaming experience that was a little different. Most browser-based games bog down the pace of play and condition players through micro-rewards and ever increasing wait times&amp;nbsp;to spend real money on buying premium&amp;nbsp;shortcuts. These games are also focused around war and empire.&lt;/p&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+
+&lt;p&gt;What I wanted in this game is to focus on trade, and have a real live price-mechanism determine what industries will be most profitable. Other games that involve trade have arbitrarily set prices or only a very rudimentary market system. Could a real, living price system find stability with hundreds of players trying to maximise their profits? If you want a real market simulator and a browser-based game with a simple interface, no ads and no grinding, you&amp;apos;ve found the right project.&lt;/p&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+
+&lt;p&gt;The project is open source and can be found on &lt;a href="https://github.com/wbarthet/atlast"&gt;GitHub&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+
+&lt;p&gt;The game engine is powered by &lt;a href="http://www.onehippo.org"&gt;Hippo CMS&lt;/a&gt;. An extremely versatile java open-source content management system.&lt;/p&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+
+&lt;p&gt;The design was adapted from the Wilmette&amp;nbsp;template produced by &lt;a href="http://www.typeandgrids.com/"&gt;Type &amp;amp; Grids&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+
+&lt;p&gt;Several icons were downloaded from the Noun Project, including&lt;/p&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+
+&lt;ul&gt;
+ &lt;li&gt;rice by Marco Galtarossa from the Noun Project&lt;/li&gt;
+ &lt;li&gt;Apple by Creative Stall from the Noun Project&lt;/li&gt;
+ &lt;li&gt;Meat by Henry Gatard from the Noun Project&amp;nbsp;&lt;/li&gt;
+&lt;/ul&gt;</sv:value>
             </sv:property>
           </sv:node>
         </sv:node>

@@ -7,7 +7,7 @@
       <div>
         <img class="logo" src="<@hst.link path="/binaries/content/gallery/atlastserver/img/tophead.png/tophead.png"/>"/>
       </div>
-      <h2><a href="<@hst.link path="root"/>">ATALASTAR</a></h2>
+      <h2><a href="">ATALASTAR</a></h2>
       <!--
        <div class="logo">
          <a href="index.html"><img src="img/logo.png" alt="Willamette" /></a>

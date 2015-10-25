@@ -13,7 +13,7 @@
   <description>Atlast Server</description>
   <groupId>org.atlast</groupId>
   <artifactId>atlast-server</artifactId>
-  <version>1.01.01-SNAPSHOT</version>
+  <version>1.01.02-SNAPSHOT</version>
   <packaging>pom</packaging>
 
   <!-- 

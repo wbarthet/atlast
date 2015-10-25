@@ -7,7 +7,7 @@
   <div class="row">
     <div class="small-12 medium-12 large-12 large-centered columns">
       <h1>Lands</h1>
-      <h5>In the realm of the Aqurids</h5>
+      <h5>In the realm of the ${player.identity.name}</h5>
     </div>
   </div>
 </div>
@@ -41,7 +41,7 @@
                       <span class="recipe-box">${land.recipeDescriptor.name}</span></p>
                     <p>
                         <#list land.pops as pop>
-                          <img class="pop-icon" style="background-color: ${pop.identity.colour};" src="<@hst.link path="binaries/content/gallery/atlastserver/img/lower2.png"/>"/>
+                          <img class="pop-icon" style="background-color: ${pop.identity.colour};" src="<@hst.link path="binaries/content/gallery/atlastserver/img/"+pop.popClass+"2.png"/>"/>
                         </#list>
                     </p>
 

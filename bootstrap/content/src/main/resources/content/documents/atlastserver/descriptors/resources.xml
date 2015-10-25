@@ -1234,7 +1234,7 @@
           <sv:value>2015-07-22T16:02:44.338-04:00</sv:value>
         </sv:property>
         <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
-          <sv:value>2015-09-05T13:49:52.438-04:00</sv:value>
+          <sv:value>2015-10-24T15:41:40.895-04:00</sv:value>
         </sv:property>
         <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
           <sv:value>admin</sv:value>
@@ -1250,7 +1250,7 @@
             <sv:value>hippogallerypicker:imagelink</sv:value>
           </sv:property>
           <sv:property sv:name="hippo:docbase" sv:type="String">
-            <sv:value>b8e03c7d-01ea-4d5e-bf21-1beb3c1db429</sv:value>
+            <sv:value>3787dc3f-18a4-4c75-b7d0-8b82ea45211d</sv:value>
           </sv:property>
           <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
           <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
@@ -1300,7 +1300,7 @@
           <sv:value>2015-07-22T16:02:44.338-04:00</sv:value>
         </sv:property>
         <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
-          <sv:value>2015-09-05T13:49:58.317-04:00</sv:value>
+          <sv:value>2015-10-24T15:41:36.947-04:00</sv:value>
         </sv:property>
         <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
           <sv:value>admin</sv:value>
@@ -1316,7 +1316,7 @@
             <sv:value>hippogallerypicker:imagelink</sv:value>
           </sv:property>
           <sv:property sv:name="hippo:docbase" sv:type="String">
-            <sv:value>b8e03c7d-01ea-4d5e-bf21-1beb3c1db429</sv:value>
+            <sv:value>3787dc3f-18a4-4c75-b7d0-8b82ea45211d</sv:value>
           </sv:property>
           <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
           <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
@@ -1355,13 +1355,13 @@
           <sv:value>2015-07-22T16:02:44.338-04:00</sv:value>
         </sv:property>
         <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
-          <sv:value>2015-09-05T13:49:58.317-04:00</sv:value>
+          <sv:value>2015-10-24T15:41:36.947-04:00</sv:value>
         </sv:property>
         <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
           <sv:value>admin</sv:value>
         </sv:property>
         <sv:property sv:name="hippostdpubwf:publicationDate" sv:type="Date">
-          <sv:value>2015-09-05T13:55:22.624-04:00</sv:value>
+          <sv:value>2015-10-24T15:41:39.035-04:00</sv:value>
         </sv:property>
         <sv:property sv:name="hippotranslation:id" sv:type="String">
           <sv:value>9df7cee6-628e-4b7e-840c-a877de6bfe67</sv:value>
@@ -1374,7 +1374,7 @@
             <sv:value>hippogallerypicker:imagelink</sv:value>
           </sv:property>
           <sv:property sv:name="hippo:docbase" sv:type="String">
-            <sv:value>b8e03c7d-01ea-4d5e-bf21-1beb3c1db429</sv:value>
+            <sv:value>3787dc3f-18a4-4c75-b7d0-8b82ea45211d</sv:value>
           </sv:property>
           <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
           <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
@@ -10348,7 +10348,6 @@
         </sv:property>
         <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
           <sv:value>mix:versionable</sv:value>
-          <sv:value>mix:referenceable</sv:value>
         </sv:property>
         <sv:property sv:name="jcr:uuid" sv:type="String">
           <sv:value>b8af0fd2-f29e-448a-8322-ec7442054a4a</sv:value>

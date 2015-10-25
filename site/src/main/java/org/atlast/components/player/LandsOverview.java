@@ -26,6 +26,7 @@ public class LandsOverview extends BaseSecuredComponent {
         Player player = requestContext.getContentBean(Player.class);
 
         request.setAttribute("lands", player.getLands());
+        request.setAttribute("player", player);
 
         Market worldMarket = requestContext.getSiteContentBaseBean().getBean("worlddata/market");
 
