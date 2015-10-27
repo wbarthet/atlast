@@ -50,6 +50,7 @@ public class SignupService {
     public static final double POP_START_FOOD = 100.0;
     public static final double START_TECH_LEVEL = 5.0d;
     public static final String[] TRADE_RECIPES = new String[]{"wagon-trains", "caravans", "trade-ships"};
+    public static final String[] CONSTRUCTION_RECIPES = new String[]{"wooden-buildings", "brick-buildings"};
 
     public String signup(HstRequestContext requestContext, String userName, String password) throws RepositoryException, QueryException, ObjectBeanManagerException {
         Session session = requestContext.getSession();
@@ -78,6 +79,8 @@ public class SignupService {
             createPlayerStores(userPlayerDataNode, requestContext, userName);
 
             createPlayerStorehouse(userPlayerDataNode, userName, session);
+
+            createPlayerConstruction(userPlayerDataNode, userName, session);
 
             Node identityNode = userPlayerDataNode.getNode("identity");
 
@@ -143,6 +146,23 @@ public class SignupService {
 
     }
 
+    private void createPlayerConstruction(final Node userPlayerDataNode, final String userName, Session session) throws RepositoryException {
+        Node constructionNode = userPlayerDataNode.addNode("construction", "atlast:construction");
+
+        constructionNode.setProperty("atlast:player", userName);
+
+        Random r = new Random();
+
+        int index = r.nextInt(2);
+
+        Node recipeNode = session.getNode("/content/documents/atlastserver/descriptors/recipes/services/" + CONSTRUCTION_RECIPES[index]);
+
+        constructionNode.setProperty("atlast:recipedescriptor", recipeNode.getIdentifier());
+
+        constructionNode.setProperty("atlast:wages", 200.0d);
+
+    }
+
     private Node createPlayerStores(final Node userPlayerDataNode, final HstRequestContext requestContext, final String userName) throws RepositoryException, QueryException {
 
         Node marketNode = userPlayerDataNode.addNode("market", "atlast:market");
@@ -161,23 +181,26 @@ public class SignupService {
 
             String storeName = resourceDescriptor.getParentBean().getName();
 
-            Node storeNode = null;
+            if (!"services".equals(storeName)) {
 
-            if (marketNode.hasNode(storeName)) {
-                storeNode = marketNode.getNode(storeName);
-            } else {
-                storeNode = marketNode.addNode(storeName, "atlast:store");
-                storeNode.setProperty("atlast:player", userName);
-                storeNode.setProperty("atlast:name", storeName);
-                storeNode.setProperty("atlast:items", new String[]{});
+                Node storeNode = null;
+
+                if (marketNode.hasNode(storeName)) {
+                    storeNode = marketNode.getNode(storeName);
+                } else {
+                    storeNode = marketNode.addNode(storeName, "atlast:store");
+                    storeNode.setProperty("atlast:player", userName);
+                    storeNode.setProperty("atlast:name", storeName);
+                    storeNode.setProperty("atlast:items", new String[]{});
+                }
+
+                String resourceName = resourceDescriptor.getName().toLowerCase();
+                storeNode.setProperty(resourceName, 10.0d);
+                storeNode.setProperty(resourceName + "-level", 10.0d);
+
+
+                addValue(storeNode, "atlast:items", resourceName);
             }
-
-            String resourceName = resourceDescriptor.getName().toLowerCase();
-            storeNode.setProperty(resourceName, 10.0d);
-            storeNode.setProperty(resourceName + "-level", 10.0d);
-
-
-            addValue(storeNode, "atlast:items", resourceName);
         }
 
         return marketNode;
@@ -427,6 +450,8 @@ public class SignupService {
 
         landNode.setProperty("atlast:developmentdescriptor", development.getNode().getParent().getIdentifier());
         landNode.setProperty("atlast:recipedescriptor", recipe.getNode().getParent().getIdentifier());
+        landNode.setProperty("atlast:developmentlevel", 1);
+        landNode.setProperty("atlast:developmentprogress", 0.0d);
     }
 
     private void createTech(final RecipeDescriptor recipe, final Node userPlayerDataNode) throws RepositoryException {

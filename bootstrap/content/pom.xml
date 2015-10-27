@@ -5,7 +5,7 @@
   <parent>
     <groupId>org.atlast</groupId>
     <artifactId>atlast-server-bootstrap</artifactId>
-    <version>1.01.02-SNAPSHOT</version>
+    <version>1.01.03-SNAPSHOT</version>
   </parent>
 
   <name>Atlast Server Bootstrap Content</name>

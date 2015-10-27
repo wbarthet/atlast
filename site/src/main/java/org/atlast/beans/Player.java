@@ -45,6 +45,11 @@ public class Player extends AtlastObject {
         return getBean("storehouse");
     }
 
+    public Construction getConstruction() {
+        return getBean("construction");
+    }
+
+
     public Inbox getInbox() {
         return getBean("inbox", Inbox.class);
     }

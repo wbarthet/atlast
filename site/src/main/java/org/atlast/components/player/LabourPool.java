@@ -9,6 +9,7 @@ import org.atlast.beans.Land;
 import org.atlast.components.world.BaseSecuredComponent;
 import org.atlast.services.LandsService;
 import org.hippoecm.hst.content.annotations.Persistable;
+import org.hippoecm.hst.content.beans.ObjectBeanManagerException;
 import org.hippoecm.hst.content.beans.standard.HippoBean;
 import org.hippoecm.hst.core.component.HstComponentException;
 import org.hippoecm.hst.core.component.HstRequest;
@@ -52,6 +53,8 @@ public class LabourPool extends BaseSecuredComponent {
                 try {
                    landsService.hire(request.getRequestContext(), uuid, "global");
                 } catch (RepositoryException e) {
+                    log.error("Error updating labour pool", e);
+                } catch (ObjectBeanManagerException e) {
                     log.error("Error updating labour pool", e);
                 }
 

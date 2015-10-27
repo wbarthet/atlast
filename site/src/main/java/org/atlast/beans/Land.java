@@ -51,6 +51,13 @@ public class Land extends AtlastObject {
         return getProperty("atlast:wages");
     }
 
+    public double getDevelopmentProgress() {
+        return getProperty("atlast:developmentprogress");
+    }
+    
+    public long getDevelopmentLevel() {
+        return getProperty("atlast:developmentlevel");
+    }
 
 
     public Map<String, Double> getOutputs() throws RepositoryException {

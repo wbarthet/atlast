@@ -20,7 +20,7 @@ public class AtlastObject extends HippoItem {
     public <T extends BaseDocument> T getDescriptor(String name, Class<T> beanmappingClass) {
         String descriptorUuid = getProperty(name);
 
-        if (!"none".equals(descriptorUuid)) {
+        if (descriptorUuid != null && !"none".equals(descriptorUuid)) {
 
             try {
                 return (T) objectConverter.getObject(descriptorUuid, getNode().getSession());
@@ -42,7 +42,7 @@ public class AtlastObject extends HippoItem {
 
         List<Pop> pops = getPops();
 
-        if (pops.size()>0) {
+        if (pops.size() > 0) {
             for (Pop pop : pops) {
                 skillLevel += pop.getSkill(skillName);
             }

@@ -7,6 +7,7 @@ import javax.jcr.SimpleCredentials;
 import javax.jcr.query.Query;
 import javax.jcr.query.QueryManager;
 
+import org.atlast.world.model.Construction;
 import org.atlast.world.model.Development;
 import org.atlast.world.model.Library;
 import org.atlast.world.model.Market;
@@ -48,6 +49,8 @@ public class RotateWorldJob implements RepositoryJob {
             learn(context, queryManager);
 
             trade(context, queryManager);
+
+            build(context, queryManager);
 
             consume(context, worldMarket, queryManager);
 
@@ -143,4 +146,15 @@ public class RotateWorldJob implements RepositoryJob {
         }
     }
 
+    private void build(final RepositoryJobExecutionContext context, final QueryManager queryManager) throws RepositoryException {
+        Query query = queryManager.createQuery(context.getAttribute("playerdatalocation") + "//element(*, atlast:construction)", Query.XPATH);
+        //TODO: batch processing
+        NodeIterator queryResult = query.execute().getNodes();
+
+        while (queryResult.hasNext()) {
+            Construction construction = new Construction(queryResult.nextNode());
+
+            construction.build(queryManager, context);
+        }
+    }
 }

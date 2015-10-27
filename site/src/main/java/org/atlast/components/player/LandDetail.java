@@ -99,6 +99,8 @@ public class LandDetail extends BaseSecuredComponent {
                     landsService.hire(request.getRequestContext(), uuid, player);
                 } catch (RepositoryException e) {
                     log.error("Error updating labour pool", e);
+                } catch (ObjectBeanManagerException e) {
+                    log.error("Error updating labour pool", e);
                 }
 
             } else if ("save".equals(type)) {

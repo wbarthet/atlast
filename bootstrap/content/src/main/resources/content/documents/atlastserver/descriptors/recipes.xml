@@ -27830,5 +27830,718 @@
         </sv:node>
       </sv:node>
     </sv:node>
+    <sv:node sv:name="wooden-buildings">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>hippo:handle</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+        <sv:value>mix:referenceable</sv:value>
+        <sv:value>hippo:translated</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:uuid" sv:type="String">
+        <sv:value>a5187570-eac8-49bc-94df-6ffb2441f27d</sv:value>
+      </sv:property>
+      <sv:node sv:name="wooden-buildings">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>atlast:recipedescriptor</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+          <sv:value>mix:versionable</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:uuid" sv:type="String">
+          <sv:value>ce145589-806a-4c64-b417-89d63e21702c</sv:value>
+        </sv:property>
+        <sv:property sv:name="atlast:labour" sv:type="Long">
+          <sv:value>1</sv:value>
+        </sv:property>
+        <sv:property sv:name="atlast:name" sv:type="String">
+          <sv:value>Wooden Buildings</sv:value>
+        </sv:property>
+        <sv:property sv:name="atlast:skill" sv:type="String">
+          <sv:value>builder</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
+          <sv:value>preview</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+          <sv:value>recipes/services/wooden-buildings/wooden-buildings[3]</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:state" sv:type="String">
+          <sv:value>unpublished</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+          <sv:value>live</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+          <sv:value>admin</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+          <sv:value>2015-10-13T19:11:38.552-04:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+          <sv:value>2015-10-25T19:28:13.072-04:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+          <sv:value>admin</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippotranslation:id" sv:type="String">
+          <sv:value>0188cbdc-4001-49ce-9951-fbe49dc0bfae</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippotranslation:locale" sv:type="String">
+          <sv:value>en</sv:value>
+        </sv:property>
+        <sv:property sv:name="input-resources-cloth.png" sv:type="Long">
+          <sv:value>1</sv:value>
+        </sv:property>
+        <sv:property sv:name="input-resources-lumber.png" sv:type="Long">
+          <sv:value>1</sv:value>
+        </sv:property>
+        <sv:property sv:name="input-secondary-cloth" sv:type="Long">
+          <sv:value>1</sv:value>
+        </sv:property>
+        <sv:property sv:name="input-secondary-lumber" sv:type="Long">
+          <sv:value>1</sv:value>
+        </sv:property>
+        <sv:property sv:name="inputs" sv:type="String" sv:multiple="true">
+          <sv:value>secondary-lumber</sv:value>
+        </sv:property>
+        <sv:property sv:name="output-resources-trade.png" sv:type="Long">
+          <sv:value>4</sv:value>
+        </sv:property>
+        <sv:property sv:name="output-services-construction" sv:type="Long">
+          <sv:value>3</sv:value>
+        </sv:property>
+        <sv:property sv:name="output-services-trade" sv:type="Long">
+          <sv:value>4</sv:value>
+        </sv:property>
+        <sv:property sv:name="outputs" sv:type="String" sv:multiple="true">
+          <sv:value>services-construction</sv:value>
+        </sv:property>
+        <sv:node sv:name="atlast:inputs">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>atlast:amount</sv:value>
+          </sv:property>
+          <sv:property sv:name="atlast:quantity" sv:type="Long">
+            <sv:value>1</sv:value>
+          </sv:property>
+          <sv:node sv:name="atlast:resource">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippo:mirror</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:docbase" sv:type="String">
+              <sv:value>c2278c4d-1c69-4475-9731-ff475fb8aa35</sv:value>
+            </sv:property>
+          </sv:node>
+        </sv:node>
+        <sv:node sv:name="atlast:outputs">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>atlast:amount</sv:value>
+          </sv:property>
+          <sv:property sv:name="atlast:quantity" sv:type="Long">
+            <sv:value>3</sv:value>
+          </sv:property>
+          <sv:node sv:name="atlast:resource">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippo:mirror</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:docbase" sv:type="String">
+              <sv:value>a9a908c1-93a0-47b3-90e5-26ff28642151</sv:value>
+            </sv:property>
+          </sv:node>
+        </sv:node>
+      </sv:node>
+      <sv:node sv:name="hippo:translation">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippo:translation</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:language" sv:type="String">
+          <sv:value/>
+        </sv:property>
+        <sv:property sv:name="hippo:message" sv:type="String">
+          <sv:value>Wooden Buildings</sv:value>
+        </sv:property>
+      </sv:node>
+      <sv:node sv:name="wooden-buildings">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>atlast:recipedescriptor</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+          <sv:value>mix:referenceable</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:uuid" sv:type="String">
+          <sv:value>7cae7d2a-0e81-4d72-9f01-fb39f736a02d</sv:value>
+        </sv:property>
+        <sv:property sv:name="atlast:labour" sv:type="Long">
+          <sv:value>1</sv:value>
+        </sv:property>
+        <sv:property sv:name="atlast:name" sv:type="String">
+          <sv:value>Wooden Buildings</sv:value>
+        </sv:property>
+        <sv:property sv:name="atlast:skill" sv:type="String">
+          <sv:value>builder</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true"/>
+        <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+          <sv:value>recipes/services/wooden-buildings/wooden-buildings[3]</sv:value>
+          <sv:value>recipes/services/wooden-buildings/wooden-buildings</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:state" sv:type="String">
+          <sv:value>draft</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+          <sv:value>live</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+          <sv:value>admin</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+          <sv:value>2015-10-13T19:11:38.552-04:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+          <sv:value>2015-10-25T19:28:02.275-04:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+          <sv:value>admin</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippotranslation:id" sv:type="String">
+          <sv:value>0188cbdc-4001-49ce-9951-fbe49dc0bfae</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippotranslation:locale" sv:type="String">
+          <sv:value>en</sv:value>
+        </sv:property>
+        <sv:property sv:name="input-resources-cloth.png" sv:type="Long">
+          <sv:value>1</sv:value>
+        </sv:property>
+        <sv:property sv:name="input-resources-lumber.png" sv:type="Long">
+          <sv:value>1</sv:value>
+        </sv:property>
+        <sv:property sv:name="input-secondary-cloth" sv:type="Long">
+          <sv:value>1</sv:value>
+        </sv:property>
+        <sv:property sv:name="input-secondary-lumber" sv:type="Long">
+          <sv:value>1</sv:value>
+        </sv:property>
+        <sv:property sv:name="inputs" sv:type="String" sv:multiple="true">
+          <sv:value>secondary-lumber</sv:value>
+        </sv:property>
+        <sv:property sv:name="output-resources-trade.png" sv:type="Long">
+          <sv:value>4</sv:value>
+        </sv:property>
+        <sv:property sv:name="output-services-construction" sv:type="Long">
+          <sv:value>3</sv:value>
+        </sv:property>
+        <sv:property sv:name="output-services-trade" sv:type="Long">
+          <sv:value>4</sv:value>
+        </sv:property>
+        <sv:property sv:name="outputs" sv:type="String" sv:multiple="true">
+          <sv:value>services-construction</sv:value>
+        </sv:property>
+        <sv:node sv:name="atlast:inputs">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>atlast:amount</sv:value>
+          </sv:property>
+          <sv:property sv:name="atlast:quantity" sv:type="Long">
+            <sv:value>1</sv:value>
+          </sv:property>
+          <sv:node sv:name="atlast:resource">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippo:mirror</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:docbase" sv:type="String">
+              <sv:value>c2278c4d-1c69-4475-9731-ff475fb8aa35</sv:value>
+            </sv:property>
+          </sv:node>
+        </sv:node>
+        <sv:node sv:name="atlast:outputs">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>atlast:amount</sv:value>
+          </sv:property>
+          <sv:property sv:name="atlast:quantity" sv:type="Long">
+            <sv:value>3</sv:value>
+          </sv:property>
+          <sv:node sv:name="atlast:resource">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippo:mirror</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:docbase" sv:type="String">
+              <sv:value>a9a908c1-93a0-47b3-90e5-26ff28642151</sv:value>
+            </sv:property>
+          </sv:node>
+        </sv:node>
+      </sv:node>
+      <sv:node sv:name="wooden-buildings">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>atlast:recipedescriptor</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+          <sv:value>mix:referenceable</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:uuid" sv:type="String">
+          <sv:value>9eab6f19-5ebd-406d-b538-c69ddbf217f2</sv:value>
+        </sv:property>
+        <sv:property sv:name="atlast:labour" sv:type="Long">
+          <sv:value>1</sv:value>
+        </sv:property>
+        <sv:property sv:name="atlast:name" sv:type="String">
+          <sv:value>Wooden Buildings</sv:value>
+        </sv:property>
+        <sv:property sv:name="atlast:skill" sv:type="String">
+          <sv:value>builder</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
+          <sv:value>live</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+          <sv:value>recipes/services/wooden-buildings/wooden-buildings</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:state" sv:type="String">
+          <sv:value>published</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+          <sv:value>live</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+          <sv:value>admin</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+          <sv:value>2015-10-13T19:11:38.552-04:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+          <sv:value>2015-10-25T19:28:13.072-04:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+          <sv:value>admin</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:publicationDate" sv:type="Date">
+          <sv:value>2015-10-25T19:28:35.573-04:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippotranslation:id" sv:type="String">
+          <sv:value>0188cbdc-4001-49ce-9951-fbe49dc0bfae</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippotranslation:locale" sv:type="String">
+          <sv:value>en</sv:value>
+        </sv:property>
+        <sv:property sv:name="input-resources-cloth.png" sv:type="Long">
+          <sv:value>1</sv:value>
+        </sv:property>
+        <sv:property sv:name="input-resources-lumber.png" sv:type="Long">
+          <sv:value>1</sv:value>
+        </sv:property>
+        <sv:property sv:name="input-secondary-cloth" sv:type="Long">
+          <sv:value>1</sv:value>
+        </sv:property>
+        <sv:property sv:name="input-secondary-lumber" sv:type="Long">
+          <sv:value>1</sv:value>
+        </sv:property>
+        <sv:property sv:name="inputs" sv:type="String" sv:multiple="true">
+          <sv:value>secondary-lumber</sv:value>
+        </sv:property>
+        <sv:property sv:name="output-resources-trade.png" sv:type="Long">
+          <sv:value>4</sv:value>
+        </sv:property>
+        <sv:property sv:name="output-services-construction" sv:type="Long">
+          <sv:value>3</sv:value>
+        </sv:property>
+        <sv:property sv:name="output-services-trade" sv:type="Long">
+          <sv:value>4</sv:value>
+        </sv:property>
+        <sv:property sv:name="outputs" sv:type="String" sv:multiple="true">
+          <sv:value>services-construction</sv:value>
+        </sv:property>
+        <sv:node sv:name="atlast:inputs">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>atlast:amount</sv:value>
+          </sv:property>
+          <sv:property sv:name="atlast:quantity" sv:type="Long">
+            <sv:value>1</sv:value>
+          </sv:property>
+          <sv:node sv:name="atlast:resource">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippo:mirror</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:docbase" sv:type="String">
+              <sv:value>c2278c4d-1c69-4475-9731-ff475fb8aa35</sv:value>
+            </sv:property>
+          </sv:node>
+        </sv:node>
+        <sv:node sv:name="atlast:outputs">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>atlast:amount</sv:value>
+          </sv:property>
+          <sv:property sv:name="atlast:quantity" sv:type="Long">
+            <sv:value>3</sv:value>
+          </sv:property>
+          <sv:node sv:name="atlast:resource">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippo:mirror</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:docbase" sv:type="String">
+              <sv:value>a9a908c1-93a0-47b3-90e5-26ff28642151</sv:value>
+            </sv:property>
+          </sv:node>
+        </sv:node>
+      </sv:node>
+    </sv:node>
+    <sv:node sv:name="brick-buildings">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>hippo:handle</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+        <sv:value>mix:referenceable</sv:value>
+        <sv:value>hippo:translated</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:uuid" sv:type="String">
+        <sv:value>94174b75-9bc1-4c98-aa99-dca6878288da</sv:value>
+      </sv:property>
+      <sv:node sv:name="brick-buildings">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>atlast:recipedescriptor</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+          <sv:value>mix:versionable</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:uuid" sv:type="String">
+          <sv:value>def5a210-c483-495d-8eef-0d4714af4cad</sv:value>
+        </sv:property>
+        <sv:property sv:name="atlast:labour" sv:type="Long">
+          <sv:value>1</sv:value>
+        </sv:property>
+        <sv:property sv:name="atlast:name" sv:type="String">
+          <sv:value>Brick Buildings</sv:value>
+        </sv:property>
+        <sv:property sv:name="atlast:skill" sv:type="String">
+          <sv:value>builder</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
+          <sv:value>preview</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+          <sv:value>recipes/services/brick-buildings/brick-buildings[3]</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:state" sv:type="String">
+          <sv:value>unpublished</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+          <sv:value>live</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+          <sv:value>admin</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+          <sv:value>2015-10-13T19:11:38.552-04:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+          <sv:value>2015-10-25T19:46:43.053-04:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+          <sv:value>admin</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippotranslation:id" sv:type="String">
+          <sv:value>cecdbd39-e31f-4a63-922f-6a309b5867d3</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippotranslation:locale" sv:type="String">
+          <sv:value>en</sv:value>
+        </sv:property>
+        <sv:property sv:name="input-resources-cloth.png" sv:type="Long">
+          <sv:value>1</sv:value>
+        </sv:property>
+        <sv:property sv:name="input-resources-lumber.png" sv:type="Long">
+          <sv:value>1</sv:value>
+        </sv:property>
+        <sv:property sv:name="input-secondary-bricks" sv:type="Long">
+          <sv:value>1</sv:value>
+        </sv:property>
+        <sv:property sv:name="input-secondary-cloth" sv:type="Long">
+          <sv:value>1</sv:value>
+        </sv:property>
+        <sv:property sv:name="input-secondary-lumber" sv:type="Long">
+          <sv:value>1</sv:value>
+        </sv:property>
+        <sv:property sv:name="inputs" sv:type="String" sv:multiple="true">
+          <sv:value>secondary-bricks</sv:value>
+        </sv:property>
+        <sv:property sv:name="output-resources-trade.png" sv:type="Long">
+          <sv:value>4</sv:value>
+        </sv:property>
+        <sv:property sv:name="output-services-construction" sv:type="Long">
+          <sv:value>3</sv:value>
+        </sv:property>
+        <sv:property sv:name="output-services-trade" sv:type="Long">
+          <sv:value>4</sv:value>
+        </sv:property>
+        <sv:property sv:name="outputs" sv:type="String" sv:multiple="true">
+          <sv:value>services-construction</sv:value>
+        </sv:property>
+        <sv:node sv:name="atlast:inputs">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>atlast:amount</sv:value>
+          </sv:property>
+          <sv:property sv:name="atlast:quantity" sv:type="Long">
+            <sv:value>1</sv:value>
+          </sv:property>
+          <sv:node sv:name="atlast:resource">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippo:mirror</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:docbase" sv:type="String">
+              <sv:value>5faaa99d-03e0-4b8a-92fc-ac471b2e5baf</sv:value>
+            </sv:property>
+          </sv:node>
+        </sv:node>
+        <sv:node sv:name="atlast:outputs">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>atlast:amount</sv:value>
+          </sv:property>
+          <sv:property sv:name="atlast:quantity" sv:type="Long">
+            <sv:value>3</sv:value>
+          </sv:property>
+          <sv:node sv:name="atlast:resource">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippo:mirror</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:docbase" sv:type="String">
+              <sv:value>a9a908c1-93a0-47b3-90e5-26ff28642151</sv:value>
+            </sv:property>
+          </sv:node>
+        </sv:node>
+      </sv:node>
+      <sv:node sv:name="hippo:translation">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippo:translation</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:language" sv:type="String">
+          <sv:value/>
+        </sv:property>
+        <sv:property sv:name="hippo:message" sv:type="String">
+          <sv:value>Brick Buildings</sv:value>
+        </sv:property>
+      </sv:node>
+      <sv:node sv:name="brick-buildings">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>atlast:recipedescriptor</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+          <sv:value>mix:referenceable</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:uuid" sv:type="String">
+          <sv:value>5ce7e67a-8d6e-4d79-b981-b7c79320ce0f</sv:value>
+        </sv:property>
+        <sv:property sv:name="atlast:labour" sv:type="Long">
+          <sv:value>1</sv:value>
+        </sv:property>
+        <sv:property sv:name="atlast:name" sv:type="String">
+          <sv:value>Brick Buildings</sv:value>
+        </sv:property>
+        <sv:property sv:name="atlast:skill" sv:type="String">
+          <sv:value>builder</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true"/>
+        <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+          <sv:value>recipes/services/brick-buildings/brick-buildings[3]</sv:value>
+          <sv:value>recipes/services/brick-buildings/brick-buildings</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:state" sv:type="String">
+          <sv:value>draft</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+          <sv:value>live</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+          <sv:value>admin</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+          <sv:value>2015-10-13T19:11:38.552-04:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+          <sv:value>2015-10-25T19:46:35.078-04:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+          <sv:value>admin</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippotranslation:id" sv:type="String">
+          <sv:value>cecdbd39-e31f-4a63-922f-6a309b5867d3</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippotranslation:locale" sv:type="String">
+          <sv:value>en</sv:value>
+        </sv:property>
+        <sv:property sv:name="input-resources-cloth.png" sv:type="Long">
+          <sv:value>1</sv:value>
+        </sv:property>
+        <sv:property sv:name="input-resources-lumber.png" sv:type="Long">
+          <sv:value>1</sv:value>
+        </sv:property>
+        <sv:property sv:name="input-secondary-bricks" sv:type="Long">
+          <sv:value>1</sv:value>
+        </sv:property>
+        <sv:property sv:name="input-secondary-cloth" sv:type="Long">
+          <sv:value>1</sv:value>
+        </sv:property>
+        <sv:property sv:name="input-secondary-lumber" sv:type="Long">
+          <sv:value>1</sv:value>
+        </sv:property>
+        <sv:property sv:name="inputs" sv:type="String" sv:multiple="true">
+          <sv:value>secondary-bricks</sv:value>
+        </sv:property>
+        <sv:property sv:name="output-resources-trade.png" sv:type="Long">
+          <sv:value>4</sv:value>
+        </sv:property>
+        <sv:property sv:name="output-services-construction" sv:type="Long">
+          <sv:value>3</sv:value>
+        </sv:property>
+        <sv:property sv:name="output-services-trade" sv:type="Long">
+          <sv:value>4</sv:value>
+        </sv:property>
+        <sv:property sv:name="outputs" sv:type="String" sv:multiple="true">
+          <sv:value>services-construction</sv:value>
+        </sv:property>
+        <sv:node sv:name="atlast:inputs">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>atlast:amount</sv:value>
+          </sv:property>
+          <sv:property sv:name="atlast:quantity" sv:type="Long">
+            <sv:value>1</sv:value>
+          </sv:property>
+          <sv:node sv:name="atlast:resource">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippo:mirror</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:docbase" sv:type="String">
+              <sv:value>5faaa99d-03e0-4b8a-92fc-ac471b2e5baf</sv:value>
+            </sv:property>
+          </sv:node>
+        </sv:node>
+        <sv:node sv:name="atlast:outputs">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>atlast:amount</sv:value>
+          </sv:property>
+          <sv:property sv:name="atlast:quantity" sv:type="Long">
+            <sv:value>3</sv:value>
+          </sv:property>
+          <sv:node sv:name="atlast:resource">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippo:mirror</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:docbase" sv:type="String">
+              <sv:value>a9a908c1-93a0-47b3-90e5-26ff28642151</sv:value>
+            </sv:property>
+          </sv:node>
+        </sv:node>
+      </sv:node>
+      <sv:node sv:name="brick-buildings">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>atlast:recipedescriptor</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+          <sv:value>mix:referenceable</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:uuid" sv:type="String">
+          <sv:value>973f3ffc-2de4-4323-8981-f24d61f41594</sv:value>
+        </sv:property>
+        <sv:property sv:name="atlast:labour" sv:type="Long">
+          <sv:value>1</sv:value>
+        </sv:property>
+        <sv:property sv:name="atlast:name" sv:type="String">
+          <sv:value>Brick Buildings</sv:value>
+        </sv:property>
+        <sv:property sv:name="atlast:skill" sv:type="String">
+          <sv:value>builder</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
+          <sv:value>live</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+          <sv:value>recipes/services/brick-buildings/brick-buildings</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:state" sv:type="String">
+          <sv:value>published</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+          <sv:value>live</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+          <sv:value>admin</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+          <sv:value>2015-10-13T19:11:38.552-04:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+          <sv:value>2015-10-25T19:46:43.053-04:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+          <sv:value>admin</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:publicationDate" sv:type="Date">
+          <sv:value>2015-10-25T19:46:44.645-04:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippotranslation:id" sv:type="String">
+          <sv:value>cecdbd39-e31f-4a63-922f-6a309b5867d3</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippotranslation:locale" sv:type="String">
+          <sv:value>en</sv:value>
+        </sv:property>
+        <sv:property sv:name="input-resources-cloth.png" sv:type="Long">
+          <sv:value>1</sv:value>
+        </sv:property>
+        <sv:property sv:name="input-resources-lumber.png" sv:type="Long">
+          <sv:value>1</sv:value>
+        </sv:property>
+        <sv:property sv:name="input-secondary-bricks" sv:type="Long">
+          <sv:value>1</sv:value>
+        </sv:property>
+        <sv:property sv:name="input-secondary-cloth" sv:type="Long">
+          <sv:value>1</sv:value>
+        </sv:property>
+        <sv:property sv:name="input-secondary-lumber" sv:type="Long">
+          <sv:value>1</sv:value>
+        </sv:property>
+        <sv:property sv:name="inputs" sv:type="String" sv:multiple="true">
+          <sv:value>secondary-bricks</sv:value>
+        </sv:property>
+        <sv:property sv:name="output-resources-trade.png" sv:type="Long">
+          <sv:value>4</sv:value>
+        </sv:property>
+        <sv:property sv:name="output-services-construction" sv:type="Long">
+          <sv:value>3</sv:value>
+        </sv:property>
+        <sv:property sv:name="output-services-trade" sv:type="Long">
+          <sv:value>4</sv:value>
+        </sv:property>
+        <sv:property sv:name="outputs" sv:type="String" sv:multiple="true">
+          <sv:value>services-construction</sv:value>
+        </sv:property>
+        <sv:node sv:name="atlast:inputs">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>atlast:amount</sv:value>
+          </sv:property>
+          <sv:property sv:name="atlast:quantity" sv:type="Long">
+            <sv:value>1</sv:value>
+          </sv:property>
+          <sv:node sv:name="atlast:resource">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippo:mirror</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:docbase" sv:type="String">
+              <sv:value>5faaa99d-03e0-4b8a-92fc-ac471b2e5baf</sv:value>
+            </sv:property>
+          </sv:node>
+        </sv:node>
+        <sv:node sv:name="atlast:outputs">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>atlast:amount</sv:value>
+          </sv:property>
+          <sv:property sv:name="atlast:quantity" sv:type="Long">
+            <sv:value>3</sv:value>
+          </sv:property>
+          <sv:node sv:name="atlast:resource">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippo:mirror</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:docbase" sv:type="String">
+              <sv:value>a9a908c1-93a0-47b3-90e5-26ff28642151</sv:value>
+            </sv:property>
+          </sv:node>
+        </sv:node>
+      </sv:node>
+    </sv:node>
   </sv:node>
 </sv:node>

@@ -50,6 +50,9 @@
 [atlast:storehouse] > atlast:object
   orderable
 
+[atlast:construction] > atlast:object
+  orderable
+
 [atlast:market] > atlast:object
 
 [atlast:player] > atlast:object

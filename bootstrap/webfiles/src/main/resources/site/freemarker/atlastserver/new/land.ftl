@@ -17,7 +17,7 @@
       </h1>
       <h5>${land.landDescriptor.name}
       <#if land.development>
-        , ${land.developmentDescriptor.name}
+        , level ${land.developmentLevel} ${land.developmentDescriptor.name} (construction progress ${(land.developmentProgress/(land.developmentLevel+1))?string["0.##"]}%)
       </#if>
       </h5>
     </div>
@@ -65,14 +65,14 @@
         <#if land.pops?has_content>
 
           <p>
-            Skill level ${land.getSkillLevel(land.recipeDescriptor.skill)}% | Tech level: ${player.getLibrary().getTechLevel(land.recipeDescriptor)*10}% | Land exhaustion: 67%
+            Skill level ${land.getSkillLevel(land.recipeDescriptor.skill)?string["0.##"]}% | Tech level: ${(player.getLibrary().getTechLevel(land.recipeDescriptor)*10)?string["0.##"]}% | Land exhaustion: 67%
           </p>
           <p>
               <#assign pnl=0.00/>
               <#if land.recipeDescriptor.inputs?has_content>
                 Input:
                   <#list land.recipeDescriptor.inputs as input>
-                  <#assign inputCount = input.quantity * land.pops?size / land.recipeDescriptor.labour/>
+                      <#assign inputCount = input.quantity * land.pops?size / land.recipeDescriptor.labour/>
                   ${inputCount} x ${input.resourceDescriptor.name}
                     <img class="resource-icon" src="<@hst.link hippobean=input.resourceDescriptor.icon.smallicon/>"/>
                       <#assign pnl=pnl-inputCount * worldMarket.getStore(input.resourceDescriptor.category?lower_case).getResourceLevel(input.resourceDescriptor.name?lower_case)?double/>
@@ -81,11 +81,11 @@
               <#assign pnl = pnl - (land.wages * land.pops?size)/>
 
             Labour: ${land.recipeDescriptor.labour} x
-            <img style="width: 1.2em;" class="resource-icon" src="img/other/lower.png"/> |
+            <img style="width: 1.2em;" class="resource-icon" src="<@hst.link path="binaries/content/gallery/atlastserver/img/lower.png"/>"/> |
               <#if land.recipeDescriptor.outputs?has_content>
                 Output:
                   <#list land.recipeDescriptor.outputs as output>
-                  ${output.resourceDescriptor.name} x ${land.outputs[output.resourceDescriptor.name]}
+                  ${output.resourceDescriptor.name} x ${land.outputs[output.resourceDescriptor.name]?string["0.##"]}
                   <#-- ${land.getOutputs().get(output.name)} x ${output.name}-->
                     <img class="resource-icon" src="<@hst.link hippobean=output.resourceDescriptor.icon.smallicon/>"/>
                       <#assign pnl=pnl + land.outputs[output.resourceDescriptor.name] * worldMarket.getStore(output.resourceDescriptor.category?lower_case).getResourceLevel(output.resourceDescriptor.name?lower_case) />
@@ -114,48 +114,61 @@
   </div>
 </div>
 
-<#if land.development>
+<#if land.development && land.recipeDescriptor?? && land.developmentLevel gt 0>
 <div class="section-bg-color2">
-  <div class="row first-row">
-    <div class="small-12 medium-6 large-6 columns">
-      <h3>Employees</h3>
-        <#if land.pops?has_content>
-            <#list land.pops as pop>
-              <div class="row">
-                <div class="feature-box">
-                  <form action="<@hst.actionURL/>" method="post">
-                    <input type="hidden" value="${pop.uuid}" name="uuid">
-                    <input type="hidden" value="fire" name="action">
-                    <img align="left" style="margin-right: 1em; background-color: ${pop.identity.colour};" class="pop-icon" src="<@hst.link path="binaries/content/gallery/atlastserver/img/"+pop.popClass+"2.png"/>">
-                  ${pop.name} | ${land.recipeDescriptor.skill?cap_first}: ${pop.getSkill(land.recipeDescriptor.skill)?floor}% | ${player.identity.name} ${pop.getIdentityLevel(player.identity.getUuid())?floor}%
-                    <input align="right" class="button round button-small" type="submit" value=">">
-                  </form>
-                </div>
+<div class="row first-row">
+  <div class="small-12 medium-6 large-6 columns">
+    <h3>Employees</h3>
+      <#if land.pops?has_content>
+        <#assign extrahands = land.pops?size % land.recipeDescriptor.labour>
+        <#assign extraindices = land.pops?size - extrahands>
+          <#list land.pops as pop>
+            <div class="row">
+              <#if pop_index gte extraindices>
+                <#assign style = "style=\"border-color: red;\""/>
+              </#if>
+
+              <div ${style} class="feature-box">
+                <form action="<@hst.actionURL/>" method="post">
+                  <input type="hidden" value="${pop.uuid}" name="uuid">
+                  <input type="hidden" value="fire" name="action">
+                  <img align="left" style="margin-right: 1em; background-color: ${pop.identity.colour};" class="pop-icon" src="<@hst.link path="binaries/content/gallery/atlastserver/img/"+pop.popClass+"2.png"/>">
+                ${pop.name} | ${land.recipeDescriptor.skill?cap_first}: ${pop.getSkill(land.recipeDescriptor.skill)?floor}% | ${player.identity.name} ${pop.getIdentityLevel(player.identity.getUuid())?floor}%
+                  <input align="right" class="button round button-small" type="submit" value=">">
+
+
+                </form>
               </div>
-            </#list>
-        </#if>
-    </div>
-
-    <div class="small-12 medium-6 large-6 columns">
-      <h3>Employment Pool <a href="?sort=skill">(Skill&downarrow;)</a> <a href="?sort=alignment">(Alignment&downarrow;)</a></h3>
-        <#list pool as pop>
-          <div class="row">
-            <div class="feature-box">
-              <form action="<@hst.actionURL/>" method="post">
-                <input type="hidden" value="${pop.uuid}" name="uuid">
-                <input type="hidden" value="hire" name="action">
-                <input align="left" style="margin-left: 1em;" class="button round button-small" type="submit" value="<">
-              ${pop.name} | ${land.recipeDescriptor.skill?cap_first}: ${pop.getSkill(land.recipeDescriptor.skill)?floor}% | ${player.identity.name} ${pop.getIdentityLevel(player.identity.getUuid())?floor}%
-                <img align="right" style="background-color: ${pop.identity.colour};" class="pop-icon" src="<@hst.link path="binaries/content/gallery/atlastserver/img/"+pop.popClass+"2.png"/>">
-              </form>
             </div>
-          </div>
-        </#list>
-
-    </div>
+          </#list>
+      </#if>
   </div>
-</div>
+
+  <div class="small-12 medium-6 large-6 columns">
+    <h3>Employment Pool <a href="?sort=skill">(Skill&downarrow;)</a>
+      <a href="?sort=alignment">(Alignment&downarrow;)</a></h3>
+      <#list pool as pop>
+        <div class="row">
+          <div class="feature-box">
+            <form action="<@hst.actionURL/>" method="post">
+              <input type="hidden" value="${pop.uuid}" name="uuid">
+              <input type="hidden" value="hire" name="action">
+              <#if (land.pops?size +1) / 3 gt (land.developmentLevel)>
+                <input align="left" disabled style="margin-left: 1em;" class="button round button-small" type="submit" value="<">
+              <#else>
+                <input align="left" style="margin-left: 1em;" class="button round button-small" type="submit" value="<">
+              </#if>
+            ${pop.name} | ${land.recipeDescriptor.skill?cap_first}: ${pop.getSkill(land.recipeDescriptor.skill)?floor}% | ${player.identity.name} ${pop.getIdentityLevel(player.identity.getUuid())?floor}%
+              <img align="right" style="background-color: ${pop.identity.colour};" class="pop-icon" src="<@hst.link path="binaries/content/gallery/atlastserver/img/"+pop.popClass+"2.png"/>">
+            </form>
+          </div>
+        </div>
+      </#list>
+
+  </div>
 </#if>
+</div>
+</div>
 
 <div class="section-bg-color2">
   <div class="row-centered">

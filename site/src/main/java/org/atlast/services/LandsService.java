@@ -8,6 +8,8 @@ import javax.jcr.NodeIterator;
 import javax.jcr.RepositoryException;
 import javax.jcr.Session;
 
+import org.atlast.beans.Land;
+import org.atlast.beans.Pop;
 import org.atlast.beans.descriptors.Amount;
 import org.atlast.beans.descriptors.RecipeDescriptor;
 import org.atlast.beans.descriptors.ResourceDescriptor;
@@ -35,18 +37,23 @@ public class LandsService {
     }
 
 
-    public void hire(HstRequestContext requestContext, String popId, String player) throws RepositoryException {
+    public void hire(HstRequestContext requestContext, String popId, String player) throws RepositoryException, ObjectBeanManagerException {
         Session session = requestContext.getSession();
 
         Node popNode = session.getNodeByIdentifier(popId);
 
         Node landNode = requestContext.getContentBean().getNode();
 
-        popNode.setProperty("atlast:player", player);
+        Land land = (Land) requestContext.getObjectBeanManager().getObjectByUuid(landNode.getIdentifier());
 
-        session.move(popNode.getPath(), landNode.getPath()+"/"+popNode.getName());
+        if (!((land.getPops().size()+1) / 3 > land.getDevelopmentLevel())) {
 
-        session.save();
+            popNode.setProperty("atlast:player", player);
+
+            session.move(popNode.getPath(), landNode.getPath() + "/" + popNode.getName());
+
+            session.save();
+        }
     }
 
     public void save(final HstRequestContext requestContext, String landId, Double wages, String recipeUuid) throws RepositoryException, ObjectBeanManagerException {
@@ -106,6 +113,8 @@ public class LandsService {
             landNode.setProperty("atlast:developmentdescriptor", developmentDescriptorUuid);
             landNode.setProperty("atlast:wages", 50.0d);
             landNode.setProperty("atlast:recipedescriptor", "none");
+            landNode.setProperty("atlast:developmentlevel", 0);
+            landNode.setProperty("atlast:developmentprogress", 0.0d);
 
             session.save();
         }
@@ -118,8 +127,6 @@ public class LandsService {
 
         landNode.removeMixin("atlast:development");
 
-        Node poolNode = requestContext.getSiteContentBaseBean().getNode().getNode("worlddata/pool");
-
         NodeIterator popNodes = landNode.getNodes();
         while (popNodes.hasNext()) {
             Node popNode = popNodes.nextNode();
@@ -127,6 +134,8 @@ public class LandsService {
         }
 
         landNode.setProperty("atlast:developmentdescriptor", "empty");
+        landNode.setProperty("atlast:developmentlevel", 0);
+        landNode.setProperty("atlast:developmentprogress", 0.0d);
 
         session.save();
     }
