@@ -31,7 +31,7 @@
                           </#if>
                         <input name="${item}range" id="${item}range" type="range" min="0" max="${player.storehouse.trade}" step="1" value="${store.getResourceLevel(item)}">
 
-                      ${item?cap_first} ${store.getResource(item)}/
+                      ${item?cap_first} ${store.getResource(item)?round}/
                         <output name="${item}amount" for="${item}range">${store.getResourceLevel(item)}</output>
                         &nbsp;(${worldMarket.getStore(store.name).getResourceLevel(item)?string.currency})
                       </p>

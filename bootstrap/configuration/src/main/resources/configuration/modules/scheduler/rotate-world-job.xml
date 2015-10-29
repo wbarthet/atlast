@@ -62,5 +62,29 @@
         <sv:value>2015-07-13T21:50:00.000-04:00</sv:value>
       </sv:property>
     </sv:node>
+    <sv:node sv:name="every-hour">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>hipposched:crontrigger</sv:value>
+      </sv:property>
+      <sv:property sv:multiple="true" sv:name="jcr:mixinTypes" sv:type="Name">
+        <sv:value>hippo:lockable</sv:value>
+        <sv:value>mix:lockable</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:uuid" sv:type="String">
+        <sv:value>c8337861-7051-47c6-97c7-1643705892b3</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:lockExpirationTime" sv:type="Date">
+        <sv:value>2015-10-27T01:01:52.428Z</sv:value>
+      </sv:property>
+      <sv:property sv:name="hipposched:cronExpression" sv:type="String">
+        <sv:value>0 0 * * * ?</sv:value>
+      </sv:property>
+      <sv:property sv:name="hipposched:enabled" sv:type="Boolean">
+        <sv:value>false</sv:value>
+      </sv:property>
+      <sv:property sv:name="hipposched:nextFireTime" sv:type="Date">
+        <sv:value>2015-10-27T02:00:00.000Z</sv:value>
+      </sv:property>
+    </sv:node>
   </sv:node>
 </sv:node>

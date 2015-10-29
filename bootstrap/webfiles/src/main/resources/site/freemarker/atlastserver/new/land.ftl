@@ -16,8 +16,7 @@
       </#if>
       </h1>
       <h5>${land.landDescriptor.name}
-      <#if land.development>
-        , level ${land.developmentLevel} ${land.developmentDescriptor.name} (construction progress ${(land.developmentProgress/(land.developmentLevel+1))?string["0.##"]}%)
+      <#if land.development>, level ${land.developmentLevel} ${land.developmentDescriptor.name} (construction progress ${(land.developmentProgress/(land.developmentLevel+1))?string["0.##"]}%)
       </#if>
       </h5>
     </div>

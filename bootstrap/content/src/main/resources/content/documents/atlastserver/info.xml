@@ -2036,7 +2036,6 @@
             </sv:property>
             <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
               <sv:value>mix:versionable</sv:value>
-              <sv:value>mix:referenceable</sv:value>
             </sv:property>
             <sv:property sv:name="jcr:uuid" sv:type="String">
               <sv:value>e6033119-ff62-4395-8db6-f6bf94bc96ed</sv:value>
@@ -3562,7 +3561,6 @@
             </sv:property>
             <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
               <sv:value>mix:versionable</sv:value>
-              <sv:value>mix:referenceable</sv:value>
             </sv:property>
             <sv:property sv:name="jcr:uuid" sv:type="String">
               <sv:value>299705c3-7306-4c42-b6cb-d3bae6114da1</sv:value>
@@ -3886,7 +3884,6 @@
               </sv:property>
               <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
                 <sv:value>mix:versionable</sv:value>
-                <sv:value>mix:referenceable</sv:value>
               </sv:property>
               <sv:property sv:name="jcr:uuid" sv:type="String">
                 <sv:value>558667df-3bb8-49fd-9fb3-d83632855b29</sv:value>
@@ -4115,7 +4112,6 @@
                 </sv:property>
                 <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
                   <sv:value>mix:versionable</sv:value>
-                  <sv:value>mix:referenceable</sv:value>
                 </sv:property>
                 <sv:property sv:name="jcr:uuid" sv:type="String">
                   <sv:value>d68f2dfc-f5d0-403c-a917-3d9c7ae3f9a6</sv:value>
@@ -4389,7 +4385,6 @@
                 </sv:property>
                 <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
                   <sv:value>mix:versionable</sv:value>
-                  <sv:value>mix:referenceable</sv:value>
                 </sv:property>
                 <sv:property sv:name="jcr:uuid" sv:type="String">
                   <sv:value>ed367ac6-d59f-4ad6-9d8d-d9156f960c81</sv:value>
@@ -4979,7 +4974,6 @@
           </sv:property>
           <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
             <sv:value>mix:versionable</sv:value>
-            <sv:value>mix:referenceable</sv:value>
           </sv:property>
           <sv:property sv:name="jcr:uuid" sv:type="String">
             <sv:value>fbf69b12-6c47-4e2c-b8fc-16ea639c13dd</sv:value>
@@ -5881,7 +5875,7 @@
             <sv:value>2015-10-24T15:29:36.859-04:00</sv:value>
           </sv:property>
           <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
-            <sv:value>2015-10-25T19:25:50.774-04:00</sv:value>
+            <sv:value>2015-10-28T20:44:09.773-04:00</sv:value>
           </sv:property>
           <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
             <sv:value>admin</sv:value>
@@ -5931,7 +5925,45 @@
  &lt;li&gt;Swords by Mateus Leal from the Noun Project&lt;/li&gt;
  &lt;li&gt;Sausage by Mario Bieh from the Noun Project&lt;/li&gt;
  &lt;li&gt;Construction by Dima Lagunov from the Noun Project&lt;/li&gt;
-&lt;/ul&gt;</sv:value>
+ &lt;li&gt;Beer by Edward Boatman from the Noun Project&lt;/li&gt;
+ &lt;li&gt;Chair by Noël Rasendrason from the Noun Project&lt;/li&gt;
+ &lt;li&gt;honey by Cassie McKown from the Noun Project&lt;/li&gt;
+ &lt;li&gt;leather by Alen Krummenacher from the Noun Project&lt;/li&gt;
+ &lt;li&gt;tools by Andrew Was from the Noun Project&lt;/li&gt;
+ &lt;li&gt;Paper by Sergey Demushkin from the Noun Project&lt;/li&gt;
+ &lt;li&gt;sand by Ana María Lora Macias from the Noun Project&lt;/li&gt;
+ &lt;li&gt;vase by B Barrett from the Noun Project&lt;/li&gt;
+ &lt;li&gt;Sugarcane by Marie Van den Broeck from the Noun Project&lt;/li&gt;
+ &lt;li&gt;Venus by MaxineVSG from the Noun Project&lt;/li&gt;
+ &lt;li&gt;Diamond by anbileru adaleru from the Noun Project&lt;/li&gt;
+ &lt;li&gt;column by Kyle Tezak from the Noun Project&lt;/li&gt;
+ &lt;li&gt;Oil by Alex Bu from the Noun Project&lt;/li&gt;
+ &lt;li&gt;Fabric by Kyle Lynn from the Noun Project&lt;/li&gt;
+ &lt;li&gt;Wine by Gabriele Malaspina from the Noun Project&lt;/li&gt;
+ &lt;li&gt;chili pepper by James Kindred from the Noun Project&lt;/li&gt;
+ &lt;li&gt;Fish by Jens Tärning from the Noun Project&lt;/li&gt;
+ &lt;li&gt;potato by ludmil from the Noun Project&lt;/li&gt;
+ &lt;li&gt;Cheese by Arthur Shlain from the Noun Project&lt;/li&gt;
+ &lt;li&gt;Egg by Chiara Rossi from the Noun Project&lt;/li&gt;
+ &lt;li&gt;Bread by Nikita Kozin from the Noun Project&lt;/li&gt;
+ &lt;li&gt;wall by Sascha Elmers from the Noun Project&lt;/li&gt;
+ &lt;li&gt;bag by irene hoffman from the Noun Project&lt;/li&gt;
+ &lt;li&gt;Wood by Norbert de Graaff from the Noun Project&lt;/li&gt;
+ &lt;li&gt;knitting by Sitara Shah from the Noun Project&lt;/li&gt;
+ &lt;li&gt;Fabric by Amy Schwartz from the Noun Project&lt;/li&gt;
+ &lt;li&gt;Camel by Edward Boatman from the Noun Project&lt;/li&gt;
+ &lt;li&gt;brick by Alfonso Serrano Marín from the Noun Project&lt;/li&gt;
+ &lt;li&gt;Bricks by Jon Testa from the Noun Project&lt;/li&gt;
+ &lt;li&gt;rock by Anniliese Ahrens from the Noun Project&lt;/li&gt;
+ &lt;li&gt;gold by misirlou from the Noun Project&lt;/li&gt;
+ &lt;li&gt;Firewood by Ilya Kolbin from the Noun Project&lt;/li&gt;
+ &lt;li&gt;Pig by Ealancheliyan s from the Noun Project&lt;/li&gt;
+ &lt;li&gt;cotton by Stephanie Wauters from the Noun Project&lt;/li&gt;
+ &lt;li&gt;Wheat by Creative Stall from the Noun Project&lt;/li&gt;
+ &lt;li&gt;Goat by Ealancheliyan s from the Noun Project&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;</sv:value>
             </sv:property>
           </sv:node>
         </sv:node>
@@ -5967,7 +5999,7 @@
             <sv:value>2015-10-24T15:29:36.859-04:00</sv:value>
           </sv:property>
           <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
-            <sv:value>2015-10-25T19:25:54.591-04:00</sv:value>
+            <sv:value>2015-10-28T20:48:35.748-04:00</sv:value>
           </sv:property>
           <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
             <sv:value>admin</sv:value>
@@ -6017,7 +6049,45 @@
  &lt;li&gt;Swords by Mateus Leal from the Noun Project&lt;/li&gt;
  &lt;li&gt;Sausage by Mario Bieh from the Noun Project&lt;/li&gt;
  &lt;li&gt;Construction by Dima Lagunov from the Noun Project&lt;/li&gt;
-&lt;/ul&gt;</sv:value>
+ &lt;li&gt;Beer by Edward Boatman from the Noun Project&lt;/li&gt;
+ &lt;li&gt;Chair by Noël Rasendrason from the Noun Project&lt;/li&gt;
+ &lt;li&gt;honey by Cassie McKown from the Noun Project&lt;/li&gt;
+ &lt;li&gt;leather by Alen Krummenacher from the Noun Project&lt;/li&gt;
+ &lt;li&gt;tools by Andrew Was from the Noun Project&lt;/li&gt;
+ &lt;li&gt;Paper by Sergey Demushkin from the Noun Project&lt;/li&gt;
+ &lt;li&gt;sand by Ana María Lora Macias from the Noun Project&lt;/li&gt;
+ &lt;li&gt;vase by B Barrett from the Noun Project&lt;/li&gt;
+ &lt;li&gt;Sugarcane by Marie Van den Broeck from the Noun Project&lt;/li&gt;
+ &lt;li&gt;Venus by MaxineVSG from the Noun Project&lt;/li&gt;
+ &lt;li&gt;Diamond by anbileru adaleru from the Noun Project&lt;/li&gt;
+ &lt;li&gt;column by Kyle Tezak from the Noun Project&lt;/li&gt;
+ &lt;li&gt;Oil by Alex Bu from the Noun Project&lt;/li&gt;
+ &lt;li&gt;Fabric by Kyle Lynn from the Noun Project&lt;/li&gt;
+ &lt;li&gt;Wine by Gabriele Malaspina from the Noun Project&lt;/li&gt;
+ &lt;li&gt;chili pepper by James Kindred from the Noun Project&lt;/li&gt;
+ &lt;li&gt;Fish by Jens Tärning from the Noun Project&lt;/li&gt;
+ &lt;li&gt;potato by ludmil from the Noun Project&lt;/li&gt;
+ &lt;li&gt;Cheese by Arthur Shlain from the Noun Project&lt;/li&gt;
+ &lt;li&gt;Egg by Chiara Rossi from the Noun Project&lt;/li&gt;
+ &lt;li&gt;Bread by Nikita Kozin from the Noun Project&lt;/li&gt;
+ &lt;li&gt;wall by Sascha Elmers from the Noun Project&lt;/li&gt;
+ &lt;li&gt;bag by irene hoffman from the Noun Project&lt;/li&gt;
+ &lt;li&gt;Wood by Norbert de Graaff from the Noun Project&lt;/li&gt;
+ &lt;li&gt;knitting by Sitara Shah from the Noun Project&lt;/li&gt;
+ &lt;li&gt;Fabric by Amy Schwartz from the Noun Project&lt;/li&gt;
+ &lt;li&gt;Camel by Edward Boatman from the Noun Project&lt;/li&gt;
+ &lt;li&gt;brick by Alfonso Serrano Marín from the Noun Project&lt;/li&gt;
+ &lt;li&gt;Bricks by Jon Testa from the Noun Project&lt;/li&gt;
+ &lt;li&gt;rock by Anniliese Ahrens from the Noun Project&lt;/li&gt;
+ &lt;li&gt;gold by misirlou from the Noun Project&lt;/li&gt;
+ &lt;li&gt;Firewood by Ilya Kolbin from the Noun Project&lt;/li&gt;
+ &lt;li&gt;Pig by Ealancheliyan s from the Noun Project&lt;/li&gt;
+ &lt;li&gt;cotton by Stephanie Wauters from the Noun Project&lt;/li&gt;
+ &lt;li&gt;Wheat by Creative Stall from the Noun Project&lt;/li&gt;
+ &lt;li&gt;Goat by Ealancheliyan s from the Noun Project&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;</sv:value>
             </sv:property>
           </sv:node>
         </sv:node>
@@ -6053,13 +6123,13 @@
             <sv:value>2015-10-24T15:29:36.859-04:00</sv:value>
           </sv:property>
           <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
-            <sv:value>2015-10-25T19:25:54.591-04:00</sv:value>
+            <sv:value>2015-10-28T20:48:35.748-04:00</sv:value>
           </sv:property>
           <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
             <sv:value>admin</sv:value>
           </sv:property>
           <sv:property sv:name="hippostdpubwf:publicationDate" sv:type="Date">
-            <sv:value>2015-10-25T19:26:47.369-04:00</sv:value>
+            <sv:value>2015-10-28T20:48:37.281-04:00</sv:value>
           </sv:property>
           <sv:property sv:name="hippotranslation:id" sv:type="String">
             <sv:value>f5087ed1-35e6-45c1-bafe-bfc580505ae1</sv:value>
@@ -6106,7 +6176,45 @@
  &lt;li&gt;Swords by Mateus Leal from the Noun Project&lt;/li&gt;
  &lt;li&gt;Sausage by Mario Bieh from the Noun Project&lt;/li&gt;
  &lt;li&gt;Construction by Dima Lagunov from the Noun Project&lt;/li&gt;
-&lt;/ul&gt;</sv:value>
+ &lt;li&gt;Beer by Edward Boatman from the Noun Project&lt;/li&gt;
+ &lt;li&gt;Chair by Noël Rasendrason from the Noun Project&lt;/li&gt;
+ &lt;li&gt;honey by Cassie McKown from the Noun Project&lt;/li&gt;
+ &lt;li&gt;leather by Alen Krummenacher from the Noun Project&lt;/li&gt;
+ &lt;li&gt;tools by Andrew Was from the Noun Project&lt;/li&gt;
+ &lt;li&gt;Paper by Sergey Demushkin from the Noun Project&lt;/li&gt;
+ &lt;li&gt;sand by Ana María Lora Macias from the Noun Project&lt;/li&gt;
+ &lt;li&gt;vase by B Barrett from the Noun Project&lt;/li&gt;
+ &lt;li&gt;Sugarcane by Marie Van den Broeck from the Noun Project&lt;/li&gt;
+ &lt;li&gt;Venus by MaxineVSG from the Noun Project&lt;/li&gt;
+ &lt;li&gt;Diamond by anbileru adaleru from the Noun Project&lt;/li&gt;
+ &lt;li&gt;column by Kyle Tezak from the Noun Project&lt;/li&gt;
+ &lt;li&gt;Oil by Alex Bu from the Noun Project&lt;/li&gt;
+ &lt;li&gt;Fabric by Kyle Lynn from the Noun Project&lt;/li&gt;
+ &lt;li&gt;Wine by Gabriele Malaspina from the Noun Project&lt;/li&gt;
+ &lt;li&gt;chili pepper by James Kindred from the Noun Project&lt;/li&gt;
+ &lt;li&gt;Fish by Jens Tärning from the Noun Project&lt;/li&gt;
+ &lt;li&gt;potato by ludmil from the Noun Project&lt;/li&gt;
+ &lt;li&gt;Cheese by Arthur Shlain from the Noun Project&lt;/li&gt;
+ &lt;li&gt;Egg by Chiara Rossi from the Noun Project&lt;/li&gt;
+ &lt;li&gt;Bread by Nikita Kozin from the Noun Project&lt;/li&gt;
+ &lt;li&gt;wall by Sascha Elmers from the Noun Project&lt;/li&gt;
+ &lt;li&gt;bag by irene hoffman from the Noun Project&lt;/li&gt;
+ &lt;li&gt;Wood by Norbert de Graaff from the Noun Project&lt;/li&gt;
+ &lt;li&gt;knitting by Sitara Shah from the Noun Project&lt;/li&gt;
+ &lt;li&gt;Fabric by Amy Schwartz from the Noun Project&lt;/li&gt;
+ &lt;li&gt;Camel by Edward Boatman from the Noun Project&lt;/li&gt;
+ &lt;li&gt;brick by Alfonso Serrano Marín from the Noun Project&lt;/li&gt;
+ &lt;li&gt;Bricks by Jon Testa from the Noun Project&lt;/li&gt;
+ &lt;li&gt;rock by Anniliese Ahrens from the Noun Project&lt;/li&gt;
+ &lt;li&gt;gold by misirlou from the Noun Project&lt;/li&gt;
+ &lt;li&gt;Firewood by Ilya Kolbin from the Noun Project&lt;/li&gt;
+ &lt;li&gt;Pig by Ealancheliyan s from the Noun Project&lt;/li&gt;
+ &lt;li&gt;cotton by Stephanie Wauters from the Noun Project&lt;/li&gt;
+ &lt;li&gt;Wheat by Creative Stall from the Noun Project&lt;/li&gt;
+ &lt;li&gt;Goat by Ealancheliyan s from the Noun Project&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;</sv:value>
             </sv:property>
           </sv:node>
         </sv:node>

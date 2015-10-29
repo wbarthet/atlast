@@ -68,7 +68,7 @@
                                   <#if land.recipeDescriptor.outputs?has_content>
                                     Output:
                                       <#list land.recipeDescriptor.outputs as output>
-                                      ${output.resourceDescriptor.name} x ${land.outputs[output.resourceDescriptor.name]}
+                                      ${output.resourceDescriptor.name} x ${land.outputs[output.resourceDescriptor.name]?string["0.##"]}
                                       <#-- ${land.getOutputs().get(output.name)} x ${output.name}-->
                                         <img class="resource-icon" src="<@hst.link hippobean=output.resourceDescriptor.icon.smallicon/>"/>
                                           <#assign pnl=pnl + land.outputs[output.resourceDescriptor.name] * worldMarket.getStore(output.resourceDescriptor.category?lower_case).getResourceLevel(output.resourceDescriptor.name?lower_case) />

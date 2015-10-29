@@ -1,5 +1,7 @@
 package org.atlast.services;
 
+import java.io.IOException;
+import java.security.NoSuchAlgorithmException;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;
@@ -32,6 +34,7 @@ import org.hippoecm.hst.content.beans.query.filter.Filter;
 import org.hippoecm.hst.content.beans.standard.HippoBeanIterator;
 import org.hippoecm.hst.core.request.HstRequestContext;
 import org.hippoecm.hst.site.HstServices;
+import org.hippoecm.repository.PasswordHelper;
 import org.hippoecm.repository.api.NodeNameCodec;
 
 /**
@@ -63,7 +66,7 @@ public class SignupService {
 
             userNode.setProperty("hipposys:active", true);
             userNode.setProperty("hipposys:securityprovider", "internal");
-            userNode.setProperty("hipposys:password", password);
+            userNode.setProperty("hipposys:password", createPasswordHash(password));
 
             Node playersGroupNode = session.getNode("/hippo:configuration/hippo:groups/players");
 
@@ -497,5 +500,16 @@ public class SignupService {
             popNode.setProperty("atlast:identity", identity);
         }
 
+    }
+
+
+    public static String createPasswordHash(final String password) throws RepositoryException {
+        try {
+            return PasswordHelper.getHash(password.toCharArray());
+        } catch (NoSuchAlgorithmException e) {
+            throw new RepositoryException("Unable to hash password", e);
+        } catch (IOException e) {
+            throw new RepositoryException("Unable to hash password", e);
+        }
     }
 }
