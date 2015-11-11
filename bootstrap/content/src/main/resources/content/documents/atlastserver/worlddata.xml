@@ -35,55 +35,55 @@
         <sv:value>0.0</sv:value>
       </sv:property>
       <sv:property sv:name="cheese-level" sv:type="Double">
-        <sv:value>51.963031005888105</sv:value>
+        <sv:value>32.18668059340148</sv:value>
       </sv:property>
       <sv:property sv:name="corn" sv:type="Double">
         <sv:value>0.0</sv:value>
       </sv:property>
       <sv:property sv:name="corn-level" sv:type="Double">
-        <sv:value>52.15484271891459</sv:value>
+        <sv:value>61.69795026894612</sv:value>
       </sv:property>
       <sv:property sv:name="egg" sv:type="Double">
         <sv:value>0.0</sv:value>
       </sv:property>
       <sv:property sv:name="egg-level" sv:type="Double">
-        <sv:value>51.96283827964067</sv:value>
+        <sv:value>56.453010477453034</sv:value>
       </sv:property>
       <sv:property sv:name="fish" sv:type="Double">
         <sv:value>0.0</sv:value>
       </sv:property>
       <sv:property sv:name="fish-level" sv:type="Double">
-        <sv:value>52.91644767695149</sv:value>
+        <sv:value>59.03521814276193</sv:value>
       </sv:property>
       <sv:property sv:name="fruit" sv:type="Double">
         <sv:value>0.0</sv:value>
       </sv:property>
       <sv:property sv:name="fruit-level" sv:type="Double">
-        <sv:value>52.29842637241697</sv:value>
+        <sv:value>40.24252339587097</sv:value>
       </sv:property>
       <sv:property sv:name="meat" sv:type="Double">
         <sv:value>0.0</sv:value>
       </sv:property>
       <sv:property sv:name="meat-level" sv:type="Double">
-        <sv:value>51.67404265947696</sv:value>
+        <sv:value>56.40885067691551</sv:value>
       </sv:property>
       <sv:property sv:name="potatoes" sv:type="Double">
         <sv:value>0.0</sv:value>
       </sv:property>
       <sv:property sv:name="potatoes-level" sv:type="Double">
-        <sv:value>41.735702534658</sv:value>
+        <sv:value>48.86633463408498</sv:value>
       </sv:property>
       <sv:property sv:name="rice" sv:type="Double">
         <sv:value>0.0</sv:value>
       </sv:property>
       <sv:property sv:name="rice-level" sv:type="Double">
-        <sv:value>54.495591560740586</sv:value>
+        <sv:value>61.390044496232015</sv:value>
       </sv:property>
       <sv:property sv:name="sausage" sv:type="Double">
         <sv:value>0.0</sv:value>
       </sv:property>
       <sv:property sv:name="sausage-level" sv:type="Double">
-        <sv:value>51.81839000676994</sv:value>
+        <sv:value>56.49730069191628</sv:value>
       </sv:property>
     </sv:node>
     <sv:node sv:name="goods">
@@ -109,49 +109,49 @@
         <sv:value>0.0</sv:value>
       </sv:property>
       <sv:property sv:name="beer-level" sv:type="Double">
-        <sv:value>50.5495</sv:value>
+        <sv:value>52.11138987414616</sv:value>
       </sv:property>
       <sv:property sv:name="clothes" sv:type="Double">
         <sv:value>0.0</sv:value>
       </sv:property>
       <sv:property sv:name="clothes-level" sv:type="Double">
-        <sv:value>29.6934163988613</sv:value>
+        <sv:value>32.776668254217405</sv:value>
       </sv:property>
       <sv:property sv:name="furniture" sv:type="Double">
         <sv:value>0.0</sv:value>
       </sv:property>
       <sv:property sv:name="furniture-level" sv:type="Double">
-        <sv:value>50.3</sv:value>
+        <sv:value>51.62717715313755</sv:value>
       </sv:property>
       <sv:property sv:name="honey" sv:type="Double">
         <sv:value>0.0</sv:value>
       </sv:property>
       <sv:property sv:name="honey-level" sv:type="Double">
-        <sv:value>50.499550000000006</sv:value>
+        <sv:value>51.48235605228407</sv:value>
       </sv:property>
       <sv:property sv:name="leather" sv:type="Double">
         <sv:value>0.0</sv:value>
       </sv:property>
       <sv:property sv:name="leather-level" sv:type="Double">
-        <sv:value>50.35</sv:value>
+        <sv:value>51.53028560655816</sv:value>
       </sv:property>
       <sv:property sv:name="paper" sv:type="Double">
         <sv:value>0.0</sv:value>
       </sv:property>
       <sv:property sv:name="paper-level" sv:type="Double">
-        <sv:value>50.4496</sv:value>
+        <sv:value>51.33587350122756</sv:value>
       </sv:property>
       <sv:property sv:name="pottery" sv:type="Double">
         <sv:value>0.0</sv:value>
       </sv:property>
       <sv:property sv:name="pottery-level" sv:type="Double">
-        <sv:value>50.6483515495</sv:value>
+        <sv:value>51.773173546631575</sv:value>
       </sv:property>
       <sv:property sv:name="salt" sv:type="Double">
         <sv:value>0.0</sv:value>
       </sv:property>
       <sv:property sv:name="salt-level" sv:type="Double">
-        <sv:value>50.6978515</sv:value>
+        <sv:value>51.01309118221423</sv:value>
       </sv:property>
       <sv:property sv:name="sugar" sv:type="Double">
         <sv:value>0.0</sv:value>
@@ -163,7 +163,7 @@
         <sv:value>0.0</sv:value>
       </sv:property>
       <sv:property sv:name="tools-level" sv:type="Double">
-        <sv:value>50.39965</sv:value>
+        <sv:value>51.919306728775176</sv:value>
       </sv:property>
     </sv:node>
     <sv:node sv:name="luxuries">
@@ -189,43 +189,43 @@
         <sv:value>0.0</sv:value>
       </sv:property>
       <sv:property sv:name="fur-level" sv:type="Double">
-        <sv:value>50.2498</sv:value>
+        <sv:value>51.140287784836005</sv:value>
       </sv:property>
       <sv:property sv:name="gems" sv:type="Double">
         <sv:value>0.0</sv:value>
       </sv:property>
       <sv:property sv:name="gems-level" sv:type="Double">
-        <sv:value>50.5</sv:value>
+        <sv:value>51.53268286</sv:value>
       </sv:property>
       <sv:property sv:name="ivory" sv:type="Double">
         <sv:value>0.0</sv:value>
       </sv:property>
       <sv:property sv:name="ivory-level" sv:type="Double">
-        <sv:value>50.5</sv:value>
+        <sv:value>51.091874468613995</sv:value>
       </sv:property>
       <sv:property sv:name="jewelry" sv:type="Double">
         <sv:value>0.0</sv:value>
       </sv:property>
       <sv:property sv:name="jewelry-level" sv:type="Double">
-        <sv:value>50.45</sv:value>
+        <sv:value>51.48347995825001</sv:value>
       </sv:property>
       <sv:property sv:name="marble" sv:type="Double">
         <sv:value>0.0</sv:value>
       </sv:property>
       <sv:property sv:name="marble-level" sv:type="Double">
-        <sv:value>50.3</sv:value>
+        <sv:value>51.385273127827226</sv:value>
       </sv:property>
       <sv:property sv:name="oil" sv:type="Double">
         <sv:value>0.0</sv:value>
       </sv:property>
       <sv:property sv:name="oil-level" sv:type="Double">
-        <sv:value>50.45</sv:value>
+        <sv:value>17.851186744414473</sv:value>
       </sv:property>
       <sv:property sv:name="silk" sv:type="Double">
         <sv:value>0.0</sv:value>
       </sv:property>
       <sv:property sv:name="silk-level" sv:type="Double">
-        <sv:value>50.4</sv:value>
+        <sv:value>51.141225376</sv:value>
       </sv:property>
       <sv:property sv:name="spices" sv:type="Double">
         <sv:value>0.0</sv:value>
@@ -237,13 +237,13 @@
         <sv:value>0.0</sv:value>
       </sv:property>
       <sv:property sv:name="statuary-level" sv:type="Double">
-        <sv:value>50.4</sv:value>
+        <sv:value>51.9212964304</sv:value>
       </sv:property>
       <sv:property sv:name="wine" sv:type="Double">
         <sv:value>0.0</sv:value>
       </sv:property>
       <sv:property sv:name="wine-level" sv:type="Double">
-        <sv:value>50.5</sv:value>
+        <sv:value>51.2389906975</sv:value>
       </sv:property>
     </sv:node>
     <sv:node sv:name="primary">
@@ -344,7 +344,7 @@
         <sv:value>0.0</sv:value>
       </sv:property>
       <sv:property sv:name="flour-level" sv:type="Double">
-        <sv:value>50.0</sv:value>
+        <sv:value>16.673170833541363</sv:value>
       </sv:property>
       <sv:property sv:name="horses" sv:type="Double">
         <sv:value>0.0</sv:value>
@@ -392,7 +392,7 @@
         <sv:value>0.0</sv:value>
       </sv:property>
       <sv:property sv:name="barley-level" sv:type="Double">
-        <sv:value>50.0</sv:value>
+        <sv:value>50.15</sv:value>
       </sv:property>
       <sv:property sv:name="cattle" sv:type="Double">
         <sv:value>0.0</sv:value>
@@ -428,13 +428,13 @@
         <sv:value>0.0</sv:value>
       </sv:property>
       <sv:property sv:name="sheep-level" sv:type="Double">
-        <sv:value>50.0</sv:value>
+        <sv:value>53.75720024340654</sv:value>
       </sv:property>
       <sv:property sv:name="wheat" sv:type="Double">
         <sv:value>0.0</sv:value>
       </sv:property>
       <sv:property sv:name="wheat-level" sv:type="Double">
-        <sv:value>39.486645806016675</sv:value>
+        <sv:value>27.086582148770145</sv:value>
       </sv:property>
     </sv:node>
   </sv:node>

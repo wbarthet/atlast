@@ -2,6 +2,7 @@
 <#-- @ftlvariable name="worldMarket" type="org.atlast.beans.Market" -->
 <#-- @ftlvariable name="storehouse" type="org.atlast.beans.Storehouse" -->
 <#-- @ftlvariable name="player" type="org.atlast.beans.Player" -->
+<#-- @ftlvariable name="pop" type="org.atlast.beans.Pop" -->
 <#-- @ftlvariable name="recipes" type="java.util.List<org.atlast.beans.descriptors.RecipeDescriptor>" -->
 
 <div class="section-headline">
@@ -98,8 +99,8 @@
               <form action="<@hst.actionURL/>" method="post">
                 <input type="hidden" value="${pop.uuid}" name="uuid">
                 <input type="hidden" value="fire" name="action">
-                <img align="left" style="margin-right: 1em; background-color: ${pop.identity.colour};" class="pop-icon" src="<@hst.link path="binaries/content/gallery/atlastserver/img/lower2.png"/>">
-              ${pop.name} | Merchant: ${pop.getSkill('merchant')?floor}% | ${player.identity.name} ${pop.getIdentityLevel(player.identity.getUuid())?floor}%
+                <img align="left" style="margin-right: 1em; background-color: ${pop.getIdentity(player).colour};" class="pop-icon" src="<@hst.link path="binaries/content/gallery/atlastserver/img/"+pop.popClass+"2.png"/>">
+              ${pop.getIdentifiedName(player)} | Merchant: ${pop.getSkill('merchant')?floor}% | ${player.identity.name} ${pop.getIdentityLevel(player.identity.getUuid())?floor}%
                 <input align="right" class="button round button-small" type="submit" value=">">
               </form>
             </div>
@@ -118,8 +119,8 @@
             <input type="hidden" value="${pop.uuid}" name="uuid">
             <input type="hidden" value="hire" name="action">
             <input align="left" style="margin-left: 1em;" class="button round button-small" type="submit" value="<">
-          ${pop.name} | Merchant: ${pop.getSkill('merchant')?floor}% | ${player.identity.name} ${pop.getIdentityLevel(player.identity.getUuid())?floor}%
-            <img align="right" style="background-color: ${pop.identity.colour};" class="pop-icon" src=""<@hst.link path="/binaries/content/gallery/atlastserver/img/upper.png"/>"">
+          ${pop.getIdentifiedName(player)} | Merchant: ${pop.getSkill('merchant')?floor}% | ${player.identity.name} ${pop.getIdentityLevel(player.identity.getUuid())?floor}%
+            <img align="right" style="background-color: ${pop.getIdentity(player).colour};" class="pop-icon" src="<@hst.link path="binaries/content/gallery/atlastserver/img/"+pop.popClass+"2.png"/>">
           </form>
         </div>
       </div>

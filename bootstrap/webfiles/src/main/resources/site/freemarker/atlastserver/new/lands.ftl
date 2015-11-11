@@ -1,6 +1,6 @@
 <#include "../../include/imports.ftl">
 <#-- @ftlvariable name="lands" type="java.util.List<org.atlast.beans.Land>" -->
-
+<#-- @ftlvariable name="pop" type="org.atlast.beans.Pop" -->
 <#-- @ftlvariable name="worldMarket" type="org.atlast.beans.Market" -->
 
 <div class="section-headline">
@@ -41,7 +41,7 @@
                       <span class="recipe-box">${land.recipeDescriptor.name}</span></p>
                     <p>
                         <#list land.pops as pop>
-                          <img class="pop-icon" style="background-color: ${pop.identity.colour};" src="<@hst.link path="binaries/content/gallery/atlastserver/img/"+pop.popClass+"2.png"/>"/>
+                          <img class="pop-icon" style="background-color: ${pop.getIdentity(player).colour};" src="<@hst.link path="binaries/content/gallery/atlastserver/img/"+pop.popClass+"2.png"/>"/>
                         </#list>
                     </p>
 

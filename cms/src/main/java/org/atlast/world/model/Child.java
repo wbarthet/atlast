@@ -75,7 +75,17 @@ public class Child extends Pop {
                 getNode().setProperty("atlast:player", "global");
 
                 stem.getNode().remove();
-                getNode().getSession().move(getNode().getPath(), "/content/documents/atlastserver/worlddata/pool/" + NodeNameCodec.encode(getStringProperty("atlast:name")));
+
+                String name;
+
+                if (player.getIdentity().isRace()) {
+                    name = getStringProperty("atlast:racename");
+                }
+                else {
+                    name = getStringProperty("atlast:religionname");
+                }
+
+                getNode().getSession().move(getNode().getPath(), "/content/documents/atlastserver/worlddata/pool/" + NodeNameCodec.encode(name));
 
                 player.setDoubleProperty("atlast:food", 10.0d);
             } else {
@@ -111,9 +121,11 @@ public class Child extends Pop {
             attributes.add(attribute);
 
 
-            Double attributelevel = parent.getDoubleProperty(attributeName + "-" + attribute) / 2;
+            Double attributeLevel = parent.getDoubleProperty(attributeName + "-" + attribute) / 2;
 
-            setDoubleProperty(attributeName + "-" + attribute, attributelevel);
+            if (attributeLevel > 0) {
+                setDoubleProperty(attributeName + "-" + attribute, attributeLevel);
+            }
 
         }
 
@@ -126,28 +138,28 @@ public class Child extends Pop {
         Set<String> attribues = new HashSet<>();
 
         for (String attribute : parent.getStringListProperty("atlast:" + attributeName + "s")) {
-
-            attribues.add(attribute);
-
             Double stemAttributeLevel = stem.getDoubleProperty(attributeName + "-" + attribute);
 
             Double attributeLevel = parent.getDoubleProperty(attributeName + "-" + attribute) / 2;
 
-            setDoubleProperty(attributeName + "-" + attribute, attributeLevel + stemAttributeLevel);
+            if (attributeLevel > 0) {
+                attribues.add(attribute);
+                setDoubleProperty(attributeName + "-" + attribute, attributeLevel + stemAttributeLevel);
+            }
 
         }
 
         for (String attribute : stem.getStringListProperty("atlast:" + attributeName + "s")) {
 
             if (!attribues.contains(attribute)) {
-                attribues.add(attribute);
-
-
                 Double stemAttributeLevel = stem.getDoubleProperty(attributeName + "-" + attribute);
 
-                Double skillLevel = getDoubleProperty(attributeName + "-" + attribute);
+                Double attributeLevel = getDoubleProperty(attributeName + "-" + attribute);
 
-                setDoubleProperty(attributeName + "-" + attribute, skillLevel + stemAttributeLevel);
+                if (attributeLevel > 0) {
+                    attribues.add(attribute);
+                    setDoubleProperty(attributeName + "-" + attribute, attributeLevel + stemAttributeLevel);
+                }
             }
 
         }

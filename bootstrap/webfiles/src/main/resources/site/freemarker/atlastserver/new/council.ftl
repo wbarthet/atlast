@@ -22,7 +22,7 @@
         <p>Focus: ${player.library.focus}</p>
         <p>
         <#list player.library.pops as pop>
-          <img class="pop-icon" style="background-color: ${pop.identity.colour};" src="<@hst.link path="binaries/content/gallery/atlastserver/img/upper2.png"/>"/>
+          <img class="pop-icon" style="background-color: ${pop.getIdentity(player).colour};" src="<@hst.link path="binaries/content/gallery/atlastserver/img/upper2.png"/>"/>
         </#list>
         </p>
       </div>
@@ -36,7 +36,7 @@
           <p>Focus: ${player.storehouse.recipeDescriptor.name}</p>
           <p>
           <#list player.storehouse.pops as pop>
-            <img class="pop-icon" style="background-color: ${pop.identity.colour};" src="<@hst.link path="binaries/content/gallery/atlastserver/img/upper2.png"/>"/>
+            <img class="pop-icon" style="background-color: ${pop.getIdentity(player).colour};" src="<@hst.link path="binaries/content/gallery/atlastserver/img/upper2.png"/>"/>
           </#list>
           </p>
         </div>
@@ -48,8 +48,8 @@
         <div class="feature-box">
           <a href="<@hst.link hippobean=player.construction/>"><h4><img class="land-icon forest" src="<@hst.link path="binaries/content/gallery/atlastserver/icons/council/construction.png"/>"/> Construction</h4></a>
           <p>
-          <#list player.storehouse.pops as pop>
-            <img class="pop-icon" style="background-color: ${pop.identity.colour};" src="<@hst.link path="binaries/content/gallery/atlastserver/img/upper2.png"/>"/>
+          <#list player.construction.pops as pop>
+            <img class="pop-icon" style="background-color: ${pop.getIdentity(player).colour};" src="<@hst.link path="binaries/content/gallery/atlastserver/img/upper2.png"/>"/>
           </#list>
           </p>
         </div>

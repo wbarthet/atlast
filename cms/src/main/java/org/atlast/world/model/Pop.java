@@ -6,6 +6,7 @@ import java.util.Random;
 
 import javax.jcr.Node;
 import javax.jcr.RepositoryException;
+import javax.jcr.Session;
 
 import org.atlast.util.languages.NameGenerator;
 
@@ -31,10 +32,42 @@ public class Pop extends AtlastObject {
         return getDoubleProperty("atlast:cash");
     }
 
-    public void getPaid(double wages) {
-        Double cash = getDoubleProperty("atlast:cash");
+    public double getWageExpectation() {
+        return getDoubleProperty("atlast:wageexpectation");
+    }
+
+
+    public void getPaid(double wages) throws RepositoryException {
+        Double cash = getCash();
+        Double wageExpectation = getWageExpectation();
+
+        if (wages > wageExpectation) {
+            wageExpectation++;
+        } else if (wages < wageExpectation) {
+            wageExpectation--;
+
+            Random r = new Random();
+
+            double shortFall = wageExpectation - wages;
+
+            int quit = r.nextInt(100);
+
+            if (shortFall > quit) {
+                quit();
+            }
+        }
 
         setDoubleProperty("atlast:cash", cash + wages);
+    }
+
+    public void quit() throws RepositoryException {
+        Node node = getNode();
+        Session session = node.getSession();
+        Node poolNode = session.getNode("/content/documents/atlastserver/worlddata/pool");
+
+        setStringProperty("atlast:player", "global");
+
+        session.move(node.getPath(), poolNode.getPath() + "/" + node.getName());
     }
 
     public void pay(double amount) {
@@ -147,8 +180,18 @@ public class Pop extends AtlastObject {
 
         double totalInverseWeight = 0.0;
 
-        //todo: get traits for religion and race separately
-        List<Trait> traits = getIdentity().getTraits();
+        Identity race = getRace();
+        Identity religion = getReligion();
+
+        List<Trait> traits = new ArrayList<>();
+
+        if (race != null) {
+            traits.addAll(race.getTraits());
+        }
+
+        if (religion != null) {
+            traits.addAll(religion.getTraits());
+        }
 
         for (int i = 0; i < items.size(); i++) {
 
@@ -156,12 +199,12 @@ public class Pop extends AtlastObject {
 
             totalInverseWeight += inverseWeight;
 
-            String itemName =   items.get(i);
+            String itemName = items.get(i);
 
             for (Trait trait : traits) {
                 for (Amount effect : trait.getEffects()) {
                     if (itemName.equals(effect.getResource().getName().toLowerCase())) {
-                        inverseWeight = inverseWeight + (effect.getQuantity()/100)*inverseWeight;
+                        inverseWeight = inverseWeight + (effect.getQuantity() / 100) * inverseWeight;
                     }
 
                 }
@@ -183,7 +226,6 @@ public class Pop extends AtlastObject {
             cumulativeWeighting += normalisedInverseWeights.get(i);
             cumulativeNormalisedInverseWeights.add(cumulativeWeighting);
         }
-
 
 
         int boughtStuff = 0;
@@ -208,9 +250,7 @@ public class Pop extends AtlastObject {
 
             }
 
-
             double cash = getCash();
-
 
             if (playerStore.hasItem(items.get(itemIndex), 1.0) && cash >= itemPrices.get(itemIndex)) {
 
@@ -225,9 +265,7 @@ public class Pop extends AtlastObject {
                 boughtSomething = true;
             }
 
-
             broke = !boughtSomething;
-
         }
 
         switch (store) {
@@ -268,14 +306,31 @@ public class Pop extends AtlastObject {
             child.setProperty("atlast:food", 0.0d);
             child.setProperty("atlast:cash", 0.0d);
 
-            String identity = determineIdentity();
-            Node identityNode = getNode().getSession().getNodeByIdentifier(identity);
+            String race = determineRace();
+            String religion = determineReligion();
 
-            child.setProperty("atlast:identity", identity);
+            child.setProperty("atlast:race", race);
+            child.setProperty("atlast:religion", religion);
 
-            Node languageDescriptorNode = getNode().getSession().getNodeByIdentifier(identityNode.getProperty("atlast:languagedescriptor").getString());
+            if (!"none".equals(race)) {
+                Node raceNode = getNode().getSession().getNodeByIdentifier(race);
+                Node raceLanguageDescriptorNode = getNode().getSession().getNodeByIdentifier(raceNode.getProperty("atlast:languagedescriptor").getString());
+                child.setProperty("atlast:racename", NameGenerator.generatePopName(raceLanguageDescriptorNode, getRaceName()));
+            }
 
-            child.setProperty("atlast:name", NameGenerator.generatePopName(languageDescriptorNode, getName()));
+            if (!"none".equals(religion)) {
+                Node religionNode = getNode().getSession().getNodeByIdentifier(religion);
+                Node religionLanguageDescriptorNode = getNode().getSession().getNodeByIdentifier(religionNode.getProperty("atlast:languagedescriptor").getString());
+                child.setProperty("atlast:religionname", NameGenerator.generatePopName(religionLanguageDescriptorNode, getReligionName()));
+            }
+
+            if ("none".equals(race)) {
+                child.setProperty("atlast:racename", child.getProperty("atlast:religionname").getString());
+            }
+
+            if ("none".equals(religion)) {
+                child.setProperty("atlast:religionname", child.getProperty("atlast:racename").getString());
+            }
         } else {
             child = getNode().getNode("child");
         }
@@ -284,8 +339,12 @@ public class Pop extends AtlastObject {
         return new Child(child);
     }
 
-    public String getName() {
-        return getStringProperty("atlast:name");
+    public String getRaceName() {
+        return getStringProperty("atlast:racename");
+    }
+
+    public String getReligionName() {
+        return getStringProperty("atlast:religionname");
     }
 
     public void learn(final String skill) throws RepositoryException {
@@ -340,7 +399,7 @@ public class Pop extends AtlastObject {
         }
     }
 
-    public String determineIdentity() {
+    public String determineRace() {
 
         double biggestRaceLevel = 0;
         String biggestRace = "none";
@@ -353,6 +412,11 @@ public class Pop extends AtlastObject {
             }
         }
 
+        return biggestRace;
+    }
+
+    public String determineReligion() {
+
         double biggestReligionLevel = 0;
         String biggestReligion = "none";
 
@@ -364,19 +428,28 @@ public class Pop extends AtlastObject {
             }
         }
 
-        String identity = biggestRaceLevel > biggestReligionLevel ? biggestRace : biggestReligion;
-
-        return identity;
+        return biggestReligion;
     }
 
-    public Identity getIdentity() throws RepositoryException {
+    public Identity getRace() throws RepositoryException {
 
-        String identityUuid = getStringProperty("atlast:identity");
-        if (identityUuid == null) {
-            identityUuid = determineIdentity();
-            setStringProperty("atlast:identity", identityUuid);
+        String identityUuid = getStringProperty("atlast:race");
+
+        if (identityUuid.equals("none")) {
+            return null;
         }
 
-        return  new Identity(getNode().getSession().getNodeByIdentifier(identityUuid));
+        return new Identity(getNode().getSession().getNodeByIdentifier(identityUuid));
+    }
+
+    public Identity getReligion() throws RepositoryException {
+
+        String identityUuid = getStringProperty("atlast:religion");
+
+        if (identityUuid.equals("none")) {
+            return null;
+        }
+
+        return new Identity(getNode().getSession().getNodeByIdentifier(identityUuid));
     }
 }

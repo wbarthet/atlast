@@ -483,11 +483,13 @@ public class SignupService {
 
             popNode.setProperty("atlast:player", userName);
             popNode.setProperty("atlast:cash", POP_START_CASH);
-            popNode.setProperty("atlast:name", name);
+            popNode.setProperty("atlast:racename", name);
+            popNode.setProperty("atlast:religionname", name);
             popNode.setProperty("atlast:food", POP_START_FOOD);
             popNode.setProperty("atlast:class", popClass);
             popNode.setProperty("atlast:goods", 10.0d);
             popNode.setProperty("atlast:luxuries", 10.0d);
+            popNode.setProperty("atlast:wageexpectation", 100.0d);
             popNode.setProperty("atlast:skills", new String[]{skill});
             popNode.setProperty("atlast:races", new String[]{race});
             popNode.setProperty("atlast:religions", new String[]{religion});
@@ -496,8 +498,8 @@ public class SignupService {
             popNode.setProperty("religion-" + religion, 100.0d);
             popNode.setProperty("hippo:availability", new String[]{"live"});
 
-            String identity = "none".equals(race) ? religion : race;
-            popNode.setProperty("atlast:identity", identity);
+            popNode.setProperty("atlast:race", race);
+            popNode.setProperty("atlast:religion", religion);
         }
 
     }

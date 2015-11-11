@@ -64,6 +64,15 @@ public class LandDetail extends BaseSecuredComponent {
                 } else {
                     query.addOrderByDescending("skill-" + land.getRecipeDescriptor().getSkill());
                 }
+
+                Double wages = land.getWages();
+
+                Filter filter = query.createFilter();
+
+                filter.addLessOrEqualThan("atlast:wageexpectation", wages);
+
+                query.setFilter(filter);
+
                 query.setLimit(10);
 
                 HstQueryResult hstQueryResult = query.execute();

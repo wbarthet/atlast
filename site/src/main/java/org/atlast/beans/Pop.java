@@ -11,8 +11,12 @@ import org.hippoecm.hst.content.beans.Node;
 @Node(jcrType = "atlast:pop")
 public class Pop extends AtlastObject {
 
-    public String getName() {
-        return getProperty("atlast:name");
+    public String getReligionName() {
+        return getProperty("atlast:religionname");
+    }
+
+    public String getRaceName() {
+        return getProperty("atlast:racename");
     }
 
     public String getPopClass() {
@@ -46,8 +50,44 @@ public class Pop extends AtlastObject {
         return 0.0;
     }
 
-    public Identity getIdentity() {
-        return getBeanByUUID(getProperty("atlast:identity"), Identity.class);
+    public Identity getRace() {
+
+        String identityUuid = getProperty("atlast:race");
+
+        if ("none".equals(identityUuid)) {
+            return null;
+        }
+
+        return getBeanByUUID(identityUuid, Identity.class);
+    }
+
+    public Identity getReligion() {
+
+        String identityUuid = getProperty("atlast:religion");
+
+        if ("none".equals(identityUuid)) {
+            return null;
+        }
+
+        return getBeanByUUID(identityUuid, Identity.class);
+    }
+
+    public Identity getIdentity(Player player) {
+        if (player.getIdentity().isRace()) {
+            return getRace();
+        }
+        else {
+            return getReligion();
+        }
+    }
+
+    public String getIdentifiedName(Player player) {
+        if (player.getIdentity().isRace()) {
+            return getRaceName();
+        }
+        else {
+            return getReligionName();
+        }
     }
 
 

@@ -32,4 +32,8 @@ public class Identity extends AtlastObject {
 
         return traits;
     }
+
+    public boolean isRace() throws RepositoryException {
+        return getNode().getProperty("atlast:race").getBoolean();
+    }
 }
