@@ -5,7 +5,7 @@
   <parent>
     <artifactId>atlast-server</artifactId>
     <groupId>org.atlast</groupId>
-    <version>1.01.04-SNAPSHOT</version>
+    <version>1.01.05-SNAPSHOT</version>
   </parent>
   <modelVersion>4.0.0</modelVersion>
 

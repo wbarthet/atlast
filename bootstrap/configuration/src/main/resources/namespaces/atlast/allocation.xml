@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><sv:node xmlns:sv="http://www.jcp.org/jcr/sv/1.0" sv:name="amount">
+<?xml version="1.0" encoding="UTF-8"?><sv:node xmlns:sv="http://www.jcp.org/jcr/sv/1.0" sv:name="allocation">
   <sv:property sv:name="jcr:primaryType" sv:type="Name">
     <sv:value>hipposysedit:templatetype</sv:value>
   </sv:property>
@@ -7,7 +7,7 @@
     <sv:value>mix:referenceable</sv:value>
   </sv:property>
   <sv:property sv:name="jcr:uuid" sv:type="String">
-    <sv:value>18dac5a4-5988-417f-96c6-6cbff0ee63a3</sv:value>
+    <sv:value>6d30e966-1703-4b6f-b10a-7ac863aefe12</sv:value>
   </sv:property>
   <sv:node sv:name="hipposysedit:nodetype">
     <sv:property sv:name="jcr:primaryType" sv:type="Name">
@@ -17,7 +17,7 @@
       <sv:value>mix:referenceable</sv:value>
     </sv:property>
     <sv:property sv:name="jcr:uuid" sv:type="String">
-      <sv:value>4c263d95-994b-44f5-b688-4ec22703848a</sv:value>
+      <sv:value>0bb6a053-705c-46f5-a594-ae7a9a34a40f</sv:value>
     </sv:property>
     <sv:node sv:name="hipposysedit:nodetype">
       <sv:property sv:name="jcr:primaryType" sv:type="Name">
@@ -28,7 +28,7 @@
         <sv:value>hipposysedit:remodel</sv:value>
       </sv:property>
       <sv:property sv:name="jcr:uuid" sv:type="String">
-        <sv:value>f5a2765c-afc3-4a76-aff8-1570bb7059b9</sv:value>
+        <sv:value>ae9bff1f-b244-4de6-9e10-dacc55e4e097</sv:value>
       </sv:property>
       <sv:property sv:name="hipposysedit:node" sv:type="Boolean">
         <sv:value>true</sv:value>
@@ -40,7 +40,7 @@
       <sv:property sv:name="hipposysedit:uri" sv:type="String">
         <sv:value>http://www.onehippo.org/atlast/nt/1.0</sv:value>
       </sv:property>
-      <sv:node sv:name="resource">
+      <sv:node sv:name="land">
         <sv:property sv:name="jcr:primaryType" sv:type="Name">
           <sv:value>hipposysedit:field</sv:value>
         </sv:property>
@@ -54,7 +54,7 @@
           <sv:value>false</sv:value>
         </sv:property>
         <sv:property sv:name="hipposysedit:path" sv:type="String">
-          <sv:value>atlast:resource</sv:value>
+          <sv:value>atlast:land</sv:value>
         </sv:property>
         <sv:property sv:name="hipposysedit:primary" sv:type="Boolean">
           <sv:value>false</sv:value>
@@ -63,7 +63,7 @@
           <sv:value>hippo:mirror</sv:value>
         </sv:property>
       </sv:node>
-      <sv:node sv:name="quantity">
+      <sv:node sv:name="amount">
         <sv:property sv:name="jcr:primaryType" sv:type="Name">
           <sv:value>hipposysedit:field</sv:value>
         </sv:property>
@@ -77,13 +77,13 @@
           <sv:value>false</sv:value>
         </sv:property>
         <sv:property sv:name="hipposysedit:path" sv:type="String">
-          <sv:value>atlast:quantity</sv:value>
+          <sv:value>atlast:amount</sv:value>
         </sv:property>
         <sv:property sv:name="hipposysedit:primary" sv:type="Boolean">
           <sv:value>false</sv:value>
         </sv:property>
         <sv:property sv:name="hipposysedit:type" sv:type="String">
-          <sv:value>Long</sv:value>
+          <sv:value>Double</sv:value>
         </sv:property>
       </sv:node>
     </sv:node>
@@ -94,12 +94,12 @@
     </sv:property>
     <sv:node sv:name="hipposysedit:prototype">
       <sv:property sv:name="jcr:primaryType" sv:type="Name">
-        <sv:value>atlast:amount</sv:value>
+        <sv:value>atlast:allocation</sv:value>
       </sv:property>
-      <sv:property sv:name="atlast:quantity" sv:type="Long">
-        <sv:value>0</sv:value>
+      <sv:property sv:name="atlast:amount" sv:type="Double">
+        <sv:value>0.0</sv:value>
       </sv:property>
-      <sv:node sv:name="atlast:resource">
+      <sv:node sv:name="atlast:land">
         <sv:property sv:name="jcr:primaryType" sv:type="Name">
           <sv:value>hippo:mirror</sv:value>
         </sv:property>
@@ -144,15 +144,18 @@
           <sv:value>row</sv:value>
         </sv:property>
       </sv:node>
-      <sv:node sv:name="resource">
+      <sv:node sv:name="land">
         <sv:property sv:name="jcr:primaryType" sv:type="Name">
           <sv:value>frontend:plugin</sv:value>
         </sv:property>
         <sv:property sv:name="caption" sv:type="String">
-          <sv:value>Resource</sv:value>
+          <sv:value>Land</sv:value>
         </sv:property>
         <sv:property sv:name="field" sv:type="String">
-          <sv:value>resource</sv:value>
+          <sv:value>land</sv:value>
+        </sv:property>
+        <sv:property sv:name="hint" sv:type="String">
+          <sv:value/>
         </sv:property>
         <sv:property sv:name="plugin.class" sv:type="String">
           <sv:value>org.hippoecm.frontend.editor.plugins.field.NodeFieldPlugin</sv:value>
@@ -166,18 +169,15 @@
           </sv:property>
         </sv:node>
       </sv:node>
-      <sv:node sv:name="quantity">
+      <sv:node sv:name="amount">
         <sv:property sv:name="jcr:primaryType" sv:type="Name">
           <sv:value>frontend:plugin</sv:value>
         </sv:property>
         <sv:property sv:name="caption" sv:type="String">
-          <sv:value>Quantity</sv:value>
+          <sv:value>Amount</sv:value>
         </sv:property>
         <sv:property sv:name="field" sv:type="String">
-          <sv:value>quantity</sv:value>
-        </sv:property>
-        <sv:property sv:name="hint" sv:type="String">
-          <sv:value/>
+          <sv:value>amount</sv:value>
         </sv:property>
         <sv:property sv:name="plugin.class" sv:type="String">
           <sv:value>org.hippoecm.frontend.editor.plugins.field.PropertyFieldPlugin</sv:value>

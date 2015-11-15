@@ -28543,5 +28543,2329 @@
         </sv:node>
       </sv:node>
     </sv:node>
+    <sv:node sv:name="set-sail-for-mulida">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>hippo:handle</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+        <sv:value>mix:referenceable</sv:value>
+        <sv:value>hippo:translated</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:uuid" sv:type="String">
+        <sv:value>a3e95d14-2b1b-4841-bdc9-073f694934e5</sv:value>
+      </sv:property>
+      <sv:node sv:name="set-sail-for-mulida">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>atlast:recipedescriptor</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+          <sv:value>mix:referenceable</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:uuid" sv:type="String">
+          <sv:value>225ae3c4-9b6f-4417-98a9-92296cbf006c</sv:value>
+        </sv:property>
+        <sv:property sv:name="atlast:labour" sv:type="Long">
+          <sv:value>1</sv:value>
+        </sv:property>
+        <sv:property sv:name="atlast:name" sv:type="String">
+          <sv:value>Set sail for Mulida</sv:value>
+        </sv:property>
+        <sv:property sv:name="atlast:skill" sv:type="String">
+          <sv:value>warrior</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true"/>
+        <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+          <sv:value>recipes/services/set-sail-for-mulida/set-sail-for-mulida[3]</sv:value>
+          <sv:value>recipes/services/set-sail-for-mulida/set-sail-for-mulida[2]</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:state" sv:type="String">
+          <sv:value>draft</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+          <sv:value>live</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+          <sv:value>admin</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+          <sv:value>2015-11-11T15:23:39.838-05:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+          <sv:value>2015-11-14T13:25:21.960-05:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+          <sv:value>admin</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippotranslation:id" sv:type="String">
+          <sv:value>ab025862-4343-4bb0-8023-2e8f9c52d717</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippotranslation:locale" sv:type="String">
+          <sv:value>en</sv:value>
+        </sv:property>
+        <sv:property sv:name="input-secondary-lumber" sv:type="Long">
+          <sv:value>1</sv:value>
+        </sv:property>
+        <sv:property sv:name="input-secondary-weapons" sv:type="Long">
+          <sv:value>1</sv:value>
+        </sv:property>
+        <sv:property sv:name="inputs" sv:type="String" sv:multiple="true">
+          <sv:value>secondary-weapons</sv:value>
+          <sv:value>secondary-lumber</sv:value>
+        </sv:property>
+        <sv:property sv:name="output-resources-conquest.png" sv:type="Long">
+          <sv:value>4</sv:value>
+        </sv:property>
+        <sv:property sv:name="output-services-conquest" sv:type="Long">
+          <sv:value>4</sv:value>
+        </sv:property>
+        <sv:property sv:name="outputs" sv:type="String" sv:multiple="true">
+          <sv:value>services-conquest</sv:value>
+        </sv:property>
+        <sv:node sv:name="atlast:inputs">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>atlast:amount</sv:value>
+          </sv:property>
+          <sv:property sv:name="atlast:quantity" sv:type="Long">
+            <sv:value>1</sv:value>
+          </sv:property>
+          <sv:node sv:name="atlast:resource">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippo:mirror</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:docbase" sv:type="String">
+              <sv:value>75ac427d-60f9-41ce-b23e-dddabe8112d4</sv:value>
+            </sv:property>
+          </sv:node>
+        </sv:node>
+        <sv:node sv:name="atlast:inputs">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>atlast:amount</sv:value>
+          </sv:property>
+          <sv:property sv:name="atlast:quantity" sv:type="Long">
+            <sv:value>1</sv:value>
+          </sv:property>
+          <sv:node sv:name="atlast:resource">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippo:mirror</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:docbase" sv:type="String">
+              <sv:value>c2278c4d-1c69-4475-9731-ff475fb8aa35</sv:value>
+            </sv:property>
+          </sv:node>
+        </sv:node>
+        <sv:node sv:name="atlast:outputs">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>atlast:amount</sv:value>
+          </sv:property>
+          <sv:property sv:name="atlast:quantity" sv:type="Long">
+            <sv:value>4</sv:value>
+          </sv:property>
+          <sv:node sv:name="atlast:resource">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippo:mirror</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:docbase" sv:type="String">
+              <sv:value>93c61cbe-44be-4473-a350-bcafee3a895c</sv:value>
+            </sv:property>
+          </sv:node>
+        </sv:node>
+        <sv:node sv:name="atlast:landquality">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>atlast:allocation</sv:value>
+          </sv:property>
+          <sv:property sv:name="atlast:amount" sv:type="Double">
+            <sv:value>65.0</sv:value>
+          </sv:property>
+          <sv:node sv:name="atlast:land">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippo:mirror</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:docbase" sv:type="String">
+              <sv:value>858e112c-ff86-47f6-b448-8a50c0443287</sv:value>
+            </sv:property>
+          </sv:node>
+        </sv:node>
+        <sv:node sv:name="atlast:landquality">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>atlast:allocation</sv:value>
+          </sv:property>
+          <sv:property sv:name="atlast:amount" sv:type="Double">
+            <sv:value>35.0</sv:value>
+          </sv:property>
+          <sv:node sv:name="atlast:land">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippo:mirror</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:docbase" sv:type="String">
+              <sv:value>b4d254e9-3cbd-472b-bf3b-22b9b5a652cf</sv:value>
+            </sv:property>
+          </sv:node>
+        </sv:node>
+      </sv:node>
+      <sv:node sv:name="hippo:translation">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippo:translation</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:language" sv:type="String">
+          <sv:value/>
+        </sv:property>
+        <sv:property sv:name="hippo:message" sv:type="String">
+          <sv:value>Set sail for Mulida</sv:value>
+        </sv:property>
+      </sv:node>
+      <sv:node sv:name="set-sail-for-mulida">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>atlast:recipedescriptor</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+          <sv:value>mix:versionable</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:uuid" sv:type="String">
+          <sv:value>73868110-4291-4c1b-9e7e-37c1d13ecbb9</sv:value>
+        </sv:property>
+        <sv:property sv:name="atlast:labour" sv:type="Long">
+          <sv:value>1</sv:value>
+        </sv:property>
+        <sv:property sv:name="atlast:name" sv:type="String">
+          <sv:value>Set sail for Mulida</sv:value>
+        </sv:property>
+        <sv:property sv:name="atlast:skill" sv:type="String">
+          <sv:value>warrior</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
+          <sv:value>preview</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+          <sv:value>recipes/services/set-sail-for-mulida/set-sail-for-mulida[3]</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:state" sv:type="String">
+          <sv:value>unpublished</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+          <sv:value>live</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+          <sv:value>admin</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+          <sv:value>2015-11-11T15:23:39.838-05:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+          <sv:value>2015-11-14T13:25:27.790-05:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+          <sv:value>admin</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippotranslation:id" sv:type="String">
+          <sv:value>ab025862-4343-4bb0-8023-2e8f9c52d717</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippotranslation:locale" sv:type="String">
+          <sv:value>en</sv:value>
+        </sv:property>
+        <sv:property sv:name="input-secondary-lumber" sv:type="Long">
+          <sv:value>1</sv:value>
+        </sv:property>
+        <sv:property sv:name="input-secondary-weapons" sv:type="Long">
+          <sv:value>1</sv:value>
+        </sv:property>
+        <sv:property sv:name="inputs" sv:type="String" sv:multiple="true">
+          <sv:value>secondary-weapons</sv:value>
+          <sv:value>secondary-lumber</sv:value>
+        </sv:property>
+        <sv:property sv:name="output-resources-conquest.png" sv:type="Long">
+          <sv:value>4</sv:value>
+        </sv:property>
+        <sv:property sv:name="output-services-conquest" sv:type="Long">
+          <sv:value>4</sv:value>
+        </sv:property>
+        <sv:property sv:name="outputs" sv:type="String" sv:multiple="true">
+          <sv:value>services-conquest</sv:value>
+        </sv:property>
+        <sv:node sv:name="atlast:inputs">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>atlast:amount</sv:value>
+          </sv:property>
+          <sv:property sv:name="atlast:quantity" sv:type="Long">
+            <sv:value>1</sv:value>
+          </sv:property>
+          <sv:node sv:name="atlast:resource">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippo:mirror</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:docbase" sv:type="String">
+              <sv:value>75ac427d-60f9-41ce-b23e-dddabe8112d4</sv:value>
+            </sv:property>
+          </sv:node>
+        </sv:node>
+        <sv:node sv:name="atlast:inputs">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>atlast:amount</sv:value>
+          </sv:property>
+          <sv:property sv:name="atlast:quantity" sv:type="Long">
+            <sv:value>1</sv:value>
+          </sv:property>
+          <sv:node sv:name="atlast:resource">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippo:mirror</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:docbase" sv:type="String">
+              <sv:value>c2278c4d-1c69-4475-9731-ff475fb8aa35</sv:value>
+            </sv:property>
+          </sv:node>
+        </sv:node>
+        <sv:node sv:name="atlast:outputs">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>atlast:amount</sv:value>
+          </sv:property>
+          <sv:property sv:name="atlast:quantity" sv:type="Long">
+            <sv:value>4</sv:value>
+          </sv:property>
+          <sv:node sv:name="atlast:resource">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippo:mirror</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:docbase" sv:type="String">
+              <sv:value>93c61cbe-44be-4473-a350-bcafee3a895c</sv:value>
+            </sv:property>
+          </sv:node>
+        </sv:node>
+        <sv:node sv:name="atlast:landquality">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>atlast:allocation</sv:value>
+          </sv:property>
+          <sv:property sv:name="atlast:amount" sv:type="Double">
+            <sv:value>65.0</sv:value>
+          </sv:property>
+          <sv:node sv:name="atlast:land">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippo:mirror</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:docbase" sv:type="String">
+              <sv:value>858e112c-ff86-47f6-b448-8a50c0443287</sv:value>
+            </sv:property>
+          </sv:node>
+        </sv:node>
+        <sv:node sv:name="atlast:landquality">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>atlast:allocation</sv:value>
+          </sv:property>
+          <sv:property sv:name="atlast:amount" sv:type="Double">
+            <sv:value>35.0</sv:value>
+          </sv:property>
+          <sv:node sv:name="atlast:land">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippo:mirror</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:docbase" sv:type="String">
+              <sv:value>b4d254e9-3cbd-472b-bf3b-22b9b5a652cf</sv:value>
+            </sv:property>
+          </sv:node>
+        </sv:node>
+      </sv:node>
+      <sv:node sv:name="set-sail-for-mulida">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>atlast:recipedescriptor</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+          <sv:value>mix:referenceable</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:uuid" sv:type="String">
+          <sv:value>4ff02343-20b4-44ce-86ee-2ac0ca33fcbb</sv:value>
+        </sv:property>
+        <sv:property sv:name="atlast:labour" sv:type="Long">
+          <sv:value>1</sv:value>
+        </sv:property>
+        <sv:property sv:name="atlast:name" sv:type="String">
+          <sv:value>Set sail for Mulida</sv:value>
+        </sv:property>
+        <sv:property sv:name="atlast:skill" sv:type="String">
+          <sv:value>warrior</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
+          <sv:value>live</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+          <sv:value>recipes/services/set-sail-for-mulida/set-sail-for-mulida[2]</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:state" sv:type="String">
+          <sv:value>published</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+          <sv:value>live</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+          <sv:value>admin</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+          <sv:value>2015-11-11T15:23:39.838-05:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+          <sv:value>2015-11-14T13:25:27.790-05:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+          <sv:value>admin</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:publicationDate" sv:type="Date">
+          <sv:value>2015-11-14T13:25:34.748-05:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippotranslation:id" sv:type="String">
+          <sv:value>ab025862-4343-4bb0-8023-2e8f9c52d717</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippotranslation:locale" sv:type="String">
+          <sv:value>en</sv:value>
+        </sv:property>
+        <sv:property sv:name="input-secondary-lumber" sv:type="Long">
+          <sv:value>1</sv:value>
+        </sv:property>
+        <sv:property sv:name="input-secondary-weapons" sv:type="Long">
+          <sv:value>1</sv:value>
+        </sv:property>
+        <sv:property sv:name="inputs" sv:type="String" sv:multiple="true">
+          <sv:value>secondary-weapons</sv:value>
+          <sv:value>secondary-lumber</sv:value>
+        </sv:property>
+        <sv:property sv:name="output-resources-conquest.png" sv:type="Long">
+          <sv:value>4</sv:value>
+        </sv:property>
+        <sv:property sv:name="output-services-conquest" sv:type="Long">
+          <sv:value>4</sv:value>
+        </sv:property>
+        <sv:property sv:name="outputs" sv:type="String" sv:multiple="true">
+          <sv:value>services-conquest</sv:value>
+        </sv:property>
+        <sv:node sv:name="atlast:inputs">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>atlast:amount</sv:value>
+          </sv:property>
+          <sv:property sv:name="atlast:quantity" sv:type="Long">
+            <sv:value>1</sv:value>
+          </sv:property>
+          <sv:node sv:name="atlast:resource">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippo:mirror</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:docbase" sv:type="String">
+              <sv:value>75ac427d-60f9-41ce-b23e-dddabe8112d4</sv:value>
+            </sv:property>
+          </sv:node>
+        </sv:node>
+        <sv:node sv:name="atlast:inputs">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>atlast:amount</sv:value>
+          </sv:property>
+          <sv:property sv:name="atlast:quantity" sv:type="Long">
+            <sv:value>1</sv:value>
+          </sv:property>
+          <sv:node sv:name="atlast:resource">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippo:mirror</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:docbase" sv:type="String">
+              <sv:value>c2278c4d-1c69-4475-9731-ff475fb8aa35</sv:value>
+            </sv:property>
+          </sv:node>
+        </sv:node>
+        <sv:node sv:name="atlast:outputs">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>atlast:amount</sv:value>
+          </sv:property>
+          <sv:property sv:name="atlast:quantity" sv:type="Long">
+            <sv:value>4</sv:value>
+          </sv:property>
+          <sv:node sv:name="atlast:resource">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippo:mirror</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:docbase" sv:type="String">
+              <sv:value>93c61cbe-44be-4473-a350-bcafee3a895c</sv:value>
+            </sv:property>
+          </sv:node>
+        </sv:node>
+        <sv:node sv:name="atlast:landquality">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>atlast:allocation</sv:value>
+          </sv:property>
+          <sv:property sv:name="atlast:amount" sv:type="Double">
+            <sv:value>65.0</sv:value>
+          </sv:property>
+          <sv:node sv:name="atlast:land">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippo:mirror</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:docbase" sv:type="String">
+              <sv:value>858e112c-ff86-47f6-b448-8a50c0443287</sv:value>
+            </sv:property>
+          </sv:node>
+        </sv:node>
+        <sv:node sv:name="atlast:landquality">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>atlast:allocation</sv:value>
+          </sv:property>
+          <sv:property sv:name="atlast:amount" sv:type="Double">
+            <sv:value>35.0</sv:value>
+          </sv:property>
+          <sv:node sv:name="atlast:land">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippo:mirror</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:docbase" sv:type="String">
+              <sv:value>b4d254e9-3cbd-472b-bf3b-22b9b5a652cf</sv:value>
+            </sv:property>
+          </sv:node>
+        </sv:node>
+      </sv:node>
+    </sv:node>
+    <sv:node sv:name="lay-siege-on-speridos">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>hippo:handle</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+        <sv:value>mix:referenceable</sv:value>
+        <sv:value>hippo:translated</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:uuid" sv:type="String">
+        <sv:value>a06e7b90-8958-431b-87f4-c7a2e2448ab0</sv:value>
+      </sv:property>
+      <sv:node sv:name="lay-siege-on-speridos">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>atlast:recipedescriptor</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+          <sv:value>mix:versionable</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:uuid" sv:type="String">
+          <sv:value>ca45107c-f953-436f-a5c5-2a454a32035f</sv:value>
+        </sv:property>
+        <sv:property sv:name="atlast:labour" sv:type="Long">
+          <sv:value>1</sv:value>
+        </sv:property>
+        <sv:property sv:name="atlast:name" sv:type="String">
+          <sv:value>Lay siege on Speridos</sv:value>
+        </sv:property>
+        <sv:property sv:name="atlast:skill" sv:type="String">
+          <sv:value>warrior</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
+          <sv:value>preview</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+          <sv:value>recipes/services/lay-siege-on-speridos/lay-siege-on-speridos[3]</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:state" sv:type="String">
+          <sv:value>unpublished</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+          <sv:value>live</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+          <sv:value>admin</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+          <sv:value>2015-11-11T15:23:39.838-05:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+          <sv:value>2015-11-14T13:25:31.155-05:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+          <sv:value>admin</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippotranslation:id" sv:type="String">
+          <sv:value>fb73acbe-b144-4acf-9af2-43d8fb980583</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippotranslation:locale" sv:type="String">
+          <sv:value>en</sv:value>
+        </sv:property>
+        <sv:property sv:name="input-primary-wood" sv:type="Long">
+          <sv:value>1</sv:value>
+        </sv:property>
+        <sv:property sv:name="input-secondary-weapons" sv:type="Long">
+          <sv:value>1</sv:value>
+        </sv:property>
+        <sv:property sv:name="inputs" sv:type="String" sv:multiple="true">
+          <sv:value>secondary-weapons</sv:value>
+          <sv:value>primary-wood</sv:value>
+        </sv:property>
+        <sv:property sv:name="output-services-conquest" sv:type="Long">
+          <sv:value>4</sv:value>
+        </sv:property>
+        <sv:property sv:name="outputs" sv:type="String" sv:multiple="true">
+          <sv:value>services-conquest</sv:value>
+        </sv:property>
+        <sv:node sv:name="atlast:inputs">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>atlast:amount</sv:value>
+          </sv:property>
+          <sv:property sv:name="atlast:quantity" sv:type="Long">
+            <sv:value>1</sv:value>
+          </sv:property>
+          <sv:node sv:name="atlast:resource">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippo:mirror</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:docbase" sv:type="String">
+              <sv:value>75ac427d-60f9-41ce-b23e-dddabe8112d4</sv:value>
+            </sv:property>
+          </sv:node>
+        </sv:node>
+        <sv:node sv:name="atlast:inputs">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>atlast:amount</sv:value>
+          </sv:property>
+          <sv:property sv:name="atlast:quantity" sv:type="Long">
+            <sv:value>1</sv:value>
+          </sv:property>
+          <sv:node sv:name="atlast:resource">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippo:mirror</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:docbase" sv:type="String">
+              <sv:value>58cc584c-0025-4c6d-b4f5-1f298f36cc05</sv:value>
+            </sv:property>
+          </sv:node>
+        </sv:node>
+        <sv:node sv:name="atlast:outputs">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>atlast:amount</sv:value>
+          </sv:property>
+          <sv:property sv:name="atlast:quantity" sv:type="Long">
+            <sv:value>4</sv:value>
+          </sv:property>
+          <sv:node sv:name="atlast:resource">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippo:mirror</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:docbase" sv:type="String">
+              <sv:value>93c61cbe-44be-4473-a350-bcafee3a895c</sv:value>
+            </sv:property>
+          </sv:node>
+        </sv:node>
+        <sv:node sv:name="atlast:landquality">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>atlast:allocation</sv:value>
+          </sv:property>
+          <sv:property sv:name="atlast:amount" sv:type="Double">
+            <sv:value>65.0</sv:value>
+          </sv:property>
+          <sv:node sv:name="atlast:land">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippo:mirror</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:docbase" sv:type="String">
+              <sv:value>790c0047-9409-4eaa-9329-7703680abd31</sv:value>
+            </sv:property>
+          </sv:node>
+        </sv:node>
+        <sv:node sv:name="atlast:landquality">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>atlast:allocation</sv:value>
+          </sv:property>
+          <sv:property sv:name="atlast:amount" sv:type="Double">
+            <sv:value>35.0</sv:value>
+          </sv:property>
+          <sv:node sv:name="atlast:land">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippo:mirror</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:docbase" sv:type="String">
+              <sv:value>f91cc70c-5d46-4c19-b7b5-c13c80173b04</sv:value>
+            </sv:property>
+          </sv:node>
+        </sv:node>
+      </sv:node>
+      <sv:node sv:name="hippo:translation">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippo:translation</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:language" sv:type="String">
+          <sv:value/>
+        </sv:property>
+        <sv:property sv:name="hippo:message" sv:type="String">
+          <sv:value>Lay siege on Speridos</sv:value>
+        </sv:property>
+      </sv:node>
+      <sv:node sv:name="lay-siege-on-speridos">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>atlast:recipedescriptor</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+          <sv:value>mix:referenceable</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:uuid" sv:type="String">
+          <sv:value>e1967f46-423f-4a33-9d25-27b3e0650c83</sv:value>
+        </sv:property>
+        <sv:property sv:name="atlast:labour" sv:type="Long">
+          <sv:value>1</sv:value>
+        </sv:property>
+        <sv:property sv:name="atlast:name" sv:type="String">
+          <sv:value>Lay siege on Speridos</sv:value>
+        </sv:property>
+        <sv:property sv:name="atlast:skill" sv:type="String">
+          <sv:value>warrior</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true"/>
+        <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+          <sv:value>recipes/services/lay-siege-on-speridos/lay-siege-on-speridos</sv:value>
+          <sv:value>recipes/services/lay-siege-on-speridos/lay-siege-on-speridos[3]</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:state" sv:type="String">
+          <sv:value>draft</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+          <sv:value>live</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+          <sv:value>admin</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+          <sv:value>2015-11-11T15:23:39.838-05:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+          <sv:value>2015-11-14T13:25:17.543-05:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+          <sv:value>admin</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippotranslation:id" sv:type="String">
+          <sv:value>fb73acbe-b144-4acf-9af2-43d8fb980583</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippotranslation:locale" sv:type="String">
+          <sv:value>en</sv:value>
+        </sv:property>
+        <sv:property sv:name="input-primary-wood" sv:type="Long">
+          <sv:value>1</sv:value>
+        </sv:property>
+        <sv:property sv:name="input-secondary-weapons" sv:type="Long">
+          <sv:value>1</sv:value>
+        </sv:property>
+        <sv:property sv:name="inputs" sv:type="String" sv:multiple="true">
+          <sv:value>secondary-weapons</sv:value>
+          <sv:value>primary-wood</sv:value>
+        </sv:property>
+        <sv:property sv:name="output-services-conquest" sv:type="Long">
+          <sv:value>4</sv:value>
+        </sv:property>
+        <sv:property sv:name="outputs" sv:type="String" sv:multiple="true">
+          <sv:value>services-conquest</sv:value>
+        </sv:property>
+        <sv:node sv:name="atlast:inputs">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>atlast:amount</sv:value>
+          </sv:property>
+          <sv:property sv:name="atlast:quantity" sv:type="Long">
+            <sv:value>1</sv:value>
+          </sv:property>
+          <sv:node sv:name="atlast:resource">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippo:mirror</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:docbase" sv:type="String">
+              <sv:value>75ac427d-60f9-41ce-b23e-dddabe8112d4</sv:value>
+            </sv:property>
+          </sv:node>
+        </sv:node>
+        <sv:node sv:name="atlast:inputs">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>atlast:amount</sv:value>
+          </sv:property>
+          <sv:property sv:name="atlast:quantity" sv:type="Long">
+            <sv:value>1</sv:value>
+          </sv:property>
+          <sv:node sv:name="atlast:resource">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippo:mirror</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:docbase" sv:type="String">
+              <sv:value>58cc584c-0025-4c6d-b4f5-1f298f36cc05</sv:value>
+            </sv:property>
+          </sv:node>
+        </sv:node>
+        <sv:node sv:name="atlast:outputs">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>atlast:amount</sv:value>
+          </sv:property>
+          <sv:property sv:name="atlast:quantity" sv:type="Long">
+            <sv:value>4</sv:value>
+          </sv:property>
+          <sv:node sv:name="atlast:resource">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippo:mirror</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:docbase" sv:type="String">
+              <sv:value>93c61cbe-44be-4473-a350-bcafee3a895c</sv:value>
+            </sv:property>
+          </sv:node>
+        </sv:node>
+        <sv:node sv:name="atlast:landquality">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>atlast:allocation</sv:value>
+          </sv:property>
+          <sv:property sv:name="atlast:amount" sv:type="Double">
+            <sv:value>65.0</sv:value>
+          </sv:property>
+          <sv:node sv:name="atlast:land">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippo:mirror</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:docbase" sv:type="String">
+              <sv:value>790c0047-9409-4eaa-9329-7703680abd31</sv:value>
+            </sv:property>
+          </sv:node>
+        </sv:node>
+        <sv:node sv:name="atlast:landquality">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>atlast:allocation</sv:value>
+          </sv:property>
+          <sv:property sv:name="atlast:amount" sv:type="Double">
+            <sv:value>35.0</sv:value>
+          </sv:property>
+          <sv:node sv:name="atlast:land">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippo:mirror</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:docbase" sv:type="String">
+              <sv:value>f91cc70c-5d46-4c19-b7b5-c13c80173b04</sv:value>
+            </sv:property>
+          </sv:node>
+        </sv:node>
+      </sv:node>
+      <sv:node sv:name="lay-siege-on-speridos">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>atlast:recipedescriptor</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+          <sv:value>mix:referenceable</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:uuid" sv:type="String">
+          <sv:value>db65af34-eccd-4605-bce1-c125034e624c</sv:value>
+        </sv:property>
+        <sv:property sv:name="atlast:labour" sv:type="Long">
+          <sv:value>1</sv:value>
+        </sv:property>
+        <sv:property sv:name="atlast:name" sv:type="String">
+          <sv:value>Lay siege on Speridos</sv:value>
+        </sv:property>
+        <sv:property sv:name="atlast:skill" sv:type="String">
+          <sv:value>warrior</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
+          <sv:value>live</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+          <sv:value>recipes/services/lay-siege-on-speridos/lay-siege-on-speridos</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:state" sv:type="String">
+          <sv:value>published</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+          <sv:value>live</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+          <sv:value>admin</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+          <sv:value>2015-11-11T15:23:39.838-05:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+          <sv:value>2015-11-14T13:25:31.155-05:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+          <sv:value>admin</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:publicationDate" sv:type="Date">
+          <sv:value>2015-11-14T13:25:35.427-05:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippotranslation:id" sv:type="String">
+          <sv:value>fb73acbe-b144-4acf-9af2-43d8fb980583</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippotranslation:locale" sv:type="String">
+          <sv:value>en</sv:value>
+        </sv:property>
+        <sv:property sv:name="input-primary-wood" sv:type="Long">
+          <sv:value>1</sv:value>
+        </sv:property>
+        <sv:property sv:name="input-secondary-weapons" sv:type="Long">
+          <sv:value>1</sv:value>
+        </sv:property>
+        <sv:property sv:name="inputs" sv:type="String" sv:multiple="true">
+          <sv:value>secondary-weapons</sv:value>
+          <sv:value>primary-wood</sv:value>
+        </sv:property>
+        <sv:property sv:name="output-services-conquest" sv:type="Long">
+          <sv:value>4</sv:value>
+        </sv:property>
+        <sv:property sv:name="outputs" sv:type="String" sv:multiple="true">
+          <sv:value>services-conquest</sv:value>
+        </sv:property>
+        <sv:node sv:name="atlast:inputs">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>atlast:amount</sv:value>
+          </sv:property>
+          <sv:property sv:name="atlast:quantity" sv:type="Long">
+            <sv:value>1</sv:value>
+          </sv:property>
+          <sv:node sv:name="atlast:resource">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippo:mirror</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:docbase" sv:type="String">
+              <sv:value>75ac427d-60f9-41ce-b23e-dddabe8112d4</sv:value>
+            </sv:property>
+          </sv:node>
+        </sv:node>
+        <sv:node sv:name="atlast:inputs">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>atlast:amount</sv:value>
+          </sv:property>
+          <sv:property sv:name="atlast:quantity" sv:type="Long">
+            <sv:value>1</sv:value>
+          </sv:property>
+          <sv:node sv:name="atlast:resource">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippo:mirror</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:docbase" sv:type="String">
+              <sv:value>58cc584c-0025-4c6d-b4f5-1f298f36cc05</sv:value>
+            </sv:property>
+          </sv:node>
+        </sv:node>
+        <sv:node sv:name="atlast:outputs">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>atlast:amount</sv:value>
+          </sv:property>
+          <sv:property sv:name="atlast:quantity" sv:type="Long">
+            <sv:value>4</sv:value>
+          </sv:property>
+          <sv:node sv:name="atlast:resource">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippo:mirror</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:docbase" sv:type="String">
+              <sv:value>93c61cbe-44be-4473-a350-bcafee3a895c</sv:value>
+            </sv:property>
+          </sv:node>
+        </sv:node>
+        <sv:node sv:name="atlast:landquality">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>atlast:allocation</sv:value>
+          </sv:property>
+          <sv:property sv:name="atlast:amount" sv:type="Double">
+            <sv:value>65.0</sv:value>
+          </sv:property>
+          <sv:node sv:name="atlast:land">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippo:mirror</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:docbase" sv:type="String">
+              <sv:value>790c0047-9409-4eaa-9329-7703680abd31</sv:value>
+            </sv:property>
+          </sv:node>
+        </sv:node>
+        <sv:node sv:name="atlast:landquality">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>atlast:allocation</sv:value>
+          </sv:property>
+          <sv:property sv:name="atlast:amount" sv:type="Double">
+            <sv:value>35.0</sv:value>
+          </sv:property>
+          <sv:node sv:name="atlast:land">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippo:mirror</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:docbase" sv:type="String">
+              <sv:value>f91cc70c-5d46-4c19-b7b5-c13c80173b04</sv:value>
+            </sv:property>
+          </sv:node>
+        </sv:node>
+      </sv:node>
+    </sv:node>
+    <sv:node sv:name="campaign-in-nironsk">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>hippo:handle</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+        <sv:value>mix:referenceable</sv:value>
+        <sv:value>hippo:translated</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:uuid" sv:type="String">
+        <sv:value>75d3eb3c-48ba-4b03-93ea-fca321f154e7</sv:value>
+      </sv:property>
+      <sv:node sv:name="campaign-in-nironsk">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>atlast:recipedescriptor</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+          <sv:value>mix:versionable</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:uuid" sv:type="String">
+          <sv:value>f8c53f90-cde3-40d8-a21b-a70824931507</sv:value>
+        </sv:property>
+        <sv:property sv:name="atlast:labour" sv:type="Long">
+          <sv:value>1</sv:value>
+        </sv:property>
+        <sv:property sv:name="atlast:name" sv:type="String">
+          <sv:value>Campaign in Nirosk</sv:value>
+        </sv:property>
+        <sv:property sv:name="atlast:skill" sv:type="String">
+          <sv:value>warrior</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
+          <sv:value>preview</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+          <sv:value>recipes/services/campaign-in-nironsk/campaign-in-nironsk[3]</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:state" sv:type="String">
+          <sv:value>unpublished</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+          <sv:value>live</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+          <sv:value>admin</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+          <sv:value>2015-11-11T15:23:39.838-05:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+          <sv:value>2015-11-14T13:25:16.294-05:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+          <sv:value>admin</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippotranslation:id" sv:type="String">
+          <sv:value>f41001d7-bd8b-4865-b323-af8f27d23fa3</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippotranslation:locale" sv:type="String">
+          <sv:value>en</sv:value>
+        </sv:property>
+        <sv:property sv:name="input-secondary-weapons" sv:type="Long">
+          <sv:value>1</sv:value>
+        </sv:property>
+        <sv:property sv:name="input-secondary-wool" sv:type="Long">
+          <sv:value>1</sv:value>
+        </sv:property>
+        <sv:property sv:name="inputs" sv:type="String" sv:multiple="true">
+          <sv:value>secondary-weapons</sv:value>
+          <sv:value>secondary-wool</sv:value>
+        </sv:property>
+        <sv:property sv:name="output-services-conquest" sv:type="Long">
+          <sv:value>4</sv:value>
+        </sv:property>
+        <sv:property sv:name="outputs" sv:type="String" sv:multiple="true">
+          <sv:value>services-conquest</sv:value>
+        </sv:property>
+        <sv:node sv:name="atlast:inputs">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>atlast:amount</sv:value>
+          </sv:property>
+          <sv:property sv:name="atlast:quantity" sv:type="Long">
+            <sv:value>1</sv:value>
+          </sv:property>
+          <sv:node sv:name="atlast:resource">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippo:mirror</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:docbase" sv:type="String">
+              <sv:value>75ac427d-60f9-41ce-b23e-dddabe8112d4</sv:value>
+            </sv:property>
+          </sv:node>
+        </sv:node>
+        <sv:node sv:name="atlast:inputs">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>atlast:amount</sv:value>
+          </sv:property>
+          <sv:property sv:name="atlast:quantity" sv:type="Long">
+            <sv:value>1</sv:value>
+          </sv:property>
+          <sv:node sv:name="atlast:resource">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippo:mirror</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:docbase" sv:type="String">
+              <sv:value>63fc90fb-0766-4ecb-816a-dc2bf8bdbc88</sv:value>
+            </sv:property>
+          </sv:node>
+        </sv:node>
+        <sv:node sv:name="atlast:outputs">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>atlast:amount</sv:value>
+          </sv:property>
+          <sv:property sv:name="atlast:quantity" sv:type="Long">
+            <sv:value>4</sv:value>
+          </sv:property>
+          <sv:node sv:name="atlast:resource">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippo:mirror</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:docbase" sv:type="String">
+              <sv:value>93c61cbe-44be-4473-a350-bcafee3a895c</sv:value>
+            </sv:property>
+          </sv:node>
+        </sv:node>
+        <sv:node sv:name="atlast:landquality">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>atlast:allocation</sv:value>
+          </sv:property>
+          <sv:property sv:name="atlast:amount" sv:type="Double">
+            <sv:value>65.0</sv:value>
+          </sv:property>
+          <sv:node sv:name="atlast:land">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippo:mirror</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:docbase" sv:type="String">
+              <sv:value>8d8ffea3-9a22-4f97-9316-d3ac67814f27</sv:value>
+            </sv:property>
+          </sv:node>
+        </sv:node>
+        <sv:node sv:name="atlast:landquality">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>atlast:allocation</sv:value>
+          </sv:property>
+          <sv:property sv:name="atlast:amount" sv:type="Double">
+            <sv:value>35.0</sv:value>
+          </sv:property>
+          <sv:node sv:name="atlast:land">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippo:mirror</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:docbase" sv:type="String">
+              <sv:value>c2f0f383-98b9-4258-8cc6-32bc77425bf6</sv:value>
+            </sv:property>
+          </sv:node>
+        </sv:node>
+      </sv:node>
+      <sv:node sv:name="hippo:translation">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippo:translation</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:language" sv:type="String">
+          <sv:value/>
+        </sv:property>
+        <sv:property sv:name="hippo:message" sv:type="String">
+          <sv:value>Campaign in Nironsk</sv:value>
+        </sv:property>
+      </sv:node>
+      <sv:node sv:name="campaign-in-nironsk">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>atlast:recipedescriptor</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+          <sv:value>mix:referenceable</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:uuid" sv:type="String">
+          <sv:value>7354cb68-6e1b-49e8-a513-48797d632ccd</sv:value>
+        </sv:property>
+        <sv:property sv:name="atlast:labour" sv:type="Long">
+          <sv:value>1</sv:value>
+        </sv:property>
+        <sv:property sv:name="atlast:name" sv:type="String">
+          <sv:value>Campaign in Nirosk</sv:value>
+        </sv:property>
+        <sv:property sv:name="atlast:skill" sv:type="String">
+          <sv:value>warrior</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true"/>
+        <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+          <sv:value>recipes/services/campaign-in-nironsk/campaign-in-nironsk[3]</sv:value>
+          <sv:value>recipes/services/campaign-in-nironsk/campaign-in-nironsk</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:state" sv:type="String">
+          <sv:value>draft</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+          <sv:value>live</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+          <sv:value>admin</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+          <sv:value>2015-11-11T15:23:39.838-05:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+          <sv:value>2015-11-14T13:25:12.821-05:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+          <sv:value>admin</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippotranslation:id" sv:type="String">
+          <sv:value>f41001d7-bd8b-4865-b323-af8f27d23fa3</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippotranslation:locale" sv:type="String">
+          <sv:value>en</sv:value>
+        </sv:property>
+        <sv:property sv:name="input-secondary-weapons" sv:type="Long">
+          <sv:value>1</sv:value>
+        </sv:property>
+        <sv:property sv:name="input-secondary-wool" sv:type="Long">
+          <sv:value>1</sv:value>
+        </sv:property>
+        <sv:property sv:name="inputs" sv:type="String" sv:multiple="true">
+          <sv:value>secondary-weapons</sv:value>
+          <sv:value>secondary-wool</sv:value>
+        </sv:property>
+        <sv:property sv:name="output-services-conquest" sv:type="Long">
+          <sv:value>4</sv:value>
+        </sv:property>
+        <sv:property sv:name="outputs" sv:type="String" sv:multiple="true">
+          <sv:value>services-conquest</sv:value>
+        </sv:property>
+        <sv:node sv:name="atlast:inputs">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>atlast:amount</sv:value>
+          </sv:property>
+          <sv:property sv:name="atlast:quantity" sv:type="Long">
+            <sv:value>1</sv:value>
+          </sv:property>
+          <sv:node sv:name="atlast:resource">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippo:mirror</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:docbase" sv:type="String">
+              <sv:value>75ac427d-60f9-41ce-b23e-dddabe8112d4</sv:value>
+            </sv:property>
+          </sv:node>
+        </sv:node>
+        <sv:node sv:name="atlast:inputs">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>atlast:amount</sv:value>
+          </sv:property>
+          <sv:property sv:name="atlast:quantity" sv:type="Long">
+            <sv:value>1</sv:value>
+          </sv:property>
+          <sv:node sv:name="atlast:resource">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippo:mirror</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:docbase" sv:type="String">
+              <sv:value>63fc90fb-0766-4ecb-816a-dc2bf8bdbc88</sv:value>
+            </sv:property>
+          </sv:node>
+        </sv:node>
+        <sv:node sv:name="atlast:outputs">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>atlast:amount</sv:value>
+          </sv:property>
+          <sv:property sv:name="atlast:quantity" sv:type="Long">
+            <sv:value>4</sv:value>
+          </sv:property>
+          <sv:node sv:name="atlast:resource">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippo:mirror</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:docbase" sv:type="String">
+              <sv:value>93c61cbe-44be-4473-a350-bcafee3a895c</sv:value>
+            </sv:property>
+          </sv:node>
+        </sv:node>
+        <sv:node sv:name="atlast:landquality">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>atlast:allocation</sv:value>
+          </sv:property>
+          <sv:property sv:name="atlast:amount" sv:type="Double">
+            <sv:value>65.0</sv:value>
+          </sv:property>
+          <sv:node sv:name="atlast:land">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippo:mirror</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:docbase" sv:type="String">
+              <sv:value>8d8ffea3-9a22-4f97-9316-d3ac67814f27</sv:value>
+            </sv:property>
+          </sv:node>
+        </sv:node>
+        <sv:node sv:name="atlast:landquality">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>atlast:allocation</sv:value>
+          </sv:property>
+          <sv:property sv:name="atlast:amount" sv:type="Double">
+            <sv:value>35.0</sv:value>
+          </sv:property>
+          <sv:node sv:name="atlast:land">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippo:mirror</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:docbase" sv:type="String">
+              <sv:value>c2f0f383-98b9-4258-8cc6-32bc77425bf6</sv:value>
+            </sv:property>
+          </sv:node>
+        </sv:node>
+      </sv:node>
+      <sv:node sv:name="campaign-in-nironsk">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>atlast:recipedescriptor</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+          <sv:value>mix:referenceable</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:uuid" sv:type="String">
+          <sv:value>8743a396-906d-42f8-881f-ac6fdeef3a83</sv:value>
+        </sv:property>
+        <sv:property sv:name="atlast:labour" sv:type="Long">
+          <sv:value>1</sv:value>
+        </sv:property>
+        <sv:property sv:name="atlast:name" sv:type="String">
+          <sv:value>Campaign in Nirosk</sv:value>
+        </sv:property>
+        <sv:property sv:name="atlast:skill" sv:type="String">
+          <sv:value>warrior</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
+          <sv:value>live</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+          <sv:value>recipes/services/campaign-in-nironsk/campaign-in-nironsk</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:state" sv:type="String">
+          <sv:value>published</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+          <sv:value>live</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+          <sv:value>admin</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+          <sv:value>2015-11-11T15:23:39.838-05:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+          <sv:value>2015-11-14T13:25:16.294-05:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+          <sv:value>admin</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:publicationDate" sv:type="Date">
+          <sv:value>2015-11-14T13:25:35.305-05:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippotranslation:id" sv:type="String">
+          <sv:value>f41001d7-bd8b-4865-b323-af8f27d23fa3</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippotranslation:locale" sv:type="String">
+          <sv:value>en</sv:value>
+        </sv:property>
+        <sv:property sv:name="input-secondary-weapons" sv:type="Long">
+          <sv:value>1</sv:value>
+        </sv:property>
+        <sv:property sv:name="input-secondary-wool" sv:type="Long">
+          <sv:value>1</sv:value>
+        </sv:property>
+        <sv:property sv:name="inputs" sv:type="String" sv:multiple="true">
+          <sv:value>secondary-weapons</sv:value>
+          <sv:value>secondary-wool</sv:value>
+        </sv:property>
+        <sv:property sv:name="output-services-conquest" sv:type="Long">
+          <sv:value>4</sv:value>
+        </sv:property>
+        <sv:property sv:name="outputs" sv:type="String" sv:multiple="true">
+          <sv:value>services-conquest</sv:value>
+        </sv:property>
+        <sv:node sv:name="atlast:inputs">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>atlast:amount</sv:value>
+          </sv:property>
+          <sv:property sv:name="atlast:quantity" sv:type="Long">
+            <sv:value>1</sv:value>
+          </sv:property>
+          <sv:node sv:name="atlast:resource">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippo:mirror</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:docbase" sv:type="String">
+              <sv:value>75ac427d-60f9-41ce-b23e-dddabe8112d4</sv:value>
+            </sv:property>
+          </sv:node>
+        </sv:node>
+        <sv:node sv:name="atlast:inputs">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>atlast:amount</sv:value>
+          </sv:property>
+          <sv:property sv:name="atlast:quantity" sv:type="Long">
+            <sv:value>1</sv:value>
+          </sv:property>
+          <sv:node sv:name="atlast:resource">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippo:mirror</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:docbase" sv:type="String">
+              <sv:value>63fc90fb-0766-4ecb-816a-dc2bf8bdbc88</sv:value>
+            </sv:property>
+          </sv:node>
+        </sv:node>
+        <sv:node sv:name="atlast:outputs">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>atlast:amount</sv:value>
+          </sv:property>
+          <sv:property sv:name="atlast:quantity" sv:type="Long">
+            <sv:value>4</sv:value>
+          </sv:property>
+          <sv:node sv:name="atlast:resource">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippo:mirror</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:docbase" sv:type="String">
+              <sv:value>93c61cbe-44be-4473-a350-bcafee3a895c</sv:value>
+            </sv:property>
+          </sv:node>
+        </sv:node>
+        <sv:node sv:name="atlast:landquality">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>atlast:allocation</sv:value>
+          </sv:property>
+          <sv:property sv:name="atlast:amount" sv:type="Double">
+            <sv:value>65.0</sv:value>
+          </sv:property>
+          <sv:node sv:name="atlast:land">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippo:mirror</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:docbase" sv:type="String">
+              <sv:value>8d8ffea3-9a22-4f97-9316-d3ac67814f27</sv:value>
+            </sv:property>
+          </sv:node>
+        </sv:node>
+        <sv:node sv:name="atlast:landquality">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>atlast:allocation</sv:value>
+          </sv:property>
+          <sv:property sv:name="atlast:amount" sv:type="Double">
+            <sv:value>35.0</sv:value>
+          </sv:property>
+          <sv:node sv:name="atlast:land">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippo:mirror</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:docbase" sv:type="String">
+              <sv:value>c2f0f383-98b9-4258-8cc6-32bc77425bf6</sv:value>
+            </sv:property>
+          </sv:node>
+        </sv:node>
+      </sv:node>
+    </sv:node>
+    <sv:node sv:name="march-on-karathia">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>hippo:handle</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+        <sv:value>mix:referenceable</sv:value>
+        <sv:value>hippo:translated</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:uuid" sv:type="String">
+        <sv:value>8570f073-ead6-45bd-a582-32647e2f9946</sv:value>
+      </sv:property>
+      <sv:node sv:name="march-on-karathia">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>atlast:recipedescriptor</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+          <sv:value>mix:versionable</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:uuid" sv:type="String">
+          <sv:value>dc7b385c-22c7-4e45-9509-d0e6ae4ad3e8</sv:value>
+        </sv:property>
+        <sv:property sv:name="atlast:labour" sv:type="Long">
+          <sv:value>1</sv:value>
+        </sv:property>
+        <sv:property sv:name="atlast:name" sv:type="String">
+          <sv:value>March on Karathia</sv:value>
+        </sv:property>
+        <sv:property sv:name="atlast:skill" sv:type="String">
+          <sv:value>warrior</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
+          <sv:value>preview</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+          <sv:value>recipes/services/march-on-karathia/march-on-karathia[3]</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:state" sv:type="String">
+          <sv:value>unpublished</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+          <sv:value>live</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+          <sv:value>admin</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+          <sv:value>2015-11-11T15:23:39.838-05:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+          <sv:value>2015-11-14T13:25:04.643-05:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+          <sv:value>admin</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippotranslation:id" sv:type="String">
+          <sv:value>a1116200-6e3e-4f4d-ab77-a8bdaf36ce2b</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippotranslation:locale" sv:type="String">
+          <sv:value>en</sv:value>
+        </sv:property>
+        <sv:property sv:name="input-secondary-horses" sv:type="Long">
+          <sv:value>1</sv:value>
+        </sv:property>
+        <sv:property sv:name="input-secondary-weapons" sv:type="Long">
+          <sv:value>1</sv:value>
+        </sv:property>
+        <sv:property sv:name="inputs" sv:type="String" sv:multiple="true">
+          <sv:value>secondary-weapons</sv:value>
+          <sv:value>secondary-horses</sv:value>
+        </sv:property>
+        <sv:property sv:name="output-services-conquest" sv:type="Long">
+          <sv:value>4</sv:value>
+        </sv:property>
+        <sv:property sv:name="outputs" sv:type="String" sv:multiple="true">
+          <sv:value>services-conquest</sv:value>
+        </sv:property>
+        <sv:node sv:name="atlast:inputs">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>atlast:amount</sv:value>
+          </sv:property>
+          <sv:property sv:name="atlast:quantity" sv:type="Long">
+            <sv:value>1</sv:value>
+          </sv:property>
+          <sv:node sv:name="atlast:resource">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippo:mirror</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:docbase" sv:type="String">
+              <sv:value>75ac427d-60f9-41ce-b23e-dddabe8112d4</sv:value>
+            </sv:property>
+          </sv:node>
+        </sv:node>
+        <sv:node sv:name="atlast:inputs">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>atlast:amount</sv:value>
+          </sv:property>
+          <sv:property sv:name="atlast:quantity" sv:type="Long">
+            <sv:value>1</sv:value>
+          </sv:property>
+          <sv:node sv:name="atlast:resource">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippo:mirror</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:docbase" sv:type="String">
+              <sv:value>e0c187dc-2539-4664-81b6-51f5d3cea0b7</sv:value>
+            </sv:property>
+          </sv:node>
+        </sv:node>
+        <sv:node sv:name="atlast:outputs">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>atlast:amount</sv:value>
+          </sv:property>
+          <sv:property sv:name="atlast:quantity" sv:type="Long">
+            <sv:value>4</sv:value>
+          </sv:property>
+          <sv:node sv:name="atlast:resource">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippo:mirror</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:docbase" sv:type="String">
+              <sv:value>93c61cbe-44be-4473-a350-bcafee3a895c</sv:value>
+            </sv:property>
+          </sv:node>
+        </sv:node>
+        <sv:node sv:name="atlast:landquality">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>atlast:allocation</sv:value>
+          </sv:property>
+          <sv:property sv:name="atlast:amount" sv:type="Double">
+            <sv:value>65.0</sv:value>
+          </sv:property>
+          <sv:node sv:name="atlast:land">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippo:mirror</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:docbase" sv:type="String">
+              <sv:value>665fe2de-a600-4590-a096-ab90842b8d74</sv:value>
+            </sv:property>
+          </sv:node>
+        </sv:node>
+        <sv:node sv:name="atlast:landquality">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>atlast:allocation</sv:value>
+          </sv:property>
+          <sv:property sv:name="atlast:amount" sv:type="Double">
+            <sv:value>35.0</sv:value>
+          </sv:property>
+          <sv:node sv:name="atlast:land">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippo:mirror</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:docbase" sv:type="String">
+              <sv:value>aff524e1-8afa-4134-baf3-b9970d2e5a16</sv:value>
+            </sv:property>
+          </sv:node>
+        </sv:node>
+      </sv:node>
+      <sv:node sv:name="hippo:translation">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippo:translation</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:language" sv:type="String">
+          <sv:value/>
+        </sv:property>
+        <sv:property sv:name="hippo:message" sv:type="String">
+          <sv:value>March on Karathia</sv:value>
+        </sv:property>
+      </sv:node>
+      <sv:node sv:name="march-on-karathia">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>atlast:recipedescriptor</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+          <sv:value>mix:referenceable</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:uuid" sv:type="String">
+          <sv:value>dca568cb-515c-4046-94e7-058abeaa68e0</sv:value>
+        </sv:property>
+        <sv:property sv:name="atlast:labour" sv:type="Long">
+          <sv:value>1</sv:value>
+        </sv:property>
+        <sv:property sv:name="atlast:name" sv:type="String">
+          <sv:value>March on Karathia</sv:value>
+        </sv:property>
+        <sv:property sv:name="atlast:skill" sv:type="String">
+          <sv:value>warrior</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true"/>
+        <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+          <sv:value>recipes/services/march-on-karathia/march-on-karathia[3]</sv:value>
+          <sv:value>recipes/services/march-on-karathia/march-on-karathia</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:state" sv:type="String">
+          <sv:value>draft</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+          <sv:value>live</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+          <sv:value>admin</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+          <sv:value>2015-11-11T15:23:39.838-05:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+          <sv:value>2015-11-14T13:24:53.642-05:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+          <sv:value>admin</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippotranslation:id" sv:type="String">
+          <sv:value>a1116200-6e3e-4f4d-ab77-a8bdaf36ce2b</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippotranslation:locale" sv:type="String">
+          <sv:value>en</sv:value>
+        </sv:property>
+        <sv:property sv:name="input-secondary-horses" sv:type="Long">
+          <sv:value>1</sv:value>
+        </sv:property>
+        <sv:property sv:name="input-secondary-weapons" sv:type="Long">
+          <sv:value>1</sv:value>
+        </sv:property>
+        <sv:property sv:name="inputs" sv:type="String" sv:multiple="true">
+          <sv:value>secondary-weapons</sv:value>
+          <sv:value>secondary-horses</sv:value>
+        </sv:property>
+        <sv:property sv:name="output-services-conquest" sv:type="Long">
+          <sv:value>4</sv:value>
+        </sv:property>
+        <sv:property sv:name="outputs" sv:type="String" sv:multiple="true">
+          <sv:value>services-conquest</sv:value>
+        </sv:property>
+        <sv:node sv:name="atlast:inputs">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>atlast:amount</sv:value>
+          </sv:property>
+          <sv:property sv:name="atlast:quantity" sv:type="Long">
+            <sv:value>1</sv:value>
+          </sv:property>
+          <sv:node sv:name="atlast:resource">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippo:mirror</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:docbase" sv:type="String">
+              <sv:value>75ac427d-60f9-41ce-b23e-dddabe8112d4</sv:value>
+            </sv:property>
+          </sv:node>
+        </sv:node>
+        <sv:node sv:name="atlast:inputs">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>atlast:amount</sv:value>
+          </sv:property>
+          <sv:property sv:name="atlast:quantity" sv:type="Long">
+            <sv:value>1</sv:value>
+          </sv:property>
+          <sv:node sv:name="atlast:resource">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippo:mirror</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:docbase" sv:type="String">
+              <sv:value>e0c187dc-2539-4664-81b6-51f5d3cea0b7</sv:value>
+            </sv:property>
+          </sv:node>
+        </sv:node>
+        <sv:node sv:name="atlast:outputs">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>atlast:amount</sv:value>
+          </sv:property>
+          <sv:property sv:name="atlast:quantity" sv:type="Long">
+            <sv:value>4</sv:value>
+          </sv:property>
+          <sv:node sv:name="atlast:resource">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippo:mirror</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:docbase" sv:type="String">
+              <sv:value>93c61cbe-44be-4473-a350-bcafee3a895c</sv:value>
+            </sv:property>
+          </sv:node>
+        </sv:node>
+        <sv:node sv:name="atlast:landquality">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>atlast:allocation</sv:value>
+          </sv:property>
+          <sv:property sv:name="atlast:amount" sv:type="Double">
+            <sv:value>65.0</sv:value>
+          </sv:property>
+          <sv:node sv:name="atlast:land">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippo:mirror</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:docbase" sv:type="String">
+              <sv:value>665fe2de-a600-4590-a096-ab90842b8d74</sv:value>
+            </sv:property>
+          </sv:node>
+        </sv:node>
+        <sv:node sv:name="atlast:landquality">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>atlast:allocation</sv:value>
+          </sv:property>
+          <sv:property sv:name="atlast:amount" sv:type="Double">
+            <sv:value>35.0</sv:value>
+          </sv:property>
+          <sv:node sv:name="atlast:land">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippo:mirror</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:docbase" sv:type="String">
+              <sv:value>aff524e1-8afa-4134-baf3-b9970d2e5a16</sv:value>
+            </sv:property>
+          </sv:node>
+        </sv:node>
+      </sv:node>
+      <sv:node sv:name="march-on-karathia">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>atlast:recipedescriptor</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+          <sv:value>mix:referenceable</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:uuid" sv:type="String">
+          <sv:value>6ec88eb2-1d34-4f6c-b965-2cd388119bb2</sv:value>
+        </sv:property>
+        <sv:property sv:name="atlast:labour" sv:type="Long">
+          <sv:value>1</sv:value>
+        </sv:property>
+        <sv:property sv:name="atlast:name" sv:type="String">
+          <sv:value>March on Karathia</sv:value>
+        </sv:property>
+        <sv:property sv:name="atlast:skill" sv:type="String">
+          <sv:value>warrior</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
+          <sv:value>live</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+          <sv:value>recipes/services/march-on-karathia/march-on-karathia</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:state" sv:type="String">
+          <sv:value>published</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+          <sv:value>live</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+          <sv:value>admin</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+          <sv:value>2015-11-11T15:23:39.838-05:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+          <sv:value>2015-11-14T13:25:04.643-05:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+          <sv:value>admin</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:publicationDate" sv:type="Date">
+          <sv:value>2015-11-14T13:25:35.099-05:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippotranslation:id" sv:type="String">
+          <sv:value>a1116200-6e3e-4f4d-ab77-a8bdaf36ce2b</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippotranslation:locale" sv:type="String">
+          <sv:value>en</sv:value>
+        </sv:property>
+        <sv:property sv:name="input-secondary-horses" sv:type="Long">
+          <sv:value>1</sv:value>
+        </sv:property>
+        <sv:property sv:name="input-secondary-weapons" sv:type="Long">
+          <sv:value>1</sv:value>
+        </sv:property>
+        <sv:property sv:name="inputs" sv:type="String" sv:multiple="true">
+          <sv:value>secondary-weapons</sv:value>
+          <sv:value>secondary-horses</sv:value>
+        </sv:property>
+        <sv:property sv:name="output-services-conquest" sv:type="Long">
+          <sv:value>4</sv:value>
+        </sv:property>
+        <sv:property sv:name="outputs" sv:type="String" sv:multiple="true">
+          <sv:value>services-conquest</sv:value>
+        </sv:property>
+        <sv:node sv:name="atlast:inputs">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>atlast:amount</sv:value>
+          </sv:property>
+          <sv:property sv:name="atlast:quantity" sv:type="Long">
+            <sv:value>1</sv:value>
+          </sv:property>
+          <sv:node sv:name="atlast:resource">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippo:mirror</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:docbase" sv:type="String">
+              <sv:value>75ac427d-60f9-41ce-b23e-dddabe8112d4</sv:value>
+            </sv:property>
+          </sv:node>
+        </sv:node>
+        <sv:node sv:name="atlast:inputs">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>atlast:amount</sv:value>
+          </sv:property>
+          <sv:property sv:name="atlast:quantity" sv:type="Long">
+            <sv:value>1</sv:value>
+          </sv:property>
+          <sv:node sv:name="atlast:resource">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippo:mirror</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:docbase" sv:type="String">
+              <sv:value>e0c187dc-2539-4664-81b6-51f5d3cea0b7</sv:value>
+            </sv:property>
+          </sv:node>
+        </sv:node>
+        <sv:node sv:name="atlast:outputs">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>atlast:amount</sv:value>
+          </sv:property>
+          <sv:property sv:name="atlast:quantity" sv:type="Long">
+            <sv:value>4</sv:value>
+          </sv:property>
+          <sv:node sv:name="atlast:resource">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippo:mirror</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:docbase" sv:type="String">
+              <sv:value>93c61cbe-44be-4473-a350-bcafee3a895c</sv:value>
+            </sv:property>
+          </sv:node>
+        </sv:node>
+        <sv:node sv:name="atlast:landquality">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>atlast:allocation</sv:value>
+          </sv:property>
+          <sv:property sv:name="atlast:amount" sv:type="Double">
+            <sv:value>65.0</sv:value>
+          </sv:property>
+          <sv:node sv:name="atlast:land">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippo:mirror</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:docbase" sv:type="String">
+              <sv:value>665fe2de-a600-4590-a096-ab90842b8d74</sv:value>
+            </sv:property>
+          </sv:node>
+        </sv:node>
+        <sv:node sv:name="atlast:landquality">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>atlast:allocation</sv:value>
+          </sv:property>
+          <sv:property sv:name="atlast:amount" sv:type="Double">
+            <sv:value>35.0</sv:value>
+          </sv:property>
+          <sv:node sv:name="atlast:land">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippo:mirror</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:docbase" sv:type="String">
+              <sv:value>aff524e1-8afa-4134-baf3-b9970d2e5a16</sv:value>
+            </sv:property>
+          </sv:node>
+        </sv:node>
+      </sv:node>
+    </sv:node>
+    <sv:node sv:name="raid-marskina">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>hippo:handle</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+        <sv:value>mix:referenceable</sv:value>
+        <sv:value>hippo:translated</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:uuid" sv:type="String">
+        <sv:value>6954fa47-f667-4e60-beb3-b4ac48c299e9</sv:value>
+      </sv:property>
+      <sv:node sv:name="raid-marskina">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>atlast:recipedescriptor</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+          <sv:value>mix:versionable</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:uuid" sv:type="String">
+          <sv:value>4ce418fd-c001-4908-ad78-6b652ec52aad</sv:value>
+        </sv:property>
+        <sv:property sv:name="atlast:labour" sv:type="Long">
+          <sv:value>1</sv:value>
+        </sv:property>
+        <sv:property sv:name="atlast:name" sv:type="String">
+          <sv:value>Raid Marskina</sv:value>
+        </sv:property>
+        <sv:property sv:name="atlast:skill" sv:type="String">
+          <sv:value>warrior</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
+          <sv:value>preview</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+          <sv:value>recipes/services/raid-marskina/raid-marskina[3]</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:state" sv:type="String">
+          <sv:value>unpublished</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+          <sv:value>live</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+          <sv:value>admin</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+          <sv:value>2015-11-11T15:23:39.838-05:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+          <sv:value>2015-11-14T13:25:10.827-05:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+          <sv:value>admin</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippotranslation:id" sv:type="String">
+          <sv:value>a3c13927-3a29-4c2e-949e-5ef3d0041b85</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippotranslation:locale" sv:type="String">
+          <sv:value>en</sv:value>
+        </sv:property>
+        <sv:property sv:name="input-secondary-camels" sv:type="Long">
+          <sv:value>1</sv:value>
+        </sv:property>
+        <sv:property sv:name="input-secondary-weapons" sv:type="Long">
+          <sv:value>1</sv:value>
+        </sv:property>
+        <sv:property sv:name="inputs" sv:type="String" sv:multiple="true">
+          <sv:value>secondary-weapons</sv:value>
+          <sv:value>secondary-camels</sv:value>
+        </sv:property>
+        <sv:property sv:name="output-services-conquest" sv:type="Long">
+          <sv:value>4</sv:value>
+        </sv:property>
+        <sv:property sv:name="outputs" sv:type="String" sv:multiple="true">
+          <sv:value>services-conquest</sv:value>
+        </sv:property>
+        <sv:node sv:name="atlast:inputs">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>atlast:amount</sv:value>
+          </sv:property>
+          <sv:property sv:name="atlast:quantity" sv:type="Long">
+            <sv:value>1</sv:value>
+          </sv:property>
+          <sv:node sv:name="atlast:resource">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippo:mirror</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:docbase" sv:type="String">
+              <sv:value>75ac427d-60f9-41ce-b23e-dddabe8112d4</sv:value>
+            </sv:property>
+          </sv:node>
+        </sv:node>
+        <sv:node sv:name="atlast:inputs">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>atlast:amount</sv:value>
+          </sv:property>
+          <sv:property sv:name="atlast:quantity" sv:type="Long">
+            <sv:value>1</sv:value>
+          </sv:property>
+          <sv:node sv:name="atlast:resource">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippo:mirror</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:docbase" sv:type="String">
+              <sv:value>ea0d6a7f-2f40-48ee-a084-61b2917ab370</sv:value>
+            </sv:property>
+          </sv:node>
+        </sv:node>
+        <sv:node sv:name="atlast:outputs">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>atlast:amount</sv:value>
+          </sv:property>
+          <sv:property sv:name="atlast:quantity" sv:type="Long">
+            <sv:value>4</sv:value>
+          </sv:property>
+          <sv:node sv:name="atlast:resource">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippo:mirror</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:docbase" sv:type="String">
+              <sv:value>93c61cbe-44be-4473-a350-bcafee3a895c</sv:value>
+            </sv:property>
+          </sv:node>
+        </sv:node>
+        <sv:node sv:name="atlast:landquality">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>atlast:allocation</sv:value>
+          </sv:property>
+          <sv:property sv:name="atlast:amount" sv:type="Double">
+            <sv:value>65.0</sv:value>
+          </sv:property>
+          <sv:node sv:name="atlast:land">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippo:mirror</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:docbase" sv:type="String">
+              <sv:value>6ef744da-85ef-4d8d-ac0d-949a0125a126</sv:value>
+            </sv:property>
+          </sv:node>
+        </sv:node>
+        <sv:node sv:name="atlast:landquality">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>atlast:allocation</sv:value>
+          </sv:property>
+          <sv:property sv:name="atlast:amount" sv:type="Double">
+            <sv:value>35.0</sv:value>
+          </sv:property>
+          <sv:node sv:name="atlast:land">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippo:mirror</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:docbase" sv:type="String">
+              <sv:value>acf99cc2-9fa1-491d-971b-722730644ba1</sv:value>
+            </sv:property>
+          </sv:node>
+        </sv:node>
+      </sv:node>
+      <sv:node sv:name="hippo:translation">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippo:translation</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:language" sv:type="String">
+          <sv:value/>
+        </sv:property>
+        <sv:property sv:name="hippo:message" sv:type="String">
+          <sv:value>Raid Marskina</sv:value>
+        </sv:property>
+      </sv:node>
+      <sv:node sv:name="raid-marskina">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>atlast:recipedescriptor</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+          <sv:value>mix:referenceable</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:uuid" sv:type="String">
+          <sv:value>a0ef9956-60d4-465c-978d-cee79f975a9f</sv:value>
+        </sv:property>
+        <sv:property sv:name="atlast:labour" sv:type="Long">
+          <sv:value>1</sv:value>
+        </sv:property>
+        <sv:property sv:name="atlast:name" sv:type="String">
+          <sv:value>Raid Marskina</sv:value>
+        </sv:property>
+        <sv:property sv:name="atlast:skill" sv:type="String">
+          <sv:value>warrior</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true"/>
+        <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+          <sv:value>recipes/services/raid-marskina/raid-marskina</sv:value>
+          <sv:value>recipes/services/raid-marskina/raid-marskina[3]</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:state" sv:type="String">
+          <sv:value>draft</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+          <sv:value>live</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+          <sv:value>admin</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+          <sv:value>2015-11-11T15:23:39.838-05:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+          <sv:value>2015-11-14T13:25:06.993-05:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+          <sv:value>admin</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippotranslation:id" sv:type="String">
+          <sv:value>a3c13927-3a29-4c2e-949e-5ef3d0041b85</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippotranslation:locale" sv:type="String">
+          <sv:value>en</sv:value>
+        </sv:property>
+        <sv:property sv:name="input-secondary-camels" sv:type="Long">
+          <sv:value>1</sv:value>
+        </sv:property>
+        <sv:property sv:name="input-secondary-weapons" sv:type="Long">
+          <sv:value>1</sv:value>
+        </sv:property>
+        <sv:property sv:name="inputs" sv:type="String" sv:multiple="true">
+          <sv:value>secondary-weapons</sv:value>
+          <sv:value>secondary-camels</sv:value>
+        </sv:property>
+        <sv:property sv:name="output-services-conquest" sv:type="Long">
+          <sv:value>4</sv:value>
+        </sv:property>
+        <sv:property sv:name="outputs" sv:type="String" sv:multiple="true">
+          <sv:value>services-conquest</sv:value>
+        </sv:property>
+        <sv:node sv:name="atlast:inputs">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>atlast:amount</sv:value>
+          </sv:property>
+          <sv:property sv:name="atlast:quantity" sv:type="Long">
+            <sv:value>1</sv:value>
+          </sv:property>
+          <sv:node sv:name="atlast:resource">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippo:mirror</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:docbase" sv:type="String">
+              <sv:value>75ac427d-60f9-41ce-b23e-dddabe8112d4</sv:value>
+            </sv:property>
+          </sv:node>
+        </sv:node>
+        <sv:node sv:name="atlast:inputs">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>atlast:amount</sv:value>
+          </sv:property>
+          <sv:property sv:name="atlast:quantity" sv:type="Long">
+            <sv:value>1</sv:value>
+          </sv:property>
+          <sv:node sv:name="atlast:resource">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippo:mirror</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:docbase" sv:type="String">
+              <sv:value>ea0d6a7f-2f40-48ee-a084-61b2917ab370</sv:value>
+            </sv:property>
+          </sv:node>
+        </sv:node>
+        <sv:node sv:name="atlast:outputs">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>atlast:amount</sv:value>
+          </sv:property>
+          <sv:property sv:name="atlast:quantity" sv:type="Long">
+            <sv:value>4</sv:value>
+          </sv:property>
+          <sv:node sv:name="atlast:resource">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippo:mirror</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:docbase" sv:type="String">
+              <sv:value>93c61cbe-44be-4473-a350-bcafee3a895c</sv:value>
+            </sv:property>
+          </sv:node>
+        </sv:node>
+        <sv:node sv:name="atlast:landquality">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>atlast:allocation</sv:value>
+          </sv:property>
+          <sv:property sv:name="atlast:amount" sv:type="Double">
+            <sv:value>65.0</sv:value>
+          </sv:property>
+          <sv:node sv:name="atlast:land">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippo:mirror</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:docbase" sv:type="String">
+              <sv:value>6ef744da-85ef-4d8d-ac0d-949a0125a126</sv:value>
+            </sv:property>
+          </sv:node>
+        </sv:node>
+        <sv:node sv:name="atlast:landquality">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>atlast:allocation</sv:value>
+          </sv:property>
+          <sv:property sv:name="atlast:amount" sv:type="Double">
+            <sv:value>35.0</sv:value>
+          </sv:property>
+          <sv:node sv:name="atlast:land">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippo:mirror</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:docbase" sv:type="String">
+              <sv:value>acf99cc2-9fa1-491d-971b-722730644ba1</sv:value>
+            </sv:property>
+          </sv:node>
+        </sv:node>
+      </sv:node>
+      <sv:node sv:name="raid-marskina">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>atlast:recipedescriptor</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+          <sv:value>mix:referenceable</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:uuid" sv:type="String">
+          <sv:value>e8adcbbd-6a38-4eb9-8f52-df0762a39aa1</sv:value>
+        </sv:property>
+        <sv:property sv:name="atlast:labour" sv:type="Long">
+          <sv:value>1</sv:value>
+        </sv:property>
+        <sv:property sv:name="atlast:name" sv:type="String">
+          <sv:value>Raid Marskina</sv:value>
+        </sv:property>
+        <sv:property sv:name="atlast:skill" sv:type="String">
+          <sv:value>warrior</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
+          <sv:value>live</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+          <sv:value>recipes/services/raid-marskina/raid-marskina</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:state" sv:type="String">
+          <sv:value>published</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+          <sv:value>live</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+          <sv:value>admin</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+          <sv:value>2015-11-11T15:23:39.838-05:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+          <sv:value>2015-11-14T13:25:10.827-05:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+          <sv:value>admin</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:publicationDate" sv:type="Date">
+          <sv:value>2015-11-14T13:25:34.904-05:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippotranslation:id" sv:type="String">
+          <sv:value>a3c13927-3a29-4c2e-949e-5ef3d0041b85</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippotranslation:locale" sv:type="String">
+          <sv:value>en</sv:value>
+        </sv:property>
+        <sv:property sv:name="input-secondary-camels" sv:type="Long">
+          <sv:value>1</sv:value>
+        </sv:property>
+        <sv:property sv:name="input-secondary-weapons" sv:type="Long">
+          <sv:value>1</sv:value>
+        </sv:property>
+        <sv:property sv:name="inputs" sv:type="String" sv:multiple="true">
+          <sv:value>secondary-weapons</sv:value>
+          <sv:value>secondary-camels</sv:value>
+        </sv:property>
+        <sv:property sv:name="output-services-conquest" sv:type="Long">
+          <sv:value>4</sv:value>
+        </sv:property>
+        <sv:property sv:name="outputs" sv:type="String" sv:multiple="true">
+          <sv:value>services-conquest</sv:value>
+        </sv:property>
+        <sv:node sv:name="atlast:inputs">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>atlast:amount</sv:value>
+          </sv:property>
+          <sv:property sv:name="atlast:quantity" sv:type="Long">
+            <sv:value>1</sv:value>
+          </sv:property>
+          <sv:node sv:name="atlast:resource">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippo:mirror</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:docbase" sv:type="String">
+              <sv:value>75ac427d-60f9-41ce-b23e-dddabe8112d4</sv:value>
+            </sv:property>
+          </sv:node>
+        </sv:node>
+        <sv:node sv:name="atlast:inputs">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>atlast:amount</sv:value>
+          </sv:property>
+          <sv:property sv:name="atlast:quantity" sv:type="Long">
+            <sv:value>1</sv:value>
+          </sv:property>
+          <sv:node sv:name="atlast:resource">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippo:mirror</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:docbase" sv:type="String">
+              <sv:value>ea0d6a7f-2f40-48ee-a084-61b2917ab370</sv:value>
+            </sv:property>
+          </sv:node>
+        </sv:node>
+        <sv:node sv:name="atlast:outputs">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>atlast:amount</sv:value>
+          </sv:property>
+          <sv:property sv:name="atlast:quantity" sv:type="Long">
+            <sv:value>4</sv:value>
+          </sv:property>
+          <sv:node sv:name="atlast:resource">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippo:mirror</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:docbase" sv:type="String">
+              <sv:value>93c61cbe-44be-4473-a350-bcafee3a895c</sv:value>
+            </sv:property>
+          </sv:node>
+        </sv:node>
+        <sv:node sv:name="atlast:landquality">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>atlast:allocation</sv:value>
+          </sv:property>
+          <sv:property sv:name="atlast:amount" sv:type="Double">
+            <sv:value>65.0</sv:value>
+          </sv:property>
+          <sv:node sv:name="atlast:land">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippo:mirror</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:docbase" sv:type="String">
+              <sv:value>6ef744da-85ef-4d8d-ac0d-949a0125a126</sv:value>
+            </sv:property>
+          </sv:node>
+        </sv:node>
+        <sv:node sv:name="atlast:landquality">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>atlast:allocation</sv:value>
+          </sv:property>
+          <sv:property sv:name="atlast:amount" sv:type="Double">
+            <sv:value>35.0</sv:value>
+          </sv:property>
+          <sv:node sv:name="atlast:land">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippo:mirror</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:docbase" sv:type="String">
+              <sv:value>acf99cc2-9fa1-491d-971b-722730644ba1</sv:value>
+            </sv:property>
+          </sv:node>
+        </sv:node>
+      </sv:node>
+    </sv:node>
   </sv:node>
 </sv:node>

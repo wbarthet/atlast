@@ -54,6 +54,7 @@ public class SignupService {
     public static final double START_TECH_LEVEL = 5.0d;
     public static final String[] TRADE_RECIPES = new String[]{"wagon-trains", "caravans", "trade-ships"};
     public static final String[] CONSTRUCTION_RECIPES = new String[]{"wooden-buildings", "brick-buildings"};
+    public static final String[] CONQUEST_RECIPES = new String[]{"set-sail-for-mulida", "lay-siege-on-speridos", "campaign-in-nironsk", "march-on-karathia", "raid-marskina"};
 
     public String signup(HstRequestContext requestContext, String userName, String password) throws RepositoryException, QueryException, ObjectBeanManagerException {
         Session session = requestContext.getSession();
@@ -84,6 +85,8 @@ public class SignupService {
             createPlayerStorehouse(userPlayerDataNode, userName, session);
 
             createPlayerConstruction(userPlayerDataNode, userName, session);
+
+            createPlayerBarracks(userPlayerDataNode, userName, session);
 
             Node identityNode = userPlayerDataNode.getNode("identity");
 
@@ -138,7 +141,7 @@ public class SignupService {
 
         Random r = new Random();
 
-        int index = r.nextInt(3);
+        int index = r.nextInt(TRADE_RECIPES.length - 1);
 
         Node recipeNode = session.getNode("/content/documents/atlastserver/descriptors/recipes/services/" + TRADE_RECIPES[index]);
 
@@ -156,13 +159,30 @@ public class SignupService {
 
         Random r = new Random();
 
-        int index = r.nextInt(2);
+        int index = r.nextInt(CONSTRUCTION_RECIPES.length - 1);
 
         Node recipeNode = session.getNode("/content/documents/atlastserver/descriptors/recipes/services/" + CONSTRUCTION_RECIPES[index]);
 
         constructionNode.setProperty("atlast:recipedescriptor", recipeNode.getIdentifier());
 
         constructionNode.setProperty("atlast:wages", 200.0d);
+
+    }
+
+    private void createPlayerBarracks(final Node userPlayerDataNode, final String userName, Session session) throws RepositoryException {
+        Node barracksNode = userPlayerDataNode.addNode("barracks", "atlast:barracks");
+
+        barracksNode.setProperty("atlast:player", userName);
+
+        Random r = new Random();
+
+        int index = r.nextInt(CONQUEST_RECIPES.length - 1);
+
+        Node recipeNode = session.getNode("/content/documents/atlastserver/descriptors/recipes/services/" + CONQUEST_RECIPES[index]);
+
+        barracksNode.setProperty("atlast:recipedescriptor", recipeNode.getIdentifier());
+
+        barracksNode.setProperty("atlast:wages", 200.0d);
 
     }
 

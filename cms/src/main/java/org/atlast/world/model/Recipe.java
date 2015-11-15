@@ -1,6 +1,8 @@
 package org.atlast.world.model;
 ;
+import java.util.ArrayList;
 import java.util.HashMap;
+import java.util.List;
 import java.util.Map;
 
 import javax.jcr.Node;
@@ -79,5 +81,21 @@ public class Recipe {
 
     public String getSkill() throws RepositoryException {
         return node.getProperty("atlast:skill").getString();
+    }
+
+    public String getName() throws RepositoryException {
+        return node.getName();
+    }
+
+    public List<Allocation> getLandQuality() throws RepositoryException {
+        List<Allocation> landQuality = new ArrayList<>();
+
+        NodeIterator nodes = node.getNodes("atlast:landquality");
+
+        while (nodes.hasNext()) {
+            landQuality.add(new Allocation(node.getSession(), nodes.nextNode().getIdentifier()));
+        }
+
+        return landQuality;
     }
 }

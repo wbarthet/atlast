@@ -16,23 +16,27 @@
   <div class="row">
 
     <div class="small-12 medium-4 large-6 columns">
-    <a href="<@hst.link hippobean=player.library/>">
-      <div class="feature-box">
-        <a href="<@hst.link hippobean=player.library/>"><h4><img class="land-icon forest" src="<@hst.link path="binaries/content/gallery/atlastserver/icons/council/library.png"/>"/> Library</h4></a>
-        <p>Focus: ${player.library.focus}</p>
-        <p>
-        <#list player.library.pops as pop>
-          <img class="pop-icon" style="background-color: ${pop.getIdentity(player).colour};" src="<@hst.link path="binaries/content/gallery/atlastserver/img/upper2.png"/>"/>
-        </#list>
-        </p>
-      </div>
-    </a>
+      <a href="<@hst.link hippobean=player.library/>">
+        <div class="feature-box">
+          <a href="<@hst.link hippobean=player.library/>"><h4>
+            <img class="land-icon forest" src="<@hst.link path="binaries/content/gallery/atlastserver/icons/council/library.png"/>"/> Library
+          </h4></a>
+          <p>Focus: ${player.library.focus}</p>
+          <p>
+          <#list player.library.pops as pop>
+            <img class="pop-icon" style="background-color: ${pop.getIdentity(player).colour};" src="<@hst.link path="binaries/content/gallery/atlastserver/img/upper2.png"/>"/>
+          </#list>
+          </p>
+        </div>
+      </a>
     </div>
 
     <div class="small-12 medium-4 large-6 columns">
       <a href="<@hst.link hippobean=player.storehouse/>">
         <div class="feature-box">
-          <a href="<@hst.link hippobean=player.storehouse/>"><h4><img class="land-icon forest" src="<@hst.link path="binaries/content/gallery/atlastserver/icons/council/storehouse.png"/>"/> Storehouse</h4></a>
+          <a href="<@hst.link hippobean=player.storehouse/>"><h4>
+            <img class="land-icon forest" src="<@hst.link path="binaries/content/gallery/atlastserver/icons/council/storehouse.png"/>"/> Storehouse
+          </h4></a>
           <p>Focus: ${player.storehouse.recipeDescriptor.name}</p>
           <p>
           <#list player.storehouse.pops as pop>
@@ -43,10 +47,16 @@
       </a>
     </div>
 
+  </div>
+
+  <div class="row">
+
     <div class="small-12 medium-4 large-6 columns">
       <a href="<@hst.link hippobean=player.construction/>">
         <div class="feature-box">
-          <a href="<@hst.link hippobean=player.construction/>"><h4><img class="land-icon forest" src="<@hst.link path="binaries/content/gallery/atlastserver/icons/council/construction.png"/>"/> Construction</h4></a>
+          <a href="<@hst.link hippobean=player.construction/>"><h4>
+            <img class="land-icon forest" src="<@hst.link path="binaries/content/gallery/atlastserver/icons/council/construction.png"/>"/> Construction
+          </h4></a>
           <p>
           <#list player.construction.pops as pop>
             <img class="pop-icon" style="background-color: ${pop.getIdentity(player).colour};" src="<@hst.link path="binaries/content/gallery/atlastserver/img/upper2.png"/>"/>
@@ -56,6 +66,20 @@
       </a>
     </div>
 
+    <div class="small-12 medium-4 large-6 columns">
+      <a href="<@hst.link hippobean=player.barracks/>">
+        <div class="feature-box">
+          <a href="<@hst.link hippobean=player.barracks/>"><h4>
+            <img class="land-icon forest" src="<@hst.link path="binaries/content/gallery/atlastserver/icons/council/barracks.png"/>"/> Barracks
+          </h4></a>
+          <p>
+          <#list player.barracks.pops as pop>
+            <img class="pop-icon" style="background-color: ${pop.getIdentity(player).colour};" src="<@hst.link path="binaries/content/gallery/atlastserver/img/upper2.png"/>"/>
+          </#list>
+          </p>
+        </div>
+      </a>
+    </div>
 
   </div>
 </div>

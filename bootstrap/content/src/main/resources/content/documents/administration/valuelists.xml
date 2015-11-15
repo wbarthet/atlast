@@ -297,6 +297,17 @@
           <sv:value>Builder</sv:value>
         </sv:property>
       </sv:node>
+      <sv:node sv:name="selection:listitem">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>selection:listitem</sv:value>
+        </sv:property>
+        <sv:property sv:name="selection:key" sv:type="String">
+          <sv:value>warrior</sv:value>
+        </sv:property>
+        <sv:property sv:name="selection:label" sv:type="String">
+          <sv:value>Warrior</sv:value>
+        </sv:property>
+      </sv:node>
     </sv:node>
   </sv:node>
 </sv:node>

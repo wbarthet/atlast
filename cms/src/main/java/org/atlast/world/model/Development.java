@@ -76,16 +76,17 @@ public class Development extends AtlastObject {
                         outputs.put(output, amount);
                     }
 
-
                     market.addItems(outputs);
                 }
             }
-            for (Pop pop : pops) {
-                final double wages = getWages();
-                player.pay(wages);
-                pop.getPaid(wages);
-                pop.learn(skillName);
-            }
+
+        }
+
+        for (Pop pop : pops) {
+            final double wages = getWages();
+            player.pay(wages);
+            pop.getPaid(wages);
+            pop.learn(skillName);
         }
     }
 }

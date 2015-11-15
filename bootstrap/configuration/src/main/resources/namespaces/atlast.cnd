@@ -5,19 +5,28 @@
 <'hippostdpubwf'='http://www.onehippo.org/jcr/hippostdpubwf/nt/1.0'>
 <'hippotranslation'='http://www.onehippo.org/jcr/hippotranslation/nt/1.0'>
 
+[atlast:allocation] > hippo:compound, hippostd:relaxed
+  orderable
+
 [atlast:amount] > hippo:compound, hippostd:relaxed
   orderable
 
 [atlast:atlastimageset] > hippogallery:imageset, hippogallery:relaxed
   orderable
 
-[atlast:basedocument] > hippo:document, hippostd:publishableSummary, hippostdpubwf:document
-  orderable
-
 [atlast:object] > hippo:document, hippostd:relaxed
   + * (atlast:object) = atlast:object multiple
 
+[atlast:barracks] > atlast:object
+  orderable
+
+[atlast:basedocument] > hippo:document, hippostd:publishableSummary, hippostdpubwf:document
+  orderable
+
 [atlast:child] > atlast:object
+
+[atlast:construction] > atlast:object
+  orderable
 
 [atlast:contentdocument] > atlast:basedocument, hippostd:relaxed, hippotranslation:translated
   orderable
@@ -33,8 +42,6 @@
 [atlast:inbox] > atlast:object
   orderable
 
-[atlast:message] > atlast:object
-
 [atlast:land] > atlast:object
   orderable
 
@@ -47,13 +54,9 @@
 [atlast:library] > atlast:object
   orderable
 
-[atlast:storehouse] > atlast:object
-  orderable
-
-[atlast:construction] > atlast:object
-  orderable
-
 [atlast:market] > atlast:object
+
+[atlast:message] > atlast:object
 
 [atlast:player] > atlast:object
   orderable
@@ -72,6 +75,9 @@
   mixin
 
 [atlast:store] > atlast:object
+  orderable
+
+[atlast:storehouse] > atlast:object
   orderable
 
 [atlast:technology] > atlast:object

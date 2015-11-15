@@ -2,6 +2,7 @@ package org.atlast.world.model;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Map;
 
 import javax.jcr.Node;
 import javax.jcr.NodeIterator;
@@ -26,7 +27,6 @@ public class Storehouse extends AtlastObject {
         return getChildNodes(Pop.class, "atlast:pop");
     }
 
-
     public List<Technology> getTechnology() {
         return getChildNodes(Technology.class, "atlast:technology");
     }
@@ -40,6 +40,9 @@ public class Storehouse extends AtlastObject {
         return null;
     }
 
+    public Recipe getRecipe() throws RepositoryException {
+        return new Recipe(getNode().getSession(), getStringProperty("atlast:recipedescriptor"));
+    }
 
     public double getWages() {
         return getDoubleProperty("atlast:wages");
@@ -50,10 +53,15 @@ public class Storehouse extends AtlastObject {
         List<Pop> pops = getPops();
 
         Player player = getPlayer();
+        Market market = player.getStores();
 
         double skill = 0;
 
         double trade;
+
+        Recipe recipe = getRecipe();
+        long labour = recipe.getLabour();
+        Map<String, Double> inputs = recipe.getInputs();
 
         for (Pop pop : pops) {
             skill += pop.getDoubleProperty("skill-merchant");
@@ -63,7 +71,19 @@ public class Storehouse extends AtlastObject {
             skill = skill / pops.size();
         }
 
-        trade = BASE_TRADE + pops.size() * (BASE_TRADE + 2 * skill / 100);
+        trade = BASE_TRADE;
+
+        if (pops.size() >= labour && labour != 0) {
+            for (int i = 0; i < pops.size(); i += labour) {
+
+                if (market.hasItems(inputs)) {
+                    market.takeItems(inputs);
+
+                    trade +=  2 + 2 * skill / 100;
+                }
+            }
+
+        }
 
         trade *= 10;
 
